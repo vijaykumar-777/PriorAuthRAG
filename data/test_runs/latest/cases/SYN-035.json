@@ -1,0 +1,63 @@
+{
+  "case_id": "SYN-035",
+  "cpt": "63082",
+  "condition": "Multi-Segment Corpectomy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "IMPRESSION: 1. Concordant cervical spine pathology at C6 (Add-on) as detailed above. 2. Severe neural compression concordant with clinical radiculopathy/myelopathy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "infection",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of infection is documented in the submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "trauma",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of trauma is documented in the submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "tumor",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of tumor is documented in the submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "compression at or behind the level of the vertebral body",
+      "system_result": "MET",
+      "patient_evidence": "IMPRESSION: 2. Severe neural compression concordant with clinical radiculopathy/myelopathy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "ASSESSMENT & SURGICAL PLAN: Diagnosis: Multi-Segment Corpectomy (C6 (Add-on)) Proposed Procedure: CPT 63082 (C6 (Add-on)). Plan: Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "ASSESSMENT & SURGICAL PLAN: Diagnosis: Multi-Segment Corpectomy (C6 (Add-on)) Proposed Procedure: CPT 63082 (C6 (Add-on)). Plan: Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    }
+  ],
+  "notes": "The patient meets the criteria for CPT 63082 as an add-on procedure to a C6 corpectomy based on the submitted records. The clinical indication is Multi-Segment Corpectomy, specifically involving C6 (Add-on). The policy requires evidence of infection, trauma, tumor, or compression at/behind the vertebral body level for the primary corpectomy indication. While severe neural compression is documented as concordant with radiculopathy/myelopathy, there is no explicit documentation confirming one of the specific listed causes (infection, trauma, tumor). Therefore, criteria C2, C3, and C4 are not met. The policy also requires that a cervical fusion be performed due to iatrogenic instability from the corpectomy, which is supported by the surgical plan section. Finally, the policy requires meeting criteria for ACDF (CMM-601.4, CMM-601.6, CMM-601.7, or CMM-601.8). The submitted records indicate the patient has failed conservative management and is recommended for surgical intervention, implying that the ACDF criteria have been met or are being addressed concurrently with the corpectomy.",
+  "runtime_seconds": 67.21,
+  "timestamp": "2026-09-30T12:25:19.273621"
+}

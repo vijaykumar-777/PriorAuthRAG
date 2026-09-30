@@ -1,9 +1,9 @@
 # Commit 18: Radiation also Done
 
 <nav>
-  <a href="../17_ae27c3d_sept22/README.md">&larr; Commit 17 (ae27c3d)</a> | 
+  <a href="../17_ae27c3d_sept22/README.md">&larr; Previous Commit (ae27c3d)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../19_ccb759a_graphified/README.md">Commit 19 (ccb759a) &rarr;</a>
+ | <a href="../19_ccb759a_graphified/README.md">Next Commit (ccb759a) &rarr;</a>
 </nav>
 
 ---
@@ -12,36 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `97b0ac3` (`97b0ac35ecb3d1aa1e1a6971f44722ab78f2bd3c`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#18` |
+| **Short Hash** | `97b0ac3` |
+| **Full Hash** | `97b0ac35ecb3d1aa1e1a6971f44722ab78f2bd3c` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-24 11:45:54 +0530 |
-| **Files Touched** | **13** (11 added, 2 modified, 0 deleted) |
-| **Lines Changed** | **+264962** / **-1** |
+| **Files Affected** | **13** |
+| **Lines Added** | **+264962** |
+| **Lines Deleted** | **-1** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Complete end-to-end ingestion and indexing milestone for Cigna Radiation Oncology guideline.
+- **Added files**: 11
+- **Modified files**: 2
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Created isolated `Radiation/` directory structure with TOC, BM25, chunks, embeddings, and QA report, mirroring Lumbar and Lab Management.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `97b0ac3`**:
-> Four clinical guidelines fully operational: Lumbar Spinal Fusion, Lab Management, Knee, and Radiation Oncology.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Ingested `Radiation/raw/Cigna_Radiation_Oncology.pdf` (1.39 MB).
-- Generated 2,742 hierarchical chunks and 5,136 enriched chunks.
-- Built serialized BM25 index `Cigna_Radiation_Oncology_bm25.pkl` (1.8 MB) and embeddings `Cigna_Radiation_Oncology_embeddings.npy` (841 KB).
-
-## 5. Affected Files & Line Diffs
-
-<details>
-<summary><b>View all 13 changed files</b> (Click to expand)</summary>
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -59,12 +45,10 @@ Created isolated `Radiation/` directory structure with TOC, BM25, chunks, embedd
 | 🟡 Modified | [hierarchical-processing/policies_manifest.json](../../../hierarchical-processing/policies_manifest.json) | +8 / -0 |
 | 🟡 Modified | [hierarchical-processing/policies_manifest.json.bak](../../../hierarchical-processing/policies_manifest.json.bak) | +8 / -1 |
 
-</details>
-
 ---
 
 <nav>
-  <a href="../17_ae27c3d_sept22/README.md">&larr; Commit 17 (ae27c3d)</a> | 
+  <a href="../17_ae27c3d_sept22/README.md">&larr; Previous Commit (ae27c3d)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../19_ccb759a_graphified/README.md">Commit 19 (ccb759a) &rarr;</a>
+ | <a href="../19_ccb759a_graphified/README.md">Next Commit (ccb759a) &rarr;</a>
 </nav>

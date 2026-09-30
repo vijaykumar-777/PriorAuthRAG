@@ -1,0 +1,35 @@
+{
+  "case_id": "SYN-040",
+  "cpt": "22220",
+  "condition": "Mild Cervical Kyphosis Correctable by Fusion",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Performed for EITHER of the following: correction of fixed cervical kyphotic deformity OR converting a cervical kyphotic deformity from fixed to mobile",
+      "system_result": "NOT MET",
+      "patient_evidence": "Clinical Indication: Mild Cervical Kyphosis Correctable by Fusion; X-Ray Report: 'Mild 8° kyphosis'; Physician Note: 'Mild Cervical Kyphosis Correctable by Fusion (C4-C5)'",
+      "policy_citation": "CMM-601.2: Osteotomy > Anterior Osteotomy or Vertebral Column Resection"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Correction of cervical kyphotic deformity cannot be attained by cervical fusion (with or without decompression/corpectomy) alone.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Clinical Indication: 'Mild Cervical Kyphosis Correctable by Fusion'",
+      "policy_citation": "CMM-601.2: Osteotomy > Anterior Osteotomy or Vertebral Column Resection"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (CMM-601.4, 601.5, 601.6, 601.7, or 601.8)",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "Physician Note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... No clinically meaningful functional improvement.' MRI: 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.2: Osteotomy > Anterior Osteotomy or Vertebral Column Resection"
+    }
+  ],
+  "notes": "The request for CPT 22220 (Anterior Cervical Osteotomy) is denied because the patient's condition is explicitly documented as 'Mild Cervical Kyphosis Correctable by Fusion.' Policy CMM-601.2 requires the deformity to be 'fixed' or to require conversion from fixed to mobile, and explicitly states that osteotomy is not medically necessary if correction can be attained by fusion alone. Since the clinical records state the kyphosis is correctable by fusion, the primary indication for osteotomy is not met. Additionally, the specific ACDF criteria (C3) cannot be fully verified as 'MET' without the specific policy text for CMM-601.4, but the failure of C1 and C2 is sufficient to deny the osteotomy request.",
+  "runtime_seconds": 4.84,
+  "timestamp": "2026-09-30T12:28:38.140955"
+}

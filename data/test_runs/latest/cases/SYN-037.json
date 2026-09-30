@@ -1,0 +1,84 @@
+{
+  "case_id": "SYN-037",
+  "cpt": "22220",
+  "condition": "Fixed Cervical Kyphotic Deformity",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.' The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', indicating a fusion is planned.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Proposed Procedure: CPT 22220 (C5-C6)', indicating the procedure is planned with a fusion.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which aligns with the criteria for CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF).",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which aligns with the criteria for CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF).",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which aligns with the criteria for CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Adjacent Segment Disease",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which aligns with the criteria for CMM-601.7: Adjacent Segment Disease.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "ACDF Following Failed Cervical Disc Arthroplasty Surgery",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which aligns with the criteria for CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Fixed Cervical Kyphotic Deformity",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', which directly addresses the clinical indication.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)', indicating the patient has failed conservative management (8 weeks of PT with no meaningful improvement) and is recommended for surgical intervention.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "Urgent/Emergent Exception",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) states: 'Proposed Procedure: CPT 22220 (C5-C6)', indicating the patient is recommended for surgical intervention, but does not explicitly state an urgent or emergent need.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    }
+  ],
+  "notes": "The patient's medical records satisfy the criteria for CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) based on the diagnosis of Fixed Cervical Kyphotic Deformity (C5-C6) and the physician note indicating failed conservative management. The policy requires a fusion, which is also indicated by the proposed procedure CPT 22220. However, the records do not explicitly state an urgent or emergent need for surgery, thus the criterion for Urgent/Emergent Exception was not met. The criteria for Repeat ACDF (C5-C6), Adjacent Segment Disease, and Failed Disc Arthroplasty were also assessed but are not applicable based on the submitted documentation.",
+  "runtime_seconds": 44.28,
+  "timestamp": "2026-09-30T12:26:24.309845"
+}

@@ -1,0 +1,12 @@
+DEPARTMENT OF RADIOLOGY - X-RAY REPORT
+PATIENT ID: SYN-025
+EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)
+DATE: 2026-08-12
+
+FINDINGS:
+AP and lateral views demonstrate normal cervical lordosis without acute fracture.
+Dynamic flexion and extension lateral views:
+Normal
+
+IMPRESSION:
+Evaluation of dynamic instability completed. Normal.

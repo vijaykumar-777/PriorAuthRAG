@@ -1,0 +1,14 @@
+QUEST CLINICAL PATHOLOGY - TOXICOLOGY REPORT
+PATIENT ID: SYN-026
+SPECIMEN: URINE
+COLLECTION DATE: 2026-08-18
+
+TEST: URINE COTININE SCREEN (LC-MS/MS)
+RESULT: Negative
+REFERENCE RANGE:
+  Non-smoker / Tobacco-free: < 10.0 ng/mL
+  Passive exposure: 10.0 - 50.0 ng/mL
+  Active tobacco / nicotine user: > 50.0 ng/mL
+
+INTERPRETATION:
+Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)

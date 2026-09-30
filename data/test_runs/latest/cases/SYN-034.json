@@ -1,0 +1,38 @@
+{
+  "case_id": "SYN-034",
+  "cpt": "63082",
+  "condition": "Multi-Segment Corpectomy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of specific pathology (infection, trauma, tumor, or compression) at the vertebral body level to justify corpectomy over discectomy.",
+    "Evidence of multi-segment involvement (CPT 63082 is an add-on code for 'each additional segment', but records indicate pathology at C6 alone)."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete or partial corpectomy (removal of at least one-half of the vertebral body) is performed for ANY of the following: infection, trauma, tumor, or compression at or behind the level of the vertebral body.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI Report: 'C6 body lesion'; 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. Physician Note: 'Diagnosis: Multi-Segment Corpectomy (C6 alone)'. The records do not specify the nature of the 'C6 body lesion' (e.g., tumor, infection, or specific vertebral body compression) required to distinguish corpectomy from standard discectomy. The diagnosis 'Multi-Segment Corpectomy' is contradicted by the finding of pathology at 'C6 alone'.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "Physician Note: 'Proposed Procedure: CPT 63082 (C6 alone)'. CPT 63082 is an add-on code for corpectomy. The primary procedure code (which would include the fusion, e.g., CPT 63081 or 63083) is not explicitly listed in the submitted records, though fusion is implied by the policy requirement and standard of care. However, without the primary code or explicit statement of fusion in the surgical plan, this cannot be definitively verified from the provided text alone.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (e.g., CMM-601.4).",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... No clinically meaningful functional improvement.' PT Notes: 'Patient completed 8 weeks... Pain levels remain 7/10... less than clinically meaningful functional improvement.' This satisfies the typical conservative management failure criteria for ACDF.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14 (referencing CMM-601.4)"
+    }
+  ],
+  "notes": "The request is for CPT 63082, which is an add-on code for 'each additional segment' in a multi-segment corpectomy. However, the clinical records (MRI and Physician Note) explicitly state the pathology is at 'C6 alone' and the diagnosis is 'Multi-Segment Corpectomy (C6 alone)', which is a clinical contradiction. Furthermore, the policy requires corpectomy to be performed for specific indications (infection, trauma, tumor, or compression at/behind the vertebral body). The MRI notes a 'C6 body lesion' but does not characterize it as one of the policy-mandated indications. Without evidence of a specific vertebral body pathology (like a tumor or severe vertebral body compression) that necessitates corpectomy rather than discectomy, the medical necessity for the corpectomy procedure is not established. Additionally, the use of an add-on code for a single segment is clinically inconsistent with the code description.",
+  "runtime_seconds": 68.43,
+  "timestamp": "2026-09-30T12:24:10.556145"
+}

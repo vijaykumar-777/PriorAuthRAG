@@ -1,0 +1,66 @@
+{
+  "case_id": "SYN-010",
+  "cpt": "22552",
+  "condition": "Multi-Level Cervical Spondylosis",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "CONFLICT",
+  "missing_information": [
+    "Documentation of Epidural Steroid Injection (ESI) or Selective Nerve Root Block (SNRB) at the requested level(s) (C6-C7) to satisfy the 'two of three' conservative management requirement.",
+    "Clarification of the primary surgical level (C5-C6) vs. the add-on level (C6-C7) in the clinical indication, as the MRI findings for the add-on level (C6-C7) are normal."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment and unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability.",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain, radiating down the right upper extremity into the shoulder and hand with numbness. Functional impact: Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective physical exam findings.",
+      "system_result": "MET",
+      "patient_evidence": "Motor: 4/5 biceps weakness; Sensory: C6 sensory loss only; Reflexes: Depressed C6 reflex only; Provocative Signs: Spurling maneuver is positive right.",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: prescription strength analgesics/NSAIDs for 6 weeks, provider-directed exercise program for 6 weeks, or epidural steroid injection(s)/selective nerve root block(s) at the same level(s).",
+      "system_result": "MET",
+      "patient_evidence": "Completed 8 weeks (16 visits) of provider-directed physical therapy... Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed.",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)... Dynamic flexion and extension lateral views: Normal stability C6-C7",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by herniated disc(s), synovial cyst, central/lateral/foraminal stenosis, or osteophytes.",
+      "system_result": "CONFLICT",
+      "patient_evidence": "MRI Report: 'C6-C7 normal disc height without stenosis or neural impingement'. Physician Note: 'Diagnosis: Multi-Level Cervical Spondylosis (C6-C7 (Add-on to C5-C6))'. The requested CPT 22552 is for the add-on level C6-C7, but the MRI shows no pathology at C6-C7.",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders.",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Documentation of nicotine-free status with either never-smoker status or abstinence for at least 6 weeks validated by objective cotinine testing.",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4 > Radiculopathy"
+    }
+  ],
+  "notes": "The case presents a direct conflict regarding the requested surgical level. The requested procedure CPT 22552 is an add-on code for an additional interspace (C6-C7) to a primary ACDF (presumably C5-C6). However, the MRI report explicitly states that C6-C7 has 'normal disc height without stenosis or neural impingement,' while the pathology (severe right foraminal stenosis) is located at C5-C6. The physician note lists the diagnosis as 'Multi-Level Cervical Spondylosis (C6-C7 (Add-on to C5-C6))', which contradicts the imaging findings for the add-on level. Additionally, while the patient met two of the three conservative management criteria (PT and Meds), there is no documentation of an Epidural Steroid Injection or Selective Nerve Root Block. However, since two criteria are met, C3 is satisfied. The primary barrier to approval is the lack of radiographic evidence of neural compression at the specific level requested for the add-on code (C6-C7).",
+  "runtime_seconds": 42.4,
+  "timestamp": "2026-09-30T12:06:59.899217"
+}

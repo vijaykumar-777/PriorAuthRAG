@@ -1,0 +1,39 @@
+{
+  "case_id": "SYN-049",
+  "cpt": "22853",
+  "condition": "Interbody Cage Arthrodesis",
+  "selected_policy": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Lumbar spine imaging (MRI/X-ray) to establish lumbar pathology",
+    "Documentation of lumbar decompression candidacy per CMM-608",
+    "Specific lumbar instability or deformity measurements (e.g., Meyerding grade, Cobb angle, sagittal balance)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "The individual is a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI REPORT: 'EXAMINATION: MRI CERVICAL SPINE...'; PHYSICIAN NOTE: 'CHIEF COMPLAINT: Neck and right arm pain...'; 'Diagnosis: Interbody Cage Arthrodesis (Unspecified)'; 'Recommended anterior cervical surgical intervention.'",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Anticipated Iatrogenic Instability / Adult Symptomatic Degenerative Spinal Deformity"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Imaging findings include ANY of the following: degenerative spondylolisthesis, spondylolisthesis with spondylolysis, or specific deformity criteria (Cobb angle >30°, sagittal imbalance, etc.) in the lumbar spine.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI REPORT: 'C2-C3: Normal disc morphology... C3-C4: Mild disc desiccation... C4-C5: Mild uncinate spurring.' X-RAY REPORT: 'EXAMINATION: CERVICAL SPINE 4-VIEW...'. No lumbar imaging provided.",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Adult Symptomatic Degenerative Spinal Deformity"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Documentation of nicotine-free status (never-smoker or 6+ weeks abstinence with negative cotinine).",
+      "system_result": "MET",
+      "patient_evidence": "LAB REPORT: 'TEST: URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative... INTERPRETATION: Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)'",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Anticipated Iatrogenic Instability / Adult Symptomatic Degenerative Spinal Deformity"
+    }
+  ],
+  "notes": "The requested procedure (CPT 22853) and the selected policy (CMM-609) pertain to LUMBAR fusion. However, the submitted medical records exclusively document CERVICAL spine pathology (cervical MRI, cervical X-rays, cervical symptoms, and a plan for anterior cervical intervention). There is no evidence of lumbar spine pathology, lumbar instability, or lumbar deformity in the submitted records. Therefore, the patient does not meet the medical necessity criteria for a lumbar fusion procedure under this policy.",
+  "runtime_seconds": 55.93,
+  "timestamp": "2026-09-30T12:37:25.505752"
+}

@@ -1,0 +1,100 @@
+{
+  "case_id": "SYN-047",
+  "cpt": "22853",
+  "condition": "Interbody Cage Arthrodesis",
+  "selected_policy": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "The submitted records are primarily focused on a cervical spine condition and procedure (C5-C6), while the requested procedure is a lumbar spine procedure (C5-C6). The policy requires the procedure to be medically necessary for the specified lumbar condition.",
+    "The MRI report does not explicitly mention dynamic instability or Meyerding Grade II+ listhesis, which are required imaging findings for actual instability and recurrent disc herniation criteria."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "The individual is a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+      "system_result": "MET",
+      "patient_evidence": "Patient has failed conservative management (8 weeks PT with no meaningful improvement) and presents with significant symptoms (pain, numbness, functional disability) consistent with a need for surgery. Physician note confirms failure of conservative management.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Imaging findings include ANY of the following: degenerative spondylolisthesis without spondylolysis with EITHER of the following: dynamic segmental instability on flexion-extension plain x-rays OR comparison of a supine and upright image, with a difference in translational alignment between vertebrae &gt;3mm between views",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing causing severe neural compression. The report does not explicitly state dynamic instability or Meyerding Grade II+ listhesis.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Imaging findings include ANY of the following: Meyerding Grade II or higher spondylolisthesis",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state Meyerding Grade II+ listhesis.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Imaging findings include ANY of the following: spondylolisthesis with spondylolysis (e.g., Isthmic Spondylolisthesis) with ANY of the following: Meyerding Grade I or II spondylolisthesis (anterolisthesis) and plain x-rays support progression of anterolisthesis",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state spondylolisthesis with spondylolysis or Meyerding Grade I/II listhesis.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Imaging findings include ANY of the following: Meyerding Grade III or higher spondylolisthesis (anterolisthesis) with ≥50% anterior slippage OR plain x-rays support progression of anterolisthesis",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state Meyerding Grade III+ listhesis or ≥50% anterior slippage.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Imaging findings include ANY of the following: progressive spinal pain without confirmatory imaging showing progression of spondylolisthesis",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state progressive spinal pain.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Imaging findings include ANY of the following: multi-level spondylolysis on plain x-rays",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state multi-level spondylolysis.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Imaging findings include ANY of the following: post-operative instability created by the disruption of the posterior elements due to facet joint excision that exceeding 50% bilaterally or 75% or more of a single facet",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state post-operative instability.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "Imaging findings include ANY of the following: pars fracture",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state pars fracture.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "Imaging findings include ANY of the following: previous spinal decompression that resulted in iatrogenic spondylolisthesis",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report shows C5-C6 disc extrusion with foraminal narrowing. The report does not explicitly state previous spinal decompression resulting in iatrogenic spondylolisthesis.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C11",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker",
+      "system_result": "MET",
+      "patient_evidence": "Urine cotinine screen result is Negative.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    },
+    {
+      "criterion_id": "C12",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following: individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed",
+      "system_result": "MET",
+      "patient_evidence": "Urine cotinine screen result is Negative.",
+      "policy_citation": "CMM-609.4 > Actual Instability (S7.1.1)"
+    }
+  ],
+  "runtime_seconds": 203.17,
+  "timestamp": "2026-09-30T12:36:20.453791"
+}

@@ -1,0 +1,15 @@
+APEX PHYSICAL THERAPY - DISCHARGE & PROGRESS SUMMARY
+PATIENT ID: SYN-019
+EPISODE DATES: 2026-06-15 to 2026-08-10 (8 WEEKS TOTAL)
+SESSIONS COMPLETED: 16 attended sessions (prescribed 2-3x weekly).
+
+THERAPEUTIC INTERVENTIONS:
+- Cervical spine postural re-education
+- Isometric cervical stabilization and scapular retractor strengthening
+- Manual cervical distraction and thoracic mobilization
+- Home exercise program (HEP) instruction and compliance tracking
+
+DISCHARGE ASSESSMENT:
+Patient completed 8 weeks of active structured rehabilitation.
+Pain levels remain 7/10 with persistent radicular symptoms into the arm.
+Conclusion: Patient achieved less than clinically meaningful functional improvement despite faithful adherence.

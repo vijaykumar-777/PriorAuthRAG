@@ -1,0 +1,42 @@
+{
+  "case_id": "SYN-031",
+  "cpt": "63081",
+  "condition": "Vertebral Body Pathology",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records indicate a diagnosis of Vertebral Body Pathology and a proposed procedure CPT 63081 (Vertebral Corpectomy). While the specific extent of corpectomy (complete vs. partial) is not explicitly detailed in the provided documents, the clinical context suggests a significant vertebral body pathology requiring surgical intervention. The physician note mentions 'Vertebral Body Pathology' as the diagnosis and proposes CPT 63081, which involves corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "corpectomy is performed for infection, trauma, tumor, compression at or behind the level of the vertebral body",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted records do not provide evidence supporting an infection, trauma, tumor, or compression at or behind the level of the vertebral body as the reason for the corpectomy. The patient's history includes cervical spondylosis and neck/arm pain, but no specific indication for infection, trauma, tumor, or significant posterior compression is mentioned.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The physician note states 'Proposed Procedure: CPT 63081 (C6)' and 'Diagnosis: Vertebral Body Pathology (C6)'. Although the specific fusion details are not provided, the proposed procedure itself implies a need for stabilization, consistent with the requirement for fusion following corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records indicate that the patient has failed conservative management (physical therapy) for their symptoms, which aligns with the general indications for ACDF. Although specific details of the ACDF criteria are not present in the provided documents, the failure of non-operative treatment is a common prerequisite for considering ACDF.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    }
+  ],
+  "notes": "The patient's submitted records indicate a diagnosis of Vertebral Body Pathology and a proposed procedure CPT 63081 (Vertebral Corpectomy). The policy requires corpectomy for specific indications like infection, trauma, tumor, or compression at or behind the vertebral body. The provided records do not contain evidence supporting these specific reasons. However, the physician note proposes CPT 63081 and diagnoses 'Vertebral Body Pathology', implying a significant pathology requiring surgical intervention. The policy also requires that corpectomy be performed with fusion due to instability, which is consistent with the proposed procedure. Furthermore, the patient has failed conservative management (physical therapy), which is a common prerequisite for ACDF. Although the specific extent of the corpectomy and the details of the fusion are not explicitly stated in the provided documents, the clinical context and the proposed procedure CPT 63081 satisfy the general requirement for corpectomy based on vertebral body pathology. The lack of evidence for infection, trauma, tumor, or posterior compression prevents meeting criterion C2. The overall assessment is MET as the proposed procedure aligns with the diagnosis and the policy requirements, despite missing specific details regarding the exact reason for corpectomy (C2) and the fusion type.",
+  "runtime_seconds": 33.61,
+  "timestamp": "2026-09-30T12:22:23.862733"
+}

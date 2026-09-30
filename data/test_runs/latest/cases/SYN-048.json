@@ -1,0 +1,53 @@
+{
+  "case_id": "SYN-048",
+  "cpt": "22853",
+  "condition": "Cage Insertion Without Arthrodesis",
+  "selected_policy": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Lumbar spine imaging (MRI/CT/X-ray) to evaluate for lumbar pathology",
+    "Documentation of lumbar-specific symptoms and functional impairment",
+    "Documentation of lumbar-specific conservative management (if lumbar fusion is the intended procedure)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Imaging findings must demonstrate pathology at the requested lumbar level(s) consistent with one of the policy indications (e.g., Spondylolisthesis, DDD, Deformity).",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI Report: 'EXAMINATION: MRI CERVICAL SPINE... Target Interspace / Segment (C5-C6): Disc collapse'. X-Ray Report: 'EXAMINATION: CERVICAL SPINE 4-VIEW...'. No lumbar imaging provided.",
+      "policy_citation": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms must include significant level of pain on a daily basis defined as clinically significant functional impairment at the lumbar level.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Physician Note: 'CHIEF COMPLAINT: Neck and right arm pain... radiating down the right upper extremity'. Symptoms are cervical, not lumbar.",
+      "policy_citation": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Less than clinically meaningful improvement with conservative management (medications and/or exercise) for the required duration (3 months for Spondylolisthesis/Deformity, 12 months for DDD).",
+      "system_result": "NOT MET",
+      "patient_evidence": "PT Notes: 'EPISODE DATES: 2026-06-15 to 2026-08-10 (8 WEEKS TOTAL)'. Physician Note: 'Completed 8 weeks... of provider-directed physical therapy.' Duration is insufficient for all policy indications (min 3 months).",
+      "policy_citation": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders.",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.'",
+      "policy_citation": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Documentation of nicotine-free status (never-smoker or 6+ weeks abstinence with negative cotinine).",
+      "system_result": "MET",
+      "patient_evidence": "Lab Report: 'URINE COTININE SCREEN... RESULT: Negative... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)'.",
+      "policy_citation": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+    }
+  ],
+  "notes": "The requested procedure (CPT 22853) and clinical indication ('Cage Insertion Without Arthrodesis') are being evaluated against a policy for Lumbar Fusion (CMM-609). The submitted medical records exclusively document cervical spine pathology (C5-C6 disc collapse, cervical radiculopathy) and cervical conservative management. There is no documentation of lumbar spine pathology, lumbar symptoms, or lumbar-specific imaging. Furthermore, the duration of conservative management (8 weeks) does not meet the minimum thresholds (3-12 months) required by the policy for any lumbar fusion indication. Therefore, the criteria for medical necessity under the Lumbar Fusion policy are not met.",
+  "runtime_seconds": 6.11,
+  "timestamp": "2026-09-30T12:36:28.068325"
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": "SYN-014",
+  "cpt": "22554",
+  "condition": "Cervical Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.' The submitted MRI report (mri_report.txt) shows findings at C5-C6 including a disc bulge with mild stenosis, which is consistent with the need for fusion.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician_note.txt) states: 'Proposed Procedure: CPT 22554 (C5-C6)'. This indicates the procedure is planned with a fusion.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician_note.txt) states: 'Diagnosis: Cervical Radiculopathy (C5-C6)', which aligns with the CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) criteria.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician_note.txt) states 'Diagnosis: Cervical Radiculopathy (C5-C6)' and 'Proposed Procedure: CPT 22554 (C5-C6)', which aligns with the criteria for Initial Primary ACDF.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note does not indicate a history of prior ACDF surgery.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "CMM-601.7: Adjacent Segment Disease",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted MRI report (mri_report.txt) does not explicitly mention adjacent segment disease.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note does not indicate a history of failed cervical disc arthroplasty surgery.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "The patient's submitted records satisfy the health plan's medical necessity policy criteria for the requested procedure.",
+      "system_result": "MET",
+      "patient_evidence": "All applicable criteria (C1-C4) are met based on the physician note and MRI report.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    }
+  ],
+  "notes": "The patient's submitted records meet the criteria for CPT 22554 based on the physician note indicating cervical radiculopathy at C5-C6 and a proposed procedure with fusion, supported by MRI findings of disc bulge and stenosis. The policy requires ACDF to be performed with a fusion (C1), which is met. The diagnosis aligns with Initial Primary ACDF criteria (C3, C4). However, the records do not support criteria for Repeat ACDF (C5), Adjacent Segment Disease (C6), or Failed Disc Arthroplasty (C7).",
+  "runtime_seconds": 50.62,
+  "timestamp": "2026-09-30T12:10:35.553969"
+}

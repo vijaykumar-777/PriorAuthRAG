@@ -1,0 +1,244 @@
+{
+  "case_id": "SYN-039",
+  "cpt": "22220",
+  "condition": "Fixed Cervical Kyphotic Deformity",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include an MRI report (mri_report.txt) which states 'Cervical kyphosis noted on supine MRI'. While the MRI doesn't explicitly state fusion, the clinical indication is 'Fixed Cervical Kyphotic Deformity', and the surgical plan notes 'Proposed Procedure: CPT 22220 (C5-C6)', implying a level specific to the deformity. The physician note (physician_note.txt) also mentions 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)' which aligns with the MRI findings and the surgical plan.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include an MRI report (mri_report.txt) which states 'Cervical kyphosis noted on supine MRI'. The physician note (physician_note.txt) mentions 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)' and proposes CPT 22220 (C5-C6). This strongly suggests the procedure is intended to address the kyphosis, which typically requires fusion for stability.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include an MRI report (mri_report.txt) which states 'Cervical kyphosis noted on supine MRI'. The physician note (physician_note.txt) mentions 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)' and proposes CPT 22220 (C5-C6). This aligns with the criteria for ACDF, specifically the initial primary ACDF section (CMM-601.4), given the diagnosis of fixed kyphosis.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "The patient has failed conservative management (or presents with acute emergent deficit).",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physical therapy discharge summary (pt_notes.txt) which states: 'Patient completed 8 weeks of active structured rehabilitation... Pain levels remain 7/10 with persistent radicular symptoms into the arm. Conclusion: Patient achieved less than clinically meaningful functional improvement despite faithful adherence.' This indicates failure of conservative management.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6)' and proposes CPT 22220 (C5-C6). This is a clear clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Symptoms began approximately 20 weeks ago... severe, unremitting daily pain, radiating down the right upper extremity into the shoulder and hand with numbness.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Functional impact: Significant disability affecting work and daily activities of daily living.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C11",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C12",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C13",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C14",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C15",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C16",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C17",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C18",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C19",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C20",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C21",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C22",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C23",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C24",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C25",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C26",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C27",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C28",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C29",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C30",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C31",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C32",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Proposed Procedure: CPT 22220 (C5-C6)' and 'Diagnosis: Fixed Cervical Kyphotic Deformity (C5-C6).'",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C33",
+      "criterion": "The patient has a clinical indication for the procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted records include a physician note (physician_note.txt) which states: 'Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.' This is a clinical indication for the procedure.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    }
+  ],
+  "runtime_seconds": 121.38,
+  "timestamp": "2026-09-30T12:28:31.795227"
+}

@@ -17,3 +17,10 @@
   - Phase 1: Codebase Mapping (`.planning/codebase/` STACK, ARCHITECTURE, STRUCTURE, etc.).
   - Phase 2: Project Setup (`PROJECT.md`, `REQUIREMENTS.md`, `ROADMAP.md`, `STATE.md`).
   - Phase 3: Automated Policy Ingestion CLI Tooling.
+- **Milestone 5: Prior Authorization Testing & Validation Framework (3-Week Implementation)**
+  - Phase 5.1: Ground Truth Specification & Manual Dataset Creation (`Policy_Ground_Truth.xlsx`) [COMPLETED]
+  - Phase 5.2: Generic Clinical Patient Schema & Synthetic Test Case Generator (`Synthetic_Test_Cases.xlsx`) [COMPLETED]
+  - Phase 5.3: Production-Like Testing Runner Harness & Batch Execution Pipeline [COMPLETED]
+  - Phase 5.4: Automated Comparison Engine & Reporting Suite (`PA_Test_Results.xlsx`) [COMPLETED]
+  - Phase 5.5: Error Root-Cause Analysis, Pipeline Hardening & Permanent Regression Suite
+

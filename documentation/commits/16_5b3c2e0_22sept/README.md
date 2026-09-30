@@ -1,9 +1,9 @@
 # Commit 16: 22Sept
 
 <nav>
-  <a href="../15_df5ef5f_same-day-last/README.md">&larr; Commit 15 (df5ef5f)</a> | 
+  <a href="../15_df5ef5f_same-day-last/README.md">&larr; Previous Commit (df5ef5f)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../17_ae27c3d_sept22/README.md">Commit 17 (ae27c3d) &rarr;</a>
+ | <a href="../17_ae27c3d_sept22/README.md">Next Commit (ae27c3d) &rarr;</a>
 </nav>
 
 ---
@@ -12,32 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `5b3c2e0` (`5b3c2e046c2c2e400c2262e6cc5ed00e693597ba`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#16` |
+| **Short Hash** | `5b3c2e0` |
+| **Full Hash** | `5b3c2e046c2c2e400c2262e6cc5ed00e693597ba` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-22 16:32:58 +0530 |
-| **Files Touched** | **4** (0 added, 4 modified, 0 deleted) |
-| **Lines Changed** | **+637** / **-662** |
+| **Files Affected** | **4** |
+| **Lines Added** | **+637** |
+| **Lines Deleted** | **-662** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Integrate CPT code table lookups directly into hierarchical retrieval and validate with clinical benchmark evaluation.
+- **Added files**: 0
+- **Modified files**: 4
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Enhanced `retrieval-hierarchical.py` to cross-reference `cpt_table_lookup.py`. Created benchmark runner `eval_lab_management_benchmark.py` and benchmark dataset `data/benchmark_results_lab_management_20q.json`.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `5b3c2e0`**:
-> Hybrid retrieval engine now cross-references procedural CPT/HCPCS codes and scores precision across a 20-question clinical benchmark.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Substantially upgraded `retrieval-hierarchical.py` (+244 lines) with CPT code lookup integration.
-- Added `eval_lab_management_benchmark.py` (499 lines) and benchmark dataset.
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -49,7 +39,7 @@ Enhanced `retrieval-hierarchical.py` to cross-reference `cpt_table_lookup.py`. C
 ---
 
 <nav>
-  <a href="../15_df5ef5f_same-day-last/README.md">&larr; Commit 15 (df5ef5f)</a> | 
+  <a href="../15_df5ef5f_same-day-last/README.md">&larr; Previous Commit (df5ef5f)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../17_ae27c3d_sept22/README.md">Commit 17 (ae27c3d) &rarr;</a>
+ | <a href="../17_ae27c3d_sept22/README.md">Next Commit (ae27c3d) &rarr;</a>
 </nav>

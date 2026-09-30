@@ -1,0 +1,90 @@
+{
+  "patient_id": "SYN-003",
+  "demographics": {
+    "age": 55,
+    "sex": "M",
+    "dob": "1974-05-12",
+    "mrn": "MRN-10003"
+  },
+  "diagnoses": [
+    {
+      "code": "M50.122",
+      "description": "Cervical Radiculopathy",
+      "status": "active",
+      "onset_date": "2026-05-01"
+    }
+  ],
+  "symptoms": [
+    {
+      "symptom": "Cervical Radiculopathy",
+      "location": "Cervical spine / Upper Extremity",
+      "severity": "Severe",
+      "frequency": "daily",
+      "duration_weeks": 14
+    }
+  ],
+  "symptom_duration": "14 weeks",
+  "clinical_findings": {
+    "motor": "4/5 biceps weakness",
+    "sensory": "C6 dermatomal deficit",
+    "reflexes": "1+ right brachioradialis",
+    "spurling": "positive"
+  },
+  "treatments": [
+    "Physical therapy",
+    "Oral analgesics",
+    "Activity modification"
+  ],
+  "conservative_treatment": {
+    "pt_weeks": 8,
+    "pt_sessions": 16,
+    "provider": "Apex Physical Therapy Clinic",
+    "modalities": [
+      "Therapeutic exercise",
+      "Manual therapy",
+      "Postural re-education"
+    ],
+    "response": "Less than clinically meaningful improvement",
+    "contraindicated": false,
+    "contraindication_reason": null
+  },
+  "medications": [
+    {
+      "name": "Gabapentin",
+      "dosage": "300mg TID",
+      "duration_weeks": 8,
+      "response": "Inadequate relief"
+    },
+    {
+      "name": "Meloxicam",
+      "dosage": "15mg Daily",
+      "duration_weeks": 8,
+      "response": "Partial relief"
+    }
+  ],
+  "imaging": [
+    {
+      "modality": "X-ray",
+      "type": "Cervical spine dynamic flexion/extension",
+      "date": "2026-08-12",
+      "findings": "Dynamic X-rays completed",
+      "impression": "Dynamic stability study evaluated"
+    },
+    {
+      "modality": "MRI",
+      "type": "Cervical spine without contrast",
+      "date": "2026-08-15",
+      "findings": "C5-C6 disc extrusion with C6 compression",
+      "impression": "Target interspace compression noted"
+    }
+  ],
+  "labs": [],
+  "procedures": [],
+  "physician_assessment": "Patient presents with Cervical Radiculopathy refractory to conservative measures.",
+  "documents": [
+    "physician_note.txt",
+    "mri_report.txt",
+    "xray_report.txt",
+    "pt_notes.txt"
+  ]
+}

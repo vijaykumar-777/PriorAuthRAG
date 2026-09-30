@@ -1,0 +1,35 @@
+CLINICAL CONSULTATION NOTE
+PATIENT ID: SYN-047
+DATE OF SERVICE: 2026-08-20
+ATTENDING SURGEON: Dr. Marcus Vance, MD (Neurosurgery & Spine)
+
+DEMOGRAPHICS: 52-year-old Female
+CHIEF COMPLAINT: Neck and right arm pain lasting 12 weeks.
+
+HISTORY OF PRESENT ILLNESS:
+The patient is a 52-year-old female who presents for surgical evaluation of cervical spine symptoms.
+Symptoms began approximately 12 weeks ago. Patient describes severe, unremitting daily pain, radiating down the right upper extremity into the shoulder and hand with numbness.
+Functional impact: Significant disability affecting work and daily activities of daily living.
+
+PAST MEDICAL HISTORY:
+- Cervical spondylosis
+- No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.
+
+PHYSICAL EXAMINATION:
+- Constitutional: Alert, oriented x 3, in mild-to-moderate distress.
+- Cervical Spine: Tenderness over mid-cervical spinous processes. Restricted extension and lateral rotation.
+- Motor: 4/5
+- Sensory: Deficit
+- Reflexes: Depressed
+- Provocative Signs: Spurling maneuver is positive.
+- Gait: Normal non-ataxic gait
+
+CONSERVATIVE MANAGEMENT REVIEW:
+- Completed 8 weeks (16 visits) of provider-directed physical therapy.
+- Response: No clinically meaningful functional improvement.
+- Medications: Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.
+
+ASSESSMENT & SURGICAL PLAN:
+Diagnosis: Interbody Cage Arthrodesis (C5-C6)
+Proposed Procedure: CPT 22853 (C5-C6)
+Plan: Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.

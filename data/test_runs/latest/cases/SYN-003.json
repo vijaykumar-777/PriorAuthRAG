@@ -1,0 +1,98 @@
+{
+  "case_id": "SYN-003",
+  "cpt": "22551",
+  "condition": "Cervical Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.' The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)'. This indicates that an anterior cervical discectomy with fusion is planned.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion'. The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', indicating that an anterior cervical discectomy with fusion is planned.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:'. The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', indicating that an anterior cervical discectomy with fusion is planned.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', which corresponds to the criteria for Initial Primary Anterior Cervical Discectomy and Fusion (ACDF).",
+      "policy_citation": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', which corresponds to the criteria for Initial Primary Anterior Cervical Discectomy and Fusion (ACDF). There is no mention of a repeat procedure.",
+      "policy_citation": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Adjacent Segment Disease",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', which corresponds to the criteria for Initial Primary Anterior Cervical Discectomy and Fusion (ACDF). There is no mention of Adjacent Segment Disease.",
+      "policy_citation": "CMM-601.7: Adjacent Segment Disease"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "ACDF Following Failed Cervical Disc Arthroplasty Surgery",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', which corresponds to the criteria for Initial Primary Anterior Cervical Discectomy and Fusion (ACDF). There is no mention of failed cervical disc arthroplasty surgery.",
+      "policy_citation": "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Clinical indication of Cervical Radiculopathy",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Diagnosis: Cervical Radiculopathy (C5-C6)' and 'Symptoms began approximately 14 weeks ago... severe, unremitting daily pain, radiating down the right upper extremity into the shoulder and hand with numbness'. The MRI report (mri_report.txt) also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "Duration of symptoms is 14 weeks.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Symptoms began approximately 14 weeks ago'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "Conservative management failed.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Completed 8 weeks (16 visits) of provider-directed physical therapy. Response: No clinically meaningful functional improvement.' and 'Medications: Trial of NSAIDs... and Gabapentin... with inadequate symptom relief'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C11",
+      "criterion": "Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', indicating that an anterior cervical surgical intervention is recommended.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C12",
+      "criterion": "Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note (physician\\_note.txt) explicitly states: 'Proposed Procedure: CPT 22551 (C5-C6)', indicating that an anterior cervical surgical intervention is recommended.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    }
+  ],
+  "notes": "The patient's submitted records meet the criteria for Cigna ACDF (CMM-601) based on the clinical indication of cervical radiculopathy, duration of symptoms, failure of conservative management, and the planned procedure being an Initial Primary Anterior Cervical Discectomy and Fusion (ACDF). The policy requires a fusion due to iatrogenic instability/increased disc degeneration, which is addressed by the planned CPT 22551. All relevant criteria are met.",
+  "runtime_seconds": 49.61,
+  "timestamp": "2026-09-30T12:01:12.363814"
+}

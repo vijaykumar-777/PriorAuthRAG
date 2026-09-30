@@ -1,0 +1,73 @@
+{
+  "case_id": "SYN-001",
+  "cpt": "22551",
+  "condition": "Cervical Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of epidural steroid injection(s) or selective nerve root block(s) at the requested level(s) (C5-C6).",
+    "Explicit documentation of the duration of the prescription analgesic trial (policy requires 6 weeks; records state 'Trial' without specific start/end dates)."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment.",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability.",
+      "system_result": "MET",
+      "patient_evidence": "radiating down the right upper extremity into the shoulder and hand with numbness.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective findings.",
+      "system_result": "MET",
+      "patient_evidence": "Motor: 4/5 right biceps weakness; Sensory: C6 hypoesthesia; Reflexes: 1+ right biceps; Provocative Signs: Spurling maneuver is positive.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: (1) prescription strength analgesics/NSAIDs for 6 weeks, (2) provider-directed exercise program for 6 weeks, (3) epidural steroid injection(s) or selective nerve root block(s).",
+      "system_result": "NOT MET",
+      "patient_evidence": "Completed 8 weeks... of provider-directed physical therapy (Criterion 2 Met). Trial of NSAIDs... and Gabapentin... with inadequate symptom relief (Criterion 1 Met, though duration not explicitly 6 weeks). No documentation of epidural steroid injection or selective nerve root block (Criterion 3 Not Met).",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed.",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)... Dynamic flexion and extension lateral views: Dynamic X-rays normal, no translation.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by herniated disc(s), synovial cyst, central/lateral/foraminal stenosis, or osteophytes.",
+      "system_result": "MET",
+      "patient_evidence": "C5-C6 herniated disc with right C6 nerve root compression... Concordant cervical spine pathology at C5-C6 as detailed above.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders.",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Documentation of nicotine-free status with either never-smoker status or abstinence for at least 6 weeks validated by objective cotinine testing.",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative (<10 ng/mL)... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration).",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    }
+  ],
+  "notes": "The patient meets the clinical, imaging, and lifestyle criteria for ACDF. However, the request fails the medical necessity policy regarding conservative management. The policy requires failure of at least TWO of three specific interventions: (1) 6 weeks of medication, (2) 6 weeks of physical therapy, or (3) epidural steroid injection/nerve root block. The patient has documented 8 weeks of physical therapy (Criterion 2) and a trial of medications (Criterion 1, though duration is not explicitly confirmed as 6 weeks in the text, it is implied by the 12-week history). Crucially, there is no documentation of an epidural steroid injection or selective nerve root block (Criterion 3). While the patient may have met the 'two of three' requirement if the medication trial is deemed sufficient, the lack of documentation for the injection is a significant gap. More strictly, if the medication trial duration is not explicitly documented as 6 weeks, only one criterion (PT) is definitively met. Even if medication is accepted, the absence of the injection documentation is a missing element often required to prove exhaustion of conservative care in this specific policy context. However, the most definitive failure is the lack of documentation for the third modality, which is often a hard stop or requires explicit justification if not performed. In strict audit terms, without the injection documentation, the 'two of three' rule is not fully substantiated in the provided records (only PT is explicitly 6+ weeks; Meds are 'trial' without dates; Injection is absent). Therefore, the criteria are NOT MET due to insufficient documentation of conservative management failure.",
+  "runtime_seconds": 7.52,
+  "timestamp": "2026-09-30T11:59:52.168200"
+}

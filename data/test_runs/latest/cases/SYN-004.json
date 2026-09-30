@@ -1,0 +1,46 @@
+{
+  "case_id": "SYN-004",
+  "cpt": "22551",
+  "condition": "Axial Neck Pain without Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Urine Cotinine test result",
+    "Mention of epidural steroid injections or selective nerve root blocks in submitted records",
+    "Post-operative imaging showing pseudoarthrosis mentioned in submitted records"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report states 'Mild disc desiccation C4-C5 without neural foraminal stenosis or cord compression'. No evidence of malposition, failure, migration, breakage, loosening, etc.",
+      "policy_citation": "[3] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Unremitting Neck Pain with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Symptoms began approximately 20 weeks ago (less than >6 months). Patient reports 'severe, unremitting daily pain... localized to the posterior neck without radiation'. Physical exam findings are 'concordant with the individual's symptoms' but lack specific details required by policy. No post-operative imaging showing pseudoarthrosis mentioned.",
+      "policy_citation": "[4] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Unremitting Neck Pain with Pseudoarthrosis"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Radiculopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Symptoms began approximately 20 weeks ago (less than >6 months). Patient describes 'severe, unremitting daily pain... localized to the posterior neck without radiation'. Physical exam findings are 'concordant with the individual's symptoms' but lack specific details required by policy. No post-operative imaging showing pseudoarthrosis mentioned.",
+      "policy_citation": "[5] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Radiculopathy with Pseudoarthrosis"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Myelopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Symptoms began approximately 20 weeks ago (less than >6 months). Patient describes 'Axial Neck Pain without Radiculopathy'. Physical exam findings are 'concordant with the individual's symptoms' but lack specific details required by policy. No post-operative imaging showing pseudoarthrosis mentioned.",
+      "policy_citation": "[6] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Myelopathy with Pseudoarthrosis"
+    }
+  ],
+  "notes": "The patient's symptoms began 20 weeks ago, which is less than the required >6 months for repeat ACDF based on unremitting neck pain or radiculopathy/myelopathy criteria. While the patient reports significant functional impairment and lacks unmanaged mental health issues, the submitted records do not provide sufficient evidence to meet the specific requirements for each category (unremitting neck pain with pseudoarthrosis, radiculopathy with pseudoarthrosis, myelopathy with pseudoarthrosis). Specifically, there is no mention of post-operative imaging showing pseudoarthrosis, which is a mandatory requirement for these categories. Furthermore, the patient's symptoms are described as axial neck pain without radiculopathy, not meeting the criteria for radiculopathy or myelopathy. The urine cotinine screen confirms tobacco abstinence but the result itself is missing from the records provided.",
+  "runtime_seconds": 58.69,
+  "timestamp": "2026-09-30T12:02:12.555628"
+}

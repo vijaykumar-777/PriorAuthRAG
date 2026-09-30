@@ -1,0 +1,32 @@
+{
+  "case_id": "SYN-043",
+  "cpt": "22845",
+  "condition": "Instrumentation Without Fusion",
+  "selected_policy": "Cigna Radiation Oncology",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Radiation Oncology diagnosis (e.g., cancer staging, tumor location)",
+    "Radiation treatment plan (IMRT, 3DCRT, SBRT, etc.)",
+    "Radiation oncology consultation or order"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Patient must have a diagnosis of a condition treatable by radiation oncology (e.g., cancer, sarcoma, lymphoma) as per the policy scope.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Diagnosis: Instrumentation Without Fusion (C5-C6); History: Cervical spondylosis; MRI Impression: Concordant cervical spine pathology at C5-C6... Severe neural compression concordant with clinical radiculopathy/myelopathy",
+      "policy_citation": "Cigna Radiation Oncology Guidelines For Special Techniques > Image-Guided Radiation Therapy (IGRT) (TOC: S3.7)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "The requested procedure must be a radiation oncology service (e.g., IGRT, IMRT, SBRT) for which medical necessity is defined in the policy.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Proposed Procedure: CPT 22845 (Anterior instrumentation; 2 to 3 vertebral segments)",
+      "policy_citation": "Cigna Radiation Oncology Guidelines For Special Techniques > Image-Guided Radiation Therapy (IGRT) (TOC: S3.7)"
+    }
+  ],
+  "notes": "The submitted medical records describe a patient with cervical spondylosis and radiculopathy/myelopathy at C5-C6 who is being evaluated for anterior cervical instrumentation (CPT 22845). This is a neurosurgical/orthopedic spine procedure. The selected policy is 'Cigna Radiation Oncology', which governs the medical necessity of radiation therapy techniques such as Image-Guided Radiation Therapy (IGRT). There is a fundamental mismatch between the requested procedure (spine surgery) and the policy domain (radiation oncology). The policy criteria for IGRT (e.g., treatment of specific cancers, IMRT/3DCRT context) are not applicable to a surgical instrumentation case. Therefore, the request does not meet the medical necessity criteria of the selected policy.",
+  "runtime_seconds": 36.48,
+  "timestamp": "2026-09-30T12:30:37.437131"
+}

@@ -1,9 +1,9 @@
 # Commit 11: fallback version
 
 <nav>
-  <a href="../10_ddb23b3_noocr/README.md">&larr; Commit 10 (ddb23b3)</a> | 
+  <a href="../10_ddb23b3_noocr/README.md">&larr; Previous Commit (ddb23b3)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">Commit 12 (c13c799) &rarr;</a>
+ | <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">Next Commit (c13c799) &rarr;</a>
 </nav>
 
 ---
@@ -12,32 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `de2c621` (`de2c62179120eb81eca3c0731a1098b7d6ed53f1`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#11` |
+| **Short Hash** | `de2c621` |
+| **Full Hash** | `de2c62179120eb81eca3c0731a1098b7d6ed53f1` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-17 12:30:59 +0530 |
-| **Files Touched** | **12** (12 added, 0 modified, 0 deleted) |
-| **Lines Changed** | **+58895** / **-0** |
+| **Files Affected** | **12** |
+| **Lines Added** | **+58895** |
+| **Lines Deleted** | **-0** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Implement a resilient rule-based fallback pipeline to recover from Docling parsing failures on complex tabular guidelines.
+- **Added files**: 12
+- **Modified files**: 0
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Built modular `fallback/` framework (`extractors.py`, `builder.py`, `pipeline.py`, `config.py`, `run_test.py`). Acts as an autonomous fallback when primary parsers misclassify table headers or criteria indentations.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `de2c621`**:
-> Dual-pipeline resilience: Primary Docling extractor + modular fallback layout builder with automated QA report validation.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Created `fallback/` package with layout extraction, hierarchical markdown builder, and QA report generation.
-- Validated fallback pipeline against Lumbar policy, producing QA report (`Cigna_Lumbar_Fusion.qa_report.json`).
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -57,7 +47,7 @@ Built modular `fallback/` framework (`extractors.py`, `builder.py`, `pipeline.py
 ---
 
 <nav>
-  <a href="../10_ddb23b3_noocr/README.md">&larr; Commit 10 (ddb23b3)</a> | 
+  <a href="../10_ddb23b3_noocr/README.md">&larr; Previous Commit (ddb23b3)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">Commit 12 (c13c799) &rarr;</a>
+ | <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">Next Commit (c13c799) &rarr;</a>
 </nav>

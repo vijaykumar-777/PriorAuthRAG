@@ -1,0 +1,20 @@
+DEPARTMENT OF RADIOLOGY - MRI REPORT
+PATIENT ID: SYN-004
+EXAMINATION: MRI CERVICAL SPINE WITHOUT INTRAVENOUS CONTRAST
+DATE: 2026-08-15
+
+CLINICAL INDICATION: Axial Neck Pain without Radiculopathy, 20 weeks duration.
+TECHNIQUE: Multi-planar, multi-sequence T1, T2, and STIR sagittal and axial images.
+
+FINDINGS:
+Craniocervical junction: Unremarkable.
+Vertebral body heights and marrow signal: Preserved.
+C2-C3: Normal disc morphology, patent neural foramina.
+C3-C4: Mild disc desiccation, no significant central canal or foraminal stenosis.
+C4-C5: Mild uncinate spurring.
+Target Interspace / Segment (C4-C5):
+Mild disc desiccation C4-C5 without neural foraminal stenosis or cord compression
+
+IMPRESSION:
+1. Concordant cervical spine pathology at C4-C5 as detailed above.
+2. Severe neural compression concordant with clinical radiculopathy/myelopathy

@@ -1,0 +1,63 @@
+{
+  "case_id": "SYN-030",
+  "cpt": "63081",
+  "condition": "Cervical Corpectomy without Fusion",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "MRI report states: 'Retrovertebral disc fragment behind C5 body'. This finding suggests a significant structural issue potentially requiring corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "infection",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of infection in submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "trauma",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of trauma in submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "tumor",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of tumor in submitted records.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "compression at or behind the level of the vertebral body",
+      "system_result": "MET",
+      "patient_evidence": "MRI report states: 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. This indicates significant compression.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "Physician note states: 'Proposed Procedure: CPT 63081 (C5)'. The rationale for surgery is failure of conservative management and severe neural compression, which often necessitates fusion to address instability.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The patient has undergone previous surgery for cervical disc issues (implied by 'Cervical spondylosis' history and failed conservative management for radiculopathy/myelopathy). The physician note explicitly states 'Proposed Procedure: CPT 63081 (C5)', aligning with the need for anterior cervical discectomy and fusion.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    }
+  ],
+  "notes": "The patient's clinical presentation includes severe radicular pain and neurological deficits (sensory deficit, hyperreflexia) consistent with significant neural compression at C5. The MRI confirms a retrovertebral disc fragment behind the C5 body, which is a common indication for corpectomy in this context. Although the policy requires infection, trauma, tumor, or compression as an indication, the severe neural compression itself meets the criteria. The physician note explicitly states the proposed procedure is CPT 63081 (C5) and notes the need for surgical intervention due to failed conservative management. The requirement for fusion is met by the rationale provided in the physician note, indicating instability or the need to address the corpectomy defect. The patient has a history suggestive of prior cervical spine surgery ('Cervical spondylosis'). All required clinical documentation (MRI, Physician Note) supports the medical necessity for CPT 63081.",
+  "runtime_seconds": 24.81,
+  "timestamp": "2026-09-30T12:21:48.738392"
+}

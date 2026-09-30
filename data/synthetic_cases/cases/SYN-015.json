@@ -1,0 +1,91 @@
+{
+  "patient_id": "SYN-015",
+  "demographics": {
+    "age": 56,
+    "sex": "F",
+    "dob": "1974-05-12",
+    "mrn": "MRN-10015"
+  },
+  "diagnoses": [
+    {
+      "code": "M50.80",
+      "description": "Cervical Spondylosis",
+      "status": "active",
+      "onset_date": "2026-05-01"
+    }
+  ],
+  "symptoms": [
+    {
+      "symptom": "Cervical Spondylosis",
+      "location": "Cervical spine / Upper Extremity",
+      "severity": "Severe",
+      "frequency": "daily",
+      "duration_weeks": 10
+    }
+  ],
+  "symptom_duration": "10 weeks",
+  "clinical_findings": {
+    "motor": "4/5 motor",
+    "sensory": "Sensory deficit",
+    "reflexes": "Depressed",
+    "spurling": "positive"
+  },
+  "treatments": [
+    "Physical therapy",
+    "Oral analgesics",
+    "Activity modification"
+  ],
+  "conservative_treatment": {
+    "pt_weeks": 6,
+    "pt_sessions": 12,
+    "provider": "Apex Physical Therapy Clinic",
+    "modalities": [
+      "Therapeutic exercise",
+      "Manual therapy",
+      "Postural re-education"
+    ],
+    "response": "Less than clinically meaningful improvement",
+    "contraindicated": false,
+    "contraindication_reason": null
+  },
+  "medications": [
+    {
+      "name": "Gabapentin",
+      "dosage": "300mg TID",
+      "duration_weeks": 6,
+      "response": "Inadequate relief"
+    },
+    {
+      "name": "Meloxicam",
+      "dosage": "15mg Daily",
+      "duration_weeks": 6,
+      "response": "Partial relief"
+    }
+  ],
+  "imaging": [
+    {
+      "modality": "MRI",
+      "type": "Cervical spine without contrast",
+      "date": "2026-08-15",
+      "findings": "C5-C6 stenosis",
+      "impression": "Target interspace compression noted"
+    }
+  ],
+  "labs": [
+    {
+      "test": "Urine cotinine (LC-MS/MS)",
+      "date": "2026-08-18",
+      "value": "Negative",
+      "reference_range": "< 10 ng/mL",
+      "interpretation": "Tobacco-free / Negative"
+    }
+  ],
+  "procedures": [],
+  "physician_assessment": "Patient presents with Cervical Spondylosis refractory to conservative measures.",
+  "documents": [
+    "physician_note.txt",
+    "mri_report.txt",
+    "pt_notes.txt",
+    "lab_report.txt"
+  ]
+}

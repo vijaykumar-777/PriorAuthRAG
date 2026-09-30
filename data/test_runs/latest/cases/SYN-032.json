@@ -1,0 +1,38 @@
+{
+  "case_id": "SYN-032",
+  "cpt": "63081",
+  "condition": "Vertebral Body Pathology",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of specific pathology (infection, trauma, tumor, or compression at/behind vertebral body) to justify corpectomy over discectomy.",
+    "Evidence of fusion plan (CMM-601.5 requires corpectomy to be performed with fusion)."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (removal of at least one-half of the vertebral body) is performed for ANY of the following: infection, trauma, tumor, compression at or behind the level of the vertebral body.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI Report: 'Anterior osteophyte trough with 20% shallow body resection planned'; Physician Note: 'Diagnosis: Vertebral Body Pathology (C5)'; No evidence of infection, trauma, tumor, or compression at/behind the vertebral body.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "Physician Note: 'Proposed Procedure: CPT 63081 (C5)'; No explicit mention of fusion in the surgical plan or CPT code description provided.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (CMM-601.4, CMM-601.6, CMM-601.7, or CMM-601.8).",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... No clinically meaningful functional improvement'; PT Notes: 'Patient completed 8 weeks of active structured rehabilitation... less than clinically meaningful functional improvement'; MRI: 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    }
+  ],
+  "notes": "The request for CPT 63081 (Anterior Cervical Corpectomy) is NOT MET for medical necessity. The policy requires that a corpectomy (removal of at least 50% of the vertebral body) be performed for specific indications such as infection, trauma, tumor, or compression at/behind the vertebral body. The patient's MRI explicitly states a '20% shallow body resection planned' for an 'anterior osteophyte trough,' which does not meet the threshold for corpectomy (>=50% resection) and does not indicate compression at or behind the vertebral body. Additionally, there is no documentation of a fusion plan, which is mandatory for corpectomy per policy. While the patient meets the general criteria for ACDF (failed conservative management, severe neural compression), the specific procedure requested (corpectomy) is not supported by the clinical findings.",
+  "runtime_seconds": 11.4,
+  "timestamp": "2026-09-30T12:22:36.764544"
+}

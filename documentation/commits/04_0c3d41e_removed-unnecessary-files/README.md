@@ -1,9 +1,9 @@
 # Commit 4: removed unnecessary files
 
 <nav>
-  <a href="../03_9c6bc65_working/README.md">&larr; Commit 3 (9c6bc65)</a> | 
+  <a href="../03_9c6bc65_working/README.md">&larr; Previous Commit (9c6bc65)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../05_5bf450b_idk/README.md">Commit 5 (5bf450b) &rarr;</a>
+ | <a href="../05_5bf450b_idk/README.md">Next Commit (5bf450b) &rarr;</a>
 </nav>
 
 ---
@@ -12,33 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `0c3d41e` (`0c3d41e59b504832aa220fd731307700e7516fa2`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#4` |
+| **Short Hash** | `0c3d41e` |
+| **Full Hash** | `0c3d41e59b504832aa220fd731307700e7516fa2` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-08 11:55:54 +0530 |
-| **Files Touched** | **11** (0 added, 1 modified, 10 deleted) |
-| **Lines Changed** | **+136** / **-790726** |
+| **Files Affected** | **11** |
+| **Lines Added** | **+136** |
+| **Lines Deleted** | **-790726** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Major repository hygiene and architecture cleanup. Removed over 746,000 lines of stale monolithic JSON files and obsolete scripts.
+- **Added files**: 0
+- **Modified files**: 1
+- **Deleted files**: 10
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Abandoned single giant JSON stores in favor of modular, per-policy serialized numpy matrices (`*.npy`) and metadata JSONs. Pruned unmaintained OCR/parser prototypes (`LiteParse.py`, `check.py`, `hypothermia_checking.py`).
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `0c3d41e`**:
-> Repository size reduced drastically; clean architecture documented in `architecture.md` with modular directory expectations.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Deleted legacy monolithic dumps: `embeddings_json.json` (746K lines), `Cigna_ACDF_embeddings.json` (43K lines), `SPECIAL OUT.json`.
-- Removed obsolete scripts `LiteParse.py`, `check.py`, `hypothermia_checking.py`.
-- Rewrote `architecture.md` to reflect true multi-tier hierarchical retrieval flow.
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -57,7 +46,7 @@ Abandoned single giant JSON stores in favor of modular, per-policy serialized nu
 ---
 
 <nav>
-  <a href="../03_9c6bc65_working/README.md">&larr; Commit 3 (9c6bc65)</a> | 
+  <a href="../03_9c6bc65_working/README.md">&larr; Previous Commit (9c6bc65)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../05_5bf450b_idk/README.md">Commit 5 (5bf450b) &rarr;</a>
+ | <a href="../05_5bf450b_idk/README.md">Next Commit (5bf450b) &rarr;</a>
 </nav>

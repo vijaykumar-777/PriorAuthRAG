@@ -1,0 +1,99 @@
+{
+  "patient_id": "SYN-002",
+  "demographics": {
+    "age": 52,
+    "sex": "M",
+    "dob": "1974-05-12",
+    "mrn": "MRN-10002"
+  },
+  "diagnoses": [
+    {
+      "code": "M50.122",
+      "description": "Cervical Radiculopathy",
+      "status": "active",
+      "onset_date": "2026-05-01"
+    }
+  ],
+  "symptoms": [
+    {
+      "symptom": "Cervical Radiculopathy",
+      "location": "Cervical spine / Upper Extremity",
+      "severity": "Severe",
+      "frequency": "daily",
+      "duration_weeks": 6
+    }
+  ],
+  "symptom_duration": "6 weeks",
+  "clinical_findings": {
+    "motor": "4/5 triceps weakness",
+    "sensory": "C7 hypoesthesia",
+    "reflexes": "1+ right triceps",
+    "spurling": "positive"
+  },
+  "treatments": [
+    "Physical therapy",
+    "Oral analgesics",
+    "Activity modification"
+  ],
+  "conservative_treatment": {
+    "pt_weeks": 3,
+    "pt_sessions": 6,
+    "provider": "Apex Physical Therapy Clinic",
+    "modalities": [
+      "Therapeutic exercise",
+      "Manual therapy",
+      "Postural re-education"
+    ],
+    "response": "Less than clinically meaningful improvement",
+    "contraindicated": false,
+    "contraindication_reason": null
+  },
+  "medications": [
+    {
+      "name": "Gabapentin",
+      "dosage": "300mg TID",
+      "duration_weeks": 3,
+      "response": "Inadequate relief"
+    },
+    {
+      "name": "Meloxicam",
+      "dosage": "15mg Daily",
+      "duration_weeks": 3,
+      "response": "Partial relief"
+    }
+  ],
+  "imaging": [
+    {
+      "modality": "X-ray",
+      "type": "Cervical spine dynamic flexion/extension",
+      "date": "2026-08-12",
+      "findings": "Normal dynamic views",
+      "impression": "Dynamic stability study evaluated"
+    },
+    {
+      "modality": "MRI",
+      "type": "Cervical spine without contrast",
+      "date": "2026-08-15",
+      "findings": "C6-C7 disc extrusion with left C7 nerve root compression",
+      "impression": "Target interspace compression noted"
+    }
+  ],
+  "labs": [
+    {
+      "test": "Urine cotinine (LC-MS/MS)",
+      "date": "2026-08-18",
+      "value": "Negative (<10 ng/mL)",
+      "reference_range": "< 10 ng/mL",
+      "interpretation": "Tobacco-free / Negative"
+    }
+  ],
+  "procedures": [],
+  "physician_assessment": "Patient presents with Cervical Radiculopathy refractory to conservative measures.",
+  "documents": [
+    "physician_note.txt",
+    "mri_report.txt",
+    "xray_report.txt",
+    "pt_notes.txt",
+    "lab_report.txt"
+  ]
+}

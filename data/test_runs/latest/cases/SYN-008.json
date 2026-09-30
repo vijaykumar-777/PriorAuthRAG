@@ -1,0 +1,49 @@
+{
+  "case_id": "SYN-008",
+  "cpt": "22551",
+  "condition": "Cervical Myelopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include ANY of the following: upper/lower extremity weakness, numbness, or pain; fine motor dysfunction; gait disturbance; new-onset bowel or bladder dysfunction; frequent falls.",
+      "system_result": "MET",
+      "patient_evidence": "Motor: Diffuse 4/5 upper extremity weakness, clumsiness buttoning shirts; Sensory: Loss of proprioception fingertips",
+      "policy_citation": "CMM-601.4: Myelopathy - Symptoms"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Physical exam findings include ANY of the following: grip and release test; ataxic gait; hyperreflexia; Hoffmann sign; Babinski sign; tandem walking test demonstrating ataxia; inverted brachial radial reflex; increased muscle tone or spasticity; clonus; myelopathic hand.",
+      "system_result": "MET",
+      "patient_evidence": "Reflexes: Hyperreflexia 3+ bilaterally",
+      "policy_citation": "CMM-601.4: Myelopathy - Physical exam findings"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER of the following: cervical spinal cord compression; cervical spinal stenosis.",
+      "system_result": "MET",
+      "patient_evidence": "C4-C5 severe cervical spinal canal stenosis with cord compression and intrinsic T2 hyperintensity",
+      "policy_citation": "CMM-601.4: Myelopathy - Imaging"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders).",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4: Myelopathy - Exclusion Criteria"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker; individual has refrained from smoking... for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods... verified as within the normal range.",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative (<10 ng/mL); INTERPRETATION: Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4: Myelopathy - Nicotine Status"
+    }
+  ],
+  "notes": "The patient meets all medical necessity criteria for CMM-601.4 Myelopathy. The clinical presentation (weakness, fine motor dysfunction, hyperreflexia) is concordant with MRI findings of severe C4-C5 stenosis and cord compression. The patient has documented nicotine abstinence via objective testing. Although the physician note mentions a failure of conservative management (0 weeks PT), the Myelopathy section of the policy (S9.1.2) does not explicitly list a mandatory duration of conservative care (unlike the Radiculopathy section S9.1.1). Therefore, the absence of PT documentation does not result in a 'NOT MET' status for this specific policy section. The request is approved.",
+  "runtime_seconds": 22.69,
+  "timestamp": "2026-09-30T12:05:17.497371"
+}

@@ -1,0 +1,86 @@
+{
+  "case_id": "SYN-022",
+  "cpt": "63075",
+  "condition": "Acute Traumatic Disc Rupture with Deficit",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET | NOT MET | UNKNOWN | CONFLICT",
+  "missing_information": [
+    "Plain X-ray of the cervical spine (deferred/not performed)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Initial primary anterior cervical discectomy and fusion (ACDF) is considered medically necessary when performed for EITHER of the following conditions when ALL of the associated criteria have been met:",
+      "system_result": "MET",
+      "patient_evidence": "Patient presents with symptoms consistent with both radiculopathy (severe daily pain, numbness, weakness, sensory deficit, positive Spurling) and myelopathy (weakness, absent reflexes). MRI confirms severe neural compression concordant with these findings. Conservative management failed to provide clinically meaningful improvement.",
+      "policy_citation": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)."
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include BOTH of the following:",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes 'severe, unremitting daily pain... radiating down the right upper extremity into the shoulder and hand with numbness'.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Symptoms."
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "Patient has 'Grade 2/5 deltoid and biceps weakness', 'C5/C6 sensory deficit', 'Absent reflexes', and a 'positive Spurling maneuver'.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Physical exam findings."
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated):",
+      "system_result": "MET",
+      "patient_evidence": "Patient completed 0 weeks of provider-directed physical therapy and had inadequate symptom relief from NSAIDs (Meloxicam) and Gabapentin.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Less than clinically meaningful improvement."
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following:",
+      "system_result": "NOT MET",
+      "patient_evidence": "Urine cotinine screen result: 'Active smoker'.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Documentation of nicotine-free status."
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Symptoms include ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "Patient has 'Grade 2/5 deltoid and biceps weakness' and 'Absent reflexes'.",
+      "policy_citation": "CMM-601.4 > Myelopathy > Symptoms."
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Physical exam findings include ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "Patient has 'Grade 2/5 deltoid and biceps weakness' and 'Absent reflexes'.",
+      "policy_citation": "CMM-601.4 > Myelopathy > Physical exam findings."
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER of the following:",
+      "system_result": "MET",
+      "patient_evidence": "MRI report: 'Acute massive traumatic disc herniation with severe canal and foraminal compromise'. This is concordant with symptoms/exam and caused by a herniated disc.",
+      "policy_citation": "CMM-601.4 > Myelopathy > MRI/CT shows findings."
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+      "system_result": "MET",
+      "patient_evidence": "Physician note states: 'No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder'.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Absence of unmanaged significant mental and/or behavioral health disorders."
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "Conservative Management Review:",
+      "system_result": "MET",
+      "patient_evidence": "Physician note states: 'Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief'.",
+      "policy_citation": "CMM-601.4 > Radiculopathy > Conservative Management Review."
+    }
+  ],
+  "notes": "The patient meets the criteria for initial primary ACDF based on both radiculopathy and myelopathy, supported by symptoms, physical exam findings, MRI results, and failure of conservative management. The patient is an active smoker, failing to meet the nicotine-free status requirement for radiculopathy. Missing information includes plain x-rays which were deferred/not performed.",
+  "runtime_seconds": 59.32,
+  "timestamp": "2026-09-30T12:16:26.892406"
+}

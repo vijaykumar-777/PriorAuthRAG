@@ -1,0 +1,70 @@
+{
+  "case_id": "SYN-019",
+  "cpt": "63075",
+  "condition": "Cervical Disc Herniation",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include BOTH of the following: significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) and unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability.",
+      "system_result": "MET",
+      "patient_evidence": "Patient has severe, unremitting daily pain radiating down the right upper extremity into the shoulder and hand with numbness. Functional impact: Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - Symptoms include BOTH of the following: significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) and unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings.",
+      "system_result": "MET",
+      "patient_evidence": "Physical Exam: 4/5 biceps weakness, C6 sensory deficit, Spurling maneuver is positive.",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks; provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery; Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed.",
+      "system_result": "MET",
+      "patient_evidence": "Patient completed 8 weeks (16 visits) of provider-directed physical therapy. Response: No clinically meaningful functional improvement. Medications: Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks; provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery; Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following: herniated disc(s), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, osteophytes.",
+      "system_result": "MET",
+      "patient_evidence": "MRI CERVICAL SPINE WITHOUT INTRAVENOUS CONTRAST - C5-C6 disc extrusion with C6 root compression. IMPRESSION: Concordant cervical spine pathology at C5-C6 as detailed above. Severe neural compression concordant with clinical radiculopathy/myelopathy.",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following: herniated disc(s), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, osteophytes."
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders).",
+      "system_result": "MET",
+      "patient_evidence": "PAST MEDICAL HISTORY: No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker OR individual has refrained from smoking, use of smokeless tobacco products, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed.",
+      "system_result": "MET",
+      "patient_evidence": "QUEST CLINICAL PATHOLOGY - TOXICOLOGY REPORT - URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative. INTERPRETATION: Specimen confirms tobacco / nicotine abstinence (>6 weeks duration).",
+      "policy_citation": "[3] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1) - Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker OR individual has refrained from smoking, use of smokeless tobacco products, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Myelopathy criteria: Symptoms include ANY of the following: upper/lower extremity weakness, numbness, or pain; fine motor dysfunction (buttoning, handwriting, clumsiness of hands); gait disturbance; new-onset bowel or bladder dysfunction; frequent falls. Physical exam findings include ANY of the following: grip and release test; ataxic gait; hyperreflexia; Hoffmann sign; Babinski sign; tandem walking test demonstrating ataxia; inverted brachial radial reflex; increased muscle tone or spasticity; clonus; myelopathic hand.",
+      "system_result": "MET",
+      "patient_evidence": "History of present illness: Patient describes severe, unremitting daily pain radiating down the right upper extremity into the shoulder and hand with numbness. Functional impact: Significant disability affecting work and daily activities of daily living. Physical Exam: 4/5 biceps weakness, C6 sensory deficit.",
+      "policy_citation": "[4] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Myelopathy (TOC: S9.1.2) - Symptoms include ANY of the following: upper/lower extremity weakness, numbness, or pain; fine motor dysfunction (buttoning, handwriting, clumsiness of hands); gait disturbance; new-onset bowel or bladder dysfunction; frequent falls. Physical exam findings include ANY of the following: grip and release test; ataxic gait; hyperreflexia; Hoffmann sign; Babinski sign; tandem walking test demonstrating ataxia; inverted brachial radial reflex; increased muscle tone or spasticity; clonus; myelopathic hand."
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Myelopathy criteria: MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER of the following: cervical spinal cord compression OR cervical spinal stenosis.",
+      "system_result": "MET",
+      "patient_evidence": "MRI CERVICAL SPINE WITHOUT INTRAVENOUS CONTRAST - C5-C6 disc extrusion with C6 root compression. IMPRESSION: Concordant cervical spine pathology at C5-C6 as detailed above. Severe neural compression concordant with clinical radiculopathy/myelopathy.",
+      "policy_citation": "[4] Section: CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Myelopathy (TOC: S9.1.2) - MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER of the following: cervical spinal cord compression OR cervical spinal stenosis."
+    }
+  ],
+  "notes": "The patient meets all criteria for initial primary ACDF based on clinical presentation (radiculopathy), physical exam findings (sensory deficit, motor weakness, positive Spurling's), imaging results (disc extrusion with C6 root compression), and documented failure of conservative management. Additionally, the patient is confirmed nicotine-free according to the toxicology report. The policy allows for surgical consideration based on radiculopathy or myelopathy criteria, both of which are met in this case.",
+  "runtime_seconds": 42.11,
+  "timestamp": "2026-09-30T12:14:40.394814"
+}

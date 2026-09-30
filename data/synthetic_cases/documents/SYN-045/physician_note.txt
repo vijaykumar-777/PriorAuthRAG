@@ -1,0 +1,35 @@
+CLINICAL CONSULTATION NOTE
+PATIENT ID: SYN-045
+DATE OF SERVICE: 2026-08-20
+ATTENDING SURGEON: Dr. Marcus Vance, MD (Neurosurgery & Spine)
+
+DEMOGRAPHICS: 70-year-old Male
+CHIEF COMPLAINT: Neck and right arm pain lasting 20 weeks.
+
+HISTORY OF PRESENT ILLNESS:
+The patient is a 70-year-old male who presents for surgical evaluation of cervical spine symptoms.
+Symptoms began approximately 20 weeks ago. Patient describes severe, unremitting daily pain, radiating down the right upper extremity into the shoulder and hand with numbness.
+Functional impact: Significant disability affecting work and daily activities of daily living.
+
+PAST MEDICAL HISTORY:
+- Cervical spondylosis
+- No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.
+
+PHYSICAL EXAMINATION:
+- Constitutional: Alert, oriented x 3, in mild-to-moderate distress.
+- Cervical Spine: Tenderness over mid-cervical spinous processes. Restricted extension and lateral rotation.
+- Motor: 4/5
+- Sensory: Deficit
+- Reflexes: Hyperreflexic
+- Provocative Signs: Spurling maneuver is positive.
+- Gait: Normal non-ataxic gait
+
+CONSERVATIVE MANAGEMENT REVIEW:
+- Completed 8 weeks (16 visits) of provider-directed physical therapy.
+- Response: No clinically meaningful functional improvement.
+- Medications: Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.
+
+ASSESSMENT & SURGICAL PLAN:
+Diagnosis: Long-Segment Instrumentation (Boundary) (C3 to C7 (5 vertebral segments))
+Proposed Procedure: CPT 22845 (C3 to C7 (5 vertebral segments))
+Plan: Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.

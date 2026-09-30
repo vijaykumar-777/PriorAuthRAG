@@ -1,0 +1,38 @@
+{
+  "case_id": "SYN-045",
+  "cpt": "22845",
+  "condition": "Long-Segment Instrumentation (Boundary)",
+  "selected_policy": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Lumbar spine imaging (MRI/X-ray) to confirm pathology at the lumbar level",
+    "Documentation of lumbar fusion primary procedure (e.g., CPT 22612, 22630, etc.)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Patient must have documented pathology in the lumbar spine (L1-L5/S1) consistent with the policy scope (Lumbar Fusion).",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI REPORT: 'EXAMINATION: MRI CERVICAL SPINE... FINDINGS: ... Target Interspace / Segment (C3 to C7 (5 vertebral segments))... IMPRESSION: 1. Concordant cervical spine pathology at C3 to C7'",
+      "policy_citation": "CMM-609: Lumbar Fusion with Decompression; Code Table S13.1 (Lumbar codes only)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Requested procedure (CPT 22845) must be an add-on code listed in the policy for the corresponding primary lumbar fusion procedure.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Physician Note: 'Proposed Procedure: CPT 22845 (C3 to C7 (5 vertebral segments))... Recommended anterior cervical surgical intervention.'",
+      "policy_citation": "CMM-609 Code Table S13.1: '+22845 Anterior instrumentation; 2 to 3 vertebral segments'"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior instrumentation segment count must match the CPT code definition (2 to 3 vertebral segments for CPT 22845).",
+      "system_result": "NOT MET",
+      "patient_evidence": "Physician Note: 'C3 to C7 (5 vertebral segments)'; MRI Report: 'C3 to C7 (5 vertebral segments)'",
+      "policy_citation": "CMM-609 Code Table S13.1: '+22845 Anterior instrumentation; 2 to 3 vertebral segments'"
+    }
+  ],
+  "notes": "The request is denied due to a fundamental mismatch between the selected policy and the patient's clinical presentation. The selected policy (CMM-609) governs Lumbar Fusion, but the patient's records document pathology and a surgical plan for the Cervical Spine (C3-C7). Additionally, the requested CPT code 22845 is defined for 2-3 vertebral segments, whereas the patient requires instrumentation for 5 segments (which would typically correspond to CPT 22846). The clinical records do not support the application of the Lumbar Fusion policy to a Cervical case.",
+  "runtime_seconds": 78.3,
+  "timestamp": "2026-09-30T12:32:23.358274"
+}

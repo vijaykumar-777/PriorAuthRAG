@@ -1,0 +1,20 @@
+DEPARTMENT OF RADIOLOGY - MRI REPORT
+PATIENT ID: SYN-028
+EXAMINATION: MRI CERVICAL SPINE WITHOUT INTRAVENOUS CONTRAST
+DATE: 2026-08-15
+
+CLINICAL INDICATION: Osteophytes Only (Inappropriate for Corpectomy), 12 weeks duration.
+TECHNIQUE: Multi-planar, multi-sequence T1, T2, and STIR sagittal and axial images.
+
+FINDINGS:
+Craniocervical junction: Unremarkable.
+Vertebral body heights and marrow signal: Preserved.
+C2-C3: Normal disc morphology, patent neural foramina.
+C3-C4: Mild disc desiccation, no significant central canal or foraminal stenosis.
+C4-C5: Mild uncinate spurring.
+Target Interspace / Segment (C5 vertebral body):
+Marginal anterior osteophytes without retrovertebral body pathology or cord compression behind C5
+
+IMPRESSION:
+1. Concordant cervical spine pathology at C5 vertebral body as detailed above.
+2. Severe neural compression concordant with clinical radiculopathy/myelopathy

@@ -1,8 +1,9 @@
 # Commit 20: BEFORE FIXES EVERYTHING IS WORKING
 
 <nav>
-  <a href="../19_ccb759a_graphified/README.md">&larr; Commit 19 (ccb759a)</a> | 
+  <a href="../19_ccb759a_graphified/README.md">&larr; Previous Commit (ccb759a)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md">Next Commit (0dc6a0a) &rarr;</a>
 </nav>
 
 ---
@@ -11,33 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `882a68c` (`882a68c8b633a45e283e92406df4132b050b6109`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#20` |
+| **Short Hash** | `882a68c` |
+| **Full Hash** | `882a68c8b633a45e283e92406df4132b050b6109` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-24 16:01:11 +0530 |
-| **Files Touched** | **12** (12 added, 0 modified, 0 deleted) |
-| **Lines Changed** | **+323** / **-0** |
+| **Files Affected** | **12** |
+| **Lines Added** | **+323** |
+| **Lines Deleted** | **-0** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Lock verified production baseline and ingest GSD planning contract before embarking on multi-phase refactoring.
+- **Added files**: 12
+- **Modified files**: 0
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Created complete GSD planning directory (`.planning/`) documenting architecture, requirements, roadmap, state, conventions, integrations, and concerns.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `882a68c`**:
-> Solidified baseline: all 4 guidelines, hybrid retrieval, non-OCR fallback parser, benchmark suites, and complete architectural documentation verified working.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Created `.planning/PROJECT.md`, `REQUIREMENTS.md`, `ROADMAP.md`, `STATE.md`.
-- Created `.planning/codebase/ARCHITECTURE.md`, `CONCERNS.md`, `CONVENTIONS.md`, `INTEGRATIONS.md`, `STACK.md`, `STRUCTURE.md`, `TESTING.md`.
-- Created `.planning/onboarding/SUMMARY.md`.
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -57,6 +47,7 @@ Created complete GSD planning directory (`.planning/`) documenting architecture,
 ---
 
 <nav>
-  <a href="../19_ccb759a_graphified/README.md">&larr; Commit 19 (ccb759a)</a> | 
+  <a href="../19_ccb759a_graphified/README.md">&larr; Previous Commit (ccb759a)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md">Next Commit (0dc6a0a) &rarr;</a>
 </nav>

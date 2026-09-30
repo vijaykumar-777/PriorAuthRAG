@@ -1,0 +1,59 @@
+{
+  "case_id": "SYN-025",
+  "cpt": "63076",
+  "condition": "Multi-Level Decompression",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Post-operative imaging showing pseudoarthrosis > 6 months after prior cervical fusion",
+    "Epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s)",
+    "Documented nicotine abstinence (>6 weeks duration) via objective testing (cotinine)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "MRI report (mri_report.txt) states 'Target Interspace / Segment (C6-C7 (Add-on)): C5-C6 visualized and compressed.' Report incomplete regarding C6-C7 status.",
+      "policy_citation": "CMM-601.6.1"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Unremitting Neck Pain with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "History of present illness states 'Symptoms began approximately 12 weeks ago.' (less than 6 months)",
+      "policy_citation": "CMM-601.6.2.1"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Radiculopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "History of present illness states 'Symptoms began approximately 12 weeks ago.' (less than 6 months)",
+      "policy_citation": "CMM-601.6.3.1"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Myelopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "History of present illness states 'Symptoms began approximately 12 weeks ago.' (less than 6 months)",
+      "policy_citation": "CMM-601.6.4.1"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "MRI report (mri_report.txt) states 'Target Interspace / Segment (C6-C7 (Add-on)): C5-C6 visualized and compressed.' Report incomplete regarding C6-C7 status.",
+      "policy_citation": "CMM-601.6.1"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Unremitting Neck Pain with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "History of present illness states 'Symptoms began approximately 12 weeks ago.' (less than 6 months)",
+      "policy_citation": "CMM-601.6.2.1"
+    }
+  ],
+  "runtime_seconds": 75.21,
+  "timestamp": "2026-09-30T12:20:08.411127"
+}

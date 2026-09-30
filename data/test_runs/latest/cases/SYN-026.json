@@ -1,0 +1,73 @@
+{
+  "case_id": "SYN-026",
+  "cpt": "63076",
+  "condition": "Multi-Level Cervical Spondylosis",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "CONFLICT",
+  "missing_information": [
+    "Documentation of epidural steroid injection(s) or selective nerve root block(s) (required as one of the two conservative management failures)",
+    "Objective physical exam findings concordant with radiculopathy (e.g., dermatomal sensory deficit, motor deficit, reflex changes) to support the radiculopathy pathway, as current exam is largely normal"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+      "system_result": "MET",
+      "patient_evidence": "radiating down the right upper extremity into the shoulder and hand with numbness",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective physical exam findings",
+      "system_result": "MET",
+      "patient_evidence": "Provocative Signs: Spurling maneuver is positive C6 only.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: prescription strength analgesics/NSAIDs for 6 weeks, provider-directed exercise program for 6 weeks, or epidural steroid injection(s)/selective nerve root block(s)",
+      "system_result": "MET",
+      "patient_evidence": "Completed 8 weeks (16 visits) of provider-directed physical therapy... Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings",
+      "system_result": "CONFLICT",
+      "patient_evidence": "MRI FINDINGS: C6-C7 broad-based mild bulge without foraminal narrowing or root impingement. MRI IMPRESSION: Severe neural compression concordant with clinical radiculopathy/myelopathy.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Documentation of nicotine-free status (never-smoker or 6 weeks abstinence validated by cotinine testing)",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    }
+  ],
+  "notes": "The case presents a direct conflict regarding the imaging criteria. The policy requires MRI/CT evidence of neural structure compression concordant with symptoms. The MRI report's 'Findings' section explicitly states 'without foraminal narrowing or root impingement' at the target level (C6-C7), which contradicts the 'Impression' section claiming 'Severe neural compression'. Additionally, the physical exam notes 'Normal C7' sensory and 'Normal' reflexes, which may not sufficiently support the radiculopathy pathway without the 'unremitting pain without concordant objective findings' clause being explicitly invoked, though the positive Spurling's sign helps. Due to the contradictory MRI findings (explicit denial of impingement in findings vs. claim of severe compression in impression), the medical necessity cannot be confirmed as MET. The adjudication is CONFLICT pending clarification of the imaging findings.",
+  "runtime_seconds": 6.05,
+  "timestamp": "2026-09-30T12:20:15.963463"
+}

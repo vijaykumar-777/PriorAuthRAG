@@ -475,7 +475,7 @@ def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str 
     """
     if prior_auth_status:
         pa_lower = prior_auth_status.strip().lower()
-        if pa_lower in ["no", "none", "not required", "not applicable", "false", "0"]:
+        if pa_lower in ["no", "none", "not required", "false", "0"]:
             print(f"  ⚡ Bypassing Stage 2 TOC routing (Master Table indicates Prior Auth = '{prior_auth_status}')")
             return None, []
 
@@ -495,7 +495,8 @@ def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str 
     prompt = f"""You are an expert clinical prior authorization policy router.
 Given the clinical query and candidate policy sections below:
 1. Select the single candidate number (1, 2, 3...) whose section contains the medical necessity criteria for this procedure or condition.
-2. If NONE of the candidates cover this procedure, or if the question is about a routine non-precertified test (e.g. routine CBC, CMP, Lipid panel, HbA1c, TSH, Urinalysis, Vitamin D, routine office visits) that does not require prior authorization, return "selected_candidate": null.
+2. If the query names a clinical condition, illness, or diagnosis (e.g. "adjacent segment disease", "spondylolisthesis", "uveal melanoma") that is covered under candidate surgical/medical policies, select the primary matching candidate section (e.g. Lumbar Fusion or ACDF). Do NOT return null if candidate sections directly cover the condition.
+3. If NONE of the candidates cover this procedure or condition, or if the question is about a routine non-precertified test (e.g. routine CBC, CMP, Lipid panel, HbA1c, TSH, Urinalysis, Vitamin D, routine office visits) that does not require prior authorization, return "selected_candidate": null.
 
 ### Candidate Policy Sections:
 {candidates_text}
@@ -521,6 +522,10 @@ Output strictly a JSON object:
                     return chosen["doc_key"], [chosen["toc_id"]]
             except (ValueError, TypeError):
                 pass
+        elif candidates and candidates[0]["score"] >= 35.0:
+            chosen = candidates[0]
+            print(f"  [Routing Fallback] Direct high title match on '{chosen['title']}'. Selecting Candidate [{chosen['candidate_index']}].")
+            return chosen["doc_key"], [chosen["toc_id"]]
 
         # Fallback: check if the LLM returned document_key or toc_ids directly
         doc_key = routing_data.get("document_key")
@@ -972,7 +977,13 @@ def run_rag_pipeline(query: str, top_k: int = 8) -> dict:
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        user_query = " ".join(sys.argv[1:])
+        args = sys.argv[1:]
+        if args[0] in ["--query", "-q"] and len(args) > 1:
+            user_query = " ".join(args[1:])
+        elif args[0].startswith("--query="):
+            user_query = args[0].split("=", 1)[1] + " " + " ".join(args[1:])
+        else:
+            user_query = " ".join(args)
     else:
         user_query = input("Enter your query: ")
 

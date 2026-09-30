@@ -1,0 +1,53 @@
+{
+  "case_id": "SYN-044",
+  "cpt": "22845",
+  "condition": "Cervical Arthrodesis Instrumentation",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "UNKNOWN",
+  "missing_information": [
+    "Specific cervical vertebral levels (e.g., C4-C5, C5-C6) are not identified in the MRI or Physician Note; records state 'Unspecified cervical segments'.",
+    "Detailed MRI findings for the specific target levels (e.g., disc height, herniation size, canal stenosis measurements) are missing; the report only provides a generic impression of 'Severe neural compression' without level-specific anatomical correlation.",
+    "Documentation of the primary procedure (CPT 22844 or 22846) is not explicitly linked to the add-on code 22845 in the surgical plan, though implied by the ACDF context."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to iatrogenic instability.",
+      "system_result": "MET",
+      "patient_evidence": "Proposed Procedure: CPT 22845 (Unspecified cervical segments)... Recommended anterior cervical surgical intervention. (CPT 22845 is an instrumentation add-on code for fusion, implying the primary discectomy/fusion is being performed concurrently.)",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion.",
+      "system_result": "MET",
+      "patient_evidence": "Diagnosis: Cervical Arthrodesis Instrumentation... Plan: Patient has failed conservative management... Recommended anterior cervical surgical intervention.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Criteria for Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) have been met (including specific level pathology and failure of conservative care).",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "MRI IMPRESSION: 'Concordant cervical spine pathology at Unspecified cervical segments... Severe neural compression'. Physician Note: 'Diagnosis: Cervical Arthrodesis Instrumentation (Unspecified cervical segments)'.",
+      "policy_citation": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Failure of conservative management (typically 6-8 weeks of physical therapy and medication trials) prior to surgical intervention, unless emergent.",
+      "system_result": "MET",
+      "patient_evidence": "PT Notes: 'EPISODE DATES: 2026-06-15 to 2026-08-10 (8 WEEKS TOTAL)... Conclusion: Patient achieved less than clinically meaningful functional improvement'. Physician Note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... Trial of NSAIDs... and Gabapentin... with inadequate symptom relief.'",
+      "policy_citation": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Objective evidence of neural compression (radiculopathy/myelopathy) concordant with clinical symptoms.",
+      "system_result": "CONFLICT",
+      "patient_evidence": "MRI Report: 'Severe neural compression concordant with clinical radiculopathy/myelopathy' BUT 'Target Interspace / Segment (Unspecified cervical segments): Multi-level changes'. Physician Note: 'Motor: 4/5... Sensory: Deficit... Spurling maneuver is positive'. X-Ray: 'Dynamic flexion and extension lateral views: Normal'.",
+      "policy_citation": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)"
+    }
+  ],
+  "notes": "The patient has met the duration requirements for conservative management (8 weeks of PT and medication trials) and has objective clinical signs of radiculopathy (positive Spurling, motor/sensory deficits). However, the medical records fail to specify the exact cervical vertebral levels involved in the pathology. The MRI report explicitly states 'Unspecified cervical segments' and 'Multi-level changes' without correlating the 'Severe neural compression' to a specific level (e.g., C4-C5 or C5-C6). CPT 22845 is an add-on code for instrumentation of 2-3 segments, which requires clear identification of the levels being fused to verify medical necessity and appropriate coding. Additionally, while the MRI claims severe compression, the lack of level-specific anatomical detail prevents verification against the specific anatomical criteria in CMM-601.4. Therefore, the case cannot be fully adjudicated as MET or NOT MET due to missing specific level documentation.",
+  "runtime_seconds": 24.61,
+  "timestamp": "2026-09-30T12:31:03.550591"
+}

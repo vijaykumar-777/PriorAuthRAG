@@ -1,0 +1,35 @@
+{
+  "case_id": "SYN-041",
+  "cpt": "22220",
+  "condition": "Severe Ankylosing Spondylitis Chin-on-Chest Deformity",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Performed for EITHER of the following: correction of fixed cervical kyphotic deformity or converting a cervical kyphotic deformity from fixed to mobile.",
+      "system_result": "MET",
+      "patient_evidence": "Severe rigid 45° cervical kyphosis, autofused facets, dynamic views show absolute zero motion",
+      "policy_citation": "CMM.SP.IN.601.2 - Anterior Cervical Osteotomy or Vertebral Column Resection (TOC: S7.1) - CMM.SP.IN.601.2 v1.0.2026 - Page 7 of 39"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Correction of cervical kyphotic deformity cannot be attained by cervical fusion (with or without decompression/corpectomy) alone.",
+      "system_result": "MET",
+      "patient_evidence": "Severe rigid 45° cervical kyphosis, autofused facets, dynamic views show absolute zero motion",
+      "policy_citation": "CMM.SP.IN.601.2 - Anterior Cervical Osteotomy or Vertebral Column Resection (TOC: S7.1) - CMM.SP.IN.601.2 v1.0.2026 - Page 7 of 39"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "Patient has failed conservative management (or presents with acute emergent deficit). Recommended anterior cervical surgical intervention.",
+      "policy_citation": "CMM.SP.IN.601.2 - Anterior Cervical Osteotomy or Vertebral Column Resection (TOC: S7.1) - CMM.SP.IN.601.2 v1.0.2026 - Page 7 of 39"
+    }
+  ],
+  "notes": "The patient's medical records meet the criteria for medically necessary anterior cervical osteotomy or vertebral column resection (CPT 22220) as per Cigna policy CMM-601. The MRI report confirms a severe rigid 45° cervical kyphosis with autofused facets and absolute zero motion on dynamic views, indicating that conservative management has failed to correct this deformity. The physician's note indicates the patient has failed conservative management (physical therapy, NSAIDs, Gabapentin) and is recommended for surgical intervention. Therefore, all criteria under CMM.SP.IN.601.2 are met.",
+  "runtime_seconds": 48.29,
+  "timestamp": "2026-09-30T12:29:27.938666"
+}

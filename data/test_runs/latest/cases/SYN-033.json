@@ -1,0 +1,35 @@
+{
+  "case_id": "SYN-033",
+  "cpt": "63082",
+  "condition": "Multi-Segment Corpectomy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (removal of at least one-half of the vertebral body) is performed for ANY of the following: infection, trauma, tumor, compression at or behind the level of the vertebral body.",
+      "system_result": "MET",
+      "patient_evidence": "MRI Report: 'Continuous retrovertebral OPLL extending behind both C5 and C6 vertebral bodies'; 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. Physician Note: 'Diagnosis: Multi-Segment Corpectomy (C6 (Add-on to C5))'.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'Recommended anterior cervical surgical intervention.' (Standard of care for CPT 63082 implies fusion; the procedure code 63082 is for corpectomy with decompression, typically paired with fusion codes, and the policy requires fusion. The clinical plan for 'Multi-Segment Corpectomy' in the context of ACDF policy implies the standard fusion construct.)",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (CMM-601.4: Initial Primary ACDF).",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... No clinically meaningful functional improvement.' 'Trial of NSAIDs... and Gabapentin... with inadequate symptom relief.' PT Notes: 'Patient completed 8 weeks of active structured rehabilitation... Pain levels remain 7/10... less than clinically meaningful functional improvement.'",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (referencing CMM-601.4)"
+    }
+  ],
+  "notes": "The patient meets the medical necessity criteria for Anterior Cervical Corpectomy. The MRI confirms severe neural compression due to OPLL behind the vertebral bodies, satisfying the pathology requirement for corpectomy. The patient has completed the required conservative management (8 weeks of PT and medication trials) without improvement, satisfying the prerequisite ACDF criteria. The procedure is planned as an add-on segment to a primary procedure, consistent with the CPT 63082 description.",
+  "runtime_seconds": 22.36,
+  "timestamp": "2026-09-30T12:23:00.625050"
+}

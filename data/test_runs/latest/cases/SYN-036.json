@@ -1,0 +1,63 @@
+{
+  "case_id": "SYN-036",
+  "cpt": "63082",
+  "condition": "Multi-Segment Corpectomy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "The MRI report states: 'Multi-level OPLL involving C5 and exactly half of C6'. This indicates a partial corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "infection",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted records do not contain any evidence of infection.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "trauma",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted records do not contain any evidence of trauma.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "tumor",
+      "system_result": "NOT MET",
+      "patient_evidence": "The submitted records do not contain any evidence of tumor.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "compression at or behind the level of the vertebral body",
+      "system_result": "MET",
+      "patient_evidence": "The MRI report states: 'Multi-level OPLL involving C5 and exactly half of C6'. This indicates compression.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The physician note states: 'Proposed Procedure: CPT 63082 (C6 (Add-on to C5))'. This implies a fusion is planned or performed concurrently with the corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The physician note states: 'Proposed Procedure: CPT 63082 (C6 (Add-on to C5))'. This implies a discectomy and fusion are planned or performed concurrently with the corpectomy.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1) - CMM.SP.IN.601.5 v1.0.2026, Page 14 of 39"
+    }
+  ],
+  "notes": "The patient meets the criteria for a partial corpectomy (OPLL involving C5 and half of C6) and requires anterior cervical fusion due to the instability caused by the corpectomy. The submitted records include an MRI report confirming the OPLL, a physician note indicating the planned procedure includes a corpectomy with an add-on code suggesting fusion, and a physical therapy summary showing failed conservative management. No evidence of infection, trauma, or tumor was found in the submitted records. The cotinine test confirms tobacco abstinence.",
+  "runtime_seconds": 17.75,
+  "timestamp": "2026-09-30T12:25:38.525064"
+}

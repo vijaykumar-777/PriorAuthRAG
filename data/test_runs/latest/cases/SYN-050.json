@@ -1,0 +1,39 @@
+{
+  "case_id": "SYN-050",
+  "cpt": "22853",
+  "condition": "Interbody Cage Arthrodesis",
+  "selected_policy": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Lumbar spine imaging (MRI/CT/X-ray) to establish lumbar pathology",
+    "Documentation of lumbar decompression candidacy per CMM-608",
+    "Evidence of lumbar instability, deformity, or disc herniation as required by CMM-609.4"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "The individual is a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI CERVICAL SPINE... Target Interspace / Segment (C6-C7): C6-C7 severe foraminal stenosis with C7 root compression",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Anticipated Iatrogenic Instability / Adult Symptomatic Degenerative Spinal Deformity / Initial Disc Herniation / Recurrent Disc Herniation"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Imaging findings include ANY of the following: degenerative spondylolisthesis, spondylolisthesis with spondylolysis, post-operative instability, pars fracture, iatrogenic spondylolisthesis, coronal plane deformity, or sagittal imbalance.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI CERVICAL SPINE... C6-C7 severe foraminal stenosis with C7 root compression",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Adult Symptomatic Degenerative Spinal Deformity"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker OR individual has refrained from smoking... for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods.",
+      "system_result": "MET",
+      "patient_evidence": "QUEST CLINICAL PATHOLOGY - TOXICOLOGY REPORT... TEST: URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative (<10 ng/mL)... INTERPRETATION: Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability / Anticipated Iatrogenic Instability / Adult Symptomatic Degenerative Spinal Deformity / Initial Disc Herniation / Recurrent Disc Herniation / Second or Greater Recurrent Disc Herniation"
+    }
+  ],
+  "notes": "The requested procedure (CPT 22853) and clinical indication (Interbody Cage Arthrodesis) are for the cervical spine (C6-C7), as evidenced by the MRI report and physician note. The selected payer policy (CMM-609) specifically governs Lumbar Fusion. The patient's records do not contain any lumbar spine imaging or documentation of lumbar pathology (instability, deformity, or disc herniation) required to meet the medical necessity criteria for lumbar fusion under CMM-609. Therefore, the criteria for the requested policy are not met.",
+  "runtime_seconds": 52.87,
+  "timestamp": "2026-09-30T12:38:19.879504"
+}

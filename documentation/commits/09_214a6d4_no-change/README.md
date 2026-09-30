@@ -1,9 +1,9 @@
 # Commit 9: no change
 
 <nav>
-  <a href="../08_1079351_lab-management-pdf/README.md">&larr; Commit 8 (1079351)</a> | 
+  <a href="../08_1079351_lab-management-pdf/README.md">&larr; Previous Commit (1079351)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../10_ddb23b3_noocr/README.md">Commit 10 (ddb23b3) &rarr;</a>
+ | <a href="../10_ddb23b3_noocr/README.md">Next Commit (ddb23b3) &rarr;</a>
 </nav>
 
 ---
@@ -12,32 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `214a6d4` (`214a6d41e14d5174d6ca2bdbd98cc868bc2a20f7`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#9` |
+| **Short Hash** | `214a6d4` |
+| **Full Hash** | `214a6d41e14d5174d6ca2bdbd98cc868bc2a20f7` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-11 17:09:15 +0530 |
-| **Files Touched** | **6** (1 added, 2 modified, 3 deleted) |
-| **Lines Changed** | **+3** / **-311** |
+| **Files Affected** | **6** |
+| **Lines Added** | **+3** |
+| **Lines Deleted** | **-311** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Intake raw Cigna Lab Management PDF and purge obsolete experimental scripts.
+- **Added files**: 1
+- **Modified files**: 2
+- **Deleted files**: 3
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Removed `new_embedding.py` and experimental Docling TOC prototypes to clear technical debt ahead of Lab Management pipeline construction.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `214a6d4`**:
-> Raw `Cigna_Lab_Management.pdf` committed into `Lab_Management/raw/`; workspace sanitized.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Committed `Lab_Management/raw/Cigna_Lab_Management.pdf`.
-- Deleted legacy script `new_embedding.py` (291 lines) and `docling/TOC.py`.
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -51,7 +41,7 @@ Removed `new_embedding.py` and experimental Docling TOC prototypes to clear tech
 ---
 
 <nav>
-  <a href="../08_1079351_lab-management-pdf/README.md">&larr; Commit 8 (1079351)</a> | 
+  <a href="../08_1079351_lab-management-pdf/README.md">&larr; Previous Commit (1079351)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../10_ddb23b3_noocr/README.md">Commit 10 (ddb23b3) &rarr;</a>
+ | <a href="../10_ddb23b3_noocr/README.md">Next Commit (ddb23b3) &rarr;</a>
 </nav>

@@ -1,0 +1,38 @@
+{
+  "case_id": "SYN-042",
+  "cpt": "22845",
+  "condition": "Cervical Arthrodesis Instrumentation",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Add On",
+  "system_overall_result": "UNKNOWN",
+  "missing_information": [
+    "Specific medical necessity criteria for CMM-601.4 (Initial Primary ACDF) are not present in the retrieved policy text.",
+    "Detailed radiographic evidence of dynamic instability (e.g., specific translation measurements) is missing from the X-ray report, which only states 'Evaluation of dynamic instability completed.'"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to iatrogenic instability/increased disc degeneration.",
+      "system_result": "MET",
+      "patient_evidence": "Proposed Procedure: CPT 22845 (C5 to C7 (3 vertebral segments))... Diagnosis: Cervical Arthrodesis Instrumentation",
+      "policy_citation": "CMM-601.3"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion.",
+      "system_result": "MET",
+      "patient_evidence": "Plan: Patient has failed conservative management... Recommended anterior cervical surgical intervention.",
+      "policy_citation": "CMM-601.3"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (CMM-601.4: Initial Primary ACDF).",
+      "system_result": "UNKNOWN",
+      "patient_evidence": "Patient records indicate 16 weeks of symptoms, 8 weeks of PT, and MRI showing severe neural compression at C5-C7. However, the specific criteria for CMM-601.4 (e.g., specific duration of conservative care, specific imaging thresholds) are not provided in the retrieved policy text to verify compliance.",
+      "policy_citation": "CMM-601.3 referencing CMM-601.4"
+    }
+  ],
+  "notes": "The submitted records demonstrate a clinical picture consistent with cervical radiculopathy/myelopathy at C5-C7 that has failed conservative management (8 weeks PT, medications). The requested CPT 22845 is an add-on code for anterior instrumentation spanning 2-3 segments, which aligns with the MRI findings of 3-segment involvement (C5-C7). However, the retrieved policy text only provides the general guideline for CMM-601.3 and references CMM-601.4 for specific criteria. Since the specific criteria for CMM-601.4 (Initial Primary ACDF) are missing from the provided policy excerpt, it is impossible to definitively adjudicate whether the specific medical necessity thresholds (such as exact duration of conservative care or specific imaging requirements) are met. Therefore, the result is UNKNOWN due to missing policy criteria.",
+  "runtime_seconds": 30.01,
+  "timestamp": "2026-09-30T12:29:59.453853"
+}

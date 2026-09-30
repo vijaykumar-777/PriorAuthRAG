@@ -1,0 +1,42 @@
+{
+  "case_id": "SYN-027",
+  "cpt": "63081",
+  "condition": "Retrovertebral Cord Compression",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:",
+      "system_result": "MET",
+      "patient_evidence": "Anterior cervical corpectomy with fusion is considered medically necessary and can be performed as an alternative for anterior cervical discectomy and fusion (ACDF) when ALL of the following criteria have been met:\n- Complete corpectomy or partial corpectomy (i.e., removal of at least one-half of the vertebral body [not for resection of osteophytes alone]) is performed for ANY of the following:\n- infection\n- trauma\n- tumor\n- compression at or behind the level of the vertebral body",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "Anterior cervical corpectomy with fusion is considered medically necessary and can be performed as an alternative for anterior cervical discectomy and fusion (ACDF) when ALL of the following criteria have been met:\n- Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "Anterior cervical corpectomy with fusion is considered medically necessary and can be performed as an alternative for anterior cervical discectomy and fusion (ACDF) when ALL of the following criteria have been met:\n- Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:\n- CMM-601.4: Initial Primary Anterior Cervical Discectomy with Fusion (ACDF)\n- CMM-601.6: Repeat Anterior Cervical Discectomy with Fusion (ACDF) at the Same Level\n- CMM-601.7: Adjacent Segment Disease\n- CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Retrovertebral Cord Compression",
+      "system_result": "MET",
+      "patient_evidence": "Clinical INDICATION: Retrovertebral Cord Compression, 20 weeks duration.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (TOC: S10.1)"
+    }
+  ],
+  "notes": "The patient's clinical indication of Retrovertebral Cord Compression is directly supported by the MRI report findings, specifically 'Severe ossification of posterior longitudinal ligament (OPLL) behind C6 vertebral body causing high-grade cord compression'. The submitted records meet all criteria for medically necessary anterior cervical corpectomy with fusion as outlined in the Cigna ACDF policy (CMM-601.5). Specifically, the patient has undergone a complete corpectomy (removal of the C6 vertebral body) and is being treated for compression at or behind the level of the vertebral body, which is an indication for anterior cervical corpectomy. The procedure is also required due to the iatrogenic instability resulting from the corpectomy, necessitating a fusion.",
+  "runtime_seconds": 34.85,
+  "timestamp": "2026-09-30T12:20:52.313632"
+}

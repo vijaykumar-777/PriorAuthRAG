@@ -1,9 +1,9 @@
 # Commit 3: working-
 
 <nav>
-  <a href="../02_a7b0a69_2nd/README.md">&larr; Commit 2 (a7b0a69)</a> | 
+  <a href="../02_a7b0a69_2nd/README.md">&larr; Previous Commit (a7b0a69)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../04_0c3d41e_removed-unnecessary-files/README.md">Commit 4 (0c3d41e) &rarr;</a>
+ | <a href="../04_0c3d41e_removed-unnecessary-files/README.md">Next Commit (0c3d41e) &rarr;</a>
 </nav>
 
 ---
@@ -12,33 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `9c6bc65` (`9c6bc65394479355f0c34d1203159fb5fe071456`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#3` |
+| **Short Hash** | `9c6bc65` |
+| **Full Hash** | `9c6bc65394479355f0c34d1203159fb5fe071456` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-08 11:42:24 +0530 |
-| **Files Touched** | **6** (0 added, 6 modified, 0 deleted) |
-| **Lines Changed** | **+4854** / **-3131** |
+| **Files Affected** | **6** |
+| **Lines Added** | **+4854** |
+| **Lines Deleted** | **-3131** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Overhaul chunk-to-TOC hierarchy mapping to prevent isolated chunks from losing their parent medical policy headings.
+- **Added files**: 0
+- **Modified files**: 6
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Introduced the Enriched Chunk Schema (`*_enriched_chunks.json`). Each chunk now stores `section_path`, `heading_hierarchy`, `policy_id`, and `cpt_codes` alongside raw text so parent context is never lost during retrieval.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `9c6bc65`**:
-> ACDF and Lumbar chunks now retain parent headings and ancestry breadcrumbs. Retrieval can inspect parent section context for improved medical necessity matching.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Overhauled `hierarchical-processing/chunk_toc_mapper.py` to associate chunks with Table of Contents heading nodes.
-- Generated enriched chunks for ACDF (`Cigna_ACDF_enriched_chunks.json`) and Lumbar Fusion (`Cigna_Lumbar_Fusion_enriched_chunks.json`).
-- Documented pipeline edge cases and section mapping anomalies in `issues.md`.
-
-## 5. Affected Files & Line Diffs
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -52,7 +41,7 @@ Introduced the Enriched Chunk Schema (`*_enriched_chunks.json`). Each chunk now 
 ---
 
 <nav>
-  <a href="../02_a7b0a69_2nd/README.md">&larr; Commit 2 (a7b0a69)</a> | 
+  <a href="../02_a7b0a69_2nd/README.md">&larr; Previous Commit (a7b0a69)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../04_0c3d41e_removed-unnecessary-files/README.md">Commit 4 (0c3d41e) &rarr;</a>
+ | <a href="../04_0c3d41e_removed-unnecessary-files/README.md">Next Commit (0c3d41e) &rarr;</a>
 </nav>

@@ -1,0 +1,86 @@
+{
+  "patient_id": "SYN-008",
+  "demographics": {
+    "age": 67,
+    "sex": "M",
+    "dob": "1974-05-12",
+    "mrn": "MRN-10008"
+  },
+  "diagnoses": [
+    {
+      "code": "M50.02",
+      "description": "Cervical Myelopathy",
+      "status": "active",
+      "onset_date": "2026-05-01"
+    }
+  ],
+  "symptoms": [
+    {
+      "symptom": "Cervical Myelopathy",
+      "location": "Cervical spine / Upper Extremity",
+      "severity": "Severe",
+      "frequency": "daily",
+      "duration_weeks": 16
+    }
+  ],
+  "symptom_duration": "16 weeks",
+  "clinical_findings": {
+    "motor": "Diffuse 4/5 upper extremity weakness, clumsiness buttoning shirts",
+    "sensory": "Loss of proprioception fingertips",
+    "reflexes": "Hyperreflexia 3+ bilaterally",
+    "spurling": "negative"
+  },
+  "treatments": [
+    "Physical therapy",
+    "Oral analgesics",
+    "Activity modification"
+  ],
+  "conservative_treatment": null,
+  "medications": [
+    {
+      "name": "Gabapentin",
+      "dosage": "300mg TID",
+      "duration_weeks": 0,
+      "response": "Inadequate relief"
+    },
+    {
+      "name": "Meloxicam",
+      "dosage": "15mg Daily",
+      "duration_weeks": 0,
+      "response": "Partial relief"
+    }
+  ],
+  "imaging": [
+    {
+      "modality": "X-ray",
+      "type": "Cervical spine dynamic flexion/extension",
+      "date": "2026-08-12",
+      "findings": "Severe degenerative spondylosis C4-C5",
+      "impression": "Dynamic stability study evaluated"
+    },
+    {
+      "modality": "MRI",
+      "type": "Cervical spine without contrast",
+      "date": "2026-08-15",
+      "findings": "C4-C5 severe cervical spinal canal stenosis with cord compression and intrinsic T2 hyperintensity",
+      "impression": "Target interspace compression noted"
+    }
+  ],
+  "labs": [
+    {
+      "test": "Urine cotinine (LC-MS/MS)",
+      "date": "2026-08-18",
+      "value": "Negative (<10 ng/mL)",
+      "reference_range": "< 10 ng/mL",
+      "interpretation": "Tobacco-free / Negative"
+    }
+  ],
+  "procedures": [],
+  "physician_assessment": "Patient presents with Cervical Myelopathy refractory to conservative measures.",
+  "documents": [
+    "physician_note.txt",
+    "mri_report.txt",
+    "xray_report.txt",
+    "lab_report.txt"
+  ]
+}

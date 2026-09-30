@@ -1,0 +1,66 @@
+{
+  "case_id": "SYN-016",
+  "cpt": "22554",
+  "condition": "Postural Neck Strain",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "CONFLICT",
+  "missing_information": [
+    "Patient preference regarding surgery.",
+    "Detailed functional status beyond 'Significant disability affecting work and daily activities of daily living'."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Clinical Indication",
+      "system_result": "MET",
+      "patient_evidence": "Patient presents with neck and right arm pain lasting 8 weeks. Physical exam shows tenderness over mid-cervical spinous processes and restricted extension/lateral rotation. Conservative management (physical therapy) was attempted for 6 weeks with no clinically meaningful functional improvement. The physician note explicitly states 'Diagnosis: Postural Neck Strain (C4-C5)' and recommends 'Proposed Procedure: CPT 22554 (C4-C5).'",
+      "policy_citation": "Policy requires a clinical indication."
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Duration of Treatment",
+      "system_result": "MET",
+      "patient_evidence": "Patient completed 6 weeks (12 visits) of physical therapy. The physician note explicitly states 'Response: No clinically meaningful functional improvement.' and 'Recommended anterior cervical surgical intervention.'",
+      "policy_citation": "Policy requires a minimum duration of treatment before considering surgery."
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Imaging Findings",
+      "system_result": "CONFLICT",
+      "patient_evidence": "MRI report (mri_report.txt) states 'Target Interspace / Segment (C4-C5): Normal cervical MRI without disc pathology'. This contradicts the need for an anterior discectomy (part of CPT 22554). The MRI also mentions 'Severe neural compression concordant with clinical radiculopathy/myelopathy', which is inconsistent with the imaging findings reported.",
+      "policy_citation": "Policy requires imaging findings consistent with the clinical indication."
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Patient Age/Health Status",
+      "system_result": "MET",
+      "patient_evidence": "Patient is 36 years old. No other significant comorbidities are mentioned.",
+      "policy_citation": "Policy requires patient age and health status to be appropriate for surgery."
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Other Factors",
+      "system_result": "MET",
+      "patient_evidence": "The physician note mentions 'Significant disability affecting work and daily activities of daily living.'",
+      "policy_citation": "Policy requires consideration of other factors."
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "Cotinine Test",
+      "system_result": "MET",
+      "patient_evidence": "Lab report (lab_report.txt) shows 'URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative' and 'Specimen confirms tobacco / nicotine abstinence (>6 weeks duration).'",
+      "policy_citation": "Policy requires a cotinine test to confirm tobacco/nicotine abstinence."
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "X-ray Findings",
+      "system_result": "MET",
+      "patient_evidence": "X-ray report (xray_report.txt) shows 'Dynamic flexion and extension lateral views: Normal'.",
+      "policy_citation": "Policy requires X-ray findings consistent with the clinical indication."
+    }
+  ],
+  "notes": "The primary conflict arises from the MRI report stating 'Normal cervical MRI without disc pathology' in the target segment (C4-C5), which contradicts the need for an anterior discectomy (part of CPT 22554). While the MRI also mentions 'Severe neural compression concordant with clinical radiculopathy/myelopathy', this finding does not support the surgical procedure requested, as the MRI itself shows no disc pathology or significant stenosis in the target segment. The physician note's mention of severe neural compression is inconsistent with the MRI findings reported.",
+  "runtime_seconds": 53.79,
+  "timestamp": "2026-09-30T12:13:37.525829"
+}

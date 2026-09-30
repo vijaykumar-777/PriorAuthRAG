@@ -1,0 +1,14 @@
+QUEST CLINICAL PATHOLOGY - TOXICOLOGY REPORT
+PATIENT ID: SYN-006
+SPECIMEN: URINE
+COLLECTION DATE: 2026-08-18
+
+TEST: URINE COTININE SCREEN (LC-MS/MS)
+RESULT: Positive (active smoker)
+REFERENCE RANGE:
+  Non-smoker / Tobacco-free: < 10.0 ng/mL
+  Passive exposure: 10.0 - 50.0 ng/mL
+  Active tobacco / nicotine user: > 50.0 ng/mL
+
+INTERPRETATION:
+Specimen indicates active nicotine or tobacco metabolite presence.

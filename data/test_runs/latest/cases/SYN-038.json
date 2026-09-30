@@ -1,0 +1,38 @@
+{
+  "case_id": "SYN-038",
+  "cpt": "22220",
+  "condition": "Mobile Cervical Postural Deformity",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of fixed cervical kyphotic deformity (policy requires fixed deformity or conversion from fixed to mobile; patient has mobile deformity only)",
+    "Evidence that correction cannot be attained by cervical fusion alone (policy requires this for osteotomy/VCR)"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Performed for EITHER of the following: correction of fixed cervical kyphotic deformity OR converting a cervical kyphotic deformity from fixed to mobile",
+      "system_result": "NOT MET",
+      "patient_evidence": "X-ray report: 'Extension lateral radiograph demonstrates complete reduction of kyphosis to neutral lordosis (flexible deformity)'; MRI report: 'Mild disc bulge without fixed spinal deformity'; Physician note: 'Mobile Cervical Postural Deformity'",
+      "policy_citation": "CMM-601.2: Osteotomy > Anterior Osteotomy or Vertebral Column Resection"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Correction of cervical kyphotic deformity cannot be attained by cervical fusion (with or without decompression/corpectomy) alone.",
+      "system_result": "NOT MET",
+      "patient_evidence": "No documentation provided stating that fusion alone is insufficient for correction. The deformity is described as mobile/flexible, which is typically correctable with fusion alone, and no specific justification for osteotomy over fusion is present.",
+      "policy_citation": "CMM-601.2: Osteotomy > Anterior Osteotomy or Vertebral Column Resection"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (e.g., CMM-601.4)",
+      "system_result": "MET",
+      "patient_evidence": "Physician note: 'Completed 8 weeks (16 visits) of provider-directed physical therapy... No clinically meaningful functional improvement'; 'Trial of NSAIDs... and Gabapentin... with inadequate symptom relief'; MRI: 'Severe neural compression concordant with clinical radiculopathy/myelopathy'",
+      "policy_citation": "CMM-601.2 referencing CMM-601.4 (Initial Primary ACDF)"
+    }
+  ],
+  "notes": "The request for CPT 22220 (Anterior Cervical Osteotomy) is denied because the patient does not meet the specific medical necessity criteria for osteotomy/vertebral column resection. The policy requires the procedure to be performed for a 'fixed' cervical kyphotic deformity or to convert a fixed deformity to mobile. The submitted records (X-ray and MRI) explicitly document a 'mobile' or 'flexible' deformity that reduces to neutral lordosis on extension. Furthermore, there is no documentation that the deformity cannot be corrected by standard cervical fusion alone. While the patient meets the general criteria for ACDF (failed conservative management, radiculopathy), the specific criteria for the requested osteotomy procedure are not satisfied.",
+  "runtime_seconds": 3.09,
+  "timestamp": "2026-09-30T12:26:28.908872"
+}

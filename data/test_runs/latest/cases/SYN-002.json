@@ -1,0 +1,72 @@
+{
+  "case_id": "SYN-002",
+  "cpt": "22551",
+  "condition": "Cervical Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of a 6-week trial of prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs (current records show only a 6-week total duration of symptoms and a 3-week PT trial, with no explicit 6-week medication trial documented)."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+      "system_result": "MET",
+      "patient_evidence": "radiating down the right upper extremity into the shoulder and hand with numbness... Significant disability",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective findings",
+      "system_result": "MET",
+      "patient_evidence": "Motor: 4/5 triceps weakness; Sensory: C7 hypoesthesia; Reflexes: 1+ right triceps; Provocative Signs: Spurling maneuver is positive.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: (1) prescription strength analgesics/NSAIDs/gabapentinoids for six (6) weeks, (2) provider-directed exercise program for six (6) weeks, (3) epidural steroid injection(s) or selective nerve root block(s)",
+      "system_result": "NOT MET",
+      "patient_evidence": "Completed 3 weeks (6 visits) of provider-directed physical therapy... Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief. (No 6-week duration documented for either modality; no injections documented).",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)... Dynamic flexion and extension lateral views: Normal dynamic views",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings",
+      "system_result": "MET",
+      "patient_evidence": "C6-C7 disc extrusion with left C7 nerve root compression... Concordant cervical spine pathology at C6-C7",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Documentation of nicotine-free status (never-smoker or 6 weeks abstinence validated by cotinine testing)",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative (<10 ng/mL)... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    }
+  ],
+  "notes": "The request is denied because the patient has not met the medical necessity criteria for conservative management. The policy requires less than clinically meaningful improvement with at least TWO of the following: (1) 6 weeks of medication, (2) 6 weeks of physical therapy, or (3) injections. The patient's records document only 3 weeks of physical therapy and a medication trial of unspecified duration (symptoms began 6 weeks ago, but no 6-week medication trial is explicitly documented). Additionally, no injections were performed. Therefore, the requirement for 'at least TWO' failed modalities is not satisfied.",
+  "runtime_seconds": 5.23,
+  "timestamp": "2026-09-30T12:00:21.250609"
+}

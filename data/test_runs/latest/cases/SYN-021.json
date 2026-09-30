@@ -1,0 +1,73 @@
+{
+  "case_id": "SYN-021",
+  "cpt": "63075",
+  "condition": "Cervical Disc Herniation",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "CONFLICT",
+  "missing_information": [
+    "Documentation of epidural steroid injection(s) or selective nerve root block(s) (required as one of the two conservative management failures)",
+    "Clarification of the surgical level: Request is for C5-C6, but pathology is at C6-C7"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+      "system_result": "MET",
+      "patient_evidence": "radiating down the right upper extremity into the shoulder and hand with numbness",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign",
+      "system_result": "MET",
+      "patient_evidence": "Motor: 4/5 biceps weakness; Sensory: C6 sensory deficit; Reflexes: 1+ biceps; Provocative Signs: Spurling maneuver is positive.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: prescription strength analgesics/NSAIDs/gabapentinoids for six (6) weeks, provider-directed exercise program for six (6) weeks, epidural steroid injection(s) or selective nerve root block(s)",
+      "system_result": "MET",
+      "patient_evidence": "Completed 8 weeks (16 visits) of provider-directed physical therapy... Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)... Dynamic flexion and extension lateral views: Normal",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings",
+      "system_result": "CONFLICT",
+      "patient_evidence": "C5-C6 is completely normal. Severe disc extrusion is present at C6-C7 compressing C7 nerve root... DISCORDANT: Findings do not correlate with severe radicular symptoms at requested level.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Documentation of nicotine-free status with objective cotinine testing",
+      "system_result": "MET",
+      "patient_evidence": "TEST: URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4 Radiculopathy"
+    }
+  ],
+  "notes": "The request is denied due to a critical conflict between the requested surgical level and the imaging findings. The request is for CPT 63075 at C5-C6, but the MRI explicitly states 'C5-C6 is completely normal' and identifies the pathology (severe disc extrusion) at C6-C7. The policy requires imaging findings to be 'concordant with the individual's symptoms and physical exam findings' at the 'requested level(s)'. Additionally, the physical exam notes a C6 sensory deficit and biceps weakness, which anatomically corresponds to the C5 nerve root (exiting at C5-C6), further contradicting the C6-C7 pathology found on MRI. The patient meets all other criteria (conservative care, x-rays, nicotine status, mental health), but the level mismatch prevents approval.",
+  "runtime_seconds": 4.95,
+  "timestamp": "2026-09-30T12:15:26.071985"
+}

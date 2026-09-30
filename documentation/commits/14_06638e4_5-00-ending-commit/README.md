@@ -1,9 +1,9 @@
 # Commit 14: 5:00 ending commit
 
 <nav>
-  <a href="../13_eb6d9dc_fallback-commit/README.md">&larr; Commit 13 (eb6d9dc)</a> | 
+  <a href="../13_eb6d9dc_fallback-commit/README.md">&larr; Previous Commit (eb6d9dc)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../15_df5ef5f_same-day-last/README.md">Commit 15 (df5ef5f) &rarr;</a>
+ | <a href="../15_df5ef5f_same-day-last/README.md">Next Commit (df5ef5f) &rarr;</a>
 </nav>
 
 ---
@@ -12,35 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `06638e4` (`06638e406ff0027dc5fc446f6b36b8d60cba8c64`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#14` |
+| **Short Hash** | `06638e4` |
+| **Full Hash** | `06638e406ff0027dc5fc446f6b36b8d60cba8c64` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-18 16:55:23 +0530 |
-| **Files Touched** | **17** (7 added, 10 modified, 0 deleted) |
-| **Lines Changed** | **+367133** / **-535** |
+| **Files Affected** | **17** |
+| **Lines Added** | **+367133** |
+| **Lines Deleted** | **-535** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Refine Lab Management TOC tree hierarchy and chunk boundaries; ensure safety with backup files.
+- **Added files**: 7
+- **Modified files**: 10
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Tuned section header boundaries for genetic testing panels. Preserved `.bak` backups of primary JSON outputs for recovery.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `06638e4`**:
-> Stabilized Lab Management index with higher heading accuracy for genetic testing clauses.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Refined Lab Management TOC output and tree mappings.
-- Created `Cigna_Lab_Management.hierarchical.json.bak` and `.md.bak` for reproducibility.
-
-## 5. Affected Files & Line Diffs
-
-<details>
-<summary><b>View all 17 changed files</b> (Click to expand)</summary>
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -62,12 +49,10 @@ Tuned section header boundaries for genetic testing panels. Preserved `.bak` bac
 | 🟢 Added | [test_fallback_acdf/Cigna_ACDF.qa_report.json](../../../test_fallback_acdf/Cigna_ACDF.qa_report.json) | +21 / -0 |
 | 🟢 Added | [test_fallback_acdf/compare_acdf.py](../../../test_fallback_acdf/compare_acdf.py) | +75 / -0 |
 
-</details>
-
 ---
 
 <nav>
-  <a href="../13_eb6d9dc_fallback-commit/README.md">&larr; Commit 13 (eb6d9dc)</a> | 
+  <a href="../13_eb6d9dc_fallback-commit/README.md">&larr; Previous Commit (eb6d9dc)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../15_df5ef5f_same-day-last/README.md">Commit 15 (df5ef5f) &rarr;</a>
+ | <a href="../15_df5ef5f_same-day-last/README.md">Next Commit (df5ef5f) &rarr;</a>
 </nav>

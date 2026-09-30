@@ -1,0 +1,35 @@
+{
+  "case_id": "SYN-028",
+  "cpt": "63081",
+  "condition": "Osteophytes Only (Inappropriate for Corpectomy)",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete or partial corpectomy (removal of at least one-half of the vertebral body) is performed for ANY of the following: infection, trauma, tumor, or compression at or behind the level of the vertebral body. Explicitly excludes resection of osteophytes alone.",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI IMPRESSION: 'Marginal anterior osteophytes without retrovertebral body pathology or cord compression behind C5'; Physician Note Diagnosis: 'Osteophytes Only (Inappropriate for Corpectomy) (C5 vertebral body)'; Policy text: '(not for resection of osteophytes alone)'",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "CPT 63081 description includes 'Anterior Approach With Decompression...'; Physician Note Plan: 'Recommended anterior cervical surgical intervention' (implies standard fusion protocol for corpectomy).",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion (ACDF) criteria have been met in the applicable procedure-specific section (e.g., CMM-601.4).",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI Report: 'C5 vertebral body: Marginal anterior osteophytes without retrovertebral body pathology or cord compression behind C5'; Physician Note: 'Osteophytes Only (Inappropriate for Corpectomy)'. The pathology is limited to anterior osteophytes, which does not meet the criteria for decompression of the spinal cord or nerve roots via corpectomy, nor does it align with standard ACDF indications for disc pathology.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy, Page 14"
+    }
+  ],
+  "notes": "The request is denied because the clinical indication is explicitly 'Osteophytes Only'. The policy CMM-601.5 explicitly states that corpectomy is NOT medically necessary for 'resection of osteophytes alone'. Furthermore, the MRI confirms 'without retrovertebral body pathology or cord compression behind C5', meaning there is no compression at or behind the vertebral body level to justify a corpectomy. The physician's own diagnosis notes the condition is 'Inappropriate for Corpectomy'.",
+  "runtime_seconds": 12.84,
+  "timestamp": "2026-09-30T12:21:06.653629"
+}

@@ -2,7 +2,7 @@
 
 <nav>
   <a href="../README.md">All Commits Index</a>
- | <a href="../02_a7b0a69_2nd/README.md">Commit 2 (a7b0a69) &rarr;</a>
+ | <a href="../02_a7b0a69_2nd/README.md">Next Commit (a7b0a69) &rarr;</a>
 </nav>
 
 ---
@@ -11,37 +11,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `5d00445` (`5d0044598e3cd33b05afea3afe839a126efe2532`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#1` |
+| **Short Hash** | `5d00445` |
+| **Full Hash** | `5d0044598e3cd33b05afea3afe839a126efe2532` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-08 10:46:04 +0530 |
-| **Files Touched** | **226** (226 added, 0 modified, 0 deleted) |
-| **Lines Changed** | **+1367050** / **-0** |
+| **Files Affected** | **226** |
+| **Lines Added** | **+1367050** |
+| **Lines Deleted** | **-0** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Initialize the repository baseline by importing early prototype code for medical clinical policy parsing and embedding generation.
+- **Added files**: 226
+- **Modified files**: 0
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Eschewed flat character-window chunking in favor of exploring hierarchical chunking (`chunking.py`) to preserve medical policy clause ancestry. Established parallel tracks for BM25 lexical search (`bm25_index.py`) and vector embeddings.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `5d00445`**:
-> The project can ingest initial PDF policies (Cigna ACDF, Lumbar) and execute prototype chunking and standalone vector embedding scripts. No unified retrieval CLI or automated pipeline exists yet.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Imported core PDF documents (`Cigna_ACDF.pdf`, `Cigna_Lumbar_Fusion.pdf`) into `data/raw/`.
-- Added `chunking.py` implementing initial parent-child chunk mapping experiments.
-- Added `bm25_index.py` for early lexical search prototyping.
-- Drafted initial `architecture.md` outlining the end-to-end vision for Prior Authorization retrieval.
-
-## 5. Affected Files & Line Diffs
-
-<details>
-<summary><b>View all 226 changed files</b> (Click to expand)</summary>
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -272,11 +257,9 @@ Eschewed flat character-window chunking in favor of exploring hierarchical chunk
 | 🟢 Added | `toc.md` | +5 / -0 |
 | 🟢 Added | [tokens-being-used.md](../../../tokens-being-used.md) | +0 / -0 |
 
-</details>
-
 ---
 
 <nav>
   <a href="../README.md">All Commits Index</a>
- | <a href="../02_a7b0a69_2nd/README.md">Commit 2 (a7b0a69) &rarr;</a>
+ | <a href="../02_a7b0a69_2nd/README.md">Next Commit (a7b0a69) &rarr;</a>
 </nav>

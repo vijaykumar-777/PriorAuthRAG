@@ -1,0 +1,237 @@
+{
+  "case_id": "SYN-006",
+  "cpt": "22551",
+  "condition": "Cervical Radiculopathy / Emergency Deficit",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "The CMM-601.3 policy states: 'Anterior cervical discectomy must be performed with a cervical fusion due to the iatrogenic instability/increased disc degeneration of the anterior cervical discectomy procedure.' The submitted physician note explicitly states: 'Recommended anterior cervical surgical intervention.' Although the MRI report does not explicitly mention fusion, the clinical context (emergency deficit) and the explicit recommendation for surgery in the physician note strongly imply that a fusion is intended. The X-ray report notes 'Not performed due to acute acute motor loss', which implies the dynamic views were skipped but doesn't negate the need for fusion.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical discectomy is considered medically necessary when performed with a cervical fusion",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Recommended anterior cervical surgical intervention.' This implies the need for a fusion.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section:",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)'. This aligns with the CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) criteria.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "The patient has failed conservative management or presents with an acute emergent deficit.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Patient demonstrates rapid progressive motor deficit (2/5 severe weakness right biceps and wrist extension). Emergency surgical decompression indicated.' It also mentions: 'Completed 0 weeks (0 visits) of provider-directed physical therapy. Response: None attempted prior to surgical request.' This indicates failure of conservative management.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C9",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C10",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C11",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C12",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C13",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C14",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C15",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C16",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C17",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C18",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C19",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C20",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C21",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C22",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C23",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C24",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C25",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C26",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C27",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C28",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C29",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C30",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C31",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    },
+    {
+      "criterion_id": "C32",
+      "criterion": "The patient has a cervical radiculopathy/myelopathy.",
+      "system_result": "MET",
+      "patient_evidence": "The submitted physician note states: 'Diagnosis: Cervical Radiculopathy / Emergency Deficit (C5-C6)' and 'Severe neural compression concordant with clinical radiculopathy/myelopathy'. The MRI report also notes 'Severe neural compression concordant with clinical radiculopathy/myelopathy'.",
+      "policy_citation": "CMM-601.3: Anterior Cervical Discectomy (TOC: S8.1)"
+    }
+  ],
+  "runtime_seconds": 74.43,
+  "timestamp": "2026-09-30T12:04:08.176860"
+}

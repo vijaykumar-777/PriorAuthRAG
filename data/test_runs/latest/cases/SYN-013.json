@@ -1,0 +1,73 @@
+{
+  "case_id": "SYN-013",
+  "cpt": "22554",
+  "condition": "Cervical Radiculopathy",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Documentation of epidural steroid injection(s) or selective nerve root block(s) at the requested level(s) (C4-C5).",
+    "Explicit documentation of the duration of the prescription analgesic trial (policy requires 6 weeks; records state 'Trial' without specific start/end dates or duration)."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment.",
+      "system_result": "MET",
+      "patient_evidence": "Patient describes severe, unremitting daily pain... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability.",
+      "system_result": "MET",
+      "patient_evidence": "radiating down the right upper extremity into the shoulder and hand with numbness... Significant disability affecting work and daily activities of daily living.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective findings.",
+      "system_result": "MET",
+      "patient_evidence": "Motor: 4/5 deltoid/biceps weakness; Sensory: C5 numbness; Reflexes: Depressed biceps; Provocative Signs: Spurling maneuver is positive.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Less than clinically meaningful improvement with at least TWO of the following: (1) prescription strength analgesics/NSAIDs for six (6) weeks, (2) provider-directed exercise program for six (6) weeks, (3) epidural steroid injection(s) or selective nerve root block(s).",
+      "system_result": "NOT MET",
+      "patient_evidence": "Completed 8 weeks (16 visits) of provider-directed physical therapy... Trial of NSAIDs (Meloxicam 15mg daily) and Gabapentin (300mg TID) with inadequate symptom relief. [Note: No documentation of ESI/SNRB. Duration of medication trial not explicitly stated as 6 weeks in the provided text, only 'Trial'.]",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Plain x-rays of the cervical spine (including flexion/extension lateral views) have been performed.",
+      "system_result": "MET",
+      "patient_evidence": "EXAMINATION: CERVICAL SPINE 4-VIEW (AP, LATERAL, FLEXION, EXTENSION DYNAMIC VIEWS)... Dynamic flexion and extension lateral views: Completed",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C6",
+      "criterion": "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by herniated disc(s), synovial cyst, stenosis, or osteophytes.",
+      "system_result": "MET",
+      "patient_evidence": "C4-C5 disc extrusion with C5 nerve root compression... Concordant cervical spine pathology at C4-C5... Severe neural compression concordant with clinical radiculopathy/myelopathy",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C7",
+      "criterion": "Absence of unmanaged significant mental and/or behavioral health disorders.",
+      "system_result": "MET",
+      "patient_evidence": "No unmanaged major depressive disorder, psychiatric illness, or substance abuse disorder.",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    },
+    {
+      "criterion_id": "C8",
+      "criterion": "Documentation of nicotine-free status (never-smoker or 6+ weeks abstinence validated by cotinine testing).",
+      "system_result": "MET",
+      "patient_evidence": "URINE COTININE SCREEN (LC-MS/MS) RESULT: Negative... Specimen confirms tobacco / nicotine abstinence (>6 weeks duration)",
+      "policy_citation": "CMM-601.4: Radiculopathy"
+    }
+  ],
+  "notes": "The patient meets the clinical symptom, physical exam, imaging, and nicotine status criteria for ACDF. However, the request fails the conservative management criterion (C4). The policy requires failure of at least TWO of the three listed conservative treatments. The patient has documented failure of Physical Therapy (8 weeks). The patient has a 'trial' of medications, but the duration is not explicitly documented as 6 weeks in the provided notes (only 'Trial' is mentioned). Crucially, there is no documentation of an Epidural Steroid Injection (ESI) or Selective Nerve Root Block (SNRB). Without documentation of a second failed conservative modality (either confirmed 6-week medication trial or an ESI/SNRB), the medical necessity criteria are not fully satisfied.",
+  "runtime_seconds": 20.27,
+  "timestamp": "2026-09-30T12:09:43.434232"
+}

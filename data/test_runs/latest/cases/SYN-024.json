@@ -1,0 +1,56 @@
+{
+  "case_id": "SYN-024",
+  "cpt": "63076",
+  "condition": "Multi-Level Decompression",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Validated cotinine test results (serum, urinary, or saliva) confirming nicotine abstinence for >6 weeks."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "system_result": "NOT MET",
+      "patient_evidence": "Patient symptoms duration is 10 weeks, which is less than the required >6 months since prior ACDF at the same level.",
+      "policy_citation": "[1] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "patient_evidence_quote": "Symptoms began approximately 10 weeks ago."
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "system_result": "NOT MET",
+      "patient_evidence": "MRI report states 'Concordant cervical spine pathology at C6-C7 alone as detailed above.' It does not explicitly state malposition or failure.",
+      "policy_citation": "[3] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "patient_evidence_quote": "MRI report: 'Concordant cervical spine pathology at C6-C7 alone as detailed above.'"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Unremitting Neck Pain with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Patient symptoms duration is 10 weeks, which is less than the required >6 months since prior ACDF at the same level.",
+      "policy_citation": "[4] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Unremitting Neck Pain with Pseudoarthrosis",
+      "patient_evidence_quote": "Symptoms began approximately 10 weeks ago."
+    },
+    {
+      "criterion_id": "C4",
+      "criterion": "Radiculopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Patient symptoms duration is 10 weeks, which is less than the required >6 months since prior ACDF at the same level.",
+      "policy_citation": "[5] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Radiculopathy with Pseudoarthrosis",
+      "patient_evidence_quote": "Symptoms began approximately 10 weeks ago."
+    },
+    {
+      "criterion_id": "C5",
+      "criterion": "Myelopathy with Pseudoarthrosis",
+      "system_result": "NOT MET",
+      "patient_evidence": "Patient symptoms duration is 10 weeks, which is less than the required >6 months since prior ACDF at the same level.",
+      "policy_citation": "[6] Section: CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Myelopathy with Pseudoarthrosis",
+      "patient_evidence_quote": "Symptoms began approximately 10 weeks ago."
+    }
+  ],
+  "notes": "The patient's symptoms have been present for 10 weeks, which is less than the required duration of >6 months since a prior ACDF at the same level to meet the criteria for repeat surgery based on pseudoarthrosis or unremitting pain. Additionally, validated cotinine test results confirming nicotine abstinence are missing from the submitted records.",
+  "runtime_seconds": 65.55,
+  "timestamp": "2026-09-30T12:18:51.696711"
+}

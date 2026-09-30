@@ -1,0 +1,37 @@
+{
+  "case_id": "SYN-029",
+  "cpt": "63081",
+  "condition": "Cervical Osteomyelitis / Discitis",
+  "selected_policy": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "pa_required": "Yes",
+  "system_overall_result": "MET",
+  "missing_information": [
+    "Explicit documentation of planned cervical fusion (e.g., 'with fusion' or specific fusion CPT codes) in the surgical plan, although implied by the procedure type and policy requirement."
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "Complete corpectomy or partial corpectomy (removal of at least one-half of the vertebral body) is performed for infection, trauma, tumor, or compression at/behind the vertebral body.",
+      "system_result": "MET",
+      "patient_evidence": "MRI Report: 'C5 osteomyelitis/discitis with extensive bony destruction and epidural abscess compressing cord'; Physician Note: 'Diagnosis: Cervical Osteomyelitis / Discitis (C5 vertebral body)'; Proposed Procedure: 'CPT 63081 (C5 vertebral body)'",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "Anterior cervical corpectomy must be performed with a cervical fusion due to the iatrogenic instability of the corpectomy procedure.",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: 'Recommended anterior cervical surgical intervention'; Policy context implies fusion is mandatory for CPT 63081 in this context; Standard of care for corpectomy includes fusion.",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "Anterior cervical discectomy and fusion criteria have been met in the applicable procedure-specific section (CMM-601.4).",
+      "system_result": "MET",
+      "patient_evidence": "Physician Note: '*** URGENT ASSESSMENT: Patient demonstrates rapid progressive motor deficit (3/5 myelopathic weakness). Emergency surgical decompression indicated. ***'; 'Conservative Management Review: Completed 0 weeks... Response: None attempted prior to surgical request.'",
+      "policy_citation": "CMM-601.5: Anterior Cervical Corpectomy (referencing CMM-601.4)"
+    }
+  ],
+  "notes": "The patient presents with C5 cervical osteomyelitis/discitis with an epidural abscess causing severe neural compression and rapid progressive myelopathy (3/5 weakness). This constitutes a medical emergency/urgent condition. The policy CMM-601.5 explicitly lists 'infection' as a valid indication for anterior cervical corpectomy. The requirement for fusion is inherent to the procedure and standard of care. The requirement to meet ACDF criteria (CMM-601.4) is satisfied via the urgent/emergent exception due to the progressive motor deficit and acute infectious compression, which waives the need for a trial of conservative management. The active smoker status (cotinine positive) is noted but does not override the medical necessity for emergent decompression in the context of progressive myelopathy.",
+  "runtime_seconds": 14.26,
+  "timestamp": "2026-09-30T12:21:22.420765"
+}

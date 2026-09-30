@@ -1,0 +1,39 @@
+{
+  "case_id": "SYN-046",
+  "cpt": "22845",
+  "condition": "Corpectomy Reconstruction Stabilization",
+  "selected_policy": "Cigna Radiation Oncology",
+  "pa_required": "Add On",
+  "system_overall_result": "NOT MET",
+  "missing_information": [
+    "Radiation Oncology treatment plan (e.g., IMRT, 3DCRT, SBRT) to establish context for IGRT",
+    "Diagnosis of a malignancy or condition requiring radiation therapy (e.g., cancer, sarcoma)",
+    "Documentation of radiation therapy simulation or treatment delivery"
+  ],
+  "criterion_evaluations": [
+    {
+      "criterion_id": "C1",
+      "criterion": "The requested procedure must be Image-Guided Radiation Therapy (IGRT) or a component thereof, as defined by the policy.",
+      "system_result": "NOT MET",
+      "patient_evidence": "Requested Procedure: CPT 22845 (Anterior instrumentation; 2 to 3 vertebral segments). Clinical Indication: Corpectomy Reconstruction Stabilization.",
+      "policy_citation": "Section: Radiation Oncology Guidelines For Special Techniques > Image-Guided Radiation Therapy (IGRT) (TOC: S3.7)"
+    },
+    {
+      "criterion_id": "C2",
+      "criterion": "IGRT is considered medically necessary when IMRT has been approved and is being utilized, or in specific 3DCRT/SBRT contexts listed in the policy.",
+      "system_result": "NOT MET",
+      "patient_evidence": "No evidence of IMRT, 3DCRT, or SBRT in the submitted records. Records describe a surgical spine case (C5 corpectomy).",
+      "policy_citation": "Section: Radiation Oncology Guidelines For Special Techniques > Image-Guided Radiation Therapy (IGRT) (TOC: S3.7)"
+    },
+    {
+      "criterion_id": "C3",
+      "criterion": "The clinical indication must align with a condition treated by radiation oncology (e.g., cancer, sarcoma, lymphoma).",
+      "system_result": "NOT MET",
+      "patient_evidence": "Diagnosis: Corpectomy Reconstruction Stabilization (C4 to C6 across C5 corpectomy). History: Cervical spondylosis. No mention of malignancy or radiation therapy.",
+      "policy_citation": "Section: Radiation Oncology Guidelines For Special Techniques > Image-Guided Radiation Therapy (IGRT) (TOC: S3.7)"
+    }
+  ],
+  "notes": "The submitted medical records describe a patient undergoing evaluation for an anterior cervical corpectomy and fusion (CPT 22845) due to cervical spondylosis and radiculopathy/myelopathy. The requested policy is 'Cigna Radiation Oncology' which governs Image-Guided Radiation Therapy (IGRT). CPT 22845 is a surgical instrumentation code, not a radiation therapy code. There is a fundamental mismatch between the requested procedure (spine surgery) and the selected policy (radiation oncology). The patient's records do not support a diagnosis or treatment plan involving radiation therapy, making the application of this policy inappropriate and the criteria for IGRT medical necessity not met.",
+  "runtime_seconds": 30.92,
+  "timestamp": "2026-09-30T12:32:55.780562"
+}

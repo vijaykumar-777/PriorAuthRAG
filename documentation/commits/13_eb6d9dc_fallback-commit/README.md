@@ -1,9 +1,9 @@
 # Commit 13: fallback commit
 
 <nav>
-  <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">&larr; Commit 12 (c13c799)</a> | 
+  <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">&larr; Previous Commit (c13c799)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../14_06638e4_5-00-ending-commit/README.md">Commit 14 (06638e4) &rarr;</a>
+ | <a href="../14_06638e4_5-00-ending-commit/README.md">Next Commit (06638e4) &rarr;</a>
 </nav>
 
 ---
@@ -12,36 +12,22 @@
 
 | Attribute | Value |
 | :--- | :--- |
-| **Commit Hash** | `eb6d9dc` (`eb6d9dcb6817f161cdcf26bb5d475f0bb0dd8226`) |
-| **Author** | vijaykumarbk <vijaykumarb@boston-technology.com> |
+| **Commit Index** | `#13` |
+| **Short Hash** | `eb6d9dc` |
+| **Full Hash** | `eb6d9dcb6817f161cdcf26bb5d475f0bb0dd8226` |
+| **Author** | vijaykumarbk &lt;vijaykumarb@boston-technology.com&gt; |
 | **Date** | 2026-09-18 10:09:25 +0530 |
-| **Files Touched** | **16** (15 added, 1 modified, 0 deleted) |
-| **Lines Changed** | **+22806** / **-1** |
+| **Files Affected** | **16** |
+| **Lines Added** | **+22806** |
+| **Lines Deleted** | **-1** |
 
-## 1. Intent & Purpose
+## Change Breakdown
 
-Ingest Cigna Knee guideline, provide automated policy ingestion CLI, and document project history.
+- **Added files**: 15
+- **Modified files**: 1
+- **Deleted files**: 0
 
-## 2. Key Architectural Decisions (ADR Rationale)
-
-Created `ingest_policy.py` for automated one-command guideline ingestion. Ingested Cigna Knee policy (`data/policies/Cigna_Knee/`). Added project `README.md` and `CONTEXT_HISTORY.md`.
-
-## 3. Cumulative System Capability (State Until This Commit)
-
-> [!NOTE]
-> **System State as of `eb6d9dc`**:
-> Three guidelines fully indexed (Lumbar, Lab Management, Knee). Automated policy ingestion CLI available.
-
-## 4. What Actually Changed (Functional Breakdown)
-
-- Added `ingest_policy.py` (418 lines) automating PDF to chunks, BM25, and embeddings.
-- Ingested Cigna Knee policy with TOC, chunks, BM25 (151 KB), embeddings (636 KB), and QA report.
-- Added comprehensive `README.md` and `CONTEXT_HISTORY.md` (244 lines).
-
-## 5. Affected Files & Line Diffs
-
-<details>
-<summary><b>View all 16 changed files</b> (Click to expand)</summary>
+## Changed Files List
 
 | Status | File Path | Lines (+/-) |
 | :--- | :--- | :--- |
@@ -62,12 +48,10 @@ Created `ingest_policy.py` for automated one-command guideline ingestion. Ingest
 | 🟢 Added | [hierarchical-processing/policies_manifest.json.bak](../../../hierarchical-processing/policies_manifest.json.bak) | +29 / -0 |
 | 🟢 Added | [ingest_policy.py](../../../ingest_policy.py) | +418 / -0 |
 
-</details>
-
 ---
 
 <nav>
-  <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">&larr; Commit 12 (c13c799)</a> | 
+  <a href="../12_c13c799_after-falbback-execution-for-lab/README.md">&larr; Previous Commit (c13c799)</a> | 
   <a href="../README.md">All Commits Index</a>
- | <a href="../14_06638e4_5-00-ending-commit/README.md">Commit 14 (06638e4) &rarr;</a>
+ | <a href="../14_06638e4_5-00-ending-commit/README.md">Next Commit (06638e4) &rarr;</a>
 </nav>
