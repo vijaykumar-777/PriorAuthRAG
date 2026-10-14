@@ -159,17 +159,23 @@ def load_index(policy_hint=None):
 # EMBED QUERY
 # ============================================================
 
-def embed_query(query):
+import time
 
-    response = client.embeddings.create(
-        model=MODEL,
-        input=query
-    )
-
-    return np.asarray(
-        response.data[0].embedding,
-        dtype=np.float32
-    )
+def embed_query(query, max_retries=4):
+    for attempt in range(max_retries):
+        try:
+            response = client.embeddings.create(
+                model=MODEL,
+                input=query
+            )
+            return np.asarray(
+                response.data[0].embedding,
+                dtype=np.float32
+            )
+        except Exception as e:
+            if attempt == max_retries - 1:
+                raise e
+            time.sleep(1.5 * (attempt + 1))
 
 
 # ============================================================

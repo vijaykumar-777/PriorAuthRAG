@@ -2,6 +2,8 @@
   "name": "prior-auth-rag",
   "version": "1.0.0",
   "scripts": {
+    "dev": "./run.sh",
+    "start": "./run.sh",
     "update-docs": "node .agents/plugins/hook-auto-docs/scripts/update-structure-docs.js && node .agents/plugins/hook-auto-docs/scripts/generate-git-history.js",
     "update-history": "node .agents/plugins/hook-auto-docs/scripts/generate-git-history.js",
     "update-structure": "node .agents/plugins/hook-auto-docs/scripts/update-structure-docs.js"

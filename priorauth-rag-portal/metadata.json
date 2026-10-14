@@ -1,0 +1,6 @@
+{
+  "name": "PriorAuth RAG Portal",
+  "description": "Clinical Decision Support & Automated RAG Prior Authorization Engine with Policy Hierarchy and Audit Log",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

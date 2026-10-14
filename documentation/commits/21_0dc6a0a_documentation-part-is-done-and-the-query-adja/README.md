@@ -3,6 +3,7 @@
 <nav>
   <a href="../20_882a68c_before-fixes-everything-is-working/README.md">&larr; Previous Commit (882a68c)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md">Next Commit (ce7f236) &rarr;</a>
 </nav>
 
 ---
@@ -100,4 +101,5 @@
 <nav>
   <a href="../20_882a68c_before-fixes-everything-is-working/README.md">&larr; Previous Commit (882a68c)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md">Next Commit (ce7f236) &rarr;</a>
 </nav>

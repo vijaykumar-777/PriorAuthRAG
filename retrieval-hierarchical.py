@@ -57,7 +57,7 @@ def call_llm(prompt: str, json_mode: bool = True) -> str:
         try:
             from groq import Groq
             groq_client = Groq(api_key=GROQ_API_KEY)
-            models_to_try = [GEN_MODEL, "qwen/qwen3.8-27b", "llama-3.1-8b-instant", "groq/compound-mini", "openai/gpt-oss-120b"]
+            models_to_try = [GEN_MODEL, "qwen/qwen3.8-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"]
             for m in models_to_try:
                 if not m:
                     continue
@@ -310,12 +310,34 @@ META_QUERY_STOPWORDS = {
     "procedure", "procedures", "test", "testing"
 }
 
+def get_clinical_subsections(flat_nodes: dict, primary_tid: str) -> list[str]:
+    """Dynamically extract meaningful clinical child subsection titles under a primary TOC section."""
+    subs = []
+    parent_title = flat_nodes.get(primary_tid, "").lower().strip()
+    parent_clean = re.sub(r"^cmm[-\s\.\d]+:\s*", "", parent_title).strip()
+    prefix = primary_tid + "."
+    for tid, title in flat_nodes.items():
+        if tid.startswith(prefix):
+            t_clean = re.sub(r"^cmm[-\s\.\d]+:\s*", "", title).strip()
+            t_lower = t_clean.lower()
+            if not t_clean or any(ign in t_lower for ign in [
+                "guideline page", "table of contents", "instructions for use", "references", "evidence discussion", "codes"
+            ]):
+                continue
+            if t_lower == parent_clean or t_lower == parent_title:
+                continue
+            if t_clean not in subs:
+                subs.append(t_clean)
+    return subs
+
+
 def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cpt_desc: str = None, max_candidates: int = 6) -> list[dict]:
     """
     Dynamically rank candidate policy sections across all registered documents using:
       1. Direct CPT code mentions in chunk text/tables (highest fidelity)
       2. BM25 keyword matching across chunk metadata
       3. Title token overlap with document flat_toc nodes
+      4. Dynamic clinical subsection density
     Zero hardcoding: uses document-provided metadata and TOC files.
     """
     import pickle
@@ -391,6 +413,7 @@ def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cp
                                     "doc_name": doc_name,
                                     "toc_id": primary_t_id,
                                     "title": title,
+                                    "subsections": get_clinical_subsections(flat_nodes, primary_t_id),
                                     "score": 25.0
                                 }
                             else:
@@ -423,12 +446,14 @@ def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cp
                             "doc_name": doc_name,
                             "toc_id": primary_t_id,
                             "title": title,
+                            "subsections": get_clinical_subsections(flat_nodes, primary_t_id),
                             "score": sc
                         }
                     else:
                         candidates_by_key[c_key]["score"] += sc * 0.5
 
-            # 3. Direct Title lexical matching against flat_nodes
+            # 3. Direct Title lexical matching against flat_nodes (best match per primary section)
+            title_boosts = {}
             for tid, title in flat_nodes.items():
                 title_lower = title.lower()
                 if not is_admin_query and any(term in title_lower for term in [
@@ -445,19 +470,30 @@ def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cp
                     primary_tid = ".".join(parts[:2]) if len(parts) >= 2 else tid
                     primary_tid = canonical_parent.get(primary_tid, primary_tid)
                     c_key = (k, primary_tid)
-                    if c_key not in candidates_by_key:
-                        candidates_by_key[c_key] = {
-                            "doc_key": k,
-                            "doc_name": doc_name,
-                            "toc_id": primary_tid,
-                            "title": flat_nodes.get(primary_tid, title),
-                            "score": boost
-                        }
-                    else:
-                        candidates_by_key[c_key]["score"] += boost
+                    title_boosts[c_key] = max(title_boosts.get(c_key, 0.0), boost)
+
+            for c_key, boost in title_boosts.items():
+                if c_key not in candidates_by_key:
+                    k, primary_tid = c_key
+                    candidates_by_key[c_key] = {
+                        "doc_key": k,
+                        "doc_name": doc_name,
+                        "toc_id": primary_tid,
+                        "title": flat_nodes.get(primary_tid, ""),
+                        "subsections": get_clinical_subsections(flat_nodes, primary_tid),
+                        "score": boost
+                    }
+                else:
+                    candidates_by_key[c_key]["score"] += boost
 
         except Exception:
             pass
+
+    # Dynamic clinical subsection density boost
+    for cand in candidates_by_key.values():
+        subs = cand.get("subsections", [])
+        if subs:
+            cand["score"] += min(len(subs) * 2.0, 6.0)
 
     ranked = sorted(candidates_by_key.values(), key=lambda x: x["score"], reverse=True)
     final_cands = []
@@ -487,15 +523,16 @@ def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str 
 
     cand_lines = []
     for c in candidates:
-        cand_lines.append(f"[{c['candidate_index']}] Policy: {c['doc_key']} | Section: [{c['toc_id']}] {c['title']}")
+        sub_str = f" (Subsections: {', '.join(c['subsections'][:4])})" if c.get("subsections") else ""
+        cand_lines.append(f"[{c['candidate_index']}] Policy: {c['doc_key']} | Section: [{c['toc_id']}] {c['title']}{sub_str}")
     candidates_text = "\n".join(cand_lines)
 
     procedure_str = f"\nProcedure / Clinical Context: {cpt_desc}" if cpt_desc else ""
 
     prompt = f"""You are an expert clinical prior authorization policy router.
 Given the clinical query and candidate policy sections below:
-1. Select the single candidate number (1, 2, 3...) whose section contains the medical necessity criteria for this procedure or condition.
-2. If the query names a clinical condition, illness, or diagnosis (e.g. "adjacent segment disease", "spondylolisthesis", "uveal melanoma") that is covered under candidate surgical/medical policies, select the primary matching candidate section (e.g. Lumbar Fusion or ACDF). Do NOT return null if candidate sections directly cover the condition.
+1. Select the single candidate number (1, 2, 3...) whose section contains the direct, substantive medical necessity criteria for this procedure or condition.
+2. If multiple candidates cover a condition or diagnosis, select the candidate section that provides direct, substantive clinical criteria subsections (e.g. Radiculopathy, Myelopathy, specific clinical indications) rather than general or procedural cross-reference stubs.
 3. If NONE of the candidates cover this procedure or condition, or if the question is about a routine non-precertified test (e.g. routine CBC, CMP, Lipid panel, HbA1c, TSH, Urinalysis, Vitamin D, routine office visits) that does not require prior authorization, return "selected_candidate": null.
 
 ### Candidate Policy Sections:
@@ -567,14 +604,17 @@ Output strictly a JSON object:
 def retrieve_scoped_chunks(query: str, doc_key: str, candidate_toc_ids: list[str], top_k: int = 8) -> list[dict]:
     """
     Stage 3: Run hybrid search strictly scoped to the candidate toc_ids of the target document.
+    Automatically resolves ancestor/canonical TOC IDs and cross-referenced guideline sections.
     """
     expanded_tocs = list(candidate_toc_ids)
     doc_info = registry.get_document(doc_key)
+    flat_nodes = {}
     if doc_info and doc_info.get("toc_file") and os.path.exists(doc_info["toc_file"]):
         try:
             with open(doc_info["toc_file"], "r", encoding="utf-8") as f:
                 t_data = json.load(f)
             flat = {n["toc_id"]: n.get("title", "").strip().lower() for n in t_data.get("flat_toc", []) if n.get("toc_id")}
+            flat_nodes = {n["toc_id"]: n.get("title", "") for n in t_data.get("flat_toc", []) if n.get("toc_id")}
             for tid in candidate_toc_ids:
                 parts = tid.split(".")
                 for i in range(1, len(parts)):
@@ -594,6 +634,41 @@ def retrieve_scoped_chunks(query: str, doc_key: str, candidate_toc_ids: list[str
         alpha=0.5,
         mode="hybrid"
     )
+
+    # Dynamic cross-reference resolution:
+    # If the retrieved chunks contain explicit delegation to other guideline sections within the policy
+    # (e.g. "applicable procedure-specific section: CMM-609.4 or CMM-609.5"), retrieve their chunks as well.
+    if results and flat_nodes:
+        referenced_section_codes = set()
+        for r in results:
+            text = r.get("text", "")
+            if "applicable procedure-specific section" in text.lower() or len(results) <= 3:
+                cmm_refs = re.findall(r"CMM-[0-9]{3}\.[0-9]+", text)
+                for ref in cmm_refs:
+                    referenced_section_codes.add(ref.upper())
+
+        additional_tocs = []
+        for tid, title in flat_nodes.items():
+            for ref in referenced_section_codes:
+                if ref in title.upper() and tid not in expanded_tocs and tid not in additional_tocs:
+                    additional_tocs.append(tid)
+
+        if additional_tocs:
+            print(f"  [Cross-Reference Expansion] Discovered referenced policy sections: {additional_tocs}")
+            extra_results = scoped_search(
+                query=query,
+                policy_hint=doc_key,
+                candidate_toc_ids=additional_tocs,
+                top_k=top_k,
+                alpha=0.5,
+                mode="hybrid"
+            )
+            existing_ids = set(r.get("chunk_id") for r in results)
+            for er in extra_results:
+                if er.get("chunk_id") not in existing_ids:
+                    results.append(er)
+                    existing_ids.add(er.get("chunk_id"))
+
     return results
 
 
@@ -865,7 +940,7 @@ def run_rag_pipeline(query: str, top_k: int = 8) -> dict:
         print("=" * 70)
         return structured_json
 
-    if prior_auth_status in ["Not Found", "Pending Policy Review", "Not Applicable"]:
+    if prior_auth_status in ["Not Found", "Pending Policy Review", "Not Applicable", "Add On"]:
         prior_auth_status = "Yes"
 
     doc_info = registry.get_document(doc_key)

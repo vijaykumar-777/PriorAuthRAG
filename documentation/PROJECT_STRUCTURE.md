@@ -1,6 +1,6 @@
 # Project Structure
 
-**Generated**: 2026-09-30 08:10:24
+**Generated**: 2026-10-14 09:20:10
 
 ## Project Information
 
@@ -9,6 +9,8 @@
 
 ## Available Scripts
 
+- `npm run dev`: ./run.sh
+- `npm run start`: ./run.sh
 - `npm run update-docs`: node .agents/plugins/hook-auto-docs/scripts/update-structure-docs.js && node .agents/plugins/hook-auto-docs/scripts/generate-git-history.js
 - `npm run update-history`: node .agents/plugins/hook-auto-docs/scripts/generate-git-history.js
 - `npm run update-structure`: node .agents/plugins/hook-auto-docs/scripts/update-structure-docs.js
@@ -28,10 +30,13 @@ project2/
 ├── [.gitignore](.gitignore)
 ├── [.graphifyignore](.graphifyignore)
 ├── [.project-structure.md](.project-structure.md)
+├── [50q_hierarchical_rag_evaluation_report.md](50q_hierarchical_rag_evaluation_report.md)
 ├── [CONTEXT_HISTORY.md](CONTEXT_HISTORY.md)
+├── [DESIGN.md](DESIGN.md)
 ├── [EVALUATION FOR LUMBAR.MD](EVALUATION FOR LUMBAR.MD)
 ├── [EVALUATION_REPORT_30Q.md](EVALUATION_REPORT_30Q.md)
 ├── [EXECUTION-STEPS.md](EXECUTION-STEPS.md)
+├── [FRONTEND_SPEC.md](FRONTEND_SPEC.md)
 ├── [LAB_MANAGEMENT_PDF.md](LAB_MANAGEMENT_PDF.md)
 ├── Lab_Management/
 │   ├── TOC/
@@ -72,6 +77,7 @@ project2/
 │   │   └── [Cigna_Lumbar_Fusion_hierarchical.md](Lumbar/output-lumbar/Cigna_Lumbar_Fusion_hierarchical.md)
 │   └── toc-mapped-chunks/
 │       └── [Cigna_Lumbar_Fusion_enriched_chunks.json](Lumbar/toc-mapped-chunks/Cigna_Lumbar_Fusion_enriched_chunks.json)
+├── [PRODUCT.md](PRODUCT.md)
 ├── [README.md](README.md)
 ├── Radiation/
 │   ├── bm25/
@@ -94,6 +100,7 @@ project2/
 ├── [Sep10LastChat.md](Sep10LastChat.md)
 ├── [Task Description and Checklist.md](Task Description and Checklist.md)
 ├── __pycache__/
+│   ├── [api_server.cpython-312.pyc](__pycache__/api_server.cpython-312.pyc)
 │   ├── [bm25_index.cpython-312.pyc](__pycache__/bm25_index.cpython-312.pyc)
 │   ├── [bm25_index.cpython-314.pyc](__pycache__/bm25_index.cpython-314.pyc)
 │   ├── [eval_lab_management_benchmark.cpython-312.pyc](__pycache__/eval_lab_management_benchmark.cpython-312.pyc)
@@ -101,7 +108,9 @@ project2/
 │   ├── [hybrid_search.cpython-314.pyc](__pycache__/hybrid_search.cpython-314.pyc)
 │   ├── [hybrid_search_hierarchical.cpython-312.pyc](__pycache__/hybrid_search_hierarchical.cpython-312.pyc)
 │   ├── [retrieval-hierarchical.cpython-312.pyc](__pycache__/retrieval-hierarchical.cpython-312.pyc)
-│   └── [retrieval-hierarchical.cpython-314.pyc](__pycache__/retrieval-hierarchical.cpython-314.pyc)
+│   ├── [retrieval-hierarchical.cpython-314.pyc](__pycache__/retrieval-hierarchical.cpython-314.pyc)
+│   └── [run.cpython-314.pyc](__pycache__/run.cpython-314.pyc)
+├── [api_server.py](api_server.py)
 ├── [architecture.md](architecture.md)
 ├── [auto-doc-commits.skill](auto-doc-commits.skill)
 ├── [auto-docs.skill](auto-docs.skill)
@@ -327,7 +336,86 @@ project2/
 │   │   ├── [20260925_170049_query_adjacent_segment_disease.json](data/results_new/20260925_170049_query_adjacent_segment_disease.json)
 │   │   ├── [20260925_170344_adjacent_segment_disease.json](data/results_new/20260925_170344_adjacent_segment_disease.json)
 │   │   ├── [20260925_170618_adjacent_segment_disease.json](data/results_new/20260925_170618_adjacent_segment_disease.json)
-│   │   └── [20260930_100449_adjacent_segment_disease.json](data/results_new/20260930_100449_adjacent_segment_disease.json)
+│   │   ├── [20260930_100449_adjacent_segment_disease.json](data/results_new/20260930_100449_adjacent_segment_disease.json)
+│   │   ├── [20260930_154247_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_154247_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_154326_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_154326_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_155051_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_155051_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_162957_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_162957_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_163243_What_are_the_criteria_for_initial_primary_anterior.json](data/results_new/20260930_163243_What_are_the_criteria_for_initial_primary_anterior.json)
+│   │   ├── [20260930_163355_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_163355_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_163734_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_163734_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_164019_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_164019_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_164214_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_164214_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20260930_164526_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20260930_164526_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_095358_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_095358_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_101952_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_101952_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_102216_What_are_the_prior_authorization_requirements_for_.json](data/results_new/20261014_102216_What_are_the_prior_authorization_requirements_for_.json)
+│   │   ├── [20261014_102252_What_are_the_coverage_criteria_for_CPT_22612_Lumba.json](data/results_new/20261014_102252_What_are_the_coverage_criteria_for_CPT_22612_Lumba.json)
+│   │   ├── [20261014_102430_What_are_the_indications_for_CPT_81162_BRCA1_and_B.json](data/results_new/20261014_102430_What_are_the_indications_for_CPT_81162_BRCA1_and_B.json)
+│   │   ├── [20261014_102442_Coverage_requirements_for_CPT_27447_total_knee_art.json](data/results_new/20261014_102442_Coverage_requirements_for_CPT_27447_total_knee_art.json)
+│   │   ├── [20261014_102501_Clinical_criteria_for_CPT_81292_MLH1_sequencing_fo.json](data/results_new/20261014_102501_Clinical_criteria_for_CPT_81292_MLH1_sequencing_fo.json)
+│   │   ├── [20261014_102548_What_are_the_prior_auth_criteria_for_CPT_22867_lum.json](data/results_new/20261014_102548_What_are_the_prior_auth_criteria_for_CPT_22867_lum.json)
+│   │   ├── [20261014_102614_Medical_necessity_criteria_for_CPT_81415_whole_exo.json](data/results_new/20261014_102614_Medical_necessity_criteria_for_CPT_81415_whole_exo.json)
+│   │   ├── [20261014_102624_Indications_for_CPT_81541_Prolaris_mRNA_prostate_c.json](data/results_new/20261014_102624_Indications_for_CPT_81541_Prolaris_mRNA_prostate_c.json)
+│   │   ├── [20261014_102648_Requirements_for_CPT_81552_DecisionDxUM_uveal_mela.json](data/results_new/20261014_102648_Requirements_for_CPT_81552_DecisionDxUM_uveal_mela.json)
+│   │   ├── [20261014_102725_Criteria_for_CPT_81321_PTEN_gene_analysis_for_Cowd.json](data/results_new/20261014_102725_Criteria_for_CPT_81321_PTEN_gene_analysis_for_Cowd.json)
+│   │   ├── [20261014_102738_Coverage_criteria_for_CPT_0047U_Decipher_prostate_.json](data/results_new/20261014_102738_Coverage_criteria_for_CPT_0047U_Decipher_prostate_.json)
+│   │   ├── [20261014_102811_Prior_auth_criteria_for_CPT_22207_lumbar_osteotomy.json](data/results_new/20261014_102811_Prior_auth_criteria_for_CPT_22207_lumbar_osteotomy.json)
+│   │   ├── [20261014_102831_Clinical_indications_for_CPT_77301_intensity_modul.json](data/results_new/20261014_102831_Clinical_indications_for_CPT_77301_intensity_modul.json)
+│   │   ├── [20261014_102831_What_are_the_requirements_for_CPT_22552_cervical_c.json](data/results_new/20261014_102831_What_are_the_requirements_for_CPT_22552_cervical_c.json)
+│   │   ├── [20261014_102855_Prior_authorization_requirements_for_CPT_77520_pro.json](data/results_new/20261014_102855_Prior_authorization_requirements_for_CPT_77520_pro.json)
+│   │   ├── [20261014_102917_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_102917_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_103038_What_are_the_medical_necessity_criteria_for_cervic.json](data/results_new/20261014_103038_What_are_the_medical_necessity_criteria_for_cervic.json)
+│   │   ├── [20261014_103159_What_are_the_clinical_indications_for_cervical_mye.json](data/results_new/20261014_103159_What_are_the_clinical_indications_for_cervical_mye.json)
+│   │   ├── [20261014_103234_Criteria_for_lumbar_spinal_fusion_in_degenerative_.json](data/results_new/20261014_103234_Criteria_for_lumbar_spinal_fusion_in_degenerative_.json)
+│   │   ├── [20261014_103312_When_is_lumbar_fusion_medically_necessary_for_pseu.json](data/results_new/20261014_103312_When_is_lumbar_fusion_medically_necessary_for_pseu.json)
+│   │   ├── [20261014_103440_What_are_the_indications_for_lumbar_fusion_followi.json](data/results_new/20261014_103440_What_are_the_indications_for_lumbar_fusion_followi.json)
+│   │   ├── [20261014_103444_When_is_total_knee_replacement_indicated_for_advan.json](data/results_new/20261014_103444_When_is_total_knee_replacement_indicated_for_advan.json)
+│   │   ├── [20261014_103509_What_are_the_clinical_criteria_for_hereditary_colo.json](data/results_new/20261014_103509_What_are_the_clinical_criteria_for_hereditary_colo.json)
+│   │   ├── [20261014_103515_When_is_repeat_ACDF_at_the_same_cervical_level_con.json](data/results_new/20261014_103515_When_is_repeat_ACDF_at_the_same_cervical_level_con.json)
+│   │   ├── [20261014_103559_Indications_for_stereotactic_body_radiation_therap.json](data/results_new/20261014_103559_Indications_for_stereotactic_body_radiation_therap.json)
+│   │   ├── [20261014_103632_What_are_the_conservative_therapy_requirements_bef.json](data/results_new/20261014_103632_What_are_the_conservative_therapy_requirements_bef.json)
+│   │   ├── [20261014_103804_What_nicotine_and_smoking_cessation_documentation_.json](data/results_new/20261014_103804_What_nicotine_and_smoking_cessation_documentation_.json)
+│   │   ├── [20261014_103913_Is_prior_authorization_required_for_anterior_cervi.json](data/results_new/20261014_103913_Is_prior_authorization_required_for_anterior_cervi.json)
+│   │   ├── [20261014_103920_Is_prior_authorization_required_for_routine_comple.json](data/results_new/20261014_103920_Is_prior_authorization_required_for_routine_comple.json)
+│   │   ├── [20261014_103927_Is_precertification_required_for_comprehensive_met.json](data/results_new/20261014_103927_Is_precertification_required_for_comprehensive_met.json)
+│   │   ├── [20261014_103937_Does_CPT_22612_posterior_lumbar_fusion_require_com.json](data/results_new/20261014_103937_Does_CPT_22612_posterior_lumbar_fusion_require_com.json)
+│   │   ├── [20261014_103946_Is_prior_auth_required_for_routine_lipid_panel_CPT.json](data/results_new/20261014_103946_Is_prior_auth_required_for_routine_lipid_panel_CPT.json)
+│   │   ├── [20261014_104029_Is_cervical_spinal_fusion_covered_for_isolated_axi.json](data/results_new/20261014_104029_Is_cervical_spinal_fusion_covered_for_isolated_axi.json)
+│   │   ├── [20261014_104148_Is_lumbar_spinal_fusion_indicated_for_uncomplicate.json](data/results_new/20261014_104148_Is_lumbar_spinal_fusion_indicated_for_uncomplicate.json)
+│   │   ├── [20261014_104212_Is_prior_authorization_required_for_CPT_27447_tota.json](data/results_new/20261014_104212_Is_prior_authorization_required_for_CPT_27447_tota.json)
+│   │   ├── [20261014_104323_Is_genetic_testing_for_BRCA1_covered_for_asymptoma.json](data/results_new/20261014_104323_Is_genetic_testing_for_BRCA1_covered_for_asymptoma.json)
+│   │   ├── [20261014_104324_Is_prior_authorization_required_for_Hemoglobin_A1c.json](data/results_new/20261014_104324_Is_prior_authorization_required_for_Hemoglobin_A1c.json)
+│   │   ├── [20261014_104446_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json](data/results_new/20261014_104446_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json)
+│   │   ├── [20261014_104451_What_are_the_surgical_criteria_for_cervical_spine_.json](data/results_new/20261014_104451_What_are_the_surgical_criteria_for_cervical_spine_.json)
+│   │   ├── [20261014_104506_Can_I_get_a_lumbar_fusion_for_spondylolisthesis.json](data/results_new/20261014_104506_Can_I_get_a_lumbar_fusion_for_spondylolisthesis.json)
+│   │   ├── [20261014_104554_What_are_the_rules_for_knee_surgery.json](data/results_new/20261014_104554_What_are_the_rules_for_knee_surgery.json)
+│   │   ├── [20261014_104625_Requirements_for_genetic_testing_for_cancer_risk.json](data/results_new/20261014_104625_Requirements_for_genetic_testing_for_cancer_risk.json)
+│   │   ├── [20261014_104701_When_is_radiation_therapy_approved.json](data/results_new/20261014_104701_When_is_radiation_therapy_approved.json)
+│   │   ├── [20261014_104713_Failed_back_syndrome_treatment_requirements.json](data/results_new/20261014_104713_Failed_back_syndrome_treatment_requirements.json)
+│   │   ├── [20261014_104735_What_documentation_does_the_doctor_need_to_submit_.json](data/results_new/20261014_104735_What_documentation_does_the_doctor_need_to_submit_.json)
+│   │   ├── [20261014_104745_What_are_the_precertification_guidelines_for_routi.json](data/results_new/20261014_104745_What_are_the_precertification_guidelines_for_routi.json)
+│   │   ├── [20261014_104753_Is_prior_auth_needed_for_thyroid_stimulating_hormo.json](data/results_new/20261014_104753_Is_prior_auth_needed_for_thyroid_stimulating_hormo.json)
+│   │   ├── [20261014_104802_Does_Vitamin_D_25hydroxy_assessment_CPT_82306_requ.json](data/results_new/20261014_104802_Does_Vitamin_D_25hydroxy_assessment_CPT_82306_requ.json)
+│   │   ├── [20261014_104812_Precertification_criteria_for_outpatient_physical_.json](data/results_new/20261014_104812_Precertification_criteria_for_outpatient_physical_.json)
+│   │   ├── [20261014_104821_Is_precertification_required_for_morselized_spine_.json](data/results_new/20261014_104821_Is_precertification_required_for_morselized_spine_.json)
+│   │   ├── [20261014_104821_Prior_authorization_requirements_for_established_p.json](data/results_new/20261014_104821_Prior_authorization_requirements_for_established_p.json)
+│   │   ├── [20261014_104822_Is_prior_authorization_required_for_gastric_restri.json](data/results_new/20261014_104822_Is_prior_authorization_required_for_gastric_restri.json)
+│   │   ├── [20261014_114730_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_114730_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_115044_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_115044_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_115636_CPT_22551_ACDF_criteria_for_adjacent_segment_disea.json](data/results_new/20261014_115636_CPT_22551_ACDF_criteria_for_adjacent_segment_disea.json)
+│   │   ├── [20261014_115812_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_115812_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_115907_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_115907_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_115907_when_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_115907_when_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_120729_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_120729_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_121349_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_121349_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_122526_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_122526_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_122546_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_122546_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_124436_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_124436_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_124931_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_124931_Is_CPT_22551_prior_auth_required.json)
+│   │   ├── [20261014_142328_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_142328_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261014_142422_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_142422_Is_CPT_22551_prior_auth_required.json)
+│   │   └── [20261014_142959_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_142959_Is_CPT_22551_prior_auth_required.json)
 │   ├── synthetic_cases/
 │   │   ├── [Synthetic_Test_Cases.xlsx](data/synthetic_cases/Synthetic_Test_Cases.xlsx)
 │   │   ├── cases/
@@ -673,6 +761,7 @@ project2/
 │   │           ├── [pt_notes.txt](data/synthetic_cases/documents/SYN-050/pt_notes.txt)
 │   │           └── [xray_report.txt](data/synthetic_cases/documents/SYN-050/xray_report.txt)
 │   └── test_runs/
+│       ├── [eval_50q_results.json](data/test_runs/eval_50q_results.json)
 │       └── latest/
 │           ├── cases/
 │           │   ├── [SYN-001.json](data/test_runs/latest/cases/SYN-001.json)
@@ -784,6 +873,8 @@ project2/
 │   │   │   └── [README.md](documentation/commits/20_882a68c_before-fixes-everything-is-working/README.md)
 │   │   ├── 21_0dc6a0a_documentation-part-is-done-and-the-query-adja/
 │   │   │   └── [README.md](documentation/commits/21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md)
+│   │   ├── 22_ce7f236_stage5-5-just-before-making-the-changes-to-th/
+│   │   │   └── [README.md](documentation/commits/22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md)
 │   │   └── [README.md](documentation/commits/README.md)
 │   └── features/
 │       ├── [clinical-policy-pipelines.md](documentation/features/clinical-policy-pipelines.md)
@@ -1022,17 +1113,52 @@ project2/
 ├── [package-lock.json](package-lock.json)
 ├── [package.json](package.json)
 ├── [pdf_plumber](pdf_plumber)
+├── priorauth-rag-portal/
+│   ├── [.env.example](priorauth-rag-portal/.env.example)
+│   ├── [.gitignore](priorauth-rag-portal/.gitignore)
+│   ├── [DESIGN.md](priorauth-rag-portal/DESIGN.md)
+│   ├── [PRODUCT.md](priorauth-rag-portal/PRODUCT.md)
+│   ├── [README.md](priorauth-rag-portal/README.md)
+│   ├── [index.html](priorauth-rag-portal/index.html)
+│   ├── [metadata.json](priorauth-rag-portal/metadata.json)
+│   ├── [package-lock.json](priorauth-rag-portal/package-lock.json)
+│   ├── [package.json](priorauth-rag-portal/package.json)
+│   ├── src/
+│   │   ├── [App.tsx](priorauth-rag-portal/src/App.tsx)
+│   │   ├── components/
+│   │   │   ├── [ActiveAuthorizationsView.tsx](priorauth-rag-portal/src/components/ActiveAuthorizationsView.tsx)
+│   │   │   ├── [ApiDocsModal.tsx](priorauth-rag-portal/src/components/ApiDocsModal.tsx)
+│   │   │   ├── [ClinicalAuditLogView.tsx](priorauth-rag-portal/src/components/ClinicalAuditLogView.tsx)
+│   │   │   ├── [CoverageRulesView.tsx](priorauth-rag-portal/src/components/CoverageRulesView.tsx)
+│   │   │   ├── [GuidelineInspectorView.tsx](priorauth-rag-portal/src/components/GuidelineInspectorView.tsx)
+│   │   │   ├── [Header.tsx](priorauth-rag-portal/src/components/Header.tsx)
+│   │   │   ├── [MedicalPoliciesView.tsx](priorauth-rag-portal/src/components/MedicalPoliciesView.tsx)
+│   │   │   ├── [MinimalDecisionEngine.tsx](priorauth-rag-portal/src/components/MinimalDecisionEngine.tsx)
+│   │   │   ├── [MinimalHeader.tsx](priorauth-rag-portal/src/components/MinimalHeader.tsx)
+│   │   │   ├── [MinimalPoliciesView.tsx](priorauth-rag-portal/src/components/MinimalPoliciesView.tsx)
+│   │   │   ├── [Sidebar.tsx](priorauth-rag-portal/src/components/Sidebar.tsx)
+│   │   │   ├── [TOCIndexView.tsx](priorauth-rag-portal/src/components/TOCIndexView.tsx)
+│   │   │   └── [Toast.tsx](priorauth-rag-portal/src/components/Toast.tsx)
+│   │   ├── [index.css](priorauth-rag-portal/src/index.css)
+│   │   ├── [main.tsx](priorauth-rag-portal/src/main.tsx)
+│   │   └── [types.ts](priorauth-rag-portal/src/types.ts)
+│   ├── [tsconfig.json](priorauth-rag-portal/tsconfig.json)
+│   └── [vite.config.ts](priorauth-rag-portal/vite.config.ts)
+├── [priorauth-rag-portal.zip](priorauth-rag-portal.zip)
 ├── [problem.md](problem.md)
 ├── [requirements.txt](requirements.txt)
 ├── [requirements2.txt](requirements2.txt)
 ├── [retireval.py](retireval.py)
 ├── [retrieval-hierarchical.py](retrieval-hierarchical.py)
+├── [run.py](run.py)
+├── [run.sh](run.sh)
 ├── scripts/
 │   ├── __pycache__/
 │   │   ├── [case_matrix.cpython-312.pyc](scripts/__pycache__/case_matrix.cpython-312.pyc)
 │   │   └── [patient_schema.cpython-312.pyc](scripts/__pycache__/patient_schema.cpython-312.pyc)
 │   ├── [case_matrix.py](scripts/case_matrix.py)
 │   ├── [compare_test_results.py](scripts/compare_test_results.py)
+│   ├── [eval_50q_comprehensive.py](scripts/eval_50q_comprehensive.py)
 │   ├── [generate_ground_truth.py](scripts/generate_ground_truth.py)
 │   ├── [generate_synthetic_cases.py](scripts/generate_synthetic_cases.py)
 │   ├── [patient_schema.py](scripts/patient_schema.py)
