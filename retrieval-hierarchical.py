@@ -331,7 +331,7 @@ def get_clinical_subsections(flat_nodes: dict, primary_tid: str) -> list[str]:
     return subs
 
 
-def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cpt_desc: str = None, max_candidates: int = 6) -> list[dict]:
+def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cpt_desc: str = None, max_candidates: int = 6, matched_rows: list[dict] = None) -> list[dict]:
     """
     Dynamically rank candidate policy sections across all registered documents using:
       1. Direct CPT code mentions in chunk text/tables (highest fidelity)
@@ -341,7 +341,16 @@ def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cp
     Zero hardcoding: uses document-provided metadata and TOC files.
     """
     import pickle
-    search_text = f"{query} {cpt_desc}" if cpt_desc else query
+    cat = matched_rows[0].get("Category", "") if matched_rows else ""
+    if cat:
+        desc_core = cpt_desc.split(";")[0].split(",")[0] if cpt_desc else ""
+        search_text = f"{query} {cat} {desc_core}".strip()
+    elif cpt_desc:
+        desc_words = cpt_desc.split()[:15]
+        search_text = f"{query} {' '.join(desc_words)}".strip()
+    else:
+        search_text = query
+
     raw_tokens = re.findall(r"[a-z0-9]+", search_text.lower())
     clean_tokens = [t for t in raw_tokens if t not in META_QUERY_STOPWORDS]
     tokens = clean_tokens if clean_tokens else raw_tokens
@@ -504,7 +513,7 @@ def get_ranked_candidate_sections(query: str, matched_cpts: list[str] = None, cp
     return final_cands
 
 
-def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str = None, matched_cpts: list[str] = None) -> tuple[str, list[str]]:
+def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str = None, matched_cpts: list[str] = None, matched_rows: list[dict] = None) -> tuple[str, list[str]]:
     """
     Stage 2: Route user query against available policy Table of Contents using Constrained Candidate-Index Selection.
     Returns: (document_key, list_of_toc_ids)
@@ -517,7 +526,13 @@ def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str 
 
     explicit_codes = matched_cpts if matched_cpts else re.findall(r"\b[0-9]{4}[0-9A-Za-z]\b|\b[0-9]{5}\b", query)
 
-    candidates = get_ranked_candidate_sections(query, matched_cpts=explicit_codes, cpt_desc=cpt_desc, max_candidates=6)
+    candidates = get_ranked_candidate_sections(
+        query,
+        matched_cpts=explicit_codes,
+        cpt_desc=cpt_desc,
+        max_candidates=6,
+        matched_rows=matched_rows
+    )
     if not candidates:
         return None, []
 
@@ -527,73 +542,100 @@ def route_query_to_toc(query: str, prior_auth_status: str = None, cpt_desc: str 
         cand_lines.append(f"[{c['candidate_index']}] Policy: {c['doc_key']} | Section: [{c['toc_id']}] {c['title']}{sub_str}")
     candidates_text = "\n".join(cand_lines)
 
-    procedure_str = f"\nProcedure / Clinical Context: {cpt_desc}" if cpt_desc else ""
+    # Format detailed clinical context
+    context_lines = []
+    if explicit_codes:
+        context_lines.append(f"CPT/HCPCS Code: {', '.join(explicit_codes)}")
+    if matched_rows:
+        r0 = matched_rows[0]
+        if r0.get("Program"):
+            context_lines.append(f"Clinical Program / Specialty: {r0['Program']}")
+        if r0.get("Category"):
+            context_lines.append(f"Procedure Category: {r0['Category']}")
+        if r0.get("Commercial Case Build Platform"):
+            context_lines.append(f"Case Build Platform: {r0['Commercial Case Build Platform']}")
+    if cpt_desc:
+        context_lines.append(f"Procedure Description: {cpt_desc}")
 
-    prompt = f"""You are an expert clinical prior authorization policy router.
-Given the clinical query and candidate policy sections below:
-1. Select the single candidate number (1, 2, 3...) whose section contains the direct, substantive medical necessity criteria for this procedure or condition.
-2. If multiple candidates cover a condition or diagnosis, select the candidate section that provides direct, substantive clinical criteria subsections (e.g. Radiculopathy, Myelopathy, specific clinical indications) rather than general or procedural cross-reference stubs.
-3. If NONE of the candidates cover this procedure or condition, or if the question is about a routine non-precertified test (e.g. routine CBC, CMP, Lipid panel, HbA1c, TSH, Urinalysis, Vitamin D, routine office visits) that does not require prior authorization, return "selected_candidate": null.
+    procedure_str = "\n\n### Procedure Clinical Context:\n" + "\n".join(context_lines) if context_lines else ""
+
+    prompt = f"""You are an expert clinical prior authorization policy router for health plan utilization review.
+Analyze the clinical question, clinical context, and candidate policy sections below:
+
+### Mandatory Rules for Candidate Selection:
+1. CLINICAL & ANATOMICAL DOMAIN CONCORDANCE:
+   The candidate policy section MUST match the specific clinical specialty, organ system/anatomy, and procedure type.
+   - Peripheral vascular interventions (e.g., femoral, popliteal, iliac, tibial arteries/veins, angioplasty, atherectomy, vascular stents) MUST NOT be routed to Coronary Artery Radiation Therapy (Brachytherapy), Spine, Knee, or Laboratory policies.
+   - Spine procedures (Cervical, Lumbar) MUST NOT be routed to Knee, Radiation Oncology, or Laboratory.
+   - Radiation Oncology policies MUST NOT be selected for standard non-radiation surgical interventions.
+   - Laboratory/Genetics policies MUST NOT be selected for surgical, interventional, or radiological procedures.
+
+2. SUBSTANTIVE MEDICAL NECESSITY CRITERIA:
+   Select a candidate only if its section directly contains substantive indications/contraindications and medical necessity rules for this specific procedure or diagnosis.
+
+3. STRICT NULL DETERMINATION FOR OUT-OF-INDEX PROCEDURES:
+   If NONE of the candidate sections cover this specific procedure or clinical domain (for example, when the procedure belongs to a specialty not represented by the candidate sections), you MUST return "selected_candidate": null.
+   DO NOT guess, force a match, or select a candidate merely because of generic overlapping words (such as "artery", "stent", "lesion", "catheter", "imaging"). Returning null is the expected, correct behavior when no relevant policy is indexed.
 
 ### Candidate Policy Sections:
 {candidates_text}
 
-### Question:
-{query}{procedure_str}
+### Clinical Question & Context:
+Question: {query}{procedure_str}
 
 ### Output Instructions:
 Output strictly a JSON object:
-{{"selected_candidate": <number 1-{len(candidates)} or null>, "reason": "<brief rationale>"}}
+{{
+  "selected_candidate": <number 1-{len(candidates)} or null>,
+  "reason": "<detailed clinical justification for your choice or explanation of why none apply>"
+}}
 """
 
     try:
         raw_resp = call_llm(prompt, json_mode=True)
         routing_data = extract_clean_json(raw_resp)
         sel = routing_data.get("selected_candidate")
+        reason = routing_data.get("reason", "")
 
-        if sel is not None:
+        # 1. Candidate index selected
+        if sel is not None and str(sel).lower() not in ["null", "none", "0"]:
             try:
                 sel_idx = int(sel)
                 if 1 <= sel_idx <= len(candidates):
                     chosen = candidates[sel_idx - 1]
+                    print(f"  [TOC Routing] LLM selected Candidate [{chosen['candidate_index']}]: {chosen['doc_key']} -> [{chosen['toc_id']}] {chosen['title']}")
                     return chosen["doc_key"], [chosen["toc_id"]]
             except (ValueError, TypeError):
                 pass
-        elif candidates and candidates[0]["score"] >= 35.0:
-            chosen = candidates[0]
-            print(f"  [Routing Fallback] Direct high title match on '{chosen['title']}'. Selecting Candidate [{chosen['candidate_index']}].")
-            return chosen["doc_key"], [chosen["toc_id"]]
 
-        # Fallback: check if the LLM returned document_key or toc_ids directly
+        # 2. LLM explicitly determined no candidate covers this procedure
+        # Strictly respect the LLM's clinical determination; do not override with blind fallbacks!
+        if "selected_candidate" in routing_data or sel is None:
+            print(f"  [TOC Routing] LLM determined no candidate policy covers this procedure: {reason}")
+            return None, []
+
+        # 3. Direct document_key / toc_ids fallback if LLM returned structured identifiers
         doc_key = routing_data.get("document_key")
         toc_ids = routing_data.get("toc_ids", [])
-        if doc_key and doc_key in registry.documents:
-            valid_tocs = set()
-            tf = registry.documents[doc_key].get("toc_file")
-            if tf and os.path.exists(tf):
-                try:
-                    with open(tf, "r", encoding="utf-8") as f:
-                        valid_tocs = set(n.get("toc_id") for n in json.load(f).get("flat_toc", []))
-                except Exception:
-                    pass
-
-            validated_ids = []
-            for tid in toc_ids:
-                s = str(tid).strip()
-                if s in valid_tocs:
-                    validated_ids.append(s)
-                elif candidates and candidates[0]["doc_key"] == doc_key:
-                    validated_ids.append(candidates[0]["toc_id"])
-            if validated_ids:
-                return doc_key, validated_ids
-            elif candidates and candidates[0]["doc_key"] == doc_key:
-                return doc_key, [candidates[0]["toc_id"]]
+        if doc_key and doc_key in registry.documents and toc_ids:
+            return doc_key, [str(t) for t in toc_ids]
 
     except Exception as e:
-        print(f"[Notice] TOC routing exception ({e})")
-        if candidates and candidates[0]["score"] >= 15.0:
-            return candidates[0]["doc_key"], [candidates[0]["toc_id"]]
+        print(f"  [Notice] TOC routing exception ({e})")
 
+    # 4. Fallback ONLY in case of catastrophic LLM failure / unparseable response,
+    # and ONLY if there is direct TITLE token overlap with the query.
+    # Never fall back solely on raw BM25 score from description keywords.
+    if candidates:
+        cand0 = candidates[0]
+        cand_title_words = set(re.findall(r"[a-z0-9]+", cand0["title"].lower())) - META_QUERY_STOPWORDS
+        query_words = set(re.findall(r"[a-z0-9]+", query.lower())) - META_QUERY_STOPWORDS
+        title_overlap = cand_title_words & query_words
+        if len(title_overlap) >= 2 or (len(title_overlap) >= 1 and any(len(w) >= 6 for w in title_overlap)):
+            print(f"  [Routing Fallback] Verified direct title match on '{cand0['title']}' (matched: {title_overlap}). Selecting Candidate [{cand0['candidate_index']}].")
+            return cand0["doc_key"], [cand0["toc_id"]]
+
+    print("  [TOC Routing] No verified candidate policy found for this query.")
     return None, []
 
 
@@ -897,16 +939,35 @@ def run_rag_pipeline(query: str, top_k: int = 8) -> dict:
     # STAGE 2: TOC-Level Policy & Section Routing
     # ---------------------------------------------------------
     print("\n[Stage 2: TOC-Level Routing]")
+    matched_rows = table_analysis.get("matched_rows", [])
     doc_key, routed_toc_ids = route_query_to_toc(
         query=query,
         prior_auth_status=prior_auth_status,
         cpt_desc=cpt_desc,
-        matched_cpts=matched_cpts
+        matched_cpts=matched_cpts,
+        matched_rows=matched_rows
     )
     if not doc_key or doc_key not in registry.documents:
         print("  [Notice] No matching policy document identified in registry.")
         notice_text = table_analysis.get("explanation", "")
-        if not notice_text:
+        policy_display = "None Identified in Index"
+
+        # If CPT is verified in the Master Table (e.g. Prior Auth = Yes) but no clinical policy is in the registry:
+        if matched_cpts and prior_auth_status.lower() in ["yes", "add on", "add-on"]:
+            matched_row = (matched_rows or [{}])[0]
+            prog = matched_row.get("Program") or ""
+            cat = matched_row.get("Category") or ""
+            platform = matched_row.get("Commercial Case Build Platform") or ""
+            policy_display = f"Cigna Precertification Master Table ({prog})" if prog else "Cigna Precertification Master Table"
+
+            notice_text = (
+                f"Commercial Prior Authorization IS REQUIRED for {', '.join(matched_cpts)}"
+                + (f" ({cat})" if cat else (f" ({cpt_desc[:60]}...)" if cpt_desc else ""))
+                + (f" under the '{prog}' clinical program" if prog else "")
+                + (f" (Case Build Platform: {platform})" if platform else "")
+                + " per the Cigna Precertification Master Table. A detailed clinical coverage policy guideline document for this specific specialty is not currently indexed in the active policy registry."
+            )
+        elif not notice_text:
             if status_lower == "not applicable":
                 notice_text = f"The query '{query}' refers to a medical diagnosis or condition rather than a billable procedure, surgery, or diagnostic service code. Commercial prior authorization applies strictly to procedures and test codes."
             elif status_lower == "no":
@@ -916,7 +977,7 @@ def run_rag_pipeline(query: str, top_k: int = 8) -> dict:
 
         structured_json = {
             "Prior auth required": prior_auth_status,
-            "Policy Name": "None Identified",
+            "Policy Name": policy_display,
             "Referred Sections": [],
             "Medical necessity indications": [],
             "Non-Indications": [],

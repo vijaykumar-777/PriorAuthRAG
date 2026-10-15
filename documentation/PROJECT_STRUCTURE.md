@@ -1,6 +1,6 @@
 # Project Structure
 
-**Generated**: 2026-10-14 09:20:10
+**Generated**: 2026-10-15 06:22:20
 
 ## Project Information
 
@@ -78,6 +78,7 @@ project2/
 │   └── toc-mapped-chunks/
 │       └── [Cigna_Lumbar_Fusion_enriched_chunks.json](Lumbar/toc-mapped-chunks/Cigna_Lumbar_Fusion_enriched_chunks.json)
 ├── [PRODUCT.md](PRODUCT.md)
+├── [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)
 ├── [README.md](README.md)
 ├── Radiation/
 │   ├── bm25/
@@ -415,7 +416,22 @@ project2/
 │   │   ├── [20261014_124931_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_124931_Is_CPT_22551_prior_auth_required.json)
 │   │   ├── [20261014_142328_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261014_142328_When_is_adjacent_segment_disease_considered_medica.json)
 │   │   ├── [20261014_142422_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_142422_Is_CPT_22551_prior_auth_required.json)
-│   │   └── [20261014_142959_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_142959_Is_CPT_22551_prior_auth_required.json)
+│   │   ├── [20261014_142959_Is_CPT_22551_prior_auth_required.json](data/results_new/20261014_142959_Is_CPT_22551_prior_auth_required.json)
+│   │   ├── [20261015_095441_is_prior_auth_required_for_Alpha1_Antitrypsin_Defi.json](data/results_new/20261015_095441_is_prior_auth_required_for_Alpha1_Antitrypsin_Defi.json)
+│   │   ├── [20261015_095841_is_prior_auth_required_for_CPT_37269.json](data/results_new/20261015_095841_is_prior_auth_required_for_CPT_37269.json)
+│   │   ├── [20261015_100404_is_prior_auth_required_for_CPT_37269.json](data/results_new/20261015_100404_is_prior_auth_required_for_CPT_37269.json)
+│   │   ├── [20261015_103719_is_prior_auth_required_for_CPT_37269.json](data/results_new/20261015_103719_is_prior_auth_required_for_CPT_37269.json)
+│   │   ├── [20261015_103732_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261015_103732_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261015_103808_is_prior_auth_required_for_CPT_22551.json](data/results_new/20261015_103808_is_prior_auth_required_for_CPT_22551.json)
+│   │   ├── [20261015_103946_When_is_adjacent_segment_disease_considered_medica.json](data/results_new/20261015_103946_When_is_adjacent_segment_disease_considered_medica.json)
+│   │   ├── [20261015_104237_is_prior_auth_required_for_adjacent_segment_diseas.json](data/results_new/20261015_104237_is_prior_auth_required_for_adjacent_segment_diseas.json)
+│   │   ├── [20261015_104422_is_prior_auth_required_for_adjacent_segment_diseas.json](data/results_new/20261015_104422_is_prior_auth_required_for_adjacent_segment_diseas.json)
+│   │   ├── [20261015_105235_what_are_the_indications_for_initial_primary_ACDF.json](data/results_new/20261015_105235_what_are_the_indications_for_initial_primary_ACDF.json)
+│   │   ├── [20261015_105634_yolo.json](data/results_new/20261015_105634_yolo.json)
+│   │   ├── [20261015_105644_allahu_akbar.json](data/results_new/20261015_105644_allahu_akbar.json)
+│   │   ├── [20261015_110132_Conservative_management_requirements_for_anterior_.json](data/results_new/20261015_110132_Conservative_management_requirements_for_anterior_.json)
+│   │   ├── [20261015_110334_Precertification_requirements_for_knee_surgery_CPT.json](data/results_new/20261015_110334_Precertification_requirements_for_knee_surgery_CPT.json)
+│   │   └── [20261015_115011_is_prior_auth_required_for_adjacent_segment_diseas.json](data/results_new/20261015_115011_is_prior_auth_required_for_adjacent_segment_diseas.json)
 │   ├── synthetic_cases/
 │   │   ├── [Synthetic_Test_Cases.xlsx](data/synthetic_cases/Synthetic_Test_Cases.xlsx)
 │   │   ├── cases/
@@ -875,6 +891,8 @@ project2/
 │   │   │   └── [README.md](documentation/commits/21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md)
 │   │   ├── 22_ce7f236_stage5-5-just-before-making-the-changes-to-th/
 │   │   │   └── [README.md](documentation/commits/22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md)
+│   │   ├── 23_6692cb3_frontend-connected/
+│   │   │   └── [README.md](documentation/commits/23_6692cb3_frontend-connected/README.md)
 │   │   └── [README.md](documentation/commits/README.md)
 │   └── features/
 │       ├── [clinical-policy-pipelines.md](documentation/features/clinical-policy-pipelines.md)

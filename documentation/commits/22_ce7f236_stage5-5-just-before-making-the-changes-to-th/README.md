@@ -3,6 +3,7 @@
 <nav>
   <a href="../21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md">&larr; Previous Commit (0dc6a0a)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../23_6692cb3_frontend-connected/README.md">Next Commit (6692cb3) &rarr;</a>
 </nav>
 
 ---
@@ -432,4 +433,5 @@
 <nav>
   <a href="../21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md">&larr; Previous Commit (0dc6a0a)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../23_6692cb3_frontend-connected/README.md">Next Commit (6692cb3) &rarr;</a>
 </nav>
