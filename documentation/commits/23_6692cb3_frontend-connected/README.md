@@ -3,6 +3,7 @@
 <nav>
   <a href="../22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md">&larr; Previous Commit (ce7f236)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md">Next Commit (474e6fd) &rarr;</a>
 </nav>
 
 ---
@@ -259,4 +260,5 @@
 <nav>
   <a href="../22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md">&larr; Previous Commit (ce7f236)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md">Next Commit (474e6fd) &rarr;</a>
 </nav>

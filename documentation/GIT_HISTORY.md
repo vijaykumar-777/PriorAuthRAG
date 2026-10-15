@@ -1,9 +1,9 @@
 # Project Git History & Evolution Documentation
 
 **Project**: `project2`  
-**Generated**: 2026-10-14 10:12:15  
-**Total Commits**: 23  
-**Timeline**: 2026-09-08 to 2026-10-14  
+**Generated**: 2026-10-15 11:21:50  
+**Total Commits**: 24  
+**Timeline**: 2026-09-08 to 2026-10-15  
 
 > [!TIP]
 > Each commit now has its own dedicated folder under [**`documentation/commits/`**](./commits/README.md) for modular browsing!
@@ -13,9 +13,9 @@
 | Metric | Details |
 | :--- | :--- |
 | **Initial Commit** | `5d00445` (2026-09-08) - *copy project* |
-| **Latest Commit (HEAD)** | `6692cb3` (2026-10-14) - *frontend connected* |
-| **Total Commits** | 23 |
-| **Contributors** | vijaykumarbk (23) |
+| **Latest Commit (HEAD)** | `474e6fd` (2026-10-15) - *feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview* |
+| **Total Commits** | 24 |
+| **Contributors** | vijaykumarbk (24) |
 
 ## Timeline Summary & Commit Folders
 
@@ -44,6 +44,7 @@
 | 21 | `0dc6a0a` | 2026-09-25 | vijaykumarbk | [documentation part is done and the query adjacent segment disease isnt working showing not applicable after the toc llm fixes](#commit-0dc6a0a) | 64 | [📂 21_0dc6a0a_documentation-part-is-done-and-the-query-adja/](./commits/21_0dc6a0a_documentation-part-is-done-and-the-query-adja/README.md) |
 | 22 | `ce7f236` | 2026-09-30 | vijaykumarbk | [stage5.5 just before making the changes to the pipeline to get a higher accuracy 50](#commit-ce7f236) | 396 | [📂 22_ce7f236_stage5-5-just-before-making-the-changes-to-th/](./commits/22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md) |
 | 23 | `6692cb3` | 2026-10-14 | vijaykumarbk | [frontend connected](#commit-6692cb3) | 223 | [📂 23_6692cb3_frontend-connected/](./commits/23_6692cb3_frontend-connected/README.md) |
+| 24 | `474e6fd` | 2026-10-15 | vijaykumarbk | [feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview](#commit-474e6fd) | 10 | [📂 24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/](./commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md) |
 
 ---
 
@@ -1522,6 +1523,31 @@
 | 🟢 Added | [scripts/eval_50q_comprehensive.py](../scripts/eval_50q_comprehensive.py) | +924 / -0 |
 
 </details>
+
+---
+
+### Commit 24: `474e6fd` - feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview
+
+<a id="commit-474e6fd"></a>
+
+- **Date**: 2026-10-15 16:51:48 +0530
+- **Author**: vijaykumarbk &lt;vancedxdxd@gmail.com&gt;
+- **Full Hash**: `474e6fddcd2bf10adc987a75ee95104cf1868fbe`
+- **Folder**: [**`commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/`**](./commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md)
+- **Change Summary**: 10 file(s) affected (2 added, 8 modified, 0 deleted)
+
+| Status | File Path | Lines (+/-) |
+| :--- | :--- | :--- |
+| 🟡 Modified | [.agents/plugins/hook-auto-docs/.state/.stop-hook.lock](../.agents/plugins/hook-auto-docs/.state/.stop-hook.lock) | +1 / -1 |
+| 🟡 Modified | [.agents/plugins/hook-auto-docs/.state/project2-structure-state.json](../.agents/plugins/hook-auto-docs/.state/project2-structure-state.json) | +19 / -1 |
+| 🟡 Modified | [.doc-agent/pending-commit.flag](../.doc-agent/pending-commit.flag) | +1 / -0 |
+| 🟢 Added | [PROJECT_OVERVIEW.md](../PROJECT_OVERVIEW.md) | +398 / -0 |
+| 🟡 Modified | [documentation/GIT_HISTORY.md](../documentation/GIT_HISTORY.md) | +250 / -6 |
+| 🟡 Modified | [documentation/PROJECT_STRUCTURE.md](../documentation/PROJECT_STRUCTURE.md) | +20 / -2 |
+| 🟡 Modified | [documentation/commits/22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md](../documentation/commits/22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md) | +2 / -0 |
+| 🟢 Added | [documentation/commits/23_6692cb3_frontend-connected/README.md](../documentation/commits/23_6692cb3_frontend-connected/README.md) | +262 / -0 |
+| 🟡 Modified | [documentation/commits/README.md](../documentation/commits/README.md) | +4 / -3 |
+| 🟡 Modified | [retrieval-hierarchical.py](../retrieval-hierarchical.py) | +108 / -47 |
 
 ---
 
