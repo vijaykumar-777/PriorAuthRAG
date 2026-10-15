@@ -3,6 +3,7 @@
 <nav>
   <a href="../25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md">&larr; Previous Commit (edcaccc)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../27_a90c553_docs-finalize-commit-history-and-project-docu/README.md">Next Commit (a90c553) &rarr;</a>
 </nav>
 
 ---
@@ -42,4 +43,5 @@
 <nav>
   <a href="../25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md">&larr; Previous Commit (edcaccc)</a> | 
   <a href="../README.md">All Commits Index</a>
+ | <a href="../27_a90c553_docs-finalize-commit-history-and-project-docu/README.md">Next Commit (a90c553) &rarr;</a>
 </nav>

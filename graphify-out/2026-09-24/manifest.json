@@ -1,0 +1,824 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1790234354.995053,
+    "seen": 1790235660.919107,
+    "ast_hash": "9eabca9f76fe7845fde15d3e018e6959",
+    "semantic_hash": "9eabca9f76fe7845fde15d3e018e6959"
+  },
+  ".codex/hooks.json": {
+    "mtime": 1790234354.9953797,
+    "seen": 1790235660.9191124,
+    "ast_hash": "94f4bf0d6d86da2c43f89e167fa2e6bf",
+    "semantic_hash": "94f4bf0d6d86da2c43f89e167fa2e6bf"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1787658576.9774802,
+    "seen": 1790235660.9191146,
+    "ast_hash": "ca6ff0a3b50988fc76c2c4e0a92a3320",
+    "semantic_hash": "ca6ff0a3b50988fc76c2c4e0a92a3320"
+  },
+  "Lab_Management/TOC/Lab_Management_toc_output.json": {
+    "mtime": 1790225581.7254949,
+    "seen": 1790235660.9191158,
+    "ast_hash": "c886b58a5db4272c4d63ee188f0e07d9",
+    "semantic_hash": "c886b58a5db4272c4d63ee188f0e07d9"
+  },
+  "Lab_Management/chunks/Cigna_Lab_Management.hierarchical_chunks.json": {
+    "mtime": 1790225581.7582963,
+    "seen": 1790235660.9191167,
+    "ast_hash": "b7e0b7ebfc15105d8a40022086916df1",
+    "semantic_hash": "b7e0b7ebfc15105d8a40022086916df1"
+  },
+  "Lab_Management/chunks/Cigna_Lab_Management_enriched_chunks.json": {
+    "mtime": 1790225581.7691135,
+    "seen": 1790235660.919118,
+    "ast_hash": "4752caafe835c9286a31904d16cd74ce",
+    "semantic_hash": "4752caafe835c9286a31904d16cd74ce"
+  },
+  "Lab_Management/embeddings/lab_management_metadata.json": {
+    "mtime": 1790225581.800536,
+    "seen": 1790235660.919119,
+    "ast_hash": "54c41886d6d87a6d59a6326a78073033",
+    "semantic_hash": "54c41886d6d87a6d59a6326a78073033"
+  },
+  "Lab_Management/output_tiered/Cigna_Lab_Management.hierarchical.json": {
+    "mtime": 1790225581.833935,
+    "seen": 1790235660.9191198,
+    "ast_hash": "2d950a57a77fdb5988b0c682d98643fc",
+    "semantic_hash": "2d950a57a77fdb5988b0c682d98643fc"
+  },
+  "Lab_Management/output_tiered/Cigna_Lab_Management.qa_report.json": {
+    "mtime": 1790225581.891266,
+    "seen": 1790235660.9191206,
+    "ast_hash": "391451d36c0f8164b16946ed8e16262f",
+    "semantic_hash": "391451d36c0f8164b16946ed8e16262f"
+  },
+  "Lumbar/TOC/Lumbar_toc_output.json": {
+    "mtime": 1788928883.9579043,
+    "seen": 1790235660.9191217,
+    "ast_hash": "e64c69aca4d5c57bcf66bd35ba581d3b",
+    "semantic_hash": "e64c69aca4d5c57bcf66bd35ba581d3b"
+  },
+  "Lumbar/chunks/Cigna_Lumbar_Fusion_hierarchical_chunks.json": {
+    "mtime": 1788929101.9682813,
+    "seen": 1790235660.9191225,
+    "ast_hash": "96f4348437f3273cccdd24d94f1b1785",
+    "semantic_hash": "96f4348437f3273cccdd24d94f1b1785"
+  },
+  "Lumbar/embeddings/lumbar_fusion_metadata.json": {
+    "mtime": 1788929976.864975,
+    "seen": 1790235660.9191234,
+    "ast_hash": "72ad6e519a80769028573786294e6f75",
+    "semantic_hash": "72ad6e519a80769028573786294e6f75"
+  },
+  "Lumbar/output-lumbar/Cigna_Lumbar_Fusion_hierarchical.json": {
+    "mtime": 1788928512.7709038,
+    "seen": 1790235660.9191244,
+    "ast_hash": "66209c3619716628171e66a8bbbf2af0",
+    "semantic_hash": "66209c3619716628171e66a8bbbf2af0"
+  },
+  "Lumbar/toc-mapped-chunks/Cigna_Lumbar_Fusion_enriched_chunks.json": {
+    "mtime": 1788929524.703812,
+    "seen": 1790235660.9191253,
+    "ast_hash": "70800c0ae843c71c332a490ea472f201",
+    "semantic_hash": "70800c0ae843c71c332a490ea472f201"
+  },
+  "Radiation/chunks/Cigna_Radiation_Oncology.hierarchical_chunks.json": {
+    "mtime": 1790230084.914269,
+    "seen": 1790235660.9191263,
+    "ast_hash": "d1c7b6cbae847685cfd8dcae8519680e",
+    "semantic_hash": "d1c7b6cbae847685cfd8dcae8519680e"
+  },
+  "Radiation/chunks/Cigna_Radiation_Oncology_enriched_chunks.json": {
+    "mtime": 1790230085.0467644,
+    "seen": 1790235660.919127,
+    "ast_hash": "e33002608f2a08aaef641b68c5e6df06",
+    "semantic_hash": "e33002608f2a08aaef641b68c5e6df06"
+  },
+  "Radiation/embeddings/Cigna_Radiation_Oncology_metadata.json": {
+    "mtime": 1790230142.7340674,
+    "seen": 1790235660.9191282,
+    "ast_hash": "458ef24734ff395a028a9f6497238c24",
+    "semantic_hash": "458ef24734ff395a028a9f6497238c24"
+  },
+  "Radiation/output/Cigna_Radiation_Oncology.hierarchical.json": {
+    "mtime": 1790230084.5727983,
+    "seen": 1790235660.919129,
+    "ast_hash": "a99f683f684b262142abc402f8a2d15a",
+    "semantic_hash": "a99f683f684b262142abc402f8a2d15a"
+  },
+  "Radiation/output/Cigna_Radiation_Oncology.qa_report.json": {
+    "mtime": 1790230081.706271,
+    "seen": 1790235660.9191296,
+    "ast_hash": "fc7a27343129cbaff13ecd3e1580eab6",
+    "semantic_hash": "fc7a27343129cbaff13ecd3e1580eab6"
+  },
+  "Radiation/toc/Cigna_Radiation_Oncology_toc_output.json": {
+    "mtime": 1790230084.8506277,
+    "seen": 1790235660.9191306,
+    "ast_hash": "0efe37149d17626d506ebc778c8a2b81",
+    "semantic_hash": "0efe37149d17626d506ebc778c8a2b81"
+  },
+  "bm25_index.py": {
+    "mtime": 1788842073.3036668,
+    "seen": 1790235660.9191313,
+    "ast_hash": "1b1831cbc9d94f99cf71af3acec13c46",
+    "semantic_hash": "1b1831cbc9d94f99cf71af3acec13c46"
+  },
+  "chunking.py": {
+    "mtime": 1787548210.8088465,
+    "seen": 1790235660.9191325,
+    "ast_hash": "27eacb27dcedee0d46c944dd5f9f0dbc",
+    "semantic_hash": "27eacb27dcedee0d46c944dd5f9f0dbc"
+  },
+  "csv_to_json.py": {
+    "mtime": 1787893596.9465308,
+    "seen": 1790235660.9191334,
+    "ast_hash": "c5963eb890062466e7bdc3f133eb92d7",
+    "semantic_hash": "c5963eb890062466e7bdc3f133eb92d7"
+  },
+  "data/benchmark_results.json": {
+    "mtime": 1788772339.0463643,
+    "seen": 1790235660.9191341,
+    "ast_hash": "288285cc5e23eb1adfe53d589639c724",
+    "semantic_hash": "288285cc5e23eb1adfe53d589639c724"
+  },
+  "data/benchmark_results_lab_management_20q.json": {
+    "mtime": 1790225581.891995,
+    "seen": 1790235660.9191353,
+    "ast_hash": "c96e82b744cc9da86b522e3f6310f408",
+    "semantic_hash": "c96e82b744cc9da86b522e3f6310f408"
+  },
+  "data/chunks/Cigna_ACDF_chunks.json": {
+    "mtime": 1787051580.6540112,
+    "seen": 1790235660.919136,
+    "ast_hash": "2880b54566dde0ee8a78b5e961230db4",
+    "semantic_hash": "2880b54566dde0ee8a78b5e961230db4"
+  },
+  "data/chunks/Cigna_Lumbar_Fusion_chunks.json": {
+    "mtime": 1786681832.8878958,
+    "seen": 1790235660.919137,
+    "ast_hash": "731b9137227e3d107b2bdbf786a8064c",
+    "semantic_hash": "731b9137227e3d107b2bdbf786a8064c"
+  },
+  "data/chunks/new/ACDF_CLOUDCONVERT_chunks.json": {
+    "mtime": 1787114572.3750498,
+    "seen": 1790235660.9191377,
+    "ast_hash": "07f01caebc9f6d518d1a44a72b6632f7",
+    "semantic_hash": "07f01caebc9f6d518d1a44a72b6632f7"
+  },
+  "data/chunks/new/Lumbar_CLOUDCONVERT_chunks.json": {
+    "mtime": 1787136705.5208352,
+    "seen": 1790235660.9191387,
+    "ast_hash": "c7338b09a8e8234edeea5601db1ff248",
+    "semantic_hash": "c7338b09a8e8234edeea5601db1ff248"
+  },
+  "data/embeddings/new_embeddings/Cigna_ACDF_metadata.json": {
+    "mtime": 1787051600.7327409,
+    "seen": 1790235660.9191396,
+    "ast_hash": "b1d242db623b49fe2593142d007680e4",
+    "semantic_hash": "b1d242db623b49fe2593142d007680e4"
+  },
+  "data/embeddings/new_embeddings_CLOUDCONVERT/ACDF_CLOUDCONVERT_metadata.json": {
+    "mtime": 1787114820.9406881,
+    "seen": 1790235660.9191403,
+    "ast_hash": "b291ddd3c76ae1350525c660facd2a7e",
+    "semantic_hash": "b291ddd3c76ae1350525c660facd2a7e"
+  },
+  "data/embeddings/new_embeddings_CLOUDCONVERT/Lumbar_CLOUDCONVERT_metadata.json": {
+    "mtime": 1787136806.0758169,
+    "seen": 1790235660.919141,
+    "ast_hash": "5d9184e97de01be3378b4f7f436964ff",
+    "semantic_hash": "5d9184e97de01be3378b4f7f436964ff"
+  },
+  "data/embeddings/old_embeddings/Cigna_ACDF_metadata.json": {
+    "mtime": 1787033221.9597113,
+    "seen": 1790235660.9191422,
+    "ast_hash": "4468e627ba2c47f93bb8256fb4936333",
+    "semantic_hash": "4468e627ba2c47f93bb8256fb4936333"
+  },
+  "data/embeddings/old_embeddings/Cigna_Lumbar_Fusion_metadata.json": {
+    "mtime": 1787033221.962003,
+    "seen": 1790235660.919143,
+    "ast_hash": "731b9137227e3d107b2bdbf786a8064c",
+    "semantic_hash": "731b9137227e3d107b2bdbf786a8064c"
+  },
+  "data/policies/Cigna_Knee/chunks/Cigna_Knee.hierarchical_chunks.json": {
+    "mtime": 1790225581.8936417,
+    "seen": 1790235660.9191437,
+    "ast_hash": "33eebc1ea13667e74d1d5db9dfa09d16",
+    "semantic_hash": "33eebc1ea13667e74d1d5db9dfa09d16"
+  },
+  "data/policies/Cigna_Knee/chunks/Cigna_Knee_enriched_chunks.json": {
+    "mtime": 1790225581.8943498,
+    "seen": 1790235660.9191446,
+    "ast_hash": "a1e7316e743f33e0cee00e789477b411",
+    "semantic_hash": "a1e7316e743f33e0cee00e789477b411"
+  },
+  "data/policies/Cigna_Knee/embeddings/Cigna_Knee_metadata.json": {
+    "mtime": 1790225581.8992167,
+    "seen": 1790235660.9191456,
+    "ast_hash": "f64212b87dfcb7fe4cfc9adaf5d1b6cc",
+    "semantic_hash": "f64212b87dfcb7fe4cfc9adaf5d1b6cc"
+  },
+  "data/policies/Cigna_Knee/output/Cigna_Knee.hierarchical.json": {
+    "mtime": 1790225581.9000528,
+    "seen": 1790235660.9191463,
+    "ast_hash": "ea61a52fe9ef3764dcd7ef263769f999",
+    "semantic_hash": "ea61a52fe9ef3764dcd7ef263769f999"
+  },
+  "data/policies/Cigna_Knee/output/Cigna_Knee.qa_report.json": {
+    "mtime": 1790225581.9005723,
+    "seen": 1790235660.9191473,
+    "ast_hash": "a4ec66f1281eec446a387fb16025e7aa",
+    "semantic_hash": "a4ec66f1281eec446a387fb16025e7aa"
+  },
+  "data/policies/Cigna_Knee/toc/Cigna_Knee_toc_output.json": {
+    "mtime": 1790225581.9032032,
+    "seen": 1790235660.919148,
+    "ast_hash": "ab65f7abab034354804025226718a9e2",
+    "semantic_hash": "ab65f7abab034354804025226718a9e2"
+  },
+  "docling/docling_pdf.py": {
+    "mtime": 1789113969.588776,
+    "seen": 1790235660.9191487,
+    "ast_hash": "c0dc4fe0e3f3dc98e7cdf4f61292f5df",
+    "semantic_hash": "c0dc4fe0e3f3dc98e7cdf4f61292f5df"
+  },
+  "docling/docling_pdf_no_ocr.py": {
+    "mtime": 1789470833.6082308,
+    "seen": 1790235660.9191499,
+    "ast_hash": "e84fa0f69b8d0d2f87f611233fb610e4",
+    "semantic_hash": "e84fa0f69b8d0d2f87f611233fb610e4"
+  },
+  "docling/docling_plain.py": {
+    "mtime": 1787808793.3274305,
+    "seen": 1790235660.9191506,
+    "ast_hash": "59d61f0935b2ee3e1d6f60ebc038199a",
+    "semantic_hash": "59d61f0935b2ee3e1d6f60ebc038199a"
+  },
+  "docling/pdf_json.py": {
+    "mtime": 1787720138.2116191,
+    "seen": 1790235660.9191518,
+    "ast_hash": "6bff0ab326fe00fe73b9233979bc2bf2",
+    "semantic_hash": "6bff0ab326fe00fe73b9233979bc2bf2"
+  },
+  "docling/pdf_new.py": {
+    "mtime": 1787722037.5749617,
+    "seen": 1790235660.919153,
+    "ast_hash": "7512a0585cdf093dd729947f8a1111ba",
+    "semantic_hash": "7512a0585cdf093dd729947f8a1111ba"
+  },
+  "docling/table.py": {
+    "mtime": 1787830239.7387562,
+    "seen": 1790235660.9191537,
+    "ast_hash": "289bae6b52e68a276d12432ed321880e",
+    "semantic_hash": "289bae6b52e68a276d12432ed321880e"
+  },
+  "embedding.py": {
+    "mtime": 1786699229.6377642,
+    "seen": 1790235660.9191544,
+    "ast_hash": "ab7c760a01d9a72b39f89280e68fbf79",
+    "semantic_hash": "ab7c760a01d9a72b39f89280e68fbf79"
+  },
+  "embedding_with_section.py": {
+    "mtime": 1787136784.2892208,
+    "seen": 1790235660.9191551,
+    "ast_hash": "ff2c3c7c895e78422f85ab0c6cab48df",
+    "semantic_hash": "ff2c3c7c895e78422f85ab0c6cab48df"
+  },
+  "eval_lab_management_benchmark.py": {
+    "mtime": 1790225581.9034963,
+    "seen": 1790235660.9191563,
+    "ast_hash": "10502a76ed25c3763b05a55acab01157",
+    "semantic_hash": "10502a76ed25c3763b05a55acab01157"
+  },
+  "extra_pdfs/merged_output.json": {
+    "mtime": 1787893880.9291067,
+    "seen": 1790235660.919157,
+    "ast_hash": "15a57a1268144d68cd6be9aa45e2bc3c",
+    "semantic_hash": "15a57a1268144d68cd6be9aa45e2bc3c"
+  },
+  "fallback/__init__.py": {
+    "mtime": 1790225581.9034963,
+    "seen": 1790235660.9191577,
+    "ast_hash": "f3ed9b791ebb639ae7019c3e7b51c634",
+    "semantic_hash": "f3ed9b791ebb639ae7019c3e7b51c634"
+  },
+  "fallback/builder.py": {
+    "mtime": 1790225581.9037683,
+    "seen": 1790235660.9191587,
+    "ast_hash": "531d07b7c254b00067317629e385118a",
+    "semantic_hash": "531d07b7c254b00067317629e385118a"
+  },
+  "fallback/config.py": {
+    "mtime": 1790225581.9037683,
+    "seen": 1790235660.91916,
+    "ast_hash": "4515a03e95ab1cc798a2e3ce71fe37ea",
+    "semantic_hash": "4515a03e95ab1cc798a2e3ce71fe37ea"
+  },
+  "fallback/extractors.py": {
+    "mtime": 1790225581.9039335,
+    "seen": 1790235660.9191606,
+    "ast_hash": "a65dd66aeb743a7c125b1c48a62c9feb",
+    "semantic_hash": "a65dd66aeb743a7c125b1c48a62c9feb"
+  },
+  "fallback/pipeline.py": {
+    "mtime": 1790225581.9040866,
+    "seen": 1790235660.9191613,
+    "ast_hash": "7b1a9f9ede853ecc715425cd9e670387",
+    "semantic_hash": "7b1a9f9ede853ecc715425cd9e670387"
+  },
+  "fallback/run_test.py": {
+    "mtime": 1790225581.9041846,
+    "seen": 1790235660.9191623,
+    "ast_hash": "99d52ae317441ff05040c5a2d18ebf57",
+    "semantic_hash": "99d52ae317441ff05040c5a2d18ebf57"
+  },
+  "fallback/test_results_lumbar/Cigna_Lumbar_Fusion.hierarchical.json": {
+    "mtime": 1790225581.909969,
+    "seen": 1790235660.9191632,
+    "ast_hash": "ad1220f0cd22e34142a2d68e796fe018",
+    "semantic_hash": "ad1220f0cd22e34142a2d68e796fe018"
+  },
+  "fallback/test_results_lumbar/Cigna_Lumbar_Fusion.qa_report.json": {
+    "mtime": 1790225581.9105551,
+    "seen": 1790235660.919164,
+    "ast_hash": "8bdc291cf92bd4a49d59435fd1027650",
+    "semantic_hash": "8bdc291cf92bd4a49d59435fd1027650"
+  },
+  "fallback/test_results_lumbar_tiered/Cigna_Lumbar_Fusion.hierarchical.json": {
+    "mtime": 1790225581.912085,
+    "seen": 1790235660.919165,
+    "ast_hash": "f4348d30c256ee8364d1b05cb15b6fa5",
+    "semantic_hash": "f4348d30c256ee8364d1b05cb15b6fa5"
+  },
+  "fallback/test_results_lumbar_tiered/Cigna_Lumbar_Fusion.qa_report.json": {
+    "mtime": 1790225581.9126508,
+    "seen": 1790235660.9191656,
+    "ast_hash": "f3dc0003c8cc7fe5a98afb6f7e0dee0e",
+    "semantic_hash": "f3dc0003c8cc7fe5a98afb6f7e0dee0e"
+  },
+  "hierarchical-processing/ACDF_toc_output_new.json": {
+    "mtime": 1788242386.1916893,
+    "seen": 1790235660.9191668,
+    "ast_hash": "9cf7bf68eb82a6a79d871b2b501b0a45",
+    "semantic_hash": "9cf7bf68eb82a6a79d871b2b501b0a45"
+  },
+  "hierarchical-processing/Cigna_ACDF_enriched_chunks.json": {
+    "mtime": 1788845112.980072,
+    "seen": 1790235660.9191675,
+    "ast_hash": "b967b7f7f89c85b30375b15784198460",
+    "semantic_hash": "b967b7f7f89c85b30375b15784198460"
+  },
+  "hierarchical-processing/Cigna_ACDF_hierarchical.json": {
+    "mtime": 1787725486.383948,
+    "seen": 1790235660.9191685,
+    "ast_hash": "6f705bdcf529bb3395c3c37c89f2fd73",
+    "semantic_hash": "6f705bdcf529bb3395c3c37c89f2fd73"
+  },
+  "hierarchical-processing/Cigna_ACDF_hierarchical_chunks.json": {
+    "mtime": 1787900144.4678252,
+    "seen": 1790235660.9191692,
+    "ast_hash": "da0d58762cd83c172449127e9e6bf031",
+    "semantic_hash": "da0d58762cd83c172449127e9e6bf031"
+  },
+  "hierarchical-processing/Cigna_Lumbar_Fusion_enriched_chunks.json": {
+    "mtime": 1788845116.6934433,
+    "seen": 1790235660.9191704,
+    "ast_hash": "1be00b54b76973d44c3c3fd45cbe4a9c",
+    "semantic_hash": "1be00b54b76973d44c3c3fd45cbe4a9c"
+  },
+  "hierarchical-processing/acdf_metadata.json": {
+    "mtime": 1788845121.5381725,
+    "seen": 1790235660.919171,
+    "ast_hash": "8496b12d69fb293c75a6bf7f6526237b",
+    "semantic_hash": "8496b12d69fb293c75a6bf7f6526237b"
+  },
+  "hierarchical-processing/build_bm25.py": {
+    "mtime": 1788930217.2340822,
+    "seen": 1790235660.919172,
+    "ast_hash": "5f929d79357540e696cfb6923a423a87",
+    "semantic_hash": "5f929d79357540e696cfb6923a423a87"
+  },
+  "hierarchical-processing/chunk_toc_mapper.py": {
+    "mtime": 1788929519.7709808,
+    "seen": 1790235660.919173,
+    "ast_hash": "75df41dd5527630ba7b7e20f43914c21",
+    "semantic_hash": "75df41dd5527630ba7b7e20f43914c21"
+  },
+  "hierarchical-processing/chunking_heirarchical.py": {
+    "mtime": 1790225581.9127731,
+    "seen": 1790235660.919174,
+    "ast_hash": "20b6f2a6ce918ea3566d259bfb0aa578",
+    "semantic_hash": "20b6f2a6ce918ea3566d259bfb0aa578"
+  },
+  "hierarchical-processing/cpt_table_lookup.py": {
+    "mtime": 1790225581.9128625,
+    "seen": 1790235660.919175,
+    "ast_hash": "35171f72ea96ae678ac38cce7d5f51ee",
+    "semantic_hash": "35171f72ea96ae678ac38cce7d5f51ee"
+  },
+  "hierarchical-processing/document_registry.py": {
+    "mtime": 1790225581.9129477,
+    "seen": 1790235660.9191756,
+    "ast_hash": "17aec26317afd8a0a7de4f7a9aad912b",
+    "semantic_hash": "17aec26317afd8a0a7de4f7a9aad912b"
+  },
+  "hierarchical-processing/embedding_with_section.py": {
+    "mtime": 1788929912.780001,
+    "seen": 1790235660.9191768,
+    "ast_hash": "cec178f3ff3a926fed18a1c4977470ad",
+    "semantic_hash": "cec178f3ff3a926fed18a1c4977470ad"
+  },
+  "hierarchical-processing/generate_policy_json.py": {
+    "mtime": 1788849096.0316026,
+    "seen": 1790235660.9191775,
+    "ast_hash": "b5e3c78e12f7f10d6fc2343e739a5e6a",
+    "semantic_hash": "b5e3c78e12f7f10d6fc2343e739a5e6a"
+  },
+  "hierarchical-processing/md/Cigna_Lumbar_Fusion_hierarchical.json": {
+    "mtime": 1787725630.834333,
+    "seen": 1790235660.9191785,
+    "ast_hash": "2af3eff8a1663fcb0de320f4fa2ab8d1",
+    "semantic_hash": "2af3eff8a1663fcb0de320f4fa2ab8d1"
+  },
+  "hierarchical-processing/md/Lumbar_toc_output.json": {
+    "mtime": 1788239576.826709,
+    "seen": 1790235660.9191792,
+    "ast_hash": "c3f1b57e41761dbccc85a7cd7eb085c5",
+    "semantic_hash": "c3f1b57e41761dbccc85a7cd7eb085c5"
+  },
+  "hierarchical-processing/md/chunks/Cigna_Lumbar_Fusion_hierarchical_chunks.json": {
+    "mtime": 1787918136.8995478,
+    "seen": 1790235660.9191804,
+    "ast_hash": "abeed0833458b1570fb806bdf7f8faeb",
+    "semantic_hash": "abeed0833458b1570fb806bdf7f8faeb"
+  },
+  "hierarchical-processing/md/embeddings/lumbar_fusion_metadata.json": {
+    "mtime": 1788845121.5691729,
+    "seen": 1790235660.919181,
+    "ast_hash": "1be00b54b76973d44c3c3fd45cbe4a9c",
+    "semantic_hash": "1be00b54b76973d44c3c3fd45cbe4a9c"
+  },
+  "hierarchical-processing/policies_manifest.json": {
+    "mtime": 1790230143.2118967,
+    "seen": 1790235660.9191818,
+    "ast_hash": "fd90a82177baf065a5c99e6482561013",
+    "semantic_hash": "fd90a82177baf065a5c99e6482561013"
+  },
+  "hierarchical-processing/retrieve.py": {
+    "mtime": 1788844699.865732,
+    "seen": 1790235660.9191828,
+    "ast_hash": "19d5f0e489af91cc8a34ddc61d7ebbc8",
+    "semantic_hash": "19d5f0e489af91cc8a34ddc61d7ebbc8"
+  },
+  "hierarchical-processing/toc_output.json": {
+    "mtime": 1788161673.7155824,
+    "seen": 1790235660.919184,
+    "ast_hash": "dbad8861acafa07d4f52a79776bc15d7",
+    "semantic_hash": "dbad8861acafa07d4f52a79776bc15d7"
+  },
+  "hierarchical-processing/toc_v2.py": {
+    "mtime": 1788928880.102945,
+    "seen": 1790235660.9191847,
+    "ast_hash": "2365fa02ac1ad40f7b23f87f9be29c64",
+    "semantic_hash": "2365fa02ac1ad40f7b23f87f9be29c64"
+  },
+  "hybrid_search.py": {
+    "mtime": 1787909580.217199,
+    "seen": 1790235660.9191906,
+    "ast_hash": "98dcf8749d12bd7bfb6ad6e27f514291",
+    "semantic_hash": "98dcf8749d12bd7bfb6ad6e27f514291"
+  },
+  "hybrid_search_hierarchical.py": {
+    "mtime": 1790225581.9132218,
+    "seen": 1790235660.9191916,
+    "ast_hash": "28e4ad5fa5bbf12bfd6953fa5d21488a",
+    "semantic_hash": "28e4ad5fa5bbf12bfd6953fa5d21488a"
+  },
+  "ingest_policy.py": {
+    "mtime": 1790225581.9133613,
+    "seen": 1790235660.9191923,
+    "ast_hash": "1e3f4f0f98e8b2a5010045f2622d83d9",
+    "semantic_hash": "1e3f4f0f98e8b2a5010045f2622d83d9"
+  },
+  "output/Cigna_ACDF.json": {
+    "mtime": 1787720233.0521095,
+    "seen": 1790235660.919193,
+    "ast_hash": "78374385a2ae12614a4f8f5e30c8a9bc",
+    "semantic_hash": "78374385a2ae12614a4f8f5e30c8a9bc"
+  },
+  "output/Cigna_Knee.cleaned_hierarchical.json": {
+    "mtime": 1787805827.4960406,
+    "seen": 1790235660.9191942,
+    "ast_hash": "f9c1a27a31030caa9cc0cdc67b9071cd",
+    "semantic_hash": "f9c1a27a31030caa9cc0cdc67b9071cd"
+  },
+  "output/Cigna_Radiation_Oncology.cleaned_hierarchical.json": {
+    "mtime": 1787807913.625667,
+    "seen": 1790235660.919196,
+    "ast_hash": "3f000ca4424bb3c7882bef83d1e57042",
+    "semantic_hash": "3f000ca4424bb3c7882bef83d1e57042"
+  },
+  "output/Cigna_Radiation_Oncology_hierarchical.json": {
+    "mtime": 1787806780.7099683,
+    "seen": 1790235660.9191966,
+    "ast_hash": "4733f53209764ce76752f2bfce23e147",
+    "semantic_hash": "4733f53209764ce76752f2bfce23e147"
+  },
+  "output/table.json": {
+    "mtime": 1787831081.7195568,
+    "seen": 1790235660.9191978,
+    "ast_hash": "713090b77caf1938ba6ed8b75f4493f1",
+    "semantic_hash": "713090b77caf1938ba6ed8b75f4493f1"
+  },
+  "output/table_issues.json": {
+    "mtime": 1787831081.720097,
+    "seen": 1790235660.9191985,
+    "ast_hash": "6f127e809eafebb5ade35aec63e45dda",
+    "semantic_hash": "6f127e809eafebb5ade35aec63e45dda"
+  },
+  "package.json": {
+    "mtime": 1787112294.824359,
+    "seen": 1790235660.9191992,
+    "ast_hash": "44022004c3b9f97651895f5c70cab05d",
+    "semantic_hash": "44022004c3b9f97651895f5c70cab05d"
+  },
+  "retireval.py": {
+    "mtime": 1788842073.3046668,
+    "seen": 1790235660.9192002,
+    "ast_hash": "58ad217fd47a0cac1ba61d0a6974b4a7",
+    "semantic_hash": "58ad217fd47a0cac1ba61d0a6974b4a7"
+  },
+  "retrieval-hierarchical.py": {
+    "mtime": 1790225581.9136324,
+    "seen": 1790235660.9192011,
+    "ast_hash": "6e3ff37d24cc589aea629836f7f92545",
+    "semantic_hash": "6e3ff37d24cc589aea629836f7f92545"
+  },
+  "test_fallback_acdf/Cigna_ACDF.hierarchical.json": {
+    "mtime": 1790225581.9150176,
+    "seen": 1790235660.9192019,
+    "ast_hash": "3fc08e4aa49dec2df6291bb12044bcd1",
+    "semantic_hash": "3fc08e4aa49dec2df6291bb12044bcd1"
+  },
+  "test_fallback_acdf/Cigna_ACDF.qa_report.json": {
+    "mtime": 1790225581.915406,
+    "seen": 1790235660.9192028,
+    "ast_hash": "c2c99f38eb3924cdbdc63b0664db33a5",
+    "semantic_hash": "c2c99f38eb3924cdbdc63b0664db33a5"
+  },
+  "test_fallback_acdf/compare_acdf.py": {
+    "mtime": 1790225581.915406,
+    "seen": 1790235660.9192038,
+    "ast_hash": "949ea81be2fb0675df55a6787fc3a275",
+    "semantic_hash": "949ea81be2fb0675df55a6787fc3a275"
+  },
+  "CONTEXT_HISTORY.md": {
+    "mtime": 1790225581.6484563,
+    "seen": 1790235660.9192047,
+    "ast_hash": "45d4387f1ea855bcec677593614ff005",
+    "semantic_hash": "45d4387f1ea855bcec677593614ff005"
+  },
+  "EVALUATION FOR LUMBAR.MD": {
+    "mtime": 1788933789.8040745,
+    "seen": 1790235660.9192057,
+    "ast_hash": "9af59130675fc708f361db99609af1c9",
+    "semantic_hash": "9af59130675fc708f361db99609af1c9"
+  },
+  "EXECUTION-STEPS.md": {
+    "mtime": 1788866169.3507445,
+    "seen": 1790235660.9192066,
+    "ast_hash": "2b904455ff28412b3a36ef1d354b44f2",
+    "semantic_hash": "2b904455ff28412b3a36ef1d354b44f2"
+  },
+  "LAB_MANAGEMENT_PDF.md": {
+    "mtime": 1788953504.0610278,
+    "seen": 1790235660.9192073,
+    "ast_hash": "039856d558cc7be80d6d486626502a36",
+    "semantic_hash": "039856d558cc7be80d6d486626502a36"
+  },
+  "Lab_Management/output_tiered/Cigna_Lab_Management.hierarchical.md": {
+    "mtime": 1790225581.8808591,
+    "seen": 1790235660.9192085,
+    "ast_hash": "99bb42a403a326b10635f3cceac69833",
+    "semantic_hash": "99bb42a403a326b10635f3cceac69833"
+  },
+  "Lumbar/output-lumbar/Cigna_Lumbar_Fusion_hierarchical.md": {
+    "mtime": 1788928512.6027355,
+    "seen": 1790235660.9192092,
+    "ast_hash": "040697d19e98b062a4653c93e390b9f8",
+    "semantic_hash": "040697d19e98b062a4653c93e390b9f8"
+  },
+  "README.md": {
+    "mtime": 1790225581.8914826,
+    "seen": 1790235660.9192102,
+    "ast_hash": "71e439dc991fc646d9acbac16c27036e",
+    "semantic_hash": "71e439dc991fc646d9acbac16c27036e"
+  },
+  "Radiation/output/Cigna_Radiation_Oncology.hierarchical.md": {
+    "mtime": 1790230081.5744789,
+    "seen": 1790235660.919211,
+    "ast_hash": "f0b27d78ed0b9eca1962b406731a4f3b",
+    "semantic_hash": "f0b27d78ed0b9eca1962b406731a4f3b"
+  },
+  "Sep10LastChat.md": {
+    "mtime": 1790225581.89162,
+    "seen": 1790235660.919212,
+    "ast_hash": "33714e18b9bc21440cfe1e368d92891a",
+    "semantic_hash": "33714e18b9bc21440cfe1e368d92891a"
+  },
+  "architecture.md": {
+    "mtime": 1788848700.3005905,
+    "seen": 1790235660.9192128,
+    "ast_hash": "9a17e0a80180427681766eac9f6d0296",
+    "semantic_hash": "9a17e0a80180427681766eac9f6d0296"
+  },
+  "data/markdown/Cigna_ACDF.md": {
+    "mtime": 1787051190.4310057,
+    "seen": 1790235660.9192138,
+    "ast_hash": "44e8aec42a88bac2f356d948bc19a9d7",
+    "semantic_hash": "44e8aec42a88bac2f356d948bc19a9d7"
+  },
+  "data/markdown/Cigna_Lumbar_Fusion.md": {
+    "mtime": 1786620893.0493782,
+    "seen": 1790235660.9192145,
+    "ast_hash": "0e7cf3b0e0d180dc02a6a2b4eed1c3e7",
+    "semantic_hash": "0e7cf3b0e0d180dc02a6a2b4eed1c3e7"
+  },
+  "data/markdown/new/ACDF_CLOUDCONVERT.md": {
+    "mtime": 1787114013.381677,
+    "seen": 1790235660.9192154,
+    "ast_hash": "a3ba2af8718b770960651e3848814936",
+    "semantic_hash": "a3ba2af8718b770960651e3848814936"
+  },
+  "data/markdown/new/Lumbar_CLOUDCONVERT.md": {
+    "mtime": 1787136523.9491997,
+    "seen": 1790235660.9192162,
+    "ast_hash": "3f8f7e79a392bfca21703ecaa8760f15",
+    "semantic_hash": "3f8f7e79a392bfca21703ecaa8760f15"
+  },
+  "data/policies/Cigna_Knee/output/Cigna_Knee.hierarchical.md": {
+    "mtime": 1790225581.9005723,
+    "seen": 1790235660.919217,
+    "ast_hash": "1629694f192de0b57a2aeafd9f700185",
+    "semantic_hash": "1629694f192de0b57a2aeafd9f700185"
+  },
+  "data/result-old/20260818_152553_requirements_for_CMM6017_Adjacent_Segment_Disease.md": {
+    "mtime": 1787046953.4304535,
+    "seen": 1790235660.9192178,
+    "ast_hash": "883f9c54324a700cea9633e9001857d5",
+    "semantic_hash": "883f9c54324a700cea9633e9001857d5"
+  },
+  "data/result-old/20260818_153849_requirements_for_Adjacent_Segment_Disease.md": {
+    "mtime": 1787047729.3244386,
+    "seen": 1790235660.919219,
+    "ast_hash": "628b996c1bdda48bd33a8e88f25b272b",
+    "semantic_hash": "628b996c1bdda48bd33a8e88f25b272b"
+  },
+  "data/result-old/20260818_154014_requirements_for_Adjacent_Segment_Disease_radiculo.md": {
+    "mtime": 1787047814.4662173,
+    "seen": 1790235660.9192197,
+    "ast_hash": "7fe21f6bed5ec7f4dd21d56e41088a5c",
+    "semantic_hash": "7fe21f6bed5ec7f4dd21d56e41088a5c"
+  },
+  "data/result-old/20260818_161245_documents_required_for_adjacent_segment_disease.md": {
+    "mtime": 1787049765.2827017,
+    "seen": 1790235660.9192204,
+    "ast_hash": "8df03c287afdc20dc7841ac51dafc829",
+    "semantic_hash": "8df03c287afdc20dc7841ac51dafc829"
+  },
+  "data/result-old/20260818_161456_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787049896.8811786,
+    "seen": 1790235660.9192212,
+    "ast_hash": "964852671c819c542383177c501e9389",
+    "semantic_hash": "964852671c819c542383177c501e9389"
+  },
+  "data/result-old/20260818_162101_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787050261.902053,
+    "seen": 1790235660.919222,
+    "ast_hash": "5f2e5fee5d19d415f37a786ee4481cef",
+    "semantic_hash": "5f2e5fee5d19d415f37a786ee4481cef"
+  },
+  "data/result-old/20260818_162140_requirements_for_adjacent_segment_disease_radiculo.md": {
+    "mtime": 1787050300.6825776,
+    "seen": 1790235660.919223,
+    "ast_hash": "4e68d0961e7ae21f058c10976baedc6d",
+    "semantic_hash": "4e68d0961e7ae21f058c10976baedc6d"
+  },
+  "data/result-old/20260818_162657_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787050617.0975597,
+    "seen": 1790235660.9192238,
+    "ast_hash": "8560ef171517b96847159d38ccf5812d",
+    "semantic_hash": "8560ef171517b96847159d38ccf5812d"
+  },
+  "data/result-old/20260818_163730_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787051250.6549761,
+    "seen": 1790235660.9192245,
+    "ast_hash": "f8443b4c146909d5c358ca0c6bb642ed",
+    "semantic_hash": "f8443b4c146909d5c358ca0c6bb642ed"
+  },
+  "data/result-old/20260818_163805_requirements_for_Adjacent_Segment_Disease.md": {
+    "mtime": 1787051285.7653773,
+    "seen": 1790235660.9192257,
+    "ast_hash": "319e52b9d8c66918c0aa5c7a96b8e186",
+    "semantic_hash": "319e52b9d8c66918c0aa5c7a96b8e186"
+  },
+  "data/result-old/20260818_163916_document_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787051356.9655855,
+    "seen": 1790235660.9192266,
+    "ast_hash": "ff11302c980ae983c2495bbf2ec42f3e",
+    "semantic_hash": "ff11302c980ae983c2495bbf2ec42f3e"
+  },
+  "data/result-old/20260818_164001_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787051401.936725,
+    "seen": 1790235660.9192274,
+    "ast_hash": "53c5fb1bd0c30bc2189a68d27200c6a9",
+    "semantic_hash": "53c5fb1bd0c30bc2189a68d27200c6a9"
+  },
+  "data/result-old/20260818_164150_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787051510.5579326,
+    "seen": 1790235660.9192283,
+    "ast_hash": "85e7ad4c68790e29e217ac2809c9e6d9",
+    "semantic_hash": "85e7ad4c68790e29e217ac2809c9e6d9"
+  },
+  "data/result-old/20260818_164344_requirements_for_adjacent_segment_disease.md": {
+    "mtime": 1787051624.4697046,
+    "seen": 1790235660.9192293,
+    "ast_hash": "6b9bc48dd4ff4c2900528c7b9faf58f1",
+    "semantic_hash": "6b9bc48dd4ff4c2900528c7b9faf58f1"
+  },
+  "extra_pdfs/output.md": {
+    "mtime": 1789126139.8728108,
+    "seen": 1790235660.9192302,
+    "ast_hash": "5682230ec9fa6c1be408c54d59f04ff4",
+    "semantic_hash": "5682230ec9fa6c1be408c54d59f04ff4"
+  },
+  "fallback/test_results_lumbar/Cigna_Lumbar_Fusion.hierarchical.md": {
+    "mtime": 1790225581.9105551,
+    "seen": 1790235660.919231,
+    "ast_hash": "040697d19e98b062a4653c93e390b9f8",
+    "semantic_hash": "040697d19e98b062a4653c93e390b9f8"
+  },
+  "fallback/test_results_lumbar_tiered/Cigna_Lumbar_Fusion.hierarchical.md": {
+    "mtime": 1790225581.9125984,
+    "seen": 1790235660.919232,
+    "ast_hash": "2e3af25115844cfc1938193e42237679",
+    "semantic_hash": "2e3af25115844cfc1938193e42237679"
+  },
+  "hierarchical-processing/Cigna_ACDF_hierarchical.md": {
+    "mtime": 1787725486.296144,
+    "seen": 1790235660.9192328,
+    "ast_hash": "f7e65604fe3843e7b20383fa0624a45c",
+    "semantic_hash": "f7e65604fe3843e7b20383fa0624a45c"
+  },
+  "hierarchical-processing/md/Cigna_Lumbar_Fusion_hierarchical.md": {
+    "mtime": 1787725630.7036738,
+    "seen": 1790235660.9192336,
+    "ast_hash": "b01986c7d07de43fac767577108662c0",
+    "semantic_hash": "b01986c7d07de43fac767577108662c0"
+  },
+  "next_step.md": {
+    "mtime": 1788243305.5157647,
+    "seen": 1790235660.9192345,
+    "ast_hash": "89a5c0f2a2d67a44edd7126bcc183dbe",
+    "semantic_hash": "89a5c0f2a2d67a44edd7126bcc183dbe"
+  },
+  "output/Cigna_ACDF.md": {
+    "mtime": 1787720233.1642554,
+    "seen": 1790235660.9192352,
+    "ast_hash": "1d4da47ee7b1a2d0e1eb059da2d10426",
+    "semantic_hash": "1d4da47ee7b1a2d0e1eb059da2d10426"
+  },
+  "output/Cigna_Knee.cleaned_hierarchical.md": {
+    "mtime": 1787805827.4267638,
+    "seen": 1790235660.9192364,
+    "ast_hash": "3c3ceba9956415a42449786d5081c321",
+    "semantic_hash": "3c3ceba9956415a42449786d5081c321"
+  },
+  "output/Cigna_Radiation_Oncology.cleaned_hierarchical.md": {
+    "mtime": 1787807912.5633671,
+    "seen": 1790235660.9192371,
+    "ast_hash": "e093f0c5c8628bc084e36c7761ba3782",
+    "semantic_hash": "e093f0c5c8628bc084e36c7761ba3782"
+  },
+  "output/Cigna_Radiation_Oncology_hierarchical.md": {
+    "mtime": 1787806779.2544785,
+    "seen": 1790235660.919238,
+    "ast_hash": "b4a580a92b9b92914c121835d1357756",
+    "semantic_hash": "b4a580a92b9b92914c121835d1357756"
+  },
+  "test_fallback_acdf/Cigna_ACDF.hierarchical.md": {
+    "mtime": 1790225581.915406,
+    "seen": 1790235660.9192388,
+    "ast_hash": "e6b19f016ea3ee1379c722103ec7b589",
+    "semantic_hash": "e6b19f016ea3ee1379c722103ec7b589"
+  },
+  "tokens-being-used.md": {
+    "mtime": 1788849056.4151838,
+    "seen": 1790235660.9192398,
+    "ast_hash": "6f1d46966ef0c6553d67c785e542c6b0",
+    "semantic_hash": "6f1d46966ef0c6553d67c785e542c6b0"
+  }
+}

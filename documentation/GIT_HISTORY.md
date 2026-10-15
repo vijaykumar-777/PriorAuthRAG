@@ -1,8 +1,8 @@
 # Project Git History & Evolution Documentation
 
 **Project**: `project2`  
-**Generated**: 2026-10-15 11:22:37  
-**Total Commits**: 26  
+**Generated**: 2026-10-15 11:51:11  
+**Total Commits**: 29  
 **Timeline**: 2026-09-08 to 2026-10-15  
 
 > [!TIP]
@@ -13,9 +13,9 @@
 | Metric | Details |
 | :--- | :--- |
 | **Initial Commit** | `5d00445` (2026-09-08) - *copy project* |
-| **Latest Commit (HEAD)** | `d43f2c8` (2026-10-15) - *docs: finalize commit documentation* |
-| **Total Commits** | 26 |
-| **Contributors** | vijaykumarbk (26) |
+| **Latest Commit (HEAD)** | `fc263d7` (2026-10-15) - *sign-out* |
+| **Total Commits** | 29 |
+| **Contributors** | vijaykumarbk (29) |
 
 ## Timeline Summary & Commit Folders
 
@@ -47,6 +47,9 @@
 | 24 | `474e6fd` | 2026-10-15 | vijaykumarbk | [feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview](#commit-474e6fd) | 10 | [📂 24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/](./commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md) |
 | 25 | `edcaccc` | 2026-10-15 | vijaykumarbk | [docs: auto-doc updates for commit 24](#commit-edcaccc) | 6 | [📂 25_edcaccc_docs-auto-doc-updates-for-commit-24/](./commits/25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md) |
 | 26 | `d43f2c8` | 2026-10-15 | vijaykumarbk | [docs: finalize commit documentation](#commit-d43f2c8) | 6 | [📂 26_d43f2c8_docs-finalize-commit-documentation/](./commits/26_d43f2c8_docs-finalize-commit-documentation/README.md) |
+| 27 | `a90c553` | 2026-10-15 | vijaykumarbk | [docs: finalize commit history and project documentation](#commit-a90c553) | 6 | [📂 27_a90c553_docs-finalize-commit-history-and-project-docu/](./commits/27_a90c553_docs-finalize-commit-history-and-project-docu/README.md) |
+| 28 | `bef2188` | 2026-10-15 | vijaykumarbk | [feat: include scrambled .env template and evaluation results for 1-to-1 restore](#commit-bef2188) | 262 | [📂 28_bef2188_feat-include-scrambled-env-template-and-evalu/](./commits/28_bef2188_feat-include-scrambled-env-template-and-evalu/README.md) |
+| 29 | `fc263d7` | 2026-10-15 | vijaykumarbk | [sign-out](#commit-fc263d7) | 84 | [📂 29_fc263d7_sign-out/](./commits/29_fc263d7_sign-out/README.md) |
 
 ---
 
@@ -1592,6 +1595,413 @@
 | 🟡 Modified | [documentation/commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md](../documentation/commits/24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md) | +2 / -0 |
 | 🟢 Added | [documentation/commits/25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md](../documentation/commits/25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md) | +45 / -0 |
 | 🟡 Modified | [documentation/commits/README.md](../documentation/commits/README.md) | +3 / -2 |
+
+---
+
+### Commit 27: `a90c553` - docs: finalize commit history and project documentation
+
+<a id="commit-a90c553"></a>
+
+- **Date**: 2026-10-15 16:53:02 +0530
+- **Author**: vijaykumarbk &lt;vancedxdxd@gmail.com&gt;
+- **Full Hash**: `a90c553525d042d4ebf90ca336edbe5b299ea6fe`
+- **Folder**: [**`commits/27_a90c553_docs-finalize-commit-history-and-project-docu/`**](./commits/27_a90c553_docs-finalize-commit-history-and-project-docu/README.md)
+- **Change Summary**: 6 file(s) affected (1 added, 5 modified, 0 deleted)
+
+| Status | File Path | Lines (+/-) |
+| :--- | :--- | :--- |
+| 🟡 Modified | [.agents/plugins/hook-auto-docs/.state/.stop-hook.lock](../.agents/plugins/hook-auto-docs/.state/.stop-hook.lock) | +1 / -1 |
+| 🟡 Modified | [.doc-agent/pending-commit.flag](../.doc-agent/pending-commit.flag) | +1 / -0 |
+| 🟡 Modified | [documentation/GIT_HISTORY.md](../documentation/GIT_HISTORY.md) | +27 / -5 |
+| 🟡 Modified | [documentation/commits/25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md](../documentation/commits/25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md) | +2 / -0 |
+| 🟢 Added | [documentation/commits/26_d43f2c8_docs-finalize-commit-documentation/README.md](../documentation/commits/26_d43f2c8_docs-finalize-commit-documentation/README.md) | +45 / -0 |
+| 🟡 Modified | [documentation/commits/README.md](../documentation/commits/README.md) | +3 / -2 |
+
+---
+
+### Commit 28: `bef2188` - feat: include scrambled .env template and evaluation results for 1-to-1 restore
+
+<a id="commit-bef2188"></a>
+
+- **Date**: 2026-10-15 17:15:27 +0530
+- **Author**: vijaykumarbk &lt;vancedxdxd@gmail.com&gt;
+- **Full Hash**: `bef218844aa4bb2007a5c1cc4cc6e03561c136e5`
+- **Folder**: [**`commits/28_bef2188_feat-include-scrambled-env-template-and-evalu/`**](./commits/28_bef2188_feat-include-scrambled-env-template-and-evalu/README.md)
+- **Change Summary**: 262 file(s) affected (261 added, 1 modified, 0 deleted)
+
+<details>
+<summary><b>View all 262 changed files</b> (Click to expand)</summary>
+
+| Status | File Path | Lines (+/-) |
+| :--- | :--- | :--- |
+| 🟢 Added | [.env](../.env) | +19 / -0 |
+| 🟡 Modified | [.gitignore](../.gitignore) | +10 / -5 |
+| 🟢 Added | [data/results_new/20260819_102031_requirements_for_adjacent_segment_disease.md](../data/results_new/20260819_102031_requirements_for_adjacent_segment_disease.md) | +258 / -0 |
+| 🟢 Added | [data/results_new/20260819_124548_documents_required_for_adjacent_segement_disease.md](../data/results_new/20260819_124548_documents_required_for_adjacent_segement_disease.md) | +262 / -0 |
+| 🟢 Added | [data/results_new/20260819_154204_when_is_ACDF_not_medically_necessary.md](../data/results_new/20260819_154204_when_is_ACDF_not_medically_necessary.md) | +13 / -0 |
+| 🟢 Added | [data/results_new/20260819_154428_when_is_ACDF_not_medically_necessary.md](../data/results_new/20260819_154428_when_is_ACDF_not_medically_necessary.md) | +13 / -0 |
+| 🟢 Added | [data/results_new/20260819_154601_when_is_acdf_not_medically_necessary.md](../data/results_new/20260819_154601_when_is_acdf_not_medically_necessary.md) | +112 / -0 |
+| 🟢 Added | [data/results_new/20260819_154701_when_is_ACDF_not_medically_necessary.md](../data/results_new/20260819_154701_when_is_ACDF_not_medically_necessary.md) | +112 / -0 |
+| 🟢 Added | [data/results_new/20260819_155807_when_is_acdf_not_medically_necessary.md](../data/results_new/20260819_155807_when_is_acdf_not_medically_necessary.md) | +113 / -0 |
+| 🟢 Added | [data/results_new/20260819_155938_conditions_for_Unremitting_Neck_Pain.md](../data/results_new/20260819_155938_conditions_for_Unremitting_Neck_Pain.md) | +233 / -0 |
+| 🟢 Added | [data/results_new/20260819_162725_documents_required_for_Arthrodesis.md](../data/results_new/20260819_162725_documents_required_for_Arthrodesis.md) | +137 / -0 |
+| 🟢 Added | [data/results_new/20260819_163317_mention_all_the_requirements_for_CMM6094.md](../data/results_new/20260819_163317_mention_all_the_requirements_for_CMM6094.md) | +75 / -0 |
+| 🟢 Added | [data/results_new/20260819_163453_mention_all_the_conditions_to_be_met_for_6094.md](../data/results_new/20260819_163453_mention_all_the_conditions_to_be_met_for_6094.md) | +86 / -0 |
+| 🟢 Added | [data/results_new/20260819_163647_mention_all_conditions_for_Lumbar_fusion_with_lumb.md](../data/results_new/20260819_163647_mention_all_conditions_for_Lumbar_fusion_with_lumb.md) | +112 / -0 |
+| 🟢 Added | [data/results_new/20260819_163822_documents_required_for_pediatric_spinal_deformity.md](../data/results_new/20260819_163822_documents_required_for_pediatric_spinal_deformity.md) | +82 / -0 |
+| 🟢 Added | [data/results_new/20260819_163906_what_are_the_criterias_to_be_met_for_pediatric_spi.md](../data/results_new/20260819_163906_what_are_the_criterias_to_be_met_for_pediatric_spi.md) | +154 / -0 |
+| 🟢 Added | [data/results_new/20260819_164738_mention_the_criteria_to_be_met_for_pediatric_spina.md](../data/results_new/20260819_164738_mention_the_criteria_to_be_met_for_pediatric_spina.md) | +132 / -0 |
+| 🟢 Added | [data/results_new/20260819_165610_mention_the_criteria_to_be_met_for_pediatric_spina.md](../data/results_new/20260819_165610_mention_the_criteria_to_be_met_for_pediatric_spina.md) | +139 / -0 |
+| 🟢 Added | [data/results_new/20260820_100712_when_is_CMM6092_considered_medically_necessary.md](../data/results_new/20260820_100712_when_is_CMM6092_considered_medically_necessary.md) | +90 / -0 |
+| 🟢 Added | [data/results_new/20260820_100911_when_is_CMM_6092_medically_necessary.md](../data/results_new/20260820_100911_when_is_CMM_6092_medically_necessary.md) | +225 / -0 |
+| 🟢 Added | [data/results_new/20260820_130613_When_is_ACDF_medically_necessary_for_adjacent_segm.md](../data/results_new/20260820_130613_When_is_ACDF_medically_necessary_for_adjacent_segm.md) | +361 / -0 |
+| 🟢 Added | [data/results_new/20260820_152719_when_is_acdf_medically_necessary_for_adjacent_segm.md](../data/results_new/20260820_152719_when_is_acdf_medically_necessary_for_adjacent_segm.md) | +361 / -0 |
+| 🟢 Added | [data/results_new/20260824_115041_when_is_Anterior_Osteotomy_considered_medically_ne.md](../data/results_new/20260824_115041_when_is_Anterior_Osteotomy_considered_medically_ne.md) | +316 / -0 |
+| 🟢 Added | [data/results_new/20260824_122651_when_is_Posterior_Column_Osteotomy_considered_medi.md](../data/results_new/20260824_122651_when_is_Posterior_Column_Osteotomy_considered_medi.md) | +209 / -0 |
+| 🟢 Added | [data/results_new/20260824_122927_when_is_three_column_osteotomy_considered_medicall.md](../data/results_new/20260824_122927_when_is_three_column_osteotomy_considered_medicall.md) | +208 / -0 |
+| 🟢 Added | [data/results_new/20260828_150342_when_is_anterior_osteotomy_considered_medically_ne.md](../data/results_new/20260828_150342_when_is_anterior_osteotomy_considered_medically_ne.md) | +220 / -0 |
+| 🟢 Added | [data/results_new/20260828_150441_when_is_anterior_cervical_disectomy_considered_med.md](../data/results_new/20260828_150441_when_is_anterior_cervical_disectomy_considered_med.md) | +220 / -0 |
+| 🟢 Added | [data/results_new/20260828_150627_when_is_adjacent_segment_disease_considered_medica.md](../data/results_new/20260828_150627_when_is_adjacent_segment_disease_considered_medica.md) | +299 / -0 |
+| 🟢 Added | [data/results_new/20260828_155041_when_is_adjacent_segment_disease_considered_medica.md](../data/results_new/20260828_155041_when_is_adjacent_segment_disease_considered_medica.md) | +358 / -0 |
+| 🟢 Added | [data/results_new/20260828_161424_when_is_adjacent_segment_disease_considered_medica.md](../data/results_new/20260828_161424_when_is_adjacent_segment_disease_considered_medica.md) | +476 / -0 |
+| 🟢 Added | [data/results_new/20260828_161604_when_is_anterior_cervical_corpectomy_considered_me.md](../data/results_new/20260828_161604_when_is_anterior_cervical_corpectomy_considered_me.md) | +303 / -0 |
+| 🟢 Added | [data/results_new/20260828_170743_when_is_repeat_ACDF_considered_medically_necessary.md](../data/results_new/20260828_170743_when_is_repeat_ACDF_considered_medically_necessary.md) | +546 / -0 |
+| 🟢 Added | [data/results_new/20260831_094542_when_is_Lumbar_posterior_column_osteotomy_consider.md](../data/results_new/20260831_094542_when_is_Lumbar_posterior_column_osteotomy_consider.md) | +420 / -0 |
+| 🟢 Added | [data/results_new/20260831_094841_all_types_of_medical_necessities_for_Pediatric_Spi.md](../data/results_new/20260831_094841_all_types_of_medical_necessities_for_Pediatric_Spi.md) | +501 / -0 |
+| 🟢 Added | [data/results_new/20260901_124839_when_is_Lumbar_fusion_with_lumbar_decompression_in.md](../data/results_new/20260901_124839_when_is_Lumbar_fusion_with_lumbar_decompression_in.md) | +590 / -0 |
+| 🟢 Added | [data/results_new/20260907_105049_What_are_the_medical_necessity_criteria_for_initia.json](../data/results_new/20260907_105049_What_are_the_medical_necessity_criteria_for_initia.json) | +25 / -0 |
+| 🟢 Added | [data/results_new/20260907_105126_What_are_the_criteria_for_initial_primary_ACDF.json](../data/results_new/20260907_105126_What_are_the_criteria_for_initial_primary_ACDF.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20260907_105212_when_is_repeat_ACDF_considered_medically_necessary.json](../data/results_new/20260907_105212_when_is_repeat_ACDF_considered_medically_necessary.json) | +40 / -0 |
+| 🟢 Added | [data/results_new/20260907_110951_What_are_the_criteria_for_initial_primary_ACDF.json](../data/results_new/20260907_110951_What_are_the_criteria_for_initial_primary_ACDF.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20260907_111036_What_are_the_criteria_for_initial_primary_ACDF.json](../data/results_new/20260907_111036_What_are_the_criteria_for_initial_primary_ACDF.json) | +40 / -0 |
+| 🟢 Added | [data/results_new/20260907_111106_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260907_111106_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +87 / -0 |
+| 🟢 Added | [data/results_new/20260907_111516_is_prior_auth_required_for_adjacent_segment_diseas.json](../data/results_new/20260907_111516_is_prior_auth_required_for_adjacent_segment_diseas.json) | +55 / -0 |
+| 🟢 Added | [data/results_new/20260907_112023_What_are_the_indications_for_repeat_cervical_disce.json](../data/results_new/20260907_112023_What_are_the_indications_for_repeat_cervical_disce.json) | +82 / -0 |
+| 🟢 Added | [data/results_new/20260907_112437_is_adjacent_segment_disease_considered_medically_n.json](../data/results_new/20260907_112437_is_adjacent_segment_disease_considered_medically_n.json) | +41 / -0 |
+| 🟢 Added | [data/results_new/20260907_113451_is_adjacent_segment_disease_considered_medically_n.json](../data/results_new/20260907_113451_is_adjacent_segment_disease_considered_medically_n.json) | +65 / -0 |
+| 🟢 Added | [data/results_new/20260907_113824_What_are_the_criteria_for_initial_primary_anterior.json](../data/results_new/20260907_113824_What_are_the_criteria_for_initial_primary_anterior.json) | +63 / -0 |
+| 🟢 Added | [data/results_new/20260907_113836_Is_prior_authorization_required_for_anterior_cervi.json](../data/results_new/20260907_113836_Is_prior_authorization_required_for_anterior_cervi.json) | +59 / -0 |
+| 🟢 Added | [data/results_new/20260907_113919_When_is_repeat_ACDF_at_the_same_level_considered_m.json](../data/results_new/20260907_113919_When_is_repeat_ACDF_at_the_same_level_considered_m.json) | +90 / -0 |
+| 🟢 Added | [data/results_new/20260907_113956_What_are_the_medical_necessity_criteria_for_adjace.json](../data/results_new/20260907_113956_What_are_the_medical_necessity_criteria_for_adjace.json) | +58 / -0 |
+| 🟢 Added | [data/results_new/20260907_114056_What_are_the_coverage_indications_for_ACDF_followi.json](../data/results_new/20260907_114056_What_are_the_coverage_indications_for_ACDF_followi.json) | +80 / -0 |
+| 🟢 Added | [data/results_new/20260907_114132_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260907_114132_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +201 / -0 |
+| 🟢 Added | [data/results_new/20260907_114209_Is_lumbar_arthrodesis_without_decompression_covere.json](../data/results_new/20260907_114209_Is_lumbar_arthrodesis_without_decompression_covere.json) | +35 / -0 |
+| 🟢 Added | [data/results_new/20260907_114221_What_are_the_indications_for_lumbar_fusion_followi.json](../data/results_new/20260907_114221_What_are_the_indications_for_lumbar_fusion_followi.json) | +61 / -0 |
+| 🟢 Added | [data/results_new/20260907_114326_When_is_repeat_lumbar_fusion_indicated_for_symptom.json](../data/results_new/20260907_114326_When_is_repeat_lumbar_fusion_indicated_for_symptom.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260907_114401_What_are_the_nonindications_and_experimental_exclu.json](../data/results_new/20260907_114401_What_are_the_nonindications_and_experimental_exclu.json) | +57 / -0 |
+| 🟢 Added | [data/results_new/20260907_114559_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260907_114559_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +1136 / -0 |
+| 🟢 Added | [data/results_new/20260907_114659_What_are_the_criteria_for_initial_primary_anterior.json](../data/results_new/20260907_114659_What_are_the_criteria_for_initial_primary_anterior.json) | +46 / -0 |
+| 🟢 Added | [data/results_new/20260907_114737_Is_prior_authorization_required_for_anterior_cervi.json](../data/results_new/20260907_114737_Is_prior_authorization_required_for_anterior_cervi.json) | +39 / -0 |
+| 🟢 Added | [data/results_new/20260907_114811_When_is_repeat_ACDF_at_the_same_level_considered_m.json](../data/results_new/20260907_114811_When_is_repeat_ACDF_at_the_same_level_considered_m.json) | +95 / -0 |
+| 🟢 Added | [data/results_new/20260907_114916_What_are_the_medical_necessity_criteria_for_adjace.json](../data/results_new/20260907_114916_What_are_the_medical_necessity_criteria_for_adjace.json) | +82 / -0 |
+| 🟢 Added | [data/results_new/20260907_115002_What_are_the_coverage_indications_for_ACDF_followi.json](../data/results_new/20260907_115002_What_are_the_coverage_indications_for_ACDF_followi.json) | +81 / -0 |
+| 🟢 Added | [data/results_new/20260907_115128_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260907_115128_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +1136 / -0 |
+| 🟢 Added | [data/results_new/20260907_115212_Is_lumbar_arthrodesis_without_decompression_covere.json](../data/results_new/20260907_115212_Is_lumbar_arthrodesis_without_decompression_covere.json) | +80 / -0 |
+| 🟢 Added | [data/results_new/20260907_115416_What_are_the_indications_for_lumbar_fusion_followi.json](../data/results_new/20260907_115416_What_are_the_indications_for_lumbar_fusion_followi.json) | +44 / -0 |
+| 🟢 Added | [data/results_new/20260907_115522_When_is_repeat_lumbar_fusion_indicated_for_symptom.json](../data/results_new/20260907_115522_When_is_repeat_lumbar_fusion_indicated_for_symptom.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260907_115620_What_are_the_nonindications_and_experimental_exclu.json](../data/results_new/20260907_115620_What_are_the_nonindications_and_experimental_exclu.json) | +30 / -0 |
+| 🟢 Added | [data/results_new/20260907_124101_when_is_anterior_cervical_corpectomy_considered_me.json](../data/results_new/20260907_124101_when_is_anterior_cervical_corpectomy_considered_me.json) | +50 / -0 |
+| 🟢 Added | [data/results_new/20260907_125411_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260907_125411_when_is_adjacent_segment_disease_considered_medica.json) | +58 / -0 |
+| 🟢 Added | [data/results_new/20260907_143414_is_adjacent_segment_disease_considered_medically_n.json](../data/results_new/20260907_143414_is_adjacent_segment_disease_considered_medically_n.json) | +63 / -0 |
+| 🟢 Added | [data/results_new/20260907_143609_Is_prior_authorization_required_for_anterior_cervi.json](../data/results_new/20260907_143609_Is_prior_authorization_required_for_anterior_cervi.json) | +47 / -0 |
+| 🟢 Added | [data/results_new/20260907_143635_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260907_143635_when_is_adjacent_segment_disease_considered_medica.json) | +41 / -0 |
+| 🟢 Added | [data/results_new/20260907_143646_When_is_repeat_ACDF_at_the_same_level_considered_m.json](../data/results_new/20260907_143646_When_is_repeat_ACDF_at_the_same_level_considered_m.json) | +68 / -0 |
+| 🟢 Added | [data/results_new/20260907_143731_What_are_the_medical_necessity_criteria_for_adjace.json](../data/results_new/20260907_143731_What_are_the_medical_necessity_criteria_for_adjace.json) | +99 / -0 |
+| 🟢 Added | [data/results_new/20260907_143917_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260907_143917_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +59 / -0 |
+| 🟢 Added | [data/results_new/20260907_144009_Is_lumbar_arthrodesis_without_decompression_covere.json](../data/results_new/20260907_144009_Is_lumbar_arthrodesis_without_decompression_covere.json) | +44 / -0 |
+| 🟢 Added | [data/results_new/20260907_144053_What_are_the_indications_for_lumbar_fusion_followi.json](../data/results_new/20260907_144053_What_are_the_indications_for_lumbar_fusion_followi.json) | +59 / -0 |
+| 🟢 Added | [data/results_new/20260907_144142_When_is_repeat_lumbar_fusion_indicated_for_symptom.json](../data/results_new/20260907_144142_When_is_repeat_lumbar_fusion_indicated_for_symptom.json) | +50 / -0 |
+| 🟢 Added | [data/results_new/20260907_144219_What_are_the_nonindications_and_experimental_exclu.json](../data/results_new/20260907_144219_What_are_the_nonindications_and_experimental_exclu.json) | +90 / -0 |
+| 🟢 Added | [data/results_new/20260907_144356_When_is_repeat_lumbar_fusion_indicated_for_symptom.json](../data/results_new/20260907_144356_When_is_repeat_lumbar_fusion_indicated_for_symptom.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20260907_144445_When_is_repeat_lumbar_fusion_indicated_for_symptom.json](../data/results_new/20260907_144445_When_is_repeat_lumbar_fusion_indicated_for_symptom.json) | +50 / -0 |
+| 🟢 Added | [data/results_new/20260907_145011_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260907_145011_when_is_adjacent_segment_disease_considered_medica.json) | +36 / -0 |
+| 🟢 Added | [data/results_new/20260907_161502_What_are_the_indications_for_repeat_lumbar_fusion.json](../data/results_new/20260907_161502_What_are_the_indications_for_repeat_lumbar_fusion.json) | +46 / -0 |
+| 🟢 Added | [data/results_new/20260907_161919_is_prior_auth_required_for_adjacent_segment_diseas.json](../data/results_new/20260907_161919_is_prior_auth_required_for_adjacent_segment_diseas.json) | +36 / -0 |
+| 🟢 Added | [data/results_new/20260907_162628_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260907_162628_when_is_adjacent_segment_disease_considered_medica.json) | +61 / -0 |
+| 🟢 Added | [data/results_new/20260908_095237_What_are_the_indications_for_repeat_anterior_cervi.json](../data/results_new/20260908_095237_What_are_the_indications_for_repeat_anterior_cervi.json) | +90 / -0 |
+| 🟢 Added | [data/results_new/20260908_095341_What_are_the_criteria_for_lumbar_fusion_with_decom.json](../data/results_new/20260908_095341_What_are_the_criteria_for_lumbar_fusion_with_decom.json) | +41 / -0 |
+| 🟢 Added | [data/results_new/20260908_095352_What_are_the_clinical_criteria_for_genetic_testing.json](../data/results_new/20260908_095352_What_are_the_clinical_criteria_for_genetic_testing.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260908_104708_What_are_the_indications_for_lumbar_fusion_with_de.json](../data/results_new/20260908_104708_What_are_the_indications_for_lumbar_fusion_with_de.json) | +40 / -0 |
+| 🟢 Added | [data/results_new/20260908_105600_What_are_the_indications_for_repeat_anterior_cervi.json](../data/results_new/20260908_105600_What_are_the_indications_for_repeat_anterior_cervi.json) | +23 / -0 |
+| 🟢 Added | [data/results_new/20260908_113701_when_is_Repeat_anterior_cervical_discectomy_and_fu.json](../data/results_new/20260908_113701_when_is_Repeat_anterior_cervical_discectomy_and_fu.json) | +87 / -0 |
+| 🟢 Added | [data/results_new/20260908_113934_What_are_the_clinical_coverage_criteria_for_Lumbar.json](../data/results_new/20260908_113934_What_are_the_clinical_coverage_criteria_for_Lumbar.json) | +90 / -0 |
+| 🟢 Added | [data/results_new/20260908_121249_is_prior_auth_required_for_cough_and_cold.json](../data/results_new/20260908_121249_is_prior_auth_required_for_cough_and_cold.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260909_103811_when_is_Pediatric_Lumbar_Fusion_considered_medical.json](../data/results_new/20260909_103811_when_is_Pediatric_Lumbar_Fusion_considered_medical.json) | +25 / -0 |
+| 🟢 Added | [data/results_new/20260909_104137_is_prior_authorization_required_for_Lumbar_Fusion_.json](../data/results_new/20260909_104137_is_prior_authorization_required_for_Lumbar_Fusion_.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20260909_110244_What_are_the_clinical_coverage_criteria_for_Lumbar.json](../data/results_new/20260909_110244_What_are_the_clinical_coverage_criteria_for_Lumbar.json) | +63 / -0 |
+| 🟢 Added | [data/results_new/20260909_110318_Is_prior_authorization_required_for_lumbar_osteoto.json](../data/results_new/20260909_110318_Is_prior_authorization_required_for_lumbar_osteoto.json) | +51 / -0 |
+| 🟢 Added | [data/results_new/20260909_110346_What_are_the_coverage_criteria_for_lumbar_fusion_w.json](../data/results_new/20260909_110346_What_are_the_coverage_criteria_for_lumbar_fusion_w.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20260909_110413_Is_prior_authorization_required_for_lumbar_fusion_.json](../data/results_new/20260909_110413_Is_prior_authorization_required_for_lumbar_fusion_.json) | +47 / -0 |
+| 🟢 Added | [data/results_new/20260909_110452_What_are_the_medical_necessity_indications_for_lum.json](../data/results_new/20260909_110452_What_are_the_medical_necessity_indications_for_lum.json) | +38 / -0 |
+| 🟢 Added | [data/results_new/20260909_110545_Is_prior_authorization_required_for_morselized_all.json](../data/results_new/20260909_110545_Is_prior_authorization_required_for_morselized_all.json) | +15 / -0 |
+| 🟢 Added | [data/results_new/20260909_110645_Is_prior_authorization_required_for_lateral_extrac.json](../data/results_new/20260909_110645_Is_prior_authorization_required_for_lateral_extrac.json) | +86 / -0 |
+| 🟢 Added | [data/results_new/20260909_110750_Is_prior_authorization_required_for_lumbar_arthrod.json](../data/results_new/20260909_110750_Is_prior_authorization_required_for_lumbar_arthrod.json) | +14 / -0 |
+| 🟢 Added | [data/results_new/20260909_110751_Is_prior_authorization_required_for_routine_conser.json](../data/results_new/20260909_110751_Is_prior_authorization_required_for_routine_conser.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260909_110754_Is_prior_authorization_required_for_outpatient_cli.json](../data/results_new/20260909_110754_Is_prior_authorization_required_for_outpatient_cli.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260909_112727_What_are_the_clinical_coverage_criteria_for_Lumbar.json](../data/results_new/20260909_112727_What_are_the_clinical_coverage_criteria_for_Lumbar.json) | +25 / -0 |
+| 🟢 Added | [data/results_new/20260909_112803_Is_prior_authorization_required_for_lumbar_osteoto.json](../data/results_new/20260909_112803_Is_prior_authorization_required_for_lumbar_osteoto.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260909_112831_What_are_the_coverage_criteria_for_lumbar_fusion_w.json](../data/results_new/20260909_112831_What_are_the_coverage_criteria_for_lumbar_fusion_w.json) | +25 / -0 |
+| 🟢 Added | [data/results_new/20260909_112901_Is_prior_authorization_required_for_lumbar_fusion_.json](../data/results_new/20260909_112901_Is_prior_authorization_required_for_lumbar_fusion_.json) | +50 / -0 |
+| 🟢 Added | [data/results_new/20260909_112944_What_are_the_medical_necessity_indications_for_lum.json](../data/results_new/20260909_112944_What_are_the_medical_necessity_indications_for_lum.json) | +38 / -0 |
+| 🟢 Added | [data/results_new/20260909_113046_Is_prior_authorization_required_for_morselized_all.json](../data/results_new/20260909_113046_Is_prior_authorization_required_for_morselized_all.json) | +15 / -0 |
+| 🟢 Added | [data/results_new/20260909_113121_Is_prior_authorization_required_for_lateral_extrac.json](../data/results_new/20260909_113121_Is_prior_authorization_required_for_lateral_extrac.json) | +45 / -0 |
+| 🟢 Added | [data/results_new/20260909_113228_Is_prior_authorization_required_for_lumbar_arthrod.json](../data/results_new/20260909_113228_Is_prior_authorization_required_for_lumbar_arthrod.json) | +12 / -0 |
+| 🟢 Added | [data/results_new/20260909_113247_Is_prior_authorization_required_for_routine_conser.json](../data/results_new/20260909_113247_Is_prior_authorization_required_for_routine_conser.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260909_113309_Is_prior_authorization_required_for_outpatient_cli.json](../data/results_new/20260909_113309_Is_prior_authorization_required_for_outpatient_cli.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260917_125930_What_are_the_criteria_for_BRCA_analysis_genetic_te.json](../data/results_new/20260917_125930_What_are_the_criteria_for_BRCA_analysis_genetic_te.json) | +12 / -0 |
+| 🟢 Added | [data/results_new/20260917_131247_What_are_the_criteria_for_BRCA_analysis_genetic_te.json](../data/results_new/20260917_131247_What_are_the_criteria_for_BRCA_analysis_genetic_te.json) | +60 / -0 |
+| 🟢 Added | [data/results_new/20260917_150133_When_is_anterior_cervical_discectomy_and_fusion_AC.json](../data/results_new/20260917_150133_When_is_anterior_cervical_discectomy_and_fusion_AC.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20260917_164654_What_are_the_indications_for_unicompartmental_knee.json](../data/results_new/20260917_164654_What_are_the_indications_for_unicompartmental_knee.json) | +18 / -0 |
+| 🟢 Added | [data/results_new/20260918_130550_What_are_the_criteria_for_BRCA1_and_BRCA2_genetic_.json](../data/results_new/20260918_130550_What_are_the_criteria_for_BRCA1_and_BRCA2_genetic_.json) | +95 / -0 |
+| 🟢 Added | [data/results_new/20260922_120942_Is_prior_auth_required_for_common_cold.json](../data/results_new/20260922_120942_Is_prior_auth_required_for_common_cold.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_122317_What_are_the_criteria_for_BRCA1_and_BRCA2_genetic_.json](../data/results_new/20260922_122317_What_are_the_criteria_for_BRCA1_and_BRCA2_genetic_.json) | +45 / -0 |
+| 🟢 Added | [data/results_new/20260922_142204_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260922_142204_when_is_adjacent_segment_disease_considered_medica.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_142455_documents_required_for_cpt_code_22845.json](../data/results_new/20260922_142455_documents_required_for_cpt_code_22845.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20260922_144228_documents_required_for_cpt_code_22845.json](../data/results_new/20260922_144228_documents_required_for_cpt_code_22845.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260922_144305_documents_required_for_cpt_code_27445.json](../data/results_new/20260922_144305_documents_required_for_cpt_code_27445.json) | +15 / -0 |
+| 🟢 Added | [data/results_new/20260922_144424_documents_required_for_cpt_code_22845.json](../data/results_new/20260922_144424_documents_required_for_cpt_code_22845.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260922_144451_documents_required_for_cpt_code_27445.json](../data/results_new/20260922_144451_documents_required_for_cpt_code_27445.json) | +44 / -0 |
+| 🟢 Added | [data/results_new/20260922_163659_what_are_the_documents_required_for_adjacent_segme.json](../data/results_new/20260922_163659_what_are_the_documents_required_for_adjacent_segme.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_163747_what_documents_are_required_for_adjaccent_segment_.json](../data/results_new/20260922_163747_what_documents_are_required_for_adjaccent_segment_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_163931_what_documents_are_required_for_adjaccent_segment_.json](../data/results_new/20260922_163931_what_documents_are_required_for_adjaccent_segment_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_164018_what_documents_are_required_for_adjaccent_segment_.json](../data/results_new/20260922_164018_what_documents_are_required_for_adjaccent_segment_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_164123_what_documents_are_required_for_adjaccent_segment_.json](../data/results_new/20260922_164123_what_documents_are_required_for_adjaccent_segment_.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20260922_164407_what_documents_are_required_for_adjaccent_segment_.json](../data/results_new/20260922_164407_what_documents_are_required_for_adjaccent_segment_.json) | +55 / -0 |
+| 🟢 Added | [data/results_new/20260922_164421_what_documents_are_required_for_lumbar_adjacent_se.json](../data/results_new/20260922_164421_what_documents_are_required_for_lumbar_adjacent_se.json) | +31 / -0 |
+| 🟢 Added | [data/results_new/20260922_164430_is_prior_auth_required_for_common_cold.json](../data/results_new/20260922_164430_is_prior_auth_required_for_common_cold.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260922_164444_documents_required_for_cpt_code_22845.json](../data/results_new/20260922_164444_documents_required_for_cpt_code_22845.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20260922_165852_what_documents_are_required_for_acdf_following_fai.json](../data/results_new/20260922_165852_what_documents_are_required_for_acdf_following_fai.json) | +80 / -0 |
+| 🟢 Added | [data/results_new/20260924_102403_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260924_102403_when_is_adjacent_segment_disease_considered_medica.json) | +54 / -0 |
+| 🟢 Added | [data/results_new/20260924_102532_when_is_Lumbar_FusionArthrodesis_with_Decompressio.json](../data/results_new/20260924_102532_when_is_Lumbar_FusionArthrodesis_with_Decompressio.json) | +96 / -0 |
+| 🟢 Added | [data/results_new/20260924_114137_when_is_prior_authorization_required_Cervical_Canc.json](../data/results_new/20260924_114137_when_is_prior_authorization_required_Cervical_Canc.json) | +84 / -0 |
+| 🟢 Added | [data/results_new/20260924_114419_does_the_policy_cover_Cervical_Cancer_for_prior_au.json](../data/results_new/20260924_114419_does_the_policy_cover_Cervical_Cancer_for_prior_au.json) | +100 / -0 |
+| 🟢 Added | [data/results_new/20260925_161248_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260925_161248_when_is_adjacent_segment_disease_considered_medica.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260925_162008_when_is_lumbar_fusion_considered_medically_necessa.json](../data/results_new/20260925_162008_when_is_lumbar_fusion_considered_medically_necessa.json) | +94 / -0 |
+| 🟢 Added | [data/results_new/20260925_162120_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260925_162120_when_is_adjacent_segment_disease_considered_medica.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260925_170049_query_adjacent_segment_disease.json](../data/results_new/20260925_170049_query_adjacent_segment_disease.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260925_170344_adjacent_segment_disease.json](../data/results_new/20260925_170344_adjacent_segment_disease.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20260925_170618_adjacent_segment_disease.json](../data/results_new/20260925_170618_adjacent_segment_disease.json) | +51 / -0 |
+| 🟢 Added | [data/results_new/20260930_100449_adjacent_segment_disease.json](../data/results_new/20260930_100449_adjacent_segment_disease.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20260930_154247_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_154247_when_is_adjacent_segment_disease_considered_medica.json) | +32 / -0 |
+| 🟢 Added | [data/results_new/20260930_154326_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_154326_when_is_adjacent_segment_disease_considered_medica.json) | +32 / -0 |
+| 🟢 Added | [data/results_new/20260930_155051_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_155051_when_is_adjacent_segment_disease_considered_medica.json) | +56 / -0 |
+| 🟢 Added | [data/results_new/20260930_162957_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_162957_When_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20260930_163243_What_are_the_criteria_for_initial_primary_anterior.json](../data/results_new/20260930_163243_What_are_the_criteria_for_initial_primary_anterior.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260930_163355_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_163355_When_is_adjacent_segment_disease_considered_medica.json) | +58 / -0 |
+| 🟢 Added | [data/results_new/20260930_163734_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_163734_When_is_adjacent_segment_disease_considered_medica.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20260930_164019_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_164019_when_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20260930_164214_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_164214_When_is_adjacent_segment_disease_considered_medica.json) | +70 / -0 |
+| 🟢 Added | [data/results_new/20260930_164526_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20260930_164526_when_is_adjacent_segment_disease_considered_medica.json) | +124 / -0 |
+| 🟢 Added | [data/results_new/20261014_095358_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_095358_when_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_101952_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_101952_When_is_adjacent_segment_disease_considered_medica.json) | +70 / -0 |
+| 🟢 Added | [data/results_new/20261014_102216_What_are_the_prior_authorization_requirements_for_.json](../data/results_new/20261014_102216_What_are_the_prior_authorization_requirements_for_.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261014_102252_What_are_the_coverage_criteria_for_CPT_22612_Lumba.json](../data/results_new/20261014_102252_What_are_the_coverage_criteria_for_CPT_22612_Lumba.json) | +97 / -0 |
+| 🟢 Added | [data/results_new/20261014_102430_What_are_the_indications_for_CPT_81162_BRCA1_and_B.json](../data/results_new/20261014_102430_What_are_the_indications_for_CPT_81162_BRCA1_and_B.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261014_102442_Coverage_requirements_for_CPT_27447_total_knee_art.json](../data/results_new/20261014_102442_Coverage_requirements_for_CPT_27447_total_knee_art.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261014_102501_Clinical_criteria_for_CPT_81292_MLH1_sequencing_fo.json](../data/results_new/20261014_102501_Clinical_criteria_for_CPT_81292_MLH1_sequencing_fo.json) | +35 / -0 |
+| 🟢 Added | [data/results_new/20261014_102548_What_are_the_prior_auth_criteria_for_CPT_22867_lum.json](../data/results_new/20261014_102548_What_are_the_prior_auth_criteria_for_CPT_22867_lum.json) | +106 / -0 |
+| 🟢 Added | [data/results_new/20261014_102614_Medical_necessity_criteria_for_CPT_81415_whole_exo.json](../data/results_new/20261014_102614_Medical_necessity_criteria_for_CPT_81415_whole_exo.json) | +76 / -0 |
+| 🟢 Added | [data/results_new/20261014_102624_Indications_for_CPT_81541_Prolaris_mRNA_prostate_c.json](../data/results_new/20261014_102624_Indications_for_CPT_81541_Prolaris_mRNA_prostate_c.json) | +42 / -0 |
+| 🟢 Added | [data/results_new/20261014_102648_Requirements_for_CPT_81552_DecisionDxUM_uveal_mela.json](../data/results_new/20261014_102648_Requirements_for_CPT_81552_DecisionDxUM_uveal_mela.json) | +47 / -0 |
+| 🟢 Added | [data/results_new/20261014_102725_Criteria_for_CPT_81321_PTEN_gene_analysis_for_Cowd.json](../data/results_new/20261014_102725_Criteria_for_CPT_81321_PTEN_gene_analysis_for_Cowd.json) | +64 / -0 |
+| 🟢 Added | [data/results_new/20261014_102738_Coverage_criteria_for_CPT_0047U_Decipher_prostate_.json](../data/results_new/20261014_102738_Coverage_criteria_for_CPT_0047U_Decipher_prostate_.json) | +42 / -0 |
+| 🟢 Added | [data/results_new/20261014_102811_Prior_auth_criteria_for_CPT_22207_lumbar_osteotomy.json](../data/results_new/20261014_102811_Prior_auth_criteria_for_CPT_22207_lumbar_osteotomy.json) | +49 / -0 |
+| 🟢 Added | [data/results_new/20261014_102831_Clinical_indications_for_CPT_77301_intensity_modul.json](../data/results_new/20261014_102831_Clinical_indications_for_CPT_77301_intensity_modul.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_102831_What_are_the_requirements_for_CPT_22552_cervical_c.json](../data/results_new/20261014_102831_What_are_the_requirements_for_CPT_22552_cervical_c.json) | +55 / -0 |
+| 🟢 Added | [data/results_new/20261014_102855_Prior_authorization_requirements_for_CPT_77520_pro.json](../data/results_new/20261014_102855_Prior_authorization_requirements_for_CPT_77520_pro.json) | +59 / -0 |
+| 🟢 Added | [data/results_new/20261014_102917_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_102917_When_is_adjacent_segment_disease_considered_medica.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261014_103038_What_are_the_medical_necessity_criteria_for_cervic.json](../data/results_new/20261014_103038_What_are_the_medical_necessity_criteria_for_cervic.json) | +83 / -0 |
+| 🟢 Added | [data/results_new/20261014_103159_What_are_the_clinical_indications_for_cervical_mye.json](../data/results_new/20261014_103159_What_are_the_clinical_indications_for_cervical_mye.json) | +66 / -0 |
+| 🟢 Added | [data/results_new/20261014_103234_Criteria_for_lumbar_spinal_fusion_in_degenerative_.json](../data/results_new/20261014_103234_Criteria_for_lumbar_spinal_fusion_in_degenerative_.json) | +15 / -0 |
+| 🟢 Added | [data/results_new/20261014_103312_When_is_lumbar_fusion_medically_necessary_for_pseu.json](../data/results_new/20261014_103312_When_is_lumbar_fusion_medically_necessary_for_pseu.json) | +28 / -0 |
+| 🟢 Added | [data/results_new/20261014_103440_What_are_the_indications_for_lumbar_fusion_followi.json](../data/results_new/20261014_103440_What_are_the_indications_for_lumbar_fusion_followi.json) | +203 / -0 |
+| 🟢 Added | [data/results_new/20261014_103444_When_is_total_knee_replacement_indicated_for_advan.json](../data/results_new/20261014_103444_When_is_total_knee_replacement_indicated_for_advan.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261014_103509_What_are_the_clinical_criteria_for_hereditary_colo.json](../data/results_new/20261014_103509_What_are_the_clinical_criteria_for_hereditary_colo.json) | +76 / -0 |
+| 🟢 Added | [data/results_new/20261014_103515_When_is_repeat_ACDF_at_the_same_cervical_level_con.json](../data/results_new/20261014_103515_When_is_repeat_ACDF_at_the_same_cervical_level_con.json) | +82 / -0 |
+| 🟢 Added | [data/results_new/20261014_103559_Indications_for_stereotactic_body_radiation_therap.json](../data/results_new/20261014_103559_Indications_for_stereotactic_body_radiation_therap.json) | +38 / -0 |
+| 🟢 Added | [data/results_new/20261014_103632_What_are_the_conservative_therapy_requirements_bef.json](../data/results_new/20261014_103632_What_are_the_conservative_therapy_requirements_bef.json) | +39 / -0 |
+| 🟢 Added | [data/results_new/20261014_103804_What_nicotine_and_smoking_cessation_documentation_.json](../data/results_new/20261014_103804_What_nicotine_and_smoking_cessation_documentation_.json) | +129 / -0 |
+| 🟢 Added | [data/results_new/20261014_103913_Is_prior_authorization_required_for_anterior_cervi.json](../data/results_new/20261014_103913_Is_prior_authorization_required_for_anterior_cervi.json) | +144 / -0 |
+| 🟢 Added | [data/results_new/20261014_103920_Is_prior_authorization_required_for_routine_comple.json](../data/results_new/20261014_103920_Is_prior_authorization_required_for_routine_comple.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_103927_Is_precertification_required_for_comprehensive_met.json](../data/results_new/20261014_103927_Is_precertification_required_for_comprehensive_met.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_103937_Does_CPT_22612_posterior_lumbar_fusion_require_com.json](../data/results_new/20261014_103937_Does_CPT_22612_posterior_lumbar_fusion_require_com.json) | +98 / -0 |
+| 🟢 Added | [data/results_new/20261014_103946_Is_prior_auth_required_for_routine_lipid_panel_CPT.json](../data/results_new/20261014_103946_Is_prior_auth_required_for_routine_lipid_panel_CPT.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104029_Is_cervical_spinal_fusion_covered_for_isolated_axi.json](../data/results_new/20261014_104029_Is_cervical_spinal_fusion_covered_for_isolated_axi.json) | +75 / -0 |
+| 🟢 Added | [data/results_new/20261014_104148_Is_lumbar_spinal_fusion_indicated_for_uncomplicate.json](../data/results_new/20261014_104148_Is_lumbar_spinal_fusion_indicated_for_uncomplicate.json) | +156 / -0 |
+| 🟢 Added | [data/results_new/20261014_104212_Is_prior_authorization_required_for_CPT_27447_tota.json](../data/results_new/20261014_104212_Is_prior_authorization_required_for_CPT_27447_tota.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261014_104323_Is_genetic_testing_for_BRCA1_covered_for_asymptoma.json](../data/results_new/20261014_104323_Is_genetic_testing_for_BRCA1_covered_for_asymptoma.json) | +32 / -0 |
+| 🟢 Added | [data/results_new/20261014_104324_Is_prior_authorization_required_for_Hemoglobin_A1c.json](../data/results_new/20261014_104324_Is_prior_authorization_required_for_Hemoglobin_A1c.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104446_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json](../data/results_new/20261014_104446_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json) | +121 / -0 |
+| 🟢 Added | [data/results_new/20261014_104451_What_are_the_surgical_criteria_for_cervical_spine_.json](../data/results_new/20261014_104451_What_are_the_surgical_criteria_for_cervical_spine_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104506_Can_I_get_a_lumbar_fusion_for_spondylolisthesis.json](../data/results_new/20261014_104506_Can_I_get_a_lumbar_fusion_for_spondylolisthesis.json) | +61 / -0 |
+| 🟢 Added | [data/results_new/20261014_104554_What_are_the_rules_for_knee_surgery.json](../data/results_new/20261014_104554_What_are_the_rules_for_knee_surgery.json) | +85 / -0 |
+| 🟢 Added | [data/results_new/20261014_104625_Requirements_for_genetic_testing_for_cancer_risk.json](../data/results_new/20261014_104625_Requirements_for_genetic_testing_for_cancer_risk.json) | +37 / -0 |
+| 🟢 Added | [data/results_new/20261014_104701_When_is_radiation_therapy_approved.json](../data/results_new/20261014_104701_When_is_radiation_therapy_approved.json) | +127 / -0 |
+| 🟢 Added | [data/results_new/20261014_104713_Failed_back_syndrome_treatment_requirements.json](../data/results_new/20261014_104713_Failed_back_syndrome_treatment_requirements.json) | +156 / -0 |
+| 🟢 Added | [data/results_new/20261014_104735_What_documentation_does_the_doctor_need_to_submit_.json](../data/results_new/20261014_104735_What_documentation_does_the_doctor_need_to_submit_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104745_What_are_the_precertification_guidelines_for_routi.json](../data/results_new/20261014_104745_What_are_the_precertification_guidelines_for_routi.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104753_Is_prior_auth_needed_for_thyroid_stimulating_hormo.json](../data/results_new/20261014_104753_Is_prior_auth_needed_for_thyroid_stimulating_hormo.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104802_Does_Vitamin_D_25hydroxy_assessment_CPT_82306_requ.json](../data/results_new/20261014_104802_Does_Vitamin_D_25hydroxy_assessment_CPT_82306_requ.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104812_Precertification_criteria_for_outpatient_physical_.json](../data/results_new/20261014_104812_Precertification_criteria_for_outpatient_physical_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104821_Is_precertification_required_for_morselized_spine_.json](../data/results_new/20261014_104821_Is_precertification_required_for_morselized_spine_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104821_Prior_authorization_requirements_for_established_p.json](../data/results_new/20261014_104821_Prior_authorization_requirements_for_established_p.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_104822_Is_prior_authorization_required_for_gastric_restri.json](../data/results_new/20261014_104822_Is_prior_authorization_required_for_gastric_restri.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261014_114730_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_114730_When_is_adjacent_segment_disease_considered_medica.json) | +55 / -0 |
+| 🟢 Added | [data/results_new/20261014_115044_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_115044_When_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_115636_CPT_22551_ACDF_criteria_for_adjacent_segment_disea.json](../data/results_new/20261014_115636_CPT_22551_ACDF_criteria_for_adjacent_segment_disea.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_115812_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_115812_when_is_adjacent_segment_disease_considered_medica.json) | +109 / -0 |
+| 🟢 Added | [data/results_new/20261014_115907_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_115907_When_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_115907_when_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_115907_when_is_adjacent_segment_disease_considered_medica.json) | +54 / -0 |
+| 🟢 Added | [data/results_new/20261014_120729_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_120729_When_is_adjacent_segment_disease_considered_medica.json) | +55 / -0 |
+| 🟢 Added | [data/results_new/20261014_121349_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_121349_When_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_122526_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_122526_When_is_adjacent_segment_disease_considered_medica.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261014_122546_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_122546_When_is_adjacent_segment_disease_considered_medica.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261014_124436_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_124436_When_is_adjacent_segment_disease_considered_medica.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261014_124931_Is_CPT_22551_prior_auth_required.json](../data/results_new/20261014_124931_Is_CPT_22551_prior_auth_required.json) | +135 / -0 |
+| 🟢 Added | [data/results_new/20261014_142328_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261014_142328_When_is_adjacent_segment_disease_considered_medica.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261014_142422_Is_CPT_22551_prior_auth_required.json](../data/results_new/20261014_142422_Is_CPT_22551_prior_auth_required.json) | +94 / -0 |
+| 🟢 Added | [data/results_new/20261014_142959_Is_CPT_22551_prior_auth_required.json](../data/results_new/20261014_142959_Is_CPT_22551_prior_auth_required.json) | +163 / -0 |
+| 🟢 Added | [data/results_new/20261015_095441_is_prior_auth_required_for_Alpha1_Antitrypsin_Defi.json](../data/results_new/20261015_095441_is_prior_auth_required_for_Alpha1_Antitrypsin_Defi.json) | +58 / -0 |
+| 🟢 Added | [data/results_new/20261015_095841_is_prior_auth_required_for_CPT_37269.json](../data/results_new/20261015_095841_is_prior_auth_required_for_CPT_37269.json) | +37 / -0 |
+| 🟢 Added | [data/results_new/20261015_100404_is_prior_auth_required_for_CPT_37269.json](../data/results_new/20261015_100404_is_prior_auth_required_for_CPT_37269.json) | +36 / -0 |
+| 🟢 Added | [data/results_new/20261015_103719_is_prior_auth_required_for_CPT_37269.json](../data/results_new/20261015_103719_is_prior_auth_required_for_CPT_37269.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_103732_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261015_103732_When_is_adjacent_segment_disease_considered_medica.json) | +40 / -0 |
+| 🟢 Added | [data/results_new/20261015_103808_is_prior_auth_required_for_CPT_22551.json](../data/results_new/20261015_103808_is_prior_auth_required_for_CPT_22551.json) | +90 / -0 |
+| 🟢 Added | [data/results_new/20261015_103946_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261015_103946_When_is_adjacent_segment_disease_considered_medica.json) | +56 / -0 |
+| 🟢 Added | [data/results_new/20261015_104237_is_prior_auth_required_for_adjacent_segment_diseas.json](../data/results_new/20261015_104237_is_prior_auth_required_for_adjacent_segment_diseas.json) | +13 / -0 |
+| 🟢 Added | [data/results_new/20261015_104422_is_prior_auth_required_for_adjacent_segment_diseas.json](../data/results_new/20261015_104422_is_prior_auth_required_for_adjacent_segment_diseas.json) | +70 / -0 |
+| 🟢 Added | [data/results_new/20261015_105235_what_are_the_indications_for_initial_primary_ACDF.json](../data/results_new/20261015_105235_what_are_the_indications_for_initial_primary_ACDF.json) | +53 / -0 |
+| 🟢 Added | [data/results_new/20261015_105634_yolo.json](../data/results_new/20261015_105634_yolo.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_105644_allahu_akbar.json](../data/results_new/20261015_105644_allahu_akbar.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_110132_Conservative_management_requirements_for_anterior_.json](../data/results_new/20261015_110132_Conservative_management_requirements_for_anterior_.json) | +106 / -0 |
+| 🟢 Added | [data/results_new/20261015_110334_Precertification_requirements_for_knee_surgery_CPT.json](../data/results_new/20261015_110334_Precertification_requirements_for_knee_surgery_CPT.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_115011_is_prior_auth_required_for_adjacent_segment_diseas.json](../data/results_new/20261015_115011_is_prior_auth_required_for_adjacent_segment_diseas.json) | +52 / -0 |
+| 🟢 Added | [data/results_new/20261015_123301_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json](../data/results_new/20261015_123301_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_123319_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json](../data/results_new/20261015_123319_I_have_neck_pain_radiating_to_my_shoulder_do_I_qua.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_123333_What_are_the_rules_for_knee_surgery.json](../data/results_new/20261015_123333_What_are_the_rules_for_knee_surgery.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261015_123416_When_is_radiation_therapy_approved.json](../data/results_new/20261015_123416_When_is_radiation_therapy_approved.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_123436_What_documentation_does_the_doctor_need_to_submit_.json](../data/results_new/20261015_123436_What_documentation_does_the_doctor_need_to_submit_.json) | +54 / -0 |
+| 🟢 Added | [data/results_new/20261015_123544_What_are_the_rules_for_knee_surgery.json](../data/results_new/20261015_123544_What_are_the_rules_for_knee_surgery.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261015_123544_what_are_the_rules_for_knee_surgery.json](../data/results_new/20261015_123544_what_are_the_rules_for_knee_surgery.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261015_123552_When_is_radiation_therapy_approved.json](../data/results_new/20261015_123552_When_is_radiation_therapy_approved.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_123924_What_are_the_criteria_for_total_knee_arthroplasty_.json](../data/results_new/20261015_123924_What_are_the_criteria_for_total_knee_arthroplasty_.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_123955_Precertification_requirements_for_knee_surgery_CPT.json](../data/results_new/20261015_123955_Precertification_requirements_for_knee_surgery_CPT.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_124052_Precertification_requirements_for_knee_surgery_CPT.json](../data/results_new/20261015_124052_Precertification_requirements_for_knee_surgery_CPT.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_124145_When_is_total_knee_replacement_indicated_for_advan.json](../data/results_new/20261015_124145_When_is_total_knee_replacement_indicated_for_advan.json) | +11 / -0 |
+| 🟢 Added | [data/results_new/20261015_141419_Is_CPT_22551_prior_auth_required.json](../data/results_new/20261015_141419_Is_CPT_22551_prior_auth_required.json) | +101 / -0 |
+| 🟢 Added | [data/results_new/20261015_145005_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261015_145005_When_is_adjacent_segment_disease_considered_medica.json) | +42 / -0 |
+| 🟢 Added | [data/results_new/20261015_151240_you_working_fine_bro.json](../data/results_new/20261015_151240_you_working_fine_bro.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_151254_Precertification_requirements_for_knee_surgery_CPT.json](../data/results_new/20261015_151254_Precertification_requirements_for_knee_surgery_CPT.json) | +10 / -0 |
+| 🟢 Added | [data/results_new/20261015_151322_What_are_the_nonindications_for_lumbar_fusion.json](../data/results_new/20261015_151322_What_are_the_nonindications_for_lumbar_fusion.json) | +41 / -0 |
+| 🟢 Added | [data/results_new/20261015_152243_Is_CPT_22551_prior_auth_required.json](../data/results_new/20261015_152243_Is_CPT_22551_prior_auth_required.json) | +94 / -0 |
+| 🟢 Added | [data/results_new/20261015_160958_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261015_160958_When_is_adjacent_segment_disease_considered_medica.json) | +40 / -0 |
+| 🟢 Added | [data/results_new/20261015_162020_When_is_adjacent_segment_disease_considered_medica.json](../data/results_new/20261015_162020_When_is_adjacent_segment_disease_considered_medica.json) | +70 / -0 |
+
+</details>
+
+---
+
+### Commit 29: `fc263d7` - sign-out
+
+<a id="commit-fc263d7"></a>
+
+- **Date**: 2026-10-15 17:21:10 +0530
+- **Author**: vijaykumarbk &lt;vancedxdxd@gmail.com&gt;
+- **Full Hash**: `fc263d71fd190c9ba397d989b97986ce43c08a97`
+- **Folder**: [**`commits/29_fc263d7_sign-out/`**](./commits/29_fc263d7_sign-out/README.md)
+- **Change Summary**: 84 file(s) affected (83 added, 1 modified, 0 deleted)
+
+<details>
+<summary><b>View all 84 changed files</b> (Click to expand)</summary>
+
+| Status | File Path | Lines (+/-) |
+| :--- | :--- | :--- |
+| 🟡 Modified | [.agents/plugins/hook-auto-docs/.state/.stop-hook.lock](../.agents/plugins/hook-auto-docs/.state/.stop-hook.lock) | +1 / -1 |
+| 🟢 Added | [.env.real_backup](../.env.real_backup) | +19 / -0 |
+| 🟢 Added | [graphify-out/.graphify_labels.json](../graphify-out/.graphify_labels.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/.graphify_labels.json.sig](../graphify-out/.graphify_labels.json.sig) | +1 / -0 |
+| 🟢 Added | [graphify-out/.graphify_python](../graphify-out/.graphify_python) | +1 / -0 |
+| 🟢 Added | [graphify-out/.graphify_root](../graphify-out/.graphify_root) | +1 / -0 |
+| 🟢 Added | [graphify-out/.graphify_uncached.txt](../graphify-out/.graphify_uncached.txt) | +59 / -0 |
+| 🟢 Added | [graphify-out/.obsidian/app.json](../graphify-out/.obsidian/app.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/.obsidian/appearance.json](../graphify-out/.obsidian/appearance.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/.obsidian/core-plugins.json](../graphify-out/.obsidian/core-plugins.json) | +33 / -0 |
+| 🟢 Added | [graphify-out/.obsidian/graph.json](../graphify-out/.obsidian/graph.json) | +22 / -0 |
+| 🟢 Added | [graphify-out/.obsidian/workspace.json](../graphify-out/.obsidian/workspace.json) | +199 / -0 |
+| 🟢 Added | [graphify-out/2026-09-24/.graphify_labels.json](../graphify-out/2026-09-24/.graphify_labels.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/2026-09-24/GRAPH_REPORT.md](../graphify-out/2026-09-24/GRAPH_REPORT.md) | +1175 / -0 |
+| 🟢 Added | [graphify-out/2026-09-24/cost.json](../graphify-out/2026-09-24/cost.json) | +12 / -0 |
+| 🟢 Added | [graphify-out/2026-09-24/graph.json](../graphify-out/2026-09-24/graph.json) | +56526 / -0 |
+| 🟢 Added | [graphify-out/2026-09-24/manifest.json](../graphify-out/2026-09-24/manifest.json) | +824 / -0 |
+| 🟢 Added | [graphify-out/GRAPH_REPORT.md](../graphify-out/GRAPH_REPORT.md) | +1234 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/01446d3532325c8ed21ba03d339f04f7571379d2ae7af74ebffca0fc756e6eae.json](../graphify-out/cache/ast/v0.9.67-s4/01446d3532325c8ed21ba03d339f04f7571379d2ae7af74ebffca0fc756e6eae.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/031c28dee8a409cc4d120fef0a8a06375b08324c2213aa684112fbdb10c8e243.json](../graphify-out/cache/ast/v0.9.67-s4/031c28dee8a409cc4d120fef0a8a06375b08324c2213aa684112fbdb10c8e243.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/074b5f0e744e56b331aa2677577710680c72f259de63ca97c547ac6424cc8733.json](../graphify-out/cache/ast/v0.9.67-s4/074b5f0e744e56b331aa2677577710680c72f259de63ca97c547ac6424cc8733.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/07d037010bc425f2eccc8aff84d00438fac51230adf05bf21757d7ea6fb65cb5.json](../graphify-out/cache/ast/v0.9.67-s4/07d037010bc425f2eccc8aff84d00438fac51230adf05bf21757d7ea6fb65cb5.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/144dcb2cef837e63541bb4de4678809b4762d84209ef49914bf3f7d49139bdac.json](../graphify-out/cache/ast/v0.9.67-s4/144dcb2cef837e63541bb4de4678809b4762d84209ef49914bf3f7d49139bdac.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/1b14788ae21ec5436abe29d3717535f53250be62e65209ab5beff8a1f89f2c5d.json](../graphify-out/cache/ast/v0.9.67-s4/1b14788ae21ec5436abe29d3717535f53250be62e65209ab5beff8a1f89f2c5d.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/1dd760aeefe255c07624b6b51e621cd142b8f35c597ecfd072fccab471be9e82.json](../graphify-out/cache/ast/v0.9.67-s4/1dd760aeefe255c07624b6b51e621cd142b8f35c597ecfd072fccab471be9e82.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/228d1a8382d99a71a45622ad40c3e344dbc3b354d8663e44e4916bba0ba58389.json](../graphify-out/cache/ast/v0.9.67-s4/228d1a8382d99a71a45622ad40c3e344dbc3b354d8663e44e4916bba0ba58389.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/240450b0bd28a6a710f4976fc024a3a67160b4717e7e81ab6c8e417a80d95894.json](../graphify-out/cache/ast/v0.9.67-s4/240450b0bd28a6a710f4976fc024a3a67160b4717e7e81ab6c8e417a80d95894.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/2f560fc1df59c3fa0fc3dfe3948c093f40fc75eeac77a1a7dc8ae20aaff5fd4b.json](../graphify-out/cache/ast/v0.9.67-s4/2f560fc1df59c3fa0fc3dfe3948c093f40fc75eeac77a1a7dc8ae20aaff5fd4b.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/329d349b0b8c7102ab07abc02d95ee59d88cc2a34272d6f82292b9669cc15f46.json](../graphify-out/cache/ast/v0.9.67-s4/329d349b0b8c7102ab07abc02d95ee59d88cc2a34272d6f82292b9669cc15f46.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/34e87f96ab2c45c86f83fdb93bcdbb3313477242baee2da5710f5cef4b762e00.json](../graphify-out/cache/ast/v0.9.67-s4/34e87f96ab2c45c86f83fdb93bcdbb3313477242baee2da5710f5cef4b762e00.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/3d1a3b15094250cba517811d02247f96c65a7cf21059251932133751d6b6a08c.json](../graphify-out/cache/ast/v0.9.67-s4/3d1a3b15094250cba517811d02247f96c65a7cf21059251932133751d6b6a08c.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/3da2d18fe540cc893306d9199335fb94449b9829ad69b3f2d8b15ea5320cbd7b.json](../graphify-out/cache/ast/v0.9.67-s4/3da2d18fe540cc893306d9199335fb94449b9829ad69b3f2d8b15ea5320cbd7b.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/456bbbf140a137f8e132140a7c5fb921b7ce2d3e7e2f42b84b21bef6a54e3fc4.json](../graphify-out/cache/ast/v0.9.67-s4/456bbbf140a137f8e132140a7c5fb921b7ce2d3e7e2f42b84b21bef6a54e3fc4.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/464294c5851ac828abe0fa4332b80653f7d01c2396cb217f7a50eb2df8ac6966.json](../graphify-out/cache/ast/v0.9.67-s4/464294c5851ac828abe0fa4332b80653f7d01c2396cb217f7a50eb2df8ac6966.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/47cbc7e235ad12809f6a4e991bd856d6ef60e2cf0ae8f622e4641be846983003.json](../graphify-out/cache/ast/v0.9.67-s4/47cbc7e235ad12809f6a4e991bd856d6ef60e2cf0ae8f622e4641be846983003.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/4c2478ed95ecf27b44bfb976f131ee3c126666111e1fc9933efa5d2731d4f2a5.json](../graphify-out/cache/ast/v0.9.67-s4/4c2478ed95ecf27b44bfb976f131ee3c126666111e1fc9933efa5d2731d4f2a5.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/4c42edefa11d191ad972c2f97011043cc701429b55afcdb2109cbe51d9d33605.json](../graphify-out/cache/ast/v0.9.67-s4/4c42edefa11d191ad972c2f97011043cc701429b55afcdb2109cbe51d9d33605.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/4d2f74e6300b74a444f4d6951670383431145ef7402136683891d10f18c55f98.json](../graphify-out/cache/ast/v0.9.67-s4/4d2f74e6300b74a444f4d6951670383431145ef7402136683891d10f18c55f98.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/51b0e9a9d0c82b23e433ea764f1611f1eb9468592c4eab0eb604afd794a63803.json](../graphify-out/cache/ast/v0.9.67-s4/51b0e9a9d0c82b23e433ea764f1611f1eb9468592c4eab0eb604afd794a63803.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/5dd1e1fbbaae119359f82fdbf988c23d53908eca7aaab76950eb405b0661754f.json](../graphify-out/cache/ast/v0.9.67-s4/5dd1e1fbbaae119359f82fdbf988c23d53908eca7aaab76950eb405b0661754f.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/61596b01a8997cb4bce1104227f261a7ebe086e432c936e1940d8aca57c4a81e.json](../graphify-out/cache/ast/v0.9.67-s4/61596b01a8997cb4bce1104227f261a7ebe086e432c936e1940d8aca57c4a81e.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/6397359c0db7dfb2cb1ec29273e7a4e9f36f96fe023ad9e1da151a2c97127fa7.json](../graphify-out/cache/ast/v0.9.67-s4/6397359c0db7dfb2cb1ec29273e7a4e9f36f96fe023ad9e1da151a2c97127fa7.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/6438da8847809c0fb7353995c70aaa3d25283d0a518b060e25e3ddd6ff41ce9f.json](../graphify-out/cache/ast/v0.9.67-s4/6438da8847809c0fb7353995c70aaa3d25283d0a518b060e25e3ddd6ff41ce9f.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/652a3e17f82be5a9bf4940c0550eef4b981a77ac78c2d397e550c22db5c40fe4.json](../graphify-out/cache/ast/v0.9.67-s4/652a3e17f82be5a9bf4940c0550eef4b981a77ac78c2d397e550c22db5c40fe4.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/68519e7b3c54aaf94c990c878b95b78fc744cc6bc251015d73e0ddc4452967c1.json](../graphify-out/cache/ast/v0.9.67-s4/68519e7b3c54aaf94c990c878b95b78fc744cc6bc251015d73e0ddc4452967c1.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/6acabcd571499204a7f48fa959f2e62312c47da5b5ec361aa46331ca3c29e6cf.json](../graphify-out/cache/ast/v0.9.67-s4/6acabcd571499204a7f48fa959f2e62312c47da5b5ec361aa46331ca3c29e6cf.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/6c52ab582aa7a220c9ca076d27d85cb9797aafb72acb615e7eca5b3141c256e8.json](../graphify-out/cache/ast/v0.9.67-s4/6c52ab582aa7a220c9ca076d27d85cb9797aafb72acb615e7eca5b3141c256e8.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/7041f5a3044f31c1ead309df0f075e77556d160f8ffcd6cd4f98d82d69fa3845.json](../graphify-out/cache/ast/v0.9.67-s4/7041f5a3044f31c1ead309df0f075e77556d160f8ffcd6cd4f98d82d69fa3845.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/71065311f627f9f1e35121888514ffb814a711ad6dbe660a9f2c4b4c7194104b.json](../graphify-out/cache/ast/v0.9.67-s4/71065311f627f9f1e35121888514ffb814a711ad6dbe660a9f2c4b4c7194104b.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/752cb2469361cd14d6add9cb858914de833b41027253f87e9c7bc46b698d6688.json](../graphify-out/cache/ast/v0.9.67-s4/752cb2469361cd14d6add9cb858914de833b41027253f87e9c7bc46b698d6688.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/810cbf9e7f3e3730e16e4896eedb1e87bcbf5d5fe88592ae6f1b7e9e41ea93f4.json](../graphify-out/cache/ast/v0.9.67-s4/810cbf9e7f3e3730e16e4896eedb1e87bcbf5d5fe88592ae6f1b7e9e41ea93f4.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/816a718a8d7db45f94160dbba169b1c2a0285a01cbe3dc6440c005e5d1a9f65e.json](../graphify-out/cache/ast/v0.9.67-s4/816a718a8d7db45f94160dbba169b1c2a0285a01cbe3dc6440c005e5d1a9f65e.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/81adcf63199ae04b6c18fb120cf43f7b8ad05f153634d9788276b2f3473d07fa.json](../graphify-out/cache/ast/v0.9.67-s4/81adcf63199ae04b6c18fb120cf43f7b8ad05f153634d9788276b2f3473d07fa.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/8322cf3f39a6c7a0d1889c26bc6082cfffcbe57b8c0a5fba8130803c916ea2cd.json](../graphify-out/cache/ast/v0.9.67-s4/8322cf3f39a6c7a0d1889c26bc6082cfffcbe57b8c0a5fba8130803c916ea2cd.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/8ab331872ce384b70b7e44bb2a512451db003f19bc0872a51a57a61ffdafbee5.json](../graphify-out/cache/ast/v0.9.67-s4/8ab331872ce384b70b7e44bb2a512451db003f19bc0872a51a57a61ffdafbee5.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/8ea1c5f198c83ff61160a8bfc7744892b51ddd58b57a57837d58e2289cbf2047.json](../graphify-out/cache/ast/v0.9.67-s4/8ea1c5f198c83ff61160a8bfc7744892b51ddd58b57a57837d58e2289cbf2047.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/8f68dc64627161df45431406ba7ba80d4ee755caba3572fba694a3b72de0175b.json](../graphify-out/cache/ast/v0.9.67-s4/8f68dc64627161df45431406ba7ba80d4ee755caba3572fba694a3b72de0175b.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/904eaa933e55307376cf72512c61a45fd1ccb1bdce404b5a9d8863e7335b5084.json](../graphify-out/cache/ast/v0.9.67-s4/904eaa933e55307376cf72512c61a45fd1ccb1bdce404b5a9d8863e7335b5084.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/90d13b75937bc6a4dbdc02172fee14e5b29a0472aea31549d95a704f3457f1c0.json](../graphify-out/cache/ast/v0.9.67-s4/90d13b75937bc6a4dbdc02172fee14e5b29a0472aea31549d95a704f3457f1c0.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/9deba75710751d1a2afaf39123ddc45eb07780370adb1b7dcc8157fade675fd6.json](../graphify-out/cache/ast/v0.9.67-s4/9deba75710751d1a2afaf39123ddc45eb07780370adb1b7dcc8157fade675fd6.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/a031394b868d28f39cca4a2eb3719d285e8d5874fb60cf88cef2301e441d6a4b.json](../graphify-out/cache/ast/v0.9.67-s4/a031394b868d28f39cca4a2eb3719d285e8d5874fb60cf88cef2301e441d6a4b.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/a5f27827daf603dfbf1b21642cca1c6d2a737853b30b999e07b5e85a75e2e7b5.json](../graphify-out/cache/ast/v0.9.67-s4/a5f27827daf603dfbf1b21642cca1c6d2a737853b30b999e07b5e85a75e2e7b5.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/ab1f38f1c76189dc911d594e6ec8f1c5e6515a148120bbb6a311dcdf99cd15cc.json](../graphify-out/cache/ast/v0.9.67-s4/ab1f38f1c76189dc911d594e6ec8f1c5e6515a148120bbb6a311dcdf99cd15cc.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/b496e09c4a48c4684004b80804ad8f8f2b4890afd5665c876941c3a17da2dfc3.json](../graphify-out/cache/ast/v0.9.67-s4/b496e09c4a48c4684004b80804ad8f8f2b4890afd5665c876941c3a17da2dfc3.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/b95592403cea9afe86b299728399d0c7b3383814a2a371374d609e7070f56a47.json](../graphify-out/cache/ast/v0.9.67-s4/b95592403cea9afe86b299728399d0c7b3383814a2a371374d609e7070f56a47.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/bbf0c0b1dd1bfe52179b974d99d628b2f8a6c87ab6ecec092036bd72b2a2ccd4.json](../graphify-out/cache/ast/v0.9.67-s4/bbf0c0b1dd1bfe52179b974d99d628b2f8a6c87ab6ecec092036bd72b2a2ccd4.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/c05d2ac3c71082f363b8aa504bcda00d9f71068338085398a77f12a5ae8b8dc2.json](../graphify-out/cache/ast/v0.9.67-s4/c05d2ac3c71082f363b8aa504bcda00d9f71068338085398a77f12a5ae8b8dc2.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/ca457bca2d9ee059956a970aca115d946befb1069aead9f768a5bcfae9cbe1f6.json](../graphify-out/cache/ast/v0.9.67-s4/ca457bca2d9ee059956a970aca115d946befb1069aead9f768a5bcfae9cbe1f6.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/d2276241b6519339022322e220329748fd8255c1f7a6d05e8082719b0bd2a076.json](../graphify-out/cache/ast/v0.9.67-s4/d2276241b6519339022322e220329748fd8255c1f7a6d05e8082719b0bd2a076.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/d3edbfc4997f2cf5138a6085b2d0329e8a441f974b81f6ed1b64545505bfa2af.json](../graphify-out/cache/ast/v0.9.67-s4/d3edbfc4997f2cf5138a6085b2d0329e8a441f974b81f6ed1b64545505bfa2af.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/d74033a32816376ca87e97682c182349251477b1f17cda6615e9cc72cbd4fa9c.json](../graphify-out/cache/ast/v0.9.67-s4/d74033a32816376ca87e97682c182349251477b1f17cda6615e9cc72cbd4fa9c.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/d7da858c7b3def2a26689691c693e81f3d192d370c94e2e3298e18630eb26418.json](../graphify-out/cache/ast/v0.9.67-s4/d7da858c7b3def2a26689691c693e81f3d192d370c94e2e3298e18630eb26418.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/dac21bf5e905e54af8626a5a03bd43d916d89c5343b352fabc9afa027840481c.json](../graphify-out/cache/ast/v0.9.67-s4/dac21bf5e905e54af8626a5a03bd43d916d89c5343b352fabc9afa027840481c.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/dacdab6975c478fe6dc4d5b179aae4a665ff8b504b0fb75d03e4b1d1e8814952.json](../graphify-out/cache/ast/v0.9.67-s4/dacdab6975c478fe6dc4d5b179aae4a665ff8b504b0fb75d03e4b1d1e8814952.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/e047be9899c399da441b2209c351d0042cd74ba7466c262a4d48f0579f7a6df7.json](../graphify-out/cache/ast/v0.9.67-s4/e047be9899c399da441b2209c351d0042cd74ba7466c262a4d48f0579f7a6df7.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/e3cd5f7ae6a9852e4aedde07caa271c0a5eea9ed6e349e3458d969300015def5.json](../graphify-out/cache/ast/v0.9.67-s4/e3cd5f7ae6a9852e4aedde07caa271c0a5eea9ed6e349e3458d969300015def5.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/f4a621ad02e8be5e9928b22033a34d44d825126e2851277ec907dff5c18127d6.json](../graphify-out/cache/ast/v0.9.67-s4/f4a621ad02e8be5e9928b22033a34d44d825126e2851277ec907dff5c18127d6.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/fdbc6fc76260396f80eac0d36fe75c7fa08156139c5e5f60b808decd8d401447.json](../graphify-out/cache/ast/v0.9.67-s4/fdbc6fc76260396f80eac0d36fe75c7fa08156139c5e5f60b808decd8d401447.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/ast/v0.9.67-s4/fee204c2a3f0d5e242ab10a04818a1219d9587bc8b39e21d5ac4ca51db5f4cf2.json](../graphify-out/cache/ast/v0.9.67-s4/fee204c2a3f0d5e242ab10a04818a1219d9587bc8b39e21d5ac4ca51db5f4cf2.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cache/stat-index.json](../graphify-out/cache/stat-index.json) | +1 / -0 |
+| 🟢 Added | [graphify-out/cost.json](../graphify-out/cost.json) | +12 / -0 |
+| 🟢 Added | [graphify-out/graph.html](../graphify-out/graph.html) | +351 / -0 |
+| 🟢 Added | [graphify-out/graph.json](../graphify-out/graph.json) | +60305 / -0 |
+| 🟢 Added | [graphify-out/manifest.json](../graphify-out/manifest.json) | +848 / -0 |
+
+</details>
 
 ---
 

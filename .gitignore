@@ -7,6 +7,6 @@ priorauth-rag-portal/node_modules/
 __pycache__/
 *.pyc
 
-# Local system ignores
+# Local system & private files
 .graphifyignore
-graphify-out/.env.real_backup
+.env.real_backup

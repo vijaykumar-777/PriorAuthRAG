@@ -1,8 +1,8 @@
 # Commits Documentation Index
 
 **Project**: `project2`  
-**Generated**: 2026-10-15 11:22:37  
-**Total Commits Documented**: 26  
+**Generated**: 2026-10-15 11:51:11  
+**Total Commits Documented**: 29  
 **Timeline**: 2026-09-08 to 2026-10-15  
 
 This folder organizes documentation for **each individual commit** into dedicated folders for easy readability and isolated inspection.
@@ -37,6 +37,9 @@ This folder organizes documentation for **each individual commit** into dedicate
 | 24 | `474e6fd` | 2026-10-15 | feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview | 10 | [📂 24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/](./24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md) |
 | 25 | `edcaccc` | 2026-10-15 | docs: auto-doc updates for commit 24 | 6 | [📂 25_edcaccc_docs-auto-doc-updates-for-commit-24/](./25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md) |
 | 26 | `d43f2c8` | 2026-10-15 | docs: finalize commit documentation | 6 | [📂 26_d43f2c8_docs-finalize-commit-documentation/](./26_d43f2c8_docs-finalize-commit-documentation/README.md) |
+| 27 | `a90c553` | 2026-10-15 | docs: finalize commit history and project documentation | 6 | [📂 27_a90c553_docs-finalize-commit-history-and-project-docu/](./27_a90c553_docs-finalize-commit-history-and-project-docu/README.md) |
+| 28 | `bef2188` | 2026-10-15 | feat: include scrambled .env template and evaluation results for 1-to-1 restore | 262 | [📂 28_bef2188_feat-include-scrambled-env-template-and-evalu/](./28_bef2188_feat-include-scrambled-env-template-and-evalu/README.md) |
+| 29 | `fc263d7` | 2026-10-15 | sign-out | 84 | [📂 29_fc263d7_sign-out/](./29_fc263d7_sign-out/README.md) |
 
 ---
 <a href="../README.md">&larr; Back to Main Documentation Index</a>
