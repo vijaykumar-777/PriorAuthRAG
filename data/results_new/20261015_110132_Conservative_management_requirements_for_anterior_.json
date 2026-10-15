@@ -1,0 +1,106 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy",
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Unremitting Neck Pain with Pseudoarthrosis",
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Radiculopathy with Pseudoarthrosis",
+    "CMM-601.7: Adjacent Segment Disease",
+    "CMM-601.7: Adjacent Segment Disease > Radiculopathy",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Unremitting Neck Pain",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Radiculopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Initial Primary ACDF for Radiculopathy",
+      "Required findings": [
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), or unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+        "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of: herniated disc(s) (retained disc material or a recurrent disc herniation), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks; provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy (TOC: S9.1.1)"
+    },
+    {
+      "Guideline Category": "Repeat ACDF at Same Level for Unremitting Neck Pain with Pseudoarthrosis",
+      "Required findings": [
+        "Greater than six (6) months since the prior anterior cervical discectomy and fusion (ACDF) at the same level",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Post-operative physical exam findings are concordant with the individual's symptoms",
+        "Less than clinically meaningful improvement with BOTH of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks; provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+        "Absence of unmanaged significant mental and/or behavioral health disorders and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Unremitting Neck Pain with Pseudoarthrosis (TOC: S11.1.2)"
+    },
+    {
+      "Guideline Category": "Repeat ACDF at Same Level for Radiculopathy with Pseudoarthrosis",
+      "Required findings": [
+        "Greater than six (6) months since the prior anterior cervical discectomy and fusion (ACDF) at the same level",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks; provider-directed exercise program for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Absence of unmanaged significant mental and/or behavioral health disorders and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Radiculopathy with Pseudoarthrosis (TOC: S11.1.3)"
+    },
+    {
+      "Guideline Category": "Adjacent Segment Disease for Radiculopathy",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical decompression or cervical fusion at an adjacent level",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks; provider-directed exercise program for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Absence of unmanaged significant mental and/or behavioral health disorders and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Radiculopathy (TOC: S12.1.1)"
+    },
+    {
+      "Guideline Category": "ACDF Following Failed Cervical Disc Arthroplasty for Unremitting Neck Pain",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical total disc arthroplasty at the same level",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Post-operative physical exam findings are concordant with the individual's symptoms",
+        "Less than clinically meaningful improvement with BOTH of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks; provider-directed exercise program for six (6) weeks",
+        "Absence of unmanaged significant mental and/or behavioral health disorders and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Unremitting Neck Pain (TOC: S13.1.2)"
+    },
+    {
+      "Guideline Category": "ACDF Following Failed Cervical Disc Arthroplasty for Radiculopathy",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical total disc arthroplasty at the same level",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of: dermatomal sensory deficit, motor deficit, reflex changes, shoulder abduction relief sign, nerve root tension sign, or unremitting radicular pain without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks; provider-directed exercise program for six (6) weeks; epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Absence of unmanaged significant mental and/or behavioral health disorders and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods)"
+      ],
+      "Source": "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Radiculopathy (TOC: S13.1.3)"
+    }
+  ],
+  "Non-Indications": [
+    "Failure to demonstrate less than clinically meaningful improvement with the required number of conservative therapy modalities (e.g., fewer than two modalities for radiculopathy, or fewer than both required modalities for unremitting neck pain) for the specified six-week duration, unless contraindicated",
+    "Presence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Failure to document nicotine-free status (either as a never-smoker or by refraining from smoking/nicotine for at least six weeks prior to surgery with objective cotinine testing within normal range)",
+    "For repeat procedures or adjacent segment disease, surgery requested less than six (6) months after the prior cervical decompression, fusion, or disc arthroplasty",
+    "For myelopathy indications, absence of concordant MRI/CT findings showing cervical spinal cord compression or cervical spinal stenosis matching symptoms and physical exam findings"
+  ],
+  "Important criteria & exceptions": [
+    "Conservative management requirements vary by indication: Radiculopathy requires at least TWO of three modalities (medications, exercise, injections), while Unremitting Neck Pain requires BOTH medications and exercise",
+    "Conservative therapy duration is strictly defined as six (6) weeks for medications and exercise programs",
+    "Epidural steroid injections or selective nerve root blocks must be performed at the same level(s) as the requested surgery to count toward conservative management for radiculopathy",
+    "Nicotine-free status must be validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab",
+    "For repeat ACDF or adjacent segment disease, post-operative imaging must be performed at no less than six (6) months after the prior cervical fusion to verify pseudoarthrosis or successful fusion"
+  ],
+  "Documentation required": [
+    "Plain x-rays of the cervical spine including flexion/extension lateral views (for Initial Primary ACDF and Adjacent Segment Disease)",
+    "MRI or CT reports showing neural structure compression or spinal cord compression concordant with symptoms and physical exam findings",
+    "Post-operative imaging reports (performed at no less than six months after prior surgery) showing pseudoarthrosis, implant failure, or successful fusion at previous levels (for Repeat ACDF, Adjacent Segment Disease, and Failed Arthroplasty)",
+    "Records of conservative management including prescription medication logs, physical therapy/exercise program notes, and documentation of epidural steroid injections or selective nerve root blocks at the requested level(s)",
+    "Objective cotinine testing results (serum, urinary, or saliva) verified as within normal range, or documentation of never-smoker status",
+    "Documentation of absence of unmanaged significant mental and/or behavioral health disorders"
+  ]
+}

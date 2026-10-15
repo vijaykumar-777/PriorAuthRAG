@@ -1,0 +1,53 @@
+{
+  "Query": "When is repeat lumbar fusion indicated for symptomatic pseudoarthrosis?",
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level)",
+    "Symptomatic Pseudoarthrosis",
+    "Malposition or Failure of Implant/Instrumentation"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Symptomatic Pseudoarthrosis",
+      "Required findings": [
+        "Greater than six (6) months elapsed since the prior lumbar fusion",
+        "Daily pain of clinically significant intensity causing functional impairment (e.g., inability to perform household chores, prolonged standing)",
+        "Physical examination findings that are concordant with the reported symptoms",
+        "Less than clinically meaningful improvement despite BOTH a six‑week trial of prescription‑strength analgesics (including steroids, gabapentinoids, NSAIDs) AND a six‑week provider‑directed exercise program (physical therapy, chiropractic, osteopathic or physician‑prescribed)",
+        "Post‑operative imaging performed ≥6 months after the index fusion that demonstrates pseudoarthrosis at the requested level(s) (plain radiographs, CT or MRI) and imaging findings that correlate with the patient’s symptoms",
+        "Absence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder)",
+        "Documentation of nicotine‑free status either as a never‑smoker or cessation ≥6 weeks prior to the planned repeat fusion verified by objective cotinine testing (serum, urine or saliva)"
+      ],
+      "Source": "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level > Symptomatic Pseudoarthrosis"
+    }
+  ],
+  "Non-Indications": [
+    "Less than six (6) months since the prior lumbar fusion",
+    "Pain or functional limitation that does not meet the threshold of clinically significant daily impairment",
+    "Failure to demonstrate pseudoarthrosis on imaging or imaging not concordant with symptoms",
+    "No documented trial of both appropriate pharmacologic therapy and structured exercise program for the required six‑week duration",
+    "Active tobacco use without documented cessation or without objective cotinine verification",
+    "Presence of unmanaged significant mental or behavioral health disorders",
+    "Imaging performed earlier than six months post‑op",
+    "Patient does not meet nicotine‑free verification requirements"
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine‑free status may be satisfied by never‑smoker status or by documented cessation ≥6 weeks with a normal cotinine level (serum, urine or saliva)",
+    "Both pharmacologic and exercise conservative therapies must be completed for a minimum of six weeks unless contraindicated",
+    "Imaging must be obtained at least six months after the index fusion to reliably assess pseudoarthrosis",
+    "If pseudoarthrosis is identified intra‑operatively, imaging criteria may be waived per general guidelines for intra‑operative instability",
+    "Behavioral health clearance is required only for unmanaged disorders; stable, treated conditions are acceptable"
+  ],
+  "Documentation required": [
+    "Operative report of the original lumbar fusion (including level(s) fused and instrumentation used)",
+    "Post‑operative plain radiographs (flexion‑extension views) performed ≥6 months after the index surgery",
+    "CT or MRI report confirming pseudoarthrosis and correlating neural element compression at the same level(s)",
+    "Detailed physical examination note documenting findings that match the patient’s pain pattern",
+    "Medication administration record showing at least six weeks of prescription‑strength analgesics, steroids, gabapentinoids and/or NSAIDs",
+    "Physical therapy/chiropractic/osteopathic progress notes confirming a supervised exercise program of ≥6 weeks",
+    "Objective cotinine test result (serum, urine or saliva) within normal range performed ≤6 weeks before the repeat surgery request",
+    "Behavioral health evaluation note confirming no unmanaged significant mental or substance use disorder",
+    "Smoking cessation documentation (if applicable) confirming ≥6‑week abstinence"
+  ]
+}

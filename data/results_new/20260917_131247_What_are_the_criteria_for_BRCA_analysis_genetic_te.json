@@ -1,0 +1,60 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > BRCA Analysis > Criteria (TOC: S3.7.1)",
+    "Known Familial Mutation Analysis",
+    "Ashkenazi Jewish Founder Mutation Testing",
+    "Full Sequence Analysis",
+    "Deletion/Duplication Analysis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Known Familial Mutation Analysis",
+      "Required findings": [
+        "Pre‑ and post‑test genetic counseling performed by an appropriate provider as defined by the health plan",
+        "No prior genetic test that would detect the familial BRCA1/2 mutation",
+        "A known pathogenic BRCA1 or BRCA2 mutation identified in a first‑, second‑, or third‑degree relative",
+        "Member is 18 years of age or older",
+        "Testing performed by a laboratory qualified under the health‑plan policy"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Criteria (TOC: S3.7.1)"
+    },
+    {
+      "Guideline Category": "Ashkenazi Jewish Founder Mutation Testing",
+      "Required findings": [
+        "Pre‑ and post‑test genetic counseling by an appropriate provider",
+        "No prior full‑sequence BRCA testing, no prior deletion/duplication analysis, and no prior Ashkenazi founder mutation testing",
+        "Member is 18 years of age or older",
+        "Either (a) Diagnostic testing: Ashkenazi Jewish descent plus a personal diagnosis of epithelial ovarian, fallopian tube, primary peritoneal cancer, breast cancer (any age, male or female), exocrine pancreatic cancer, or confirmed prostate cancer (any age); OR (b) Predisposition testing: Ashkenazi Jewish descent plus a first‑ or second‑degree relative of Ashkenazi descent who meets any of the diagnostic criteria, the affected relative is unavailable for testing, and a close blood relative (1st‑3rd degree) with a known Ashkenazi founder BRCA mutation exists",
+        "Testing performed by a qualified laboratory"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Criteria (TOC: S3.7.1)"
+    },
+    {
+      "Guideline Category": "Full Sequence Analysis",
+      "Required findings": [
+        "Pre‑ and post‑test genetic counseling by an appropriate provider",
+        "No prior full‑sequence BRCA1/2 testing and no mutation identified by alternate methods if previously performed",
+        "If a familial mutation is known, that mutation does not fully explain the testing indication",
+        "Member is 18 years of age or older",
+        "Member meets at least one of the following diagnostic or personal/family‑history criteria: diagnostic criteria for Ashkenazi founder testing without prior founder testing; female breast cancer diagnosed ≤ 50 years; two or more primary breast cancers at any age; triple‑negative breast cancer at any age; male breast cancer at any age; epithelial ovarian, fallopian tube, or primary peritoneal cancer at any age; prostate cancer with metastatic disease, intraductal/cribriform histology, high‑risk or very‑high‑risk per NCCN; exocrine pancreatic cancer; initial breast cancer plus a close relative with breast cancer ≤ 50 years, ovarian/fallopian tube/peritoneal cancer at any age, or a relative with triple‑negative breast cancer; additional family‑history combinations enumerated in the policy",
+        "Testing performed by a qualified laboratory"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Criteria (TOC: S3.7.1)"
+    },
+    {
+      "Guideline Category": "Deletion/Duplication Analysis",
+      "Required findings": [
+        "Pre‑ and post‑test genetic counseling by an appropriate provider",
+        "No prior BRCA deletion/duplication analysis",
+        "Member meets all criteria for full‑sequence analysis as outlined above",
+        "Testing performed by a qualified laboratory"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Criteria (TOC: S3.7.1)"
+    }
+  ],
+  "Important criteria & exceptions": [],
+  "Non-Indications": [],
+  "Documentation required": []
+}

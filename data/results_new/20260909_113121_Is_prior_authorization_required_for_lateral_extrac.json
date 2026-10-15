@@ -1,0 +1,45 @@
+{
+  "Prior auth required": "No",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.1: General Guidelines",
+    "Application of Guideline",
+    "Urgent/Emergent Indications/Conditions"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Urgent/Emergent Indications",
+      "Required findings": [
+        "Presence of traumatic spinal fracture or dislocation with documented instability or anticipated iatrogenic instability after decompression",
+        "Presence of infection (discitis, epidural abscess, osteomyelitis) with documented instability or anticipated iatrogenic instability after debridement/decompression",
+        "Primary or metastatic neoplastic disease causing pathologic fracture, cord compression, or instability, or anticipated iatrogenic instability after resection/decompression",
+        "Severe debilitating pain or functional dysfunction to the point of incapacitation, documented in the clinical record, with concordant imaging findings"
+      ],
+      "Source": "General Guidelines > Urgent/Emergent Indications/Conditions"
+    }
+  ],
+  "Non-Indications": [
+    "Elective lumbar fusion without meeting any urgent/emergent criteria and without documented trial of required conservative therapy",
+    "Failure to complete the required non‑surgical management (e.g., physical therapy, pain management) before surgery",
+    "Current smoking status without documented cessation when smoking cessation is required for non‑urgent cases",
+    "Unmanaged significant mental or behavioral health disorders (major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder) when not an urgent/emergent indication",
+    "Repeat lumbar fusion performed within the prohibited time interval as defined in CMM‑600.1",
+    "Absence of imaging evidence of instability, fracture, infection, or neoplastic involvement when such findings are required for the indication"
+  ],
+  "Important criteria & exceptions": [
+    "Determination of medical necessity is made on a case‑by‑case basis",
+    "Urgent/emergent indications waive requirements for documented non‑surgical management, smoking cessation, and mental health stability",
+    "Timing and additional documentation requirements are detailed in CMM‑600.1: Prior Authorization Requirements",
+    "Imaging findings noted in the applicable procedure section must be present to support the indication"
+  ],
+  "Documentation required": [
+    "MRI and/or CT of the lumbar spine demonstrating instability, fracture, infection, or neoplastic involvement",
+    "Dynamic flexion/extension radiographs confirming segmental instability when applicable",
+    "Clinical notes documenting severe debilitating pain, functional impairment, and incapacity",
+    "Records of completed conservative therapy (physical therapy, pain management) including duration and outcomes",
+    "Smoking cessation documentation or statement of current smoking status",
+    "Mental health assessment confirming stability or documentation of treatment for relevant disorders",
+    "Prior operative reports and dates if this is a repeat fusion to verify interval compliance",
+    "Laboratory results (elevated WBC, CRP, ESR) supporting infection when infection is the indication"
+  ]
+}

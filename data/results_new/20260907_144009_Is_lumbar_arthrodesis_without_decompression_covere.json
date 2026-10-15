@@ -1,0 +1,44 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+    "Degenerative Spondylolisthesis without Spondylolysis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Degenerative Spondylolisthesis without Spondylolysis",
+      "Required findings": [
+        "Imaging demonstrates either dynamic segmental instability on flexion‑extension plain radiographs (or supine vs upright) with >3 mm translation, OR Meyerding Grade II or higher spondylolisthesis at the operative level",
+        "Patient reports daily significant pain causing functional impairment (e.g., inability to perform household chores, prolonged standing)",
+        "Failure to achieve clinically meaningful improvement after at least three consecutive months of conservative therapy including prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids and a provider‑directed exercise program, unless contraindicated",
+        "No unmanaged major mental or behavioral health disorder (e.g., uncontrolled depression, opioid use disorder, secondary gain)",
+        "Verified nicotine‑free status: either never‑smoker or abstinent ≥6 weeks with objective cotinine test (serum, urine, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.5 > Degenerative Spondylolisthesis without Spondylolysis"
+    }
+  ],
+  "Non-Indications": [
+    "Absence of imaging evidence of instability (no >3 mm translation and Meyerding Grade I or lower)",
+    "Pain that is mild/moderate without documented functional limitation",
+    "Less than three months of documented, appropriate conservative management",
+    "Active tobacco use without documented cessation or objective cotinine confirmation",
+    "Uncontrolled significant mental/behavioral health disorder",
+    "Presence of spondylolysis (requires separate criteria) or other spinal pathology not listed"
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine‑free verification may be satisfied by a documented never‑smoker status; otherwise objective cotinine testing is mandatory",
+    "Conservative therapy trial may be shortened only if contraindicated (e.g., allergy to NSAIDs) and documented justification provided",
+    "Imaging can be flexion‑extension radiographs or comparison of supine vs upright films; either method meeting >3 mm translation satisfies the instability requirement"
+  ],
+  "Documentation required": [
+    "Flexion‑extension lumbar spine plain radiographs (or supine and upright views) with measurement of translational motion",
+    "Static lumbar spine X‑rays documenting Meyerding grade of spondylolisthesis",
+    "Radiology report confirming imaging findings",
+    "Clinical note detailing pain severity, functional impairment, and daily activity limitations",
+    "Physical therapy or chiropractic records showing ≥3 months of prescribed exercise program",
+    "Pharmacy records or provider notes confirming use of prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids for ≥3 months",
+    "Behavioral health evaluation confirming absence of unmanaged psychiatric or substance use disorder",
+    "Smoking history documentation and objective cotinine test result (serum, urine, or saliva) within normal limits"
+  ]
+}

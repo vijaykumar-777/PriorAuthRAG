@@ -1,0 +1,25 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna_ACDF_hierarchical",
+  "Referred Sections": [
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Initial Primary ACDF",
+      "Required findings": [
+        "Procedure performed for one of the specified clinical conditions (as defined in the full policy) with all associated criteria met"
+      ],
+      "Source": "CMM-601.4"
+    }
+  ],
+  "Non-Indications": [
+    "ACDF performed without meeting the specified clinical conditions or associated criteria"
+  ],
+  "Important criteria & exceptions": [
+    "Determination of medical necessity is made on a case‑by‑case basis per General Guidelines (CMM-601.1)"
+  ],
+  "Documentation required": [
+    "Clinical documentation demonstrating the indication and that all required criteria have been satisfied"
+  ]
+}

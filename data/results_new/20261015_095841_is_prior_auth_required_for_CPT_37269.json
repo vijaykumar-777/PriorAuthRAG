@@ -1,0 +1,37 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Radiation Oncology",
+  "Referred Sections": [
+    "Radiation Oncology Guidelines For Special Techniques > Brachytherapy of the Coronary Arteries (TOC: S3.5)",
+    "Radiation Oncology Guidelines For Special Techniques > Brachytherapy of the Coronary Arteries > DISCUSSION (TOC: S3.5.3)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "In-stent restenosis",
+      "Required findings": [
+        "Patient has a history of percutaneous coronary intervention (PCI) with placement of a stent.",
+        "Patient experiences in-stent restenosis (ISR) within the native coronary artery or saphenous vein graft (SVG).",
+        "The ISR is confirmed by diagnostic imaging such as intravascular ultrasound (IVUS) or computed tomography angiography (CTA), or by clinical symptoms suggestive of recurrent ischemia.",
+        "Conservative management including medical therapy and/or repeat balloon angioplasty has failed to resolve the restenosis.",
+        "Patient is not a candidate for repeat drug-eluting stent (DES) implantation due to factors such as lesion location, patient characteristics, or inability to adhere to dual antiplatelet therapy.",
+        "Patient is not a candidate for bypass surgery."
+      ],
+      "Source": "Section Title > Subsection (TOC: ID)"
+    }
+  ],
+  "Non-Indications": [
+    "Treatment of new stenosis of native coronary arteries or saphenous vein grafts.",
+    "Restenosis of native coronary arteries or saphenous vein grafts at the unstented site of a previous PCI.",
+    "Primary prevention of restenosis after stent implantation for de novo lesions."
+  ],
+  "Important criteria & exceptions": [
+    "Brachytherapy may be considered in patients with recurrent ISR who are not candidates for repeat DES or bypass surgery.",
+    "A prolonged intake of clopidogrel for 1 year after radiation is necessary."
+  ],
+  "Documentation required": [
+    "Patient medical history including prior PCI and stent placement.",
+    "Prior imaging studies (e.g., CTA, IVUS) demonstrating the presence and extent of in-stent restenosis.",
+    "Clinical notes documenting failed conservative management attempts.",
+    "Provider documentation outlining patient's inability to receive repeat DES or bypass surgery."
+  ]
+}

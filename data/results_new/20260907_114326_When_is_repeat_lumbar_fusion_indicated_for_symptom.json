@@ -1,0 +1,52 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level",
+    "Symptomatic Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Symptomatic Pseudoarthrosis",
+      "Required findings": [
+        "Greater than six (6) months elapsed since the prior lumbar fusion",
+        "Daily pain of clinically significant intensity causing functional impairment (e.g., inability to perform household chores, inability to stand for prolonged periods)",
+        "Physical examination findings that are concordant with the reported symptoms",
+        "Failure of BOTH (unless contraindicated): prescription‑strength analgesics, steroids, gabapentinoids, and/or NSAIDs for a minimum of six (6) weeks AND a provider‑directed exercise/physical‑therapy program for a minimum of six (6) weeks",
+        "Post‑operative imaging performed at no less than six (6) months after the prior fusion that demonstrates pseudoarthrosis at the requested level(s)",
+        "Post‑operative MRI or CT that corroborates the pseudoarthrosis and aligns with the patient’s symptoms",
+        "Absence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, opioid use disorder, secondary gain)",
+        "Documentation of nicotine‑free status: either never‑smoker or abstinence from all tobacco/nicotine products for at least six (6) weeks prior to planned surgery verified by an objective cotinine test (serum, urine, or saliva) within normal range for the testing method"
+      ],
+      "Source": "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level > Symptomatic Pseudoarthrosis"
+    }
+  ],
+  "Non-Indications": [
+    "Less than six (6) months since the prior lumbar fusion",
+    "Pain that is mild, intermittent, or does not cause functional limitation",
+    "Physical exam not consistent with pseudoarthrosis",
+    "Absence of imaging evidence of pseudoarthrosis on studies performed ≥6 months post‑op",
+    "Adequate symptom relief after a trial of prescription analgesics, steroids, gabapentinoids, NSAIDs, and/or physical therapy of at least six (6) weeks",
+    "Presence of unmanaged significant mental or behavioral health disorder",
+    "Active tobacco use without documented six‑week cessation or without a normal cotinine test",
+    "Contraindication to the required conservative therapy trials preventing their completion"
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine abstinence must be confirmed by objective cotinine testing (serum, urine, or saliva) performed within a clinically appropriate window before surgery",
+    "If either the medication trial or the physical‑therapy trial is medically contraindicated, the requirement for that specific trial may be waived, but documentation of the contraindication is required",
+    "All imaging demonstrating pseudoarthrosis must be obtained at least six (6) months after the index fusion to ensure true non‑union",
+    "Both medication and exercise therapy must be attempted for the full six‑week duration unless a documented medical contraindication exists"
+  ],
+  "Documentation required": [
+    "Operative report of the original lumbar fusion (including level(s) fused)",
+    "Post‑operative plain radiographs (including flexion‑extension views) or CT performed ≥6 months after the index surgery showing pseudoarthrosis",
+    "MRI or CT report confirming pseudoarthrosis and correlating with the patient’s symptoms",
+    "Comprehensive physical examination note documenting neurologic and musculoskeletal findings consistent with pseudoarthrosis",
+    "Pain assessment documentation (e.g., pain scores, functional limitation description) demonstrating daily clinically significant pain",
+    "Pharmacy or medication administration records showing ≥6 weeks of prescription‑strength analgesics, steroids, gabapentinoids, and/or NSAIDs",
+    "Physical therapy or supervised exercise program records showing ≥6 weeks of participation with documented goals and progress",
+    "Behavioral health evaluation note confirming no unmanaged significant mental or behavioral health disorder",
+    "Smoking cessation documentation: either a statement of never‑smoker status or a recent objective cotinine test result (serum, urine, or saliva) within normal limits",
+    "Any prior imaging (pre‑fusion) for baseline comparison, if available"
+  ]
+}

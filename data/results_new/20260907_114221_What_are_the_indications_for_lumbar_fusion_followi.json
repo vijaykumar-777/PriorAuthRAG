@@ -1,0 +1,61 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery",
+    "Failed Lumbar Disc Arthroplasty Implant",
+    "Evidence of Neural Structure Compression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Failed Lumbar Disc Arthroplasty Implant",
+      "Required findings": [
+        "Patient reports persistent or worsening low‑back pain and/or radicular symptoms of at least moderate intensity (≥6/10) and functional limitation despite ≥6 weeks of documented conservative therapy.",
+        "Objective physical examination demonstrates neurologic deficit correlating with the level of the arthroplasty (e.g., motor weakness, sensory loss, reflex changes) or mechanical back pain reproducible on exam.",
+        "Post‑operative imaging (plain radiographs, CT, or MRI) shows implant malposition, subsidence, loosening, dislocation, subluxation, vertebral body fracture, or other mechanical failure of the lumbar disc arthroplasty.",
+        "Conservative management has been exhausted: ≥6 weeks of physical therapy, ≥6 weeks of NSAIDs/analgesics, and/or ≥6 weeks of epidural steroid injections without sustained relief.",
+        "Patient is nicotine‑free (verified by serum, saliva, or urine cotinine test within 30 days of surgery) and has no uncontrolled behavioral health disorder that would impair postoperative recovery."
+      ],
+      "Source": "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery > Failed Lumbar Disc Arthroplasty Implant"
+    },
+    {
+      "Guideline Category": "Evidence of Neural Structure Compression",
+      "Required findings": [
+        "At least 6 months have elapsed since the index lumbar disc arthroplasty at the same level.",
+        "Patient presents with new or progressive radiculopathy, neurogenic claudication, or myelopathic symptoms unresponsive to ≥6 weeks of conservative therapy.",
+        "Objective neurologic exam reveals deficits consistent with compression at the operative level (e.g., motor weakness, sensory loss, positive straight‑leg raise, gait disturbance).",
+        "Post‑operative MRI or CT demonstrates compression of neural elements (retained disc material, recurrent herniation, osteophyte formation, or facet hypertrophy) at the level of the failed arthroplasty.",
+        "Same general criteria as above: documented trial of conservative care, nicotine‑free status confirmed by cotinine testing, and no untreated psychosocial/behavioral health issues."
+      ],
+      "Source": "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery > Evidence of Neural Structure Compression"
+    }
+  ],
+  "Non-Indications": [
+    "Surgery performed <6 months after the original disc arthroplasty without evidence of implant failure or neural compression.",
+    "Absence of imaging‑confirmed implant malposition/failure or neural element compression.",
+    "No documented neurologic deficit or functional impairment correlating with the level of the arthroplasty.",
+    "Failure to complete an adequate trial of conservative management (minimum 6 weeks of physical therapy, medication, and/or injections).",
+    "Active tobacco use without objective cotinine verification of cessation within 30 days of the planned procedure.",
+    "Uncontrolled psychiatric or behavioral health disorder that has not been addressed prior to surgery.",
+    "Lumbar fusion performed for pain alone without documented instability, neural compression, or implant failure."
+  ],
+  "Important criteria & exceptions": [
+    "A mandatory interval of ≥6 months from the original disc arthroplasty is required for the neural compression indication.",
+    "Objective cotinine testing (serum, saliva, or urine) must be performed within 30 days of surgery; acceptable cut‑offs: serum ≤20 ng/mL, saliva ≤44 ng/mL, urine ≤10 ng/mL.",
+    "Conservative therapy must be documented in the medical record with dates, modalities, and provider signatures.",
+    "If both implant failure and neural compression are present, either indication satisfies the criteria; however, all associated documentation must be submitted.",
+    "Behavioral health clearance is required when a documented psychosocial disorder exists; a clearance note from a qualified mental health professional must be provided."
+  ],
+  "Documentation required": [
+    "Operative report of the original lumbar disc arthroplasty, including level(s) and device details.",
+    "Post‑operative plain radiographs, CT, or MRI report demonstrating implant position and any evidence of failure (malposition, subsidence, loosening, fracture, etc.).",
+    "MRI or CT report showing neural element compression at the same level (e.g., recurrent disc herniation, facet hypertrophy, osteophytes).",
+    "Comprehensive clinical note detailing patient‑reported symptoms (pain scores, functional limitations) and duration of symptoms.",
+    "Objective physical examination note documenting neurologic findings correlating with imaging.",
+    "Records of conservative management: physical therapy notes (minimum 6 weeks), medication logs, and/or epidural steroid injection reports.",
+    "Cotinine test result (serum, saliva, or urine) with date performed and result value.",
+    "Behavioral health evaluation or clearance note (if applicable), including diagnosis and treatment status.",
+    "Smoking cessation documentation (e.g., counseling notes, nicotine replacement therapy records) if patient is a former smoker.",
+    "Signed surgeon’s operative plan indicating fusion with or without decompression and justification based on the above criteria."
+  ]
+}

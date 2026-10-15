@@ -1,0 +1,38 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease",
+    "CMM-609.4: Lumbar Fusion with Decompression",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "Prior adjacent-level lumbar fusion must have been performed at least 6 months before the proposed procedure.",
+        "All criteria outlined in the applicable procedure‑specific section (CMM‑609.4 or CMM‑609.5) must be satisfied.",
+        "Evidence of symptomatic adjacent segment pathology (e.g., radiculopathy or neurogenic claudication) consistent with the need for fusion, as required by the procedure‑specific criteria.",
+        "Objective physical examination findings that correlate with the adjacent‑segment pathology, as required by the procedure‑specific criteria.",
+        "Diagnostic imaging (MRI, CT, or dynamic radiographs) demonstrating adjacent‑segment degeneration or instability, as required by the procedure‑specific criteria."
+      ],
+      "Source": "Adjacent Segment Disease > Guideline Page (TOC: S9.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Prior adjacent‑level lumbar fusion performed less than 6 months before the proposed surgery.",
+    "Failure to meet the specific criteria in CMM‑609.4 (Lumbar Fusion with Decompression) or CMM‑609.5 (Lumbar Fusion without Decompression).",
+    "Absence of documented symptomatic adjacent‑segment disease or lack of corroborating imaging findings."
+  ],
+  "Important criteria & exceptions": [
+    "Minimum 6‑month interval since the previous adjacent‑level lumbar fusion.",
+    "Requirement to satisfy all criteria in the relevant procedure‑specific section (CMM‑609.4 or CMM‑609.5)."
+  ],
+  "Documentation required": [
+    "Operative report of the prior adjacent‑level lumbar fusion showing date of surgery.",
+    "Current clinical notes documenting symptoms attributable to adjacent‑segment disease.",
+    "Physical examination documentation supporting neurologic or functional deficits.",
+    "Imaging reports (MRI, CT, or dynamic X‑rays) demonstrating adjacent‑segment degeneration or instability.",
+    "Documentation that the patient meets all criteria in the applicable procedure‑specific section (CMM‑609.4 or CMM‑609.5), including any required conservative therapy records if stipulated in those sections."
+  ]
+}

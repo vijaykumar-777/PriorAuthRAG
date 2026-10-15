@@ -1,0 +1,18 @@
+{
+  "source": "Section: References (CMM-311) > 147. Zusmanovich M, Kester BS, Schwarzkopf R. Postoperative Complications of Total Joint Arthroplasty in Obese Patients Stratified by BMI. J Arthroplasty . 2018;33:856-864.",
+  "documentation_required": [
+    "Clinical documentation supporting the patient's diagnosis of isolated patellofemoral arthritis"
+  ],
+  "non_indications": [
+    "Patient has osteoarthritis involving both medial and lateral compartments of the knee joint"
+  ],
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Knee Surgery (CMM-312)",
+  "Medical necessity indications": [],
+  "Referred Sections": [
+    "Cigna Knee Surgery (CMM-312)"
+  ],
+  "Important criteria & exceptions": [],
+  "Non-Indications": [],
+  "Documentation required": []
+}

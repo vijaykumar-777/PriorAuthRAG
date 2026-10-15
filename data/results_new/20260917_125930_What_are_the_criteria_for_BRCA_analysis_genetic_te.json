@@ -1,0 +1,12 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Lumbar Fusion",
+  "Referred Sections": [
+    "S3.40"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [],
+  "Notice": "The routed section(s) ['S3.40'] in policy 'Lumbar Fusion' do not contain clinical coverage criteria."
+}

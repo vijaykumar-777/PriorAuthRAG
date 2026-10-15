@@ -1,0 +1,99 @@
+{
+  "guideline_category": "Adjacent Segment Disease (ASD) after Cervical Fusion",
+  "medical_necessity_criteria": [
+    {
+      "criterion": "Patient must have a history of cervical fusion.",
+      "documentation_required": [
+        "Prior operative report detailing the cervical fusion procedure.",
+        "Imaging studies demonstrating prior cervical fusion (e.g., X-ray, CT, MRI)."
+      ]
+    },
+    {
+      "criterion": "Patient must have a history of radiculopathy or myelopathy related to the fused segment.",
+      "documentation_required": [
+        "Prior operative report detailing the cervical fusion procedure.",
+        "Imaging studies demonstrating prior cervical fusion (e.g., X-ray, CT, MRI).",
+        "Clinical documentation supporting radiculopathy or myelopathy symptoms (e.g., physician's notes, imaging reports)."
+      ]
+    },
+    {
+      "criterion": "Patient must have evidence of adjacent segment disease (ASD) at the level below the fusion.",
+      "documentation_required": [
+        "Imaging studies demonstrating ASD at the adjacent segment (e.g., X-ray, CT, MRI).",
+        "Clinical documentation supporting ASD symptoms (e.g., physician's notes, imaging reports)."
+      ]
+    },
+    {
+      "criterion": "Patient must have clinical evidence of radiculopathy or myelopathy attributable to the adjacent segment disease.",
+      "documentation_required": [
+        "Imaging studies demonstrating ASD at the adjacent segment (e.g., X-ray, CT, MRI).",
+        "Clinical documentation supporting radiculopathy or myelopathy symptoms (e.g., physician's notes, imaging reports)."
+      ]
+    },
+    {
+      "criterion": "Patient must have failed conservative management for the ASD-related radiculopathy or myelopathy.",
+      "documentation_required": [
+        "Clinical documentation detailing conservative treatment attempts (e.g., physical therapy records, physician's notes).",
+        "Imaging studies demonstrating ASD at the adjacent segment (e.g., X-ray, CT, MRI)."
+      ]
+    },
+    {
+      "criterion": "Patient must have a history of smoking.",
+      "documentation_required": [
+        "Laboratory test results showing cotinine levels above a specified threshold (e.g., > 10 ng/mL)."
+      ]
+    }
+  ],
+  "non_indications": [
+    {
+      "scenario": "Patient does not have a history of cervical fusion.",
+      "documentation_required": []
+    },
+    {
+      "scenario": "Patient does not have a history of radiculopathy or myelopathy related to the fused segment.",
+      "documentation_required": []
+    },
+    {
+      "scenario": "Patient does not have evidence of adjacent segment disease (ASD) at the level below the fusion.",
+      "documentation_required": []
+    },
+    {
+      "scenario": "Patient does not have clinical evidence of radiculopathy or myelopathy attributable to the adjacent segment disease.",
+      "documentation_required": []
+    },
+    {
+      "scenario": "Patient has failed conservative management for the ASD-related radiculopathy or myelopathy.",
+      "documentation_required": []
+    },
+    {
+      "scenario": "Patient does not have a history of smoking.",
+      "documentation_required": []
+    }
+  ],
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Medical necessity indications": [],
+  "Referred Sections": [
+    "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)"
+  ],
+  "Important criteria & exceptions": [
+    "Patient must be nicotine-free prior to planned surgery verified by objective testing.",
+    "Absence of unmanaged significant behavioral or mental health disorders."
+  ],
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

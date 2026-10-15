@@ -1,0 +1,11 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Knee Surgery (CMM-312)",
+  "Referred Sections": [
+    "Knee Replacement (TOC: S10)"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": []
+}

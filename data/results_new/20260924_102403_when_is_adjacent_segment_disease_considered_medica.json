@@ -1,0 +1,54 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease",
+    "CMM-601.7: Adjacent Segment Disease > Radiculopathy",
+    "CMM-601.7: Adjacent Segment Disease > Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease - Radiculopathy",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical decompression or cervical fusion at an adjacent level",
+        "Symptoms include BOTH significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), or unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks; provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks; or epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Plain x-rays of the cervical spine (including flexion/extension lateral views) and advanced diagnostic imaging show successful decompression and fusion at the previous operative level; MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following: herniated disc(s) (retained disc material or a recurrent disc herniation), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) AND documentation of nicotine-free status with EITHER individual is a never-smoker OR individual has refrained from smoking, use of smokeless tobacco products, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Radiculopathy (TOC: S12.1.1)"
+    },
+    {
+      "Guideline Category": "Adjacent Segment Disease - Myelopathy",
+      "Required findings": [
+        "Symptoms include ANY of the following: upper/lower extremity weakness, numbness, or pain; fine motor dysfunction (buttoning, handwriting, clumsiness of hands); gait disturbance; new-onset bowel or bladder dysfunction; or frequent falls",
+        "Physical exam findings include ANY of the following: grip and release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking test demonstrating ataxia, inverted brachial radial reflex, increased muscle tone or spasticity, clonus, or myelopathic hand",
+        "MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER cervical spinal cord compression or cervical spinal stenosis"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Myelopathy (TOC: S12.1.2)"
+    }
+  ],
+  "Non-Indications": [
+    "ACDF for adjacent segment disease performed less than six (6) months since the prior cervical decompression or cervical fusion at an adjacent level",
+    "Radiculopathy cases where the patient has not demonstrated less than clinically meaningful improvement with at least two of the required conservative management modalities (unless contraindicated)",
+    "Cases where MRI/CT findings of neural structure compression are not concordant with the individual's symptoms and physical exam findings",
+    "Cases where plain x-rays and advanced diagnostic imaging do not show successful decompression and fusion at the previous operative level",
+    "Patients with unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Patients who are not nicotine-free (smokers or users of smokeless tobacco/nicotine replacement therapy) or who have not refrained from nicotine use for at least six (6) weeks prior to planned surgery with objective cotinine testing verification"
+  ],
+  "Important criteria & exceptions": [
+    "Conservative management requirements for radiculopathy may be waived if contraindicated",
+    "Nicotine-free status must be validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed, unless the individual is a never-smoker",
+    "For radiculopathy, conservative care must include at least two of the following: prescription strength analgesics/steroids/gabapentinoids/NSAIDs for six weeks, provider-directed exercise program for six weeks, or epidural steroid injection(s)/selective nerve root block(s) at the same level(s) as the requested surgery"
+  ],
+  "Documentation required": [
+    "Plain x-rays of the cervical spine including flexion/extension lateral views",
+    "Advanced diagnostic imaging (MRI/CT) reports showing successful decompression and fusion at the previous operative level and neural structure compression at the requested level(s) concordant with symptoms and physical exam findings",
+    "Records of conservative management including prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks",
+    "Records of provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+    "Records of epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+    "Objective cotinine testing results (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed, or documentation of never-smoker status",
+    "Documentation of absence of unmanaged significant mental and/or behavioral health disorders"
+  ]
+}

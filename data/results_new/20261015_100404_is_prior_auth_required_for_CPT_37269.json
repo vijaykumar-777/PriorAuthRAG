@@ -1,0 +1,36 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Radiation Oncology",
+  "Referred Sections": [
+    "Radiation Oncology Guidelines For Special Techniques > Brachytherapy of the Coronary Arteries (TOC: S3.5)",
+    "Radiation Oncology Guidelines For Special Techniques > Brachytherapy of the Coronary Arteries > DISCUSSION (TOC: S3.5.3)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "In-stent Restenosis (ISR) Treatment",
+      "Required findings": [
+        "Diagnosis of in-stent restenosis (ISR) in a native coronary artery or saphenous vein graft (SVG) stent",
+        "Procedure is used as an adjunct to percutaneous coronary intervention (PCI)",
+        "Patient is not a candidate for repeat drug-eluting stents (DES) or bypass surgery (for recurrent ISR)",
+        "Single treatment of coronary artery brachytherapy"
+      ],
+      "Source": "Radiation Oncology Guidelines For Special Techniques > Brachytherapy of the Coronary Arteries (TOC: S3.5)"
+    }
+  ],
+  "Non-Indications": [
+    "Treatment for new stenosis of native coronary arteries and saphenous vein grafts (SVGs)",
+    "Restenosis of native coronary arteries and SVGs at the unstented site of a previous PCI",
+    "Primary prevention of restenosis after stent implantation for de novo lesions",
+    "Any indication other than adjunct to PCI for ISR in native coronary arteries or SVGs, or recurrent ISR where patient is not a candidate for repeat DES or bypass surgery"
+  ],
+  "Important criteria & exceptions": [
+    "Drug-eluting stents (DES) are the preferred method of treatment for in-stent restenosis; brachytherapy is considered a Level 2b recommendation by ACC/AHA/SCAI for patients with recurrent ISR in arteries unfavorable for another DES or who are not good candidates for bypass surgery",
+    "European Society of Cardiology (ESC) guidelines recommend brachytherapy for ISR in native coronary arteries (Class 1A) and SVGs (Class 1B), noting that prolonged intake of clopidogrel for 1 year after radiation is necessary",
+    "There is insufficient evidence to demonstrate safety and efficacy for expanded indications such as de novo lesion prevention or unstented site restenosis"
+  ],
+  "Documentation required": [
+    "Clinical documentation confirming diagnosis of in-stent restenosis (ISR) in a native coronary artery or saphenous vein graft (SVG)",
+    "Documentation that the patient is not a candidate for repeat drug-eluting stents (DES) or bypass surgery (if applicable for recurrent ISR)",
+    "Confirmation that the procedure is being used as an adjunct to percutaneous coronary intervention (PCI)"
+  ]
+}

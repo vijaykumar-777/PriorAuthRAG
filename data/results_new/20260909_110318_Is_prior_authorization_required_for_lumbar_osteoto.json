@@ -1,0 +1,51 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.2: Osteotomy",
+    "Posterior Column Osteotomy (PCO)",
+    "Three-Column Osteotomy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Posterior Column Osteotomy (PCO)",
+      "Required findings": [
+        "Deformity must be non‑fixed and require 5°‑10° of correction per spinal segment (Smith‑Peterson or Ponte osteotomy).",
+        "Radiographic evidence of either a lumbar sagittal plane deformity with sagittal vertical axis (SVA) > 8 cm or pelvic incidence‑lumbar lordosis (PI‑LL) mismatch > 15°, OR a coronal deformity with limited flexibility and Cobb angle > 30°.",
+        "Maximum of four (4) posterior column osteotomies performed at the apex of the deformity per correction surgery, unless the diagnosis is Scheuermann's kyphosis (no limit).",
+        "Procedure must be performed in conjunction with a fusion and must meet the criteria outlined in the applicable procedure‑specific sections (e.g., CMM‑609.4 Lumbar Fusion with Decompression, CMM‑609.5 Lumbar Fusion without Decompression, etc.)."
+      ],
+      "Source": "Posterior Column Osteotomy (PCO) > CMM-609.2: Osteotomy"
+    },
+    {
+      "Guideline Category": "Three-Column Osteotomy",
+      "Required findings": [
+        "Deformity must be fixed and require >30° of correction in the sagittal plane for a pedicle subtraction osteotomy (PSO), OR a large fixed coronal deformity >60° that is amenable to an asymmetric osteotomy.",
+        "Procedure must be performed in conjunction with a fusion and must meet the criteria outlined in the applicable procedure‑specific sections."
+      ],
+      "Source": "Three-Column Osteotomy > CMM-609.2: Osteotomy"
+    }
+  ],
+  "Non-Indications": [
+    "Fixed sagittal deformities requiring ≤30° of correction (does not meet three‑column osteotomy threshold).",
+    "Non‑fixed deformities requiring >10° correction per segment (exceeds posterior column osteotomy correction range).",
+    "More than four posterior column osteotomies performed for a non‑Scheuermann’s kyphosis deformity.",
+    "Absence of required radiographic measurements (SVA, PI‑LL, Cobb angle) to demonstrate the specified deformity severity.",
+    "Procedures performed without an accompanying fusion.",
+    "Failure to satisfy the criteria in the referenced procedure‑specific sections (e.g., lumbar fusion with or without decompression)."
+  ],
+  "Important criteria & exceptions": [
+    "Maximum of four posterior column osteotomies per correction surgery, except for Scheuermann's kyphosis where no limit applies.",
+    "All osteotomies must be performed in addition to a fusion procedure.",
+    "Criteria must also be met in the applicable procedure‑specific sections (e.g., pediatric spinal deformity, lumbar fusion with/without decompression, adjacent segment disease, etc.)."
+  ],
+  "Documentation required": [
+    "Standing full‑length lateral spine radiograph with measurement of sagittal vertical axis (SVA).",
+    "Standing full‑length lateral spine radiograph with measurement of pelvic incidence‑lumbar lordosis (PI‑LL) mismatch.",
+    "Standing full‑length anteroposterior (AP) spine radiograph with Cobb angle measurement for coronal deformity.",
+    "Radiology report documenting the above measurements and indicating deformity flexibility (if assessed).",
+    "Operative report specifying the type of osteotomy (PCO vs. PSO/VCR), number of levels osteotomized, and confirmation that fusion will be performed.",
+    "Diagnosis documentation confirming Scheuermann's kyphosis when exceeding four PCOs.",
+    "Relevant prior surgical reports if the case involves repeat fusion or adjacent segment disease."
+  ]
+}

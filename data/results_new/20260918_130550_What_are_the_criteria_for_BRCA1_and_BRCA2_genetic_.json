@@ -1,0 +1,95 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence (S3.7.5)",
+    "Breast cancer patients",
+    "Ovarian and prostate cancer patients"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Newly diagnosed breast cancer patients ≤65 years old",
+      "Required findings": [
+        "Personal history of breast cancer (stage I‑III or de novo stage IV/metastatic) diagnosed at age 65 or younger",
+        "No requirement for additional risk factors; testing should include BRCA1, BRCA2 (and PALB2 as appropriate)",
+        "Documentation of diagnosis, stage, and pathology (ER/PR/HER2 status) to support treatment impact"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Breast cancer patients >65 years old",
+      "Required findings": [
+        "Age at diagnosis greater than 65 years",
+        "At least one of the following: candidate for PARP‑inhibitor therapy, triple‑negative breast cancer, personal or family history suggestive of a pathogenic variant, male sex at birth, Ashkenazi Jewish ancestry or other population with known founder mutations",
+        "Relevant tumor pathology (e.g., triple‑negative status) and treatment plan indicating potential PARP‑inhibitor use"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Patients with a second primary breast cancer (contralateral or ipsilateral)",
+      "Required findings": [
+        "Documented second primary invasive breast cancer in the contralateral or ipsilateral breast",
+        "Prior breast cancer history confirmed by pathology reports"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Patients with epithelial ovarian cancer (EOC)",
+      "Required findings": [
+        "Confirmed diagnosis of epithelial ovarian cancer (any stage)",
+        "Recommendation per ASCO 2025 to perform germline (and somatic) BRCA1/BRCA2 testing"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Patients with metastatic prostate cancer (hormone‑sensitive or castration‑resistant)",
+      "Required findings": [
+        "Diagnosis of metastatic hormone‑sensitive prostate cancer (mHSPC) or metastatic castration‑resistant prostate cancer (mCRPC)",
+        "Clinical indication for germline testing to guide PARP‑inhibitor eligibility or other targeted therapy"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Unaffected individuals meeting NCCN criteria",
+      "Required findings": [
+        "No personal history of cancer but a family history that meets NCCN thresholds (e.g., first‑degree relative with breast, ovarian, pancreatic, or prostate cancer; known pathogenic BRCA variant in family; Ashkenazi Jewish ancestry)",
+        "Completion of a brief familial risk assessment tool with a positive result",
+        "Genetic counseling documentation confirming discussion of limited value of testing unaffected relatives when an affected relative is unavailable"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    },
+    {
+      "Guideline Category": "Patients with prior negative germline BRCA1/2 testing performed before 2014",
+      "Required findings": [
+        "History of prior germline BRCA1/2 testing performed before 2014 (likely lacking PALB2 and large‑genomic‑rearrangement analysis)",
+        "Current clinical scenario (personal or family history) that raises suspicion for a pathogenic variant",
+        "Recommendation for updated multigene panel testing"
+      ],
+      "Source": "Test Specific Guidelines > BRCA Analysis > Guidelines and evidence"
+    }
+  ],
+  "Non-Indications": [
+    "Women (or other individuals) whose personal and family history is not consistent with a BRCA1/2 mutation and who do not meet any NCCN risk criteria (USPSTF D‑grade recommendation against testing)",
+    "Patients >65 years old with breast cancer who lack all listed risk factors (no PARP‑inhibitor candidacy, not triple‑negative, no relevant family history, not male, no Ashkenazi or founder ancestry)",
+    "Universal testing of all breast cancer patients without consideration of age, tumor characteristics, or family history (per ACMG statement of insufficient evidence)",
+    "Individuals with a known pathogenic variant already documented and no change in clinical scenario that would alter management"
+  ],
+  "Important criteria & exceptions": [
+    "Age cutoff of 65 years for universal BRCA testing in newly diagnosed breast cancer; older patients require additional risk factors",
+    "Testing must include BRCA1 and BRAN2 (and PALB2 when indicated) and may be part of a multigene panel",
+    "Genetic counseling (by a certified genetic counselor or qualified provider) is required before testing",
+    "Updated testing is recommended for patients with prior negative results performed before 2014 due to expanded gene coverage",
+    "Cascade testing is recommended for at‑risk family members when a pathogenic variant is identified",
+    "Risk assessment tools (e.g., brief familial risk assessment) must be completed for unaffected individuals before testing"
+  ],
+  "Documentation required": [
+    "Physician order specifying the indication for BRCA testing",
+    "Comprehensive personal cancer history (diagnosis date, stage, pathology, receptor status for breast cancer; histology for ovarian or prostate cancer)",
+    "Detailed three‑generation family cancer history, including type of cancer, age at diagnosis, and relationship",
+    "Pathology reports confirming tumor characteristics (e.g., triple‑negative status, grade, histology)",
+    "Prior genetic test reports (if any), especially for tests performed before 2014",
+    "Ancestry documentation when Ashkenazi Jewish or other founder population is claimed",
+    "Result of a validated familial risk assessment tool (for unaffected individuals)",
+    "Genetic counseling note documenting pre‑test counseling, discussion of risks/benefits, and patient consent"
+  ]
+}

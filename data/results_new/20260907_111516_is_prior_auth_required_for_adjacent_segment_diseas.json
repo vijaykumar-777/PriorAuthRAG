@@ -1,0 +1,55 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Greater than six (6) months have elapsed since the prior cervical decompression or fusion at the adjacent level.",
+        "Symptoms include BOTH: (a) a clinically significant daily pain level that causes functional impairment (e.g., inability to perform household chores, prolonged standing), and (b) unremitting radicular pain radiating to the shoulder girdle and/or upper extremity that results in disability.",
+        "Physical examination demonstrates ANY of the following: dermatomal sensory deficit, motor weakness of biceps or triceps, reflex changes, positive shoulder abduction relief sign, positive nerve‑root tension sign (e.g., Spurling's maneuver), or unremitting radicular pain without concordant objective findings.",
+        "Conservative management has produced less than clinically meaningful improvement after at least TWO of the following (unless contraindicated): prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs for a minimum of six (6) weeks; a provider‑directed exercise program prescribed by PT, chiropractic, osteopathic or allopathic physician for six (6) weeks; epidural steroid injection(s) or selective nerve‑root block(s) performed at the same level(s) as the proposed surgery.",
+        "Imaging requirements: plain cervical spine X‑rays (including flexion/extension lateral views) and advanced imaging demonstrate successful decompression and fusion at the prior operative level; MRI or CT of the cervical spine shows neural structure compression at the requested level that is concordant with the patient’s symptoms and exam and is caused by a herniated disc (retained disc material or recurrent herniation), synovial or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes.",
+        "General criteria: absence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder) and documented nicotine‑free status, either as a never‑smoker or abstinence from all tobacco/nicotine products for at least six (6) weeks verified by objective cotinine testing (serum, urine, or saliva) within normal range."
+      ],
+      "Source": "CMM-601.7 > Radiculopathy (S12.1.1)"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "Symptoms include ANY of the following: upper or lower extremity weakness, numbness, or pain; fine motor dysfunction (e.g., difficulty buttoning, handwriting, clumsiness of hands); gait disturbance; new‑onset bowel or bladder dysfunction; frequent falls.",
+        "Physical examination demonstrates ANY of the following: abnormal grip‑and‑release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking test showing ataxia, inverted brachial radial reflex, increased muscle tone or spasticity, clonus, or a myelopathic hand.",
+        "Imaging: MRI or CT of the cervical spine shows findings that are concordant with the individual’s symptoms and physical‑exam findings and are caused by cervical spinal cord compression or cervical spinal stenosis.",
+        "General criteria: absence of unmanaged significant mental or behavioral health disorders and documented nicotine‑free status (never‑smoker or ≥6 weeks abstinence with objective cotinine testing)."
+      ],
+      "Source": "CMM-601.7 > Myelopathy (S12.1.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Surgery performed less than six (6) months after the prior cervical decompression or fusion at an adjacent level.",
+    "Absence of documented radicular or myelopathic symptoms or objective physical‑exam findings.",
+    "Presence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder).",
+    "Current tobacco or nicotine use without documented cessation and objective cotinine verification.",
+    "Failure to complete the required trial of conservative therapy (prescription analgesics, PT, injections) as specified."
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine‑free status must be verified by objective cotinine testing (serum, urine, or saliva) showing results within the normal range for the testing method and laboratory.",
+    "At least two of the three specified conservative management modalities must have been tried for a minimum of six (6) weeks unless contraindicated.",
+    "Imaging must demonstrate successful prior fusion and decompression at the previous level and concordant pathology at the adjacent level.",
+    "Mental‑health assessment must document that no significant, unmanaged psychiatric or substance‑use disorder is present."
+  ],
+  "Documentation required": [
+    "Operative report of the prior cervical decompression/fusion, including level(s) operated and confirmation of successful fusion.",
+    "Plain cervical spine X‑rays with flexion/extension lateral views showing fusion status.",
+    "MRI and/or CT report of the cervical spine at the requested adjacent level describing neural element compression, disc herniation, cyst, stenosis, or osteophyte formation.",
+    "Detailed history and physical examination notes documenting symptom severity, functional impairment, and objective findings listed under the appropriate condition (radiculopathy or myelopathy).",
+    "Records of conservative therapy: medication prescriptions and duration, physical therapy or exercise program notes, and any epidural steroid injection or selective nerve‑root block reports.",
+    "Cotinine test results (serum, urine, or saliva) confirming nicotine‑free status, or a signed statement confirming never‑smoker status.",
+    "Mental‑health assessment confirming absence of unmanaged significant psychiatric or substance‑use disorders."
+  ]
+}

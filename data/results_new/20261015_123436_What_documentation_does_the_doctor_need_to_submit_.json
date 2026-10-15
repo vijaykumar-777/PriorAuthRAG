@@ -1,0 +1,54 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "ANY of the following: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), or unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+        "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and is caused by herniated disc(s), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics/steroids/gabapentinoids/NSAIDs for six (6) weeks, provider-directed exercise program for six (6) weeks, or epidural steroid injection(s)/selective nerve root block(s) at the same level(s)",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) and documentation of nicotine-free status (never-smoker or refrained from smoking/nicotine for at least six (6) weeks prior to surgery validated by objective cotinine testing)"
+      ],
+      "Source": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Radiculopathy"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "ANY of the following: upper/lower extremity weakness, numbness, or pain; fine motor dysfunction (buttoning, handwriting, clumsiness of hands); gait disturbance; new-onset bowel or bladder dysfunction; or frequent falls",
+        "ANY of the following: grip and release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking test demonstrating ataxia, inverted brachial radial reflex, increased muscle tone or spasticity, clonus, or myelopathic hand",
+        "MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and are caused by cervical spinal cord compression or cervical spinal stenosis",
+        "N/A (Conservative management trial not explicitly required for Myelopathy in this section)",
+        "N/A (General criteria for mental/behavioral health and nicotine status are listed under Radiculopathy but typically apply to the procedure; however, strictly based on text, these are listed under Radiculopathy)"
+      ],
+      "Source": "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF) > Myelopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Presence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Failure to document nicotine-free status (smoker or use of smokeless tobacco/nicotine replacement therapy within 6 weeks prior to surgery without valid cotinine testing)",
+    "For Radiculopathy: Failure to demonstrate less than clinically meaningful improvement with at least two of the required conservative management options (analgesics/steroids/gabapentinoids/NSAIDs, exercise program, or injections) for the required duration",
+    "For Radiculopathy: MRI/CT findings that are not concordant with symptoms and physical exam findings or are not caused by the specified pathologies (herniated disc, cysts, stenosis, osteophytes)",
+    "For Myelopathy: MRI/CT findings that are not concordant with symptoms and physical exam findings or are not caused by cervical spinal cord compression or cervical spinal stenosis"
+  ],
+  "Important criteria & exceptions": [
+    "Conservative management for Radiculopathy is not required if contraindicated",
+    "Nicotine-free status can be validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab",
+    "For Radiculopathy, physical exam findings may include 'unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings' as a qualifying finding"
+  ],
+  "Documentation required": [
+    "Plain x-rays of the cervical spine including flexion/extension lateral views",
+    "MRI or CT reports showing neural structure compression or spinal cord compression/stenosis concordant with symptoms and exam",
+    "Records of conservative management including prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks",
+    "Records of provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+    "Records of epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+    "Objective cotinine testing results (serum, urinary, or saliva) if the individual is not a never-smoker, verified as within normal range",
+    "Documentation of absence of unmanaged significant mental and/or behavioral health disorders"
+  ]
+}

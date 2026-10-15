@@ -1,0 +1,38 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Radiation Oncology",
+  "Referred Sections": [
+    "Radiation Oncology Guidelines For Treatment by Site > Non-Small Cell Lung Cancer (TOC: S4.19)",
+    "Radiation Oncology Guidelines For Treatment by Site > Non-Small Cell Lung Cancer > DISCUSSION (TOC: S4.19.1)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Early Stage NSCLC (Stage I and II)",
+      "Required findings": [
+        "Patient must be medically inoperable or refuse surgery.",
+        "Tumor must be node-negative (N0).",
+        "Tumor must be peripheral.",
+        "Tumor maximum dimension must be less than 5 cm.",
+        "For clinical stage T2N0 patients, mediastinoscopy must be performed for staging prior to definitive SBRT."
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Non-Small Cell Lung Cancer > DISCUSSION (TOC: S4.19.1) > IV. Early stage NSCLC"
+    }
+  ],
+  "Non-Indications": [
+    "Patients with hilar nodal involvement (should be treated with standard fractionation, e.g., 60 Gy in 6 weeks, rather than SBRT).",
+    "Patients with central tumors, as they can experience excessive toxicity when higher fraction sizes and fewer fractions (e.g., 3) are utilized.",
+    "Patients who are surgically operable and do not refuse surgery (SBRT is specified for those medically inoperable or who refuse surgery).",
+    "Patients with node-positive disease (SBRT is specified for node-negative stage I and stage II)."
+  ],
+  "Important criteria & exceptions": [
+    "SBRT is generally delivered in 3 to 5 fractions.",
+    "Image-guided radiation therapy (IGRT) may be used to improve the therapeutic ratio by eliminating additional margins for daily set-up variability.",
+    "Use of mediastinoscopy is appropriate for staging of clinical stage T2N0 patients prior to definitive SBRT."
+  ],
+  "Documentation required": [
+    "Documentation of medical inoperability or patient refusal of surgery.",
+    "Staging workup confirming node-negative (N0) status.",
+    "Mediastinoscopy report for clinical stage T2N0 patients.",
+    "Imaging confirming tumor is peripheral and less than 5 cm in maximum dimension."
+  ]
+}

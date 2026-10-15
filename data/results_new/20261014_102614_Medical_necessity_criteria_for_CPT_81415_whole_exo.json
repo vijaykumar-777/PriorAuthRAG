@@ -1,0 +1,76 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Exome Sequencing (TOC: S3.23)",
+    "Test Specific Guidelines > Exome Sequencing > Billing and Reimbursement (TOC: S3.23.1)",
+    "Test Specific Guidelines > Exome Sequencing > What is exome sequencing? (TOC: S3.23.2)",
+    "Test Specific Guidelines > Exome Sequencing > Test information (TOC: S3.23.3)",
+    "Test Specific Guidelines > Exome Sequencing > Guidelines and evidence (TOC: S3.23.4)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Exome Sequencing",
+      "Required findings": [
+        "The member has not had previous exome sequencing performed, AND",
+        "The member has not had previous genome sequencing performed, AND",
+        "The member has had appropriate genetic and family history evaluation, and a clinical letter detailing the evaluation is provided which includes ALL of the following information:",
+        "Differential diagnoses, and",
+        "Testing algorithm, and",
+        "Previous tests performed and results, and",
+        "A genetic etiology is the most likely explanation, and",
+        "Recommendation that exome sequencing is the most appropriate test, and",
+        "Predicted impact on member's plan of care, AND",
+        "Member is <21 years of age, AND",
+        "A genetic etiology is considered the most likely explanation for the phenotype, based on ONE of the following:",
+        "Unexplained epileptic encephalopathy (onset before three years of age) and no prior epilepsy multigene panel testing performed, OR",
+        "Global developmental delay (significant delay in younger children, under age 5 years, in at least two of the major developmental domains: gross or fine motor; speech and language; cognition; social and personal development; and activities of daily living) following formal assessment by a developmental pediatrician or neurologist, OR",
+        "Moderate/severe/profound intellectual disability (defined by Diagnostic and Statistical Manual of Mental Disorders [DSM-5] criteria, diagnosed by 18 years of age) following formal assessment by a developmental pediatrician or neurologist, OR",
+        "Multiple congenital abnormalities defined by ONE of the following:",
+        "Two or more major anomalies affecting different organ systems*, or",
+        "One major and two or more minor anomalies affecting different organ systems*, OR",
+        "TWO of the following criteria are met:",
+        "major abnormality affecting at minimum a single organ system*, and/or",
+        "formal diagnosis of autism, and/or",
+        "symptoms of a complex neurodevelopmental disorder (e.g., epilepsy, selfinjurious behavior, reverse sleep-wake cycles, dystonia, ataxia, alternating hemiplegia, neuromuscular disorder, cerebral palsy), and/or",
+        "severe neuropsychiatric condition (e.g., schizophrenia, bipolar disorder, Tourette syndrome), and/or",
+        "period of unexplained developmental regression, and/or",
+        "laboratory findings suggestive of an inherited metabolic disorder, AND",
+        "Alternate etiologies have been considered and ruled out when possible (e.g., environmental exposure, injury, infection), AND",
+        "Clinical presentation does not fit a well-described syndrome for which more appropriate targeted testing (e.g., single gene testing, comparative genomic hybridization [CGH]/chromosomal microarray analysis [CMA]) is available, AND",
+        "There is a predicted impact on health outcomes including:",
+        "Application of specific treatments, or",
+        "Withholding of contraindicated treatments, or",
+        "Surveillance for later-onset comorbidities, or",
+        "Initiation of palliative care, or",
+        "Withdrawal of care, AND",
+        "A diagnosis cannot be made by standard clinical work-up, excluding invasive procedures such as muscle biopsy, AND",
+        "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Section Title > Subsection (TOC: ID)"
+    }
+  ],
+  "Non-Indications": [
+    "Exome deletion/duplication analysis (typically billed with 81228 or 81229) is considered experimental, investigational, or unproven (E/I/U).",
+    "Exome sequencing is considered E/I/U for screening for genetic disorders in asymptomatic or presymptomatic individuals.",
+    "ES on tissue from a pregnancy loss is not reimbursable.",
+    "ES is not reimbursable for screening for genetic disorders in asymptomatic or presymptomatic individuals."
+  ],
+  "Important criteria & exceptions": [
+    "ES will be considered for reimbursement only when billed with an appropriate CPT code: 81415 should be billed for the proband. 81415 should only be billed when analyzing the entire exome sequence, rather than a targeted set of genes.",
+    "81416 should be billed when a comparator exome is performed. A trio of the proband and both parents is generally preferred, although other family members may be more informative based on the clinical presentation.",
+    "A maximum of two units of 81416 will be considered for reimbursement.",
+    "Re-evaluation of a previously obtained exome due to updated clinical information or expanded scientific knowledge or for the purpose of evaluating an individual for an unrelated condition/syndrome on a different date of service will be considered for reimbursement only when billed using 81417. 81417 is not reimbursable for reflex from targeted to full exome.",
+    "81415 is not reimbursable for a targeted exome analysis (e.g. XomeDxSlice custom gene panel completed on a single exome platform). The appropriate GSP panel code, unlisted code (e.g. 81479), or Tier 1 or Tier 2 code(s) must be billed.",
+    "81415 will be reimbursable once per lifetime."
+  ],
+  "Documentation required": [
+    "Clinical letter detailing the evaluation including ALL of the following information: Differential diagnoses, Testing algorithm, Previous tests performed and results, A genetic etiology is the most likely explanation, Recommendation that exome sequencing is the most appropriate test, Predicted impact on member's plan of care",
+    "Formal assessment by a developmental pediatrician or neurologist (for Global developmental delay)",
+    "Formal assessment by a developmental pediatrician or neurologist (for Moderate/severe/profound intellectual disability)",
+    "ONE of the following criteria for Multiple congenital abnormalities: Two or more major anomalies affecting different organ systems*, One major and two or more minor anomalies affecting different organ systems*, TWO of the following criteria are met: major abnormality affecting at minimum a single organ system*, formal diagnosis of autism, symptoms of a complex neurodevelopmental disorder (e.g., epilepsy, selfinjurious behavior, reverse sleep-wake cycles, dystonia, ataxia, alternating hemiplegia, neuromuscular disorder, cerebral palsy), severe neuropsychiatric condition (e.g., schizophrenia, bipolar disorder, Tourette syndrome), period of unexplained developmental regression, laboratory findings suggestive of an inherited metabolic disorder",
+    "Clinical presentation does not fit a well-described syndrome for which more appropriate targeted testing (e.g., single gene testing, comparative genomic hybridization [CGH]/chromosomal microarray analysis [CMA]) is available",
+    "A diagnosis cannot be made by standard clinical work-up, excluding invasive procedures such as muscle biopsy",
+    "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+  ]
+}

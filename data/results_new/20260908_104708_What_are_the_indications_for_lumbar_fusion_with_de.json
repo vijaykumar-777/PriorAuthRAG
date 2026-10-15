@@ -1,0 +1,40 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct)",
+    "Recurrent Disc Herniation (TOC: S7.1.5)",
+    "Second or Greater Recurrent Disc Herniation (TOC: S7.1.6)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Recurrent Disc Herniation",
+      "Required findings": [
+        "Candidate for repeat lumbar discectomy per CMM 606.3: Repeat Lumbar Microdiscectomy (Laminotomy or Laminectomy) at the Same Level",
+        "Imaging evidence of anterolisthesis at the requested level(s) demonstrating dynamic segmental instability on flexion-extension plain x-rays OR comparison of supine and upright images showing a translational alignment difference between vertebrae >3mm",
+        "Imaging evidence of Meyerding Grade II or higher spondylolisthesis at the requested level(s)",
+        "Documentation of nicotine-free status: individual is a never-smoker OR has refrained from smoking, smokeless tobacco, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery",
+        "Objective cotinine testing (serum, urinary, or saliva) verified as within the normal range for the testing method and laboratory to validate 6-week abstinence if not a never-smoker"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Recurrent Disc Herniation (TOC: S7.1.5)"
+    }
+  ],
+  "Non-Indications": [
+    "Absence of anterolisthesis with dynamic segmental instability (>3mm translational difference on flexion-extension or supine/upright imaging) or Meyerding Grade II or higher spondylolisthesis for first recurrent disc herniation",
+    "Failure to qualify as a candidate for repeat lumbar discectomy per CMM 606.3",
+    "Current use of nicotine, smoking, or smokeless tobacco products within six (6) weeks prior to surgery without validated objective cotinine testing confirming abstinence",
+    "Inability to provide objective cotinine testing results (serum, urinary, or saliva) within normal laboratory reference ranges to verify 6-week nicotine abstinence"
+  ],
+  "Important criteria & exceptions": [
+    "For second or greater recurrent disc herniation, specific imaging findings of instability or spondylolisthesis are not required; only candidate status for repeat discectomy and nicotine-free documentation are needed",
+    "Nicotine-free status must be validated by objective cotinine testing (serum, urinary, or saliva) within normal lab ranges if the patient is not a never-smoker",
+    "Procedure requires concurrent qualification for lumbar decompression or corpectomy per CMM-608: Lumbar Decompression as a foundational criterion"
+  ],
+  "Documentation required": [
+    "Flexion-extension plain x-rays or supine and upright comparison imaging reports",
+    "Advanced imaging reports (MRI/CT) confirming recurrent disc herniation and anterolisthesis/spondylolisthesis grade",
+    "Prior operative reports documenting previous lumbar discectomy",
+    "Objective cotinine test results (serum, urinary, or saliva) with corresponding laboratory reference ranges",
+    "Provider clinical notes documenting smoking history, nicotine abstinence duration, and functional impairment"
+  ]
+}

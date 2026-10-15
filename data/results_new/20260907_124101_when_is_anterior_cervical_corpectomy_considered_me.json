@@ -1,0 +1,50 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.5: Anterior Cervical Corpectomy",
+    "Infection",
+    "Trauma",
+    "Tumor",
+    "Compression at or behind vertebral body"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Infection, Trauma, Tumor, or Vertebral Body Compression",
+      "Required findings": [
+        "Patient must have a documented diagnosis of infection, acute or chronic trauma, neoplastic involvement, OR radiographic evidence of neural or spinal cord compression originating at or posterior to the vertebral body level.",
+        "Objective physical examination demonstrating neurologic deficits consistent with the underlying pathology (e.g., motor weakness, sensory loss, myelopathic signs) or severe refractory pain unresponsive to conservative measures.",
+        "Advanced imaging (MRI and/or CT) showing at least half‑body involvement or compression at the vertebral body level; plain radiographs may be used to confirm instability after corpectomy.",
+        "A complete (removal of the entire vertebral body) or partial corpectomy (removal of ≥50 % of the vertebral body) must be planned and performed.",
+        "The corpectomy must be combined with a cervical fusion to address iatrogenic instability.",
+        "All standard ACDF criteria outlined in sections CMM-601.4, CMM-601.6, CMM-601.7, and CMM-601.8 must also be satisfied (e.g., radiculopathy or myelopathy with concordant imaging, failed conservative therapy, nicotine‑free status, and behavioral health clearance)."
+      ],
+      "Source": "CMM-601.5: Anterior Cervical Corpectomy > Indications"
+    }
+  ],
+  "Non-Indications": [
+    "Corpectomy performed solely for osteophyte removal without resection of at least 50 % of the vertebral body.",
+    "Absence of one of the qualifying pathologies (infection, trauma, tumor, or vertebral‑body compression).",
+    "Failure to perform an accompanying cervical fusion.",
+    "Inability to meet the underlying ACDF criteria (e.g., no documented neurologic deficit, inadequate imaging correlation, or insufficient trial of conservative therapy).",
+    "Active tobacco use without documented cessation and objective cotinine verification.",
+    "Uncontrolled psychiatric or behavioral health conditions that preclude surgery."
+  ],
+  "Important criteria & exceptions": [
+    "Objective confirmation of nicotine abstinence must be provided via serum or urine cotinine testing within 30 days of the procedure request.",
+    "If the patient has a recent (<6 months) prior cervical surgery at the same level, repeat corpectomy is only allowed when the prior fusion has failed and ACDF repeat criteria are met.",
+    "Conservative therapy (physical therapy, cervical collar, pharmacologic pain management) must be documented for a minimum of 6 weeks unless the indication is acute trauma, progressive neurologic decline, or uncontrolled infection.",
+    "Behavioral health clearance is required when documented psychiatric comorbidities exist; a recent evaluation (≤90 days) must be submitted."
+  ],
+  "Documentation required": [
+    "Detailed operative report describing the extent of corpectomy (complete or ≥50 % partial) and fusion technique.",
+    "Radiology reports and images: MRI and/or CT demonstrating the pathology (infection, tumor, trauma, or compression) at the vertebral body level; plain cervical flexion/extension X‑rays confirming instability post‑corpectomy.",
+    "Pathology or microbiology reports confirming infection or tumor when applicable.",
+    "Trauma documentation (e.g., emergency department notes, imaging, mechanism of injury) when the indication is trauma.",
+    "Neurologic examination note documenting deficits or severe refractory pain.",
+    "Conservative care records showing ≥6 weeks of physical therapy, cervical collar use, and/or pharmacologic management, unless an exception applies.",
+    "Objective nicotine cessation evidence (serum or urine cotinine level) dated within 30 days of the request.",
+    "Behavioral health evaluation note confirming stability or clearance for surgery.",
+    "Prior ACDF documentation (if repeat or adjacent segment disease) demonstrating that ACDF criteria were met."
+  ]
+}

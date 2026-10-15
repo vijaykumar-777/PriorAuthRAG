@@ -1,0 +1,44 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Knee Surgery (CMM-312)",
+  "Referred Sections": [
+    "Partial Knee Replacement Indications (S22)",
+    "Partial Knee Replacement - Unicompartmental (S23)",
+    "Unicompartmental Osteoarthritis Criteria"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Unicompartmental Knee Osteoarthritis (Partial Knee Replacement)",
+      "Required findings": [
+        "Imaging must demonstrate severe unicompartmental osteoarthritis: Kellgren-Lawrence Grade IV radiograph, OR Outerbridge Grade IV arthroscopy, OR Modified Outerbridge Grade IV MRI, OR unicompartmental avascular necrosis of femoral condyle/proximal tibia.",
+        "Physical examination must document knee stability and an arc of motion from full extension to >90° flexion.",
+        "Symptoms must include function‑limiting pain at short distances (e.g., <¼ mile or two city blocks) for ≥3 months and loss of knee function that interferes with age‑appropriate ADLs or employment demands.",
+        "Failure of provider‑directed non‑surgical management for ≥3 months (e.g., physical therapy, NSAIDs, injections) unless the medical record clearly explains why such management is inappropriate.",
+        "Surgeon must verify optimization of modifiable medical and behavioral health comorbidities prior to surgery."
+      ],
+      "Source": "Partial Knee Replacement - Unicompartmental > Indications (S23)"
+    }
+  ],
+  "Non-Indications": [
+    "Imaging shows less than Kellgren-Lawrence Grade IV or Outerbridge/MRI grade <IV.",
+    "Knee instability or range of motion ≤90°.",
+    "Pain duration <3 months or pain not function‑limiting.",
+    "No documented loss of function affecting ADLs or employment.",
+    "Absence of a completed ≥3‑month trial of non‑surgical therapy when such therapy is appropriate.",
+    "Patient is a candidate for a joint‑sparing procedure.",
+    "Failure to document optimization of modifiable medical/behavioral comorbidities."
+  ],
+  "Important criteria & exceptions": [
+    "Non‑surgical management may be deemed inappropriate; the record must explicitly document the reason.",
+    "All listed criteria must be met; missing any element renders the procedure not medically necessary."
+  ],
+  "Documentation required": [
+    "Radiology report of weight‑bearing knee X‑rays with Kellgren-Lawrence grading.",
+    "Arthroscopy report with Outerbridge classification (if performed).",
+    "MRI report with Modified Outerbridge grading (if performed).",
+    "Clinical note documenting knee stability and range of motion >90°.",
+    "History and physical note describing pain duration ≥3 months, functional limitation, and impact on ADLs/employment.",
+    "Records of non‑surgical management (physical therapy notes, medication logs, injection records) covering ≥3 months, or a provider statement explaining why such management was not pursued.",
+    "Pre‑operative medical clearance note confirming optimization of modifiable medical and behavioral health conditions."
+  ]
+}

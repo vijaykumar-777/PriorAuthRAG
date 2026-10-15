@@ -1,0 +1,44 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery",
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+    "CMM-609.9: Non-Indications",
+    "CMM-609.2: Osteotomy",
+    "CMM-609.3: Pediatric Spinal Deformity",
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Failed Lumbar Disc Arthroplasty Implant",
+      "Required findings": [
+        "Post-operative imaging shows evidence of lumbar disc arthroplasty implant malposition or failure (e.g., subsidence, loosening, infection, dislocation, subluxation, vertebral body fracture, dislodgement)",
+        "Greater than six (6) months since the prior lumbar total disc arthroplasty at the same level",
+        "Criteria have been met in the applicable procedure-specific section: CMM-609.4 : Lumbar Fusion (Arthrodesis) with Decompression, CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+      ],
+      "Source": "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery > Failed Lumbar Disc Arthroplasty Implant"
+    }
+  ],
+  "Non-Indications": [
+    "Lumbar fusion performed without meeting the criteria in the General Guidelines (when applicable for urgent/emergent conditions) and the criteria in the applicable procedure-specific section(s) is considered not medically necessary.",
+    "Lumbar osteotomy performed without meeting the criteria in General Guidelines (when applicable for urgent/emergent conditions) and the criteria in the applicable procedure-specific section (osteotomy ; pediatric spinal deformity ; fusion with decompression ; fusion without decompression ; adjacent segment disease ; fusion following failed disc arthroplasty ; or, repeat fusion is considered not medically necessary .",
+    "ALL of the following devices/procedures are considered experimental, investigational, or unproven (not an all-inclusive list): pre-sacral interbody fusion including AxiaLIF; percutaneous lumbar spinal fusion (i.e., performed with indirect visualization of the spine); endoscopic lumbar spinal fusion; anterior interbody fusion or implantation of intervertebral body fusion devices using laparoscopic approach; device/implant not FDA approved; dynamic (intervertebral) stabilization (e.g., Dynesys ® , Stabilimax NZ ® ); interlaminar lumbar instrumented fusion (e.g., ILIF); interspinous and interlaminar distraction devices; interspinous fixation/posterior non-pedicle supplemental fixation devices for spinal fusion (e.g., Affix ® , Aspen ®  Spinous Process Fixation System, Coflex ® -F); personalized anterior and lateral body interbody cage (implantable) (e.g., Aprevo ® ); least invasive lumbar decompression interbody fusion (e.g., LINDIF); isolated facet fusion (with or without instrumentation) including allograft bone graft substitutes used exclusively as stand-alone stabilization devices (e.g., TruFuse ®  [any level], NuFix ®  [any level])"
+  ],
+  "Important criteria & exceptions": [
+    "Proper identification and treatment of these conditions prior to surgery may significantly improve many outcome measures.",
+    "Evidence supports that the various methods of cotinine testing (serum, saliva, urinary) are sufficiently equivalent in accuracy to confirm nicotine abstinence.",
+    "Serum testing cutoff values ranged from 3.0ng/mL to 20ng/mL.",
+    "Salivary testing cutoff values ranged from 10ng/mL to 44ng/mL.",
+    "Urinary testing cutoff is 10ng/mL."
+  ],
+  "Documentation required": [
+    "Operative report from prior cervical surgery",
+    "Plain cervical spine flexion/extension X-rays",
+    "Cervical MRI/CT radiology reports showing neural compression",
+    "Physical therapy and pharmacy records documenting >= 6 weeks of conservative care",
+    "Objective laboratory cotinine test results (serum, saliva, or urinary)",
+    "Behavioral health evaluation note"
+  ]
+}

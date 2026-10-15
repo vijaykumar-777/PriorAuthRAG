@@ -1,0 +1,59 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.5: Anterior Cervical Corpectomy",
+    "Infection",
+    "Trauma",
+    "Tumor",
+    "Compression at or behind vertebral body"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Corpectomy for infection, trauma, tumor, or direct vertebral-body compression",
+      "Required findings": [
+        "Severe neck pain or neurologic deficit (radiculopathy or myelopathy) attributable to infection, acute traumatic fracture/dislocation, neoplasm, or compressive lesion at/behind the vertebral body, with pain score ≥7/10 or functional limitation affecting ADLs",
+        "Objective neurologic deficits on exam (e.g., motor weakness, sensory loss, hyperreflexia, gait disturbance) consistent with the level of pathology",
+        "MRI or CT demonstrating pathology directly involving the vertebral body (e.g., epidural abscess, fracture, tumor mass, or bony compression) with concordant neural element compromise; for partial corpectomy, imaging must show that ≥50% of the vertebral body is involved",
+        "Failure of an adequate trial of non‑operative management (≥6 weeks of physical therapy, analgesics, and activity modification) unless contraindicated by acute infection, unstable fracture, or progressive neurologic decline",
+        "Patient must be nicotine‑free for ≥30 days verified by objective cotinine testing and have no uncontrolled behavioral health disorder that would impair postoperative recovery"
+      ],
+      "Source": "CMM-601.5: Anterior Cervical Corpectomy"
+    },
+    {
+      "Guideline Category": "Corpectomy meeting all ACDF criteria",
+      "Required findings": [
+        "All ACDF indications outlined in sections CMM-601.4, CMM-601.6, CMM-601.7, and CMM-601.8 (e.g., radiculopathy, myelopathy, adjacent segment disease, failed disc arthroplasty) must be satisfied",
+        "Documented radiographic evidence of segmental instability or neural compression requiring fusion",
+        "Conservative therapy documented for ≥6 weeks with persistent symptoms",
+        "Verification of tobacco cessation and behavioral health stability as above"
+      ],
+      "Source": "CMM-601.5: Anterior Cervical Corpectomy"
+    }
+  ],
+  "Non-Indications": [
+    "Corpectomy performed solely for osteophyte removal without resection of ≥50% of the vertebral body",
+    "Elective corpectomy for degenerative disease without infection, acute trauma, tumor, or direct vertebral‑body compression",
+    "Procedure attempted without meeting the prerequisite ACDF criteria (e.g., no documented neurologic deficit or instability)",
+    "Active tobacco use without documented cessation and objective cotinine test",
+    "Uncontrolled psychiatric or substance‑use disorder that precludes safe surgery",
+    "Insufficient trial of conservative management when not emergently indicated"
+  ],
+  "Important criteria & exceptions": [
+    "Partial corpectomy is acceptable only when at least one‑half of the vertebral body is removed; resection of osteophytes alone is excluded",
+    "Corpectomy must always be combined with cervical fusion to address iatrogenic instability",
+    "Objective cotinine testing (urine, serum, or saliva) must be performed within 30 days of the planned surgery",
+    "If the indication is acute infection, trauma, or tumor, the conservative‑therapy requirement may be waived",
+    "Multi‑level corpectomy requires separate justification for each level based on the above criteria"
+  ],
+  "Documentation required": [
+    "Operative report detailing extent of corpectomy (complete or ≥50% partial) and fusion technique",
+    "Pre‑operative cervical MRI and/or CT reports showing infection, fracture, tumor, or compressive lesion with measurements of vertebral‑body involvement",
+    "Plain cervical spine flexion/extension X‑rays demonstrating instability (if applicable)",
+    "Neurologic examination note documenting deficits and functional impact",
+    "Physical therapy and medication records confirming ≥6 weeks of conservative care (unless emergent indication)",
+    "Objective cotinine test result (urine, serum, or saliva) performed ≤30 days pre‑op",
+    "Behavioral health evaluation confirming stability or documented plan for management",
+    "Pathology report (if prior biopsy) confirming infection or neoplasm"
+  ]
+}

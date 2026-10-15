@@ -1,0 +1,41 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Symptoms include BOTH of the following:\n- significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)\n- unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of the following:\n- dermatomal sensory deficit\n- motor deficit (e.g., biceps, triceps weakness)\n- reflex changes\n- shoulder abduction relief sign\n- nerve root tension sign (e.g., Spurling's maneuver)\n- unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated):\n- prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks\n- provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks\n- epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Plain x-rays of the cervical spine (including flexion/extension lateral views) and advanced diagnostic imaging show successful decompression and fusion at the previous operative level",
+        "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following:\n- herniated disc(s) (retained disc material or a recurrent disc herniation)\n- synovial cyst or arachnoid cyst\n- central/lateral/foraminal stenosis\n- osteophytes",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+        "Documentation of nicotine-free status with EITHER of the following:\n- individual is a never-smoker\n- individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+      ]
+    }
+  ],
+  "Important criteria & exceptions": [
+    "Patient must be nicotine-free prior to planned surgery verified by objective testing.",
+    "Absence of unmanaged significant behavioral or mental health disorders."
+  ],
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

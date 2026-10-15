@@ -1,0 +1,63 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Significant daily pain causing clinically meaningful functional impairment (e.g., inability to perform household chores, prolonged standing) AND unremitting radicular pain to the shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam demonstrates ANY of: dermatomal sensory deficit, motor weakness of biceps or triceps, reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., positive Spurling's maneuver), OR unremitting radicular pain without concordant objective findings",
+        "MRI or CT of the cervical spine shows neural structure compression at the requested level(s) that is concordant with symptoms and exam, caused by herniated disc (including recurrent disc), synovial or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "Plain cervical spine x‑rays (including flexion/extension lateral views) have been performed",
+        "Failure to achieve clinically meaningful improvement after at least TWO of the following for a minimum of six (6) weeks (unless contraindicated): prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs; provider‑directed exercise program (PT, chiropractic, osteopathic, or physician‑prescribed); epidural steroid injection or selective nerve root block at the same level(s)",
+        "Absence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder)",
+        "Documented nicotine‑free status: either never‑smoker or abstinent from smoking, smokeless tobacco, and nicotine replacement therapy for ≥6 weeks prior to surgery, verified by objective cotinine testing (serum, urine, or saliva) within normal range"
+      ],
+      "Source": "CMM-601.4 > Radiculopathy"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "Symptoms include ANY of: upper or lower extremity weakness, numbness, or pain; fine motor dysfunction (e.g., difficulty buttoning, handwriting, hand clumsiness); gait disturbance; new‑onset bowel or bladder dysfunction; frequent falls",
+        "Physical exam demonstrates ANY of: abnormal grip‑and‑release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking ataxia, inverted brachial radial reflex, increased muscle tone/spasticity, clonus, myelopathic hand",
+        "MRI or CT of the cervical spine shows findings concordant with the individual's symptoms and exam, caused by cervical spinal cord compression or cervical spinal stenosis"
+      ],
+      "Source": "CMM-601.4 > Myelopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Absence of the required symptom severity or functional impairment for radiculopathy (e.g., mild intermittent pain without disability)",
+    "Lack of any concordant objective physical‑exam findings for radiculopathy when imaging is not supportive",
+    "Failure to complete the mandated minimum trial of at least two conservative modalities for six weeks (unless medically contraindicated)",
+    "Missing or non‑concordant MRI/CT evidence of neural compression at the proposed surgical level",
+    "No plain cervical spine flexion/extension x‑rays performed when required for radiculopathy",
+    "Active tobacco use without documented abstinence ≥6 weeks or without objective cotinine verification",
+    "Presence of unmanaged significant mental or behavioral health disorders",
+    "For myelopathy, symptoms or exam findings that do not meet any of the listed criteria, or imaging that does not demonstrate cord compression or stenosis",
+    "Prior cervical fusion at the same level (procedure would be considered revision, not initial primary ACDF)"
+  ],
+  "Important criteria & exceptions": [
+    "Objective cotinine testing (serum, urine, or saliva) must be performed within a clinically appropriate timeframe (typically within 30 days of surgery) to verify nicotine‑free status",
+    "Conservative therapy requirement may be waived only if the patient has a documented contraindication to the therapy (e.g., allergy to NSAIDs, inability to tolerate PT)",
+    "Plain cervical spine flexion/extension lateral views are required for radiculopathy to assess segmental stability before fusion",
+    "Behavioral health assessment must explicitly state that no significant unmanaged mental or substance‑use disorder is present",
+    "If both radiculopathy and myelopathy criteria are met, the more restrictive set of requirements (radiculopathy) applies"
+  ],
+  "Documentation required": [
+    "Comprehensive history and physical note documenting symptom severity, functional impairment, and disability",
+    "Neurological examination note detailing specific objective findings (sensory deficits, motor weakness, reflex changes, Spurling's maneuver, grip‑and‑release, gait assessment, etc.)",
+    "Cervical spine MRI report (or CT if MRI contraindicated) with level‑specific description of neural compression, including cause (herniated disc, cyst, stenosis, osteophytes) for radiculopathy or cord compression/stenosis for myelopathy",
+    "Plain cervical spine radiographs including flexion and extension lateral views",
+    "Records of prescription‑strength analgesics, steroids, gabapentinoids, or NSAIDs prescribed for ≥6 weeks",
+    "Physical therapy, chiropractic, osteopathic, or physician‑directed exercise program notes confirming ≥6 weeks of participation",
+    "Procedure reports for epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) (if used as part of the conservative trial)",
+    "Behavioral health evaluation note confirming absence of unmanaged significant mental or substance‑use disorder",
+    "Smoking history and cessation documentation, plus objective cotinine test result (laboratory report) showing normal range",
+    "If applicable, prior cervical surgery operative report to confirm this is an initial primary procedure"
+  ]
+}

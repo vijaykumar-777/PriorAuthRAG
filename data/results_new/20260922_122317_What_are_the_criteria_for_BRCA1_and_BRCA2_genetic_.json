@@ -1,0 +1,45 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > BRCA Analysis (S3.7)",
+    "Full Sequence Analysis (S3.7.1)",
+    "Deletion/Duplication Analysis (S3.7.1)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Full Sequence Analysis (applicable to CPT 81162)",
+      "Required findings": [
+        "Pre‑ and post‑test genetic counseling performed by an appropriate provider as defined by the health plan",
+        "No prior full BRCA1/2 sequencing or deletion/duplication analysis performed; if any prior BRCA testing was done, it did not identify a pathogenic variant and does not explain the current indication",
+        "Member is age ≥ 18 years",
+        "Meets at least one Diagnostic Testing for Symptomatic Individuals criterion: • Ashkenazi Jewish descent with epithelial ovarian, fallopian tube, primary peritoneal, breast (any age), exocrine pancreatic, or prostate cancer (any age) • Female breast cancer diagnosed ≤50 years • Two or more primary breast cancers of any age • Triple‑negative breast cancer (ER‑, PR‑, HER2‑) of any age • Male breast cancer of any age • Epithelial ovarian, fallopian tube, or primary peritoneal cancer of any age • Prostate cancer of any age with metastatic disease, intraductal/cribriform histology, high‑risk or very‑high‑risk per NCCN • Exocrine pancreatic cancer of any age • Personal & Family History Combination (initial breast cancer at any age plus a first‑/second‑/third‑degree relative with breast cancer ≤50 y, ovarian/fallopian tube/peritoneal cancer any age, or a close relative with triple‑negative breast cancer, metastatic prostate cancer, pancreatic cancer, or two close relatives with breast/prostate cancer)"
+      ],
+      "Source": "Criteria > Full Sequence Analysis (S3.7.1)"
+    }
+  ],
+  "Non-Indications": [
+    "Member younger than 18 years",
+    "Any prior full BRCA1/2 sequencing or deletion/duplication analysis already performed",
+    "Previous genetic testing that would have detected the familial mutation (e.g., known familial mutation already tested)",
+    "Absence of required genetic counseling documentation",
+    "No qualifying personal or family cancer history as defined in the diagnostic criteria",
+    "Ashkenazi Jewish founder testing attempted without meeting the specific ancestry or cancer‑history requirements",
+    "Testing performed when a more informative affected relative is available and can be tested instead of the unaffected member"
+  ],
+  "Important criteria & exceptions": [
+    "Rendering laboratory must be a qualified provider per health‑plan policy",
+    "For Ashkenazi Jewish founder mutation testing, patient must have no prior full sequencing, deletion/duplication, or founder testing and must meet either symptomatic or presymptomatic criteria",
+    "If the most informative affected relative cannot be tested, the ordering physician must document why the unaffected member is being tested",
+    "Deletion/duplication analysis component (required for CPT 81162) is only reimbursable when the patient also meets full‑sequence criteria and has no prior deletion/duplication test"
+  ],
+  "Documentation required": [
+    "Pre‑test genetic counseling note signed by qualified provider",
+    "Post‑test genetic counseling note",
+    "Prior genetic testing reports (if any) confirming no previous full sequencing or deletion/duplication",
+    "Pathology or operative reports confirming cancer diagnoses that satisfy diagnostic criteria (e.g., breast cancer ≤50 y, triple‑negative status, ovarian/fallopian tube/peritoneal cancer, prostate cancer with metastatic/high‑risk features, exocrine pancreatic cancer)",
+    "Detailed family history pedigree documenting degree of relationship, cancer types, ages at diagnosis, and Ashkenazi Jewish ancestry when applicable",
+    "Age verification (date of birth)",
+    "Laboratory requisition indicating CPT 81162 and confirming that the rendering laboratory is qualified"
+  ]
+}

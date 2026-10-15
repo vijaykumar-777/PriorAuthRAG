@@ -1,0 +1,42 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Decipher Prostate Genomic Classifier (TOC: S3.17)",
+    "Test Specific Guidelines > Decipher Prostate Genomic Classifier > Criteria (TOC: S3.17.6)",
+    "Test Specific Guidelines > Decipher Prostate Genomic Classifier > Guidelines and evidence (TOC: S3.17.4)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Decipher Prostate for Radical Prostatectomy (RP)",
+      "Required findings": [
+        "No previous gene expression profile testing performed for this diagnosis of cancer",
+        "Member is post-radical prostatectomy",
+        "Post-surgical PSA is undetectable (below 0.2mg/dl)",
+        "No evidence of lymph node metastasis identified",
+        "One or more of the following adverse features identified in the surgical specimen: positive surgical margin(s), extracapsular extension, or seminal vesicle invasion",
+        "Test is being requested to inform adjuvant treatment decisions"
+      ],
+      "Source": "Test Specific Guidelines > Decipher Prostate Genomic Classifier > Criteria (TOC: S3.17.6)"
+    }
+  ],
+  "Non-Indications": [
+    "Decipher Prostate for Biopsy is not medically necessary",
+    "Patients who have received pelvic radiation or hormone therapy prior to radical prostatectomy (RP)",
+    "Patients with detectable post-surgical PSA (above 0.2mg/dl) in the context of the specific RP criteria requiring undetectable PSA",
+    "Patients with evidence of lymph node metastasis identified in the surgical specimen",
+    "Patients who have previously undergone gene expression profile testing for the current diagnosis of cancer"
+  ],
+  "Important criteria & exceptions": [
+    "The inclusion of procedure code 81542 in the guideline does not imply that the code is under management or requires prior authorization; refer to the specific Health Plan's procedure code list for management requirements",
+    "NCCN guidelines recommend the Decipher molecular assay to inform adjuvant treatment if adverse features are found post-radical prostatectomy",
+    "ASCO guidelines state that commercially available molecular biomarkers may be offered in situations where the assay result, considered with routine clinical factors, is likely to affect management, but routine ordering is not recommended"
+  ],
+  "Documentation required": [
+    "Surgical pathology report from radical prostatectomy confirming adverse features (positive surgical margin, extracapsular extension, or seminal vesicle invasion)",
+    "Surgical pathology report confirming absence of lymph node metastasis",
+    "Laboratory results showing post-surgical PSA is undetectable (below 0.2mg/dl)",
+    "Records confirming no previous gene expression profile testing for the current diagnosis",
+    "Clinical notes indicating the test is requested to inform adjuvant treatment decisions"
+  ]
+}

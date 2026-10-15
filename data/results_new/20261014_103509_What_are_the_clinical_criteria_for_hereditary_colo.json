@@ -1,0 +1,76 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels (TOC: S3.32)",
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > Criteria (TOC: S3.32.1)",
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > Billing and Reimbursement (TOC: S3.32.2)",
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > What are hereditary cancer syndromes? (TOC: S3.32.3)",
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > Test information (TOC: S3.32.4)",
+    "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > Guidelines and evidence (TOC: S3.32.5)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Hereditary Cancer Multi-Syndrome Panels",
+      "Required findings": [
+        "Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND",
+        "If there is a known familial mutation in the family, that mutation does not sufficiently explain the indication for testing, AND",
+        "No previous hereditary cancer syndrome multigene panel testing, AND",
+        "No previous hereditary cancer syndrome testing for any gene on the panel, AND",
+        "One of the following is met:",
+        "Member has a personal diagnosis of cancer consistent with the hereditary cancer syndrome that is suspected in the family, or",
+        "Member is not affected with cancer but is the most informative person in the family to test and an affected family member cannot proceed with testing. If the member is not the most informative person to test, documentation must be provided by the ordering physician's office clearly documenting that it is impossible to test the most informative family member and describing the reason the unaffected member is being tested at this time, AND",
+        "One of the following is met:",
+        "Member has a personal history of invasive cutaneous melanoma and a first degree biological relative diagnosed with pancreatic cancer (multi-syndrome panel must include CDKN2A), or",
+        "Member meets criteria for BRCA Analysis based on current EviCore guideline BRCA Analysis , or",
+        "Member meets criteria for Lynch Syndrome Genetic Testing based on current EviCore guideline Lynch Syndrome Genetic Testing , or",
+        "Member meets criteria for Familial Adenomatous Polyposis Genetic Testing based on current EviCore guideline Familial Adenomatous Polyposis Genetic Testing , or",
+        "Member meets criteria for MUTYH-Associated Polyposis Genetic Testing based on current EviCore guideline MUTYH-Associated Polyposis Genetic Testing , or",
+        "Member meets criteria for two other separate hereditary cancer syndromes based on EviCore guidelines that are included on the panel, AND",
+        "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Test Specific Guidelines > Hereditary Cancer Syndrome Multigene Panels > Criteria (TOC: S3.32.1)"
+    }
+  ],
+  "Non-Indications": [
+    "Member has a personal diagnosis of cancer consistent with the hereditary cancer syndrome that is suspected in the family, or",
+    "Member is not affected with cancer but is the most informative person in the family to test and an affected family member cannot proceed with testing. If the member is not the most informative person to test, documentation must be provided by the ordering physician's office clearly documenting that it is impossible to test the most informative family member and describing the reason the unaffected member is being tested at this time, or",
+    "Member has a personal history of invasive cutaneous melanoma and a first degree biological relative diagnosed with pancreatic cancer (multi-syndrome panel must include CDKN2A), or",
+    "Member meets criteria for BRCA Analysis based on current EviCore guideline BRCA Analysis , or",
+    "Member meets criteria for Lynch Syndrome Genetic Testing based on current EviCore guideline Lynch Syndrome Genetic Testing , or",
+    "Member meets criteria for Familial Adenomatous Polyposis Genetic Testing based on current EviCore guideline Familial Adenomatous Polyposis Genetic Testing , or",
+    "Member meets criteria for MUTYH-Associated Polyposis Genetic Testing based on current EviCore guideline MUTYH-Associated Polyposis Genetic Testing , or",
+    "Member meets criteria for two other separate hereditary cancer syndromes based on EviCore guidelines that are included on the panel, or",
+    "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+  ],
+  "Important criteria & exceptions": [
+    "Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND",
+    "If there is a known familial mutation in the family, that mutation does not sufficiently explain the indication for testing, AND",
+    "No previous hereditary cancer syndrome multigene panel testing, AND",
+    "No previous hereditary cancer syndrome testing for any gene on the panel, AND",
+    "One of the following is met:",
+    "Member has a personal diagnosis of cancer consistent with the hereditary cancer syndrome that is suspected in the family, or",
+    "Member is not affected with cancer but is the most informative person in the family to test and an affected family member cannot proceed with testing. If the member is not the most informative person to test, documentation must be provided by the ordering physician's office clearly documenting that it is impossible to test the most informative family member and describing the reason the unaffected member is being tested at this time, AND",
+    "One of the following is met:",
+    "Member has a personal history of invasive cutaneous melanoma and a first degree biological relative diagnosed with pancreatic cancer (multi-syndrome panel must include CDKN2A), or",
+    "Member meets criteria for BRCA Analysis based on current EviCore guideline BRCA Analysis , or",
+    "Member meets criteria for Lynch Syndrome Genetic Testing based on current EviCore guideline Lynch Syndrome Genetic Testing , or",
+    "Member meets criteria for Familial Adenomatous Polyposis Genetic Testing based on current EviCore guideline Familial Adenomatous Polyposis Genetic Testing , or",
+    "Member meets criteria for MUTYH-Associated Polyposis Genetic Testing based on current EviCore guideline MUTYH-Associated Polyposis Genetic Testing , or",
+    "Member meets criteria for two other separate hereditary cancer syndromes based on EviCore guidelines that are included on the panel, AND",
+    "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+  ],
+  "Documentation required": [
+    "Pre- and post-test genetic counseling documentation from an appropriate provider (as deemed by the Health Plan policy), AND",
+    "Family history documentation detailing known familial mutations, OR",
+    "Documentation confirming inability to test the most informative family member if the patient is not the most informative person to test.",
+    "Personal diagnosis of cancer consistent with the suspected hereditary cancer syndrome documentation.",
+    "Personal history of invasive cutaneous melanoma and a first degree biological relative diagnosed with pancreatic cancer (multi-syndrome panel must include CDKN2A) documentation.",
+    "Documentation meeting criteria for BRCA Analysis based on current EviCore guideline BRCA Analysis , OR",
+    "Documentation meeting criteria for Lynch Syndrome Genetic Testing based on current EviCore guideline Lynch Syndrome Genetic Testing , OR",
+    "Documentation meeting criteria for Familial Adenomatous Polyposis Genetic Testing based on current EviCore guideline Familial Adenomatous Polyposis Genetic Testing , OR",
+    "Documentation meeting criteria for MUTYH-Associated Polyposis Genetic Testing based on current EviCore guideline MUTYH-Associated Polyposis Genetic Testing , OR",
+    "Documentation meeting criteria for two other separate hereditary cancer syndromes based on EviCore guidelines that are included on the panel.",
+    "Rendering laboratory is a qualified provider of service per the Health Plan policy documentation."
+  ]
+}

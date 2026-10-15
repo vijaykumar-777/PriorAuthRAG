@@ -1,0 +1,11 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": []
+}

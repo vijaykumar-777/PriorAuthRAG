@@ -1,0 +1,1136 @@
+{
+  "criteria": [
+    {
+      "criterion_id": 1,
+      "description": "Patient must have a history of lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the initial surgery for lumbar disc herniation.",
+        "Imaging studies (MRI or CT) demonstrating evidence of recurrent disc herniation at the same level as the previous surgery."
+      ]
+    },
+    {
+      "criterion_id": 2,
+      "description": "Patient must have failed conservative management for the recurrent lumbar disc herniation.",
+      "documentation_required": [
+        "Therapy records documenting a minimum of 6 weeks of physical therapy or equivalent non-operative treatment.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement)."
+      ]
+    },
+    {
+      "criterion_id": 3,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 4,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 5,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 6,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 7,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 8,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 9,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 10,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 11,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 12,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 13,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 14,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 15,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 16,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 17,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 18,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 19,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 20,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 21,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 22,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 23,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 24,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 25,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 26,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 27,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 28,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 29,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 30,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 31,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 32,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 33,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 34,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 35,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 36,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 37,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 38,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 39,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 40,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 41,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 42,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 43,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 44,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 45,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 46,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 47,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 48,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 49,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 50,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 51,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 52,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 53,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 54,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 55,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 56,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 57,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 58,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 59,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 60,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 61,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 62,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    },
+    {
+      "criterion_id": 63,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 64,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 65,
+      "description": "Patient must have failed surgical management for the initial lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ]
+    }
+  ],
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Patient must have a history of lumbar disc herniation.",
+      "Required findings": [
+        "Patient must have a history of lumbar disc herniation.",
+        "Prior operative report detailing the initial surgery for lumbar disc herniation.",
+        "Imaging studies (MRI or CT) demonstrating evidence of recurrent disc herniation at the same level as the previous surgery."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed conservative management for the rec",
+      "Required findings": [
+        "Patient must have failed conservative management for the recurrent lumbar disc herniation.",
+        "Therapy records documenting a minimum of 6 weeks of physical therapy or equivalent non-operative treatment.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement)."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have persistent radicular symptoms attributable",
+      "Required findings": [
+        "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed non-operative management for persis",
+      "Required findings": [
+        "Patient must have failed non-operative management for persistent radicular symptoms.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    },
+    {
+      "Guideline Category": "Patient must have failed surgical management for the initial",
+      "Required findings": [
+        "Patient must have failed surgical management for the initial lumbar disc herniation.",
+        "Prior operative report detailing the previous surgery for lumbar disc herniation.",
+        "Clinical notes from physicians detailing failure of previous surgical intervention."
+      ],
+      "Source": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+    }
+  ],
+  "Referred Sections": [
+    "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+  ],
+  "Important criteria & exceptions": [
+    "Patient must be nicotine-free prior to planned surgery verified by objective testing.",
+    "Absence of unmanaged significant behavioral or mental health disorders."
+  ],
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

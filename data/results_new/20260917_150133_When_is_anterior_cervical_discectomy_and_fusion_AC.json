@@ -1,0 +1,49 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Both symptoms present: (1) clinically significant daily pain causing functional impairment (e.g., inability to perform household chores, prolonged standing) AND (2) unremitting radicular pain to the shoulder girdle and/or upper extremity resulting in disability",
+        "Any one of the following objective physical exam findings: dermatomal sensory deficit; motor deficit (biceps or triceps weakness); reflex changes; shoulder abduction relief sign; nerve root tension sign (e.g., Spurling's maneuver); or unremitting radicular pain without concordant objective findings",
+        "MRI or CT demonstrating neural structure compression at the requested level(s) that correlates with symptoms and exam, caused by herniated disc (including retained or recurrent disc material), synovial or arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "Failure to achieve clinically meaningful improvement after at least two of the following conservative measures (unless contraindicated) for a minimum of six weeks: prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs; provider‑directed exercise program prescribed by PT, chiropractor, or physician; epidural steroid injection or selective nerve root block at the same level(s); plain cervical spine x‑rays including flexion/extension lateral views",
+        "Absence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder) and documented nicotine‑free status (never‑smoker or abstinent ≥6 weeks with objective cotinine test within normal range)"
+      ],
+      "Source": "Initial Primary ACDF > Radiculopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Patient lacks either of the two required symptom criteria (significant daily pain with functional impairment OR unremitting radicular pain to shoulder/upper extremity)",
+    "No qualifying physical exam finding documented",
+    "Imaging does not show compression at the proposed level or shows compression due to causes not listed (e.g., tumor, infection)",
+    "Patient has not completed at least two required conservative therapies for six weeks (unless medically contraindicated)",
+    "Presence of unmanaged significant mental or behavioral health disorder",
+    "Current smoker or nicotine use documented without six‑week abstinence verified by cotinine testing",
+    "Plain cervical spine x‑rays (including flexion/extension) not performed"
+  ],
+  "Important criteria & exceptions": [
+    "Both symptom elements must be present; a single symptom alone is insufficient",
+    "Only one objective physical exam finding is required; multiple findings strengthen the case but are not mandatory",
+    "Conservative therapy requirement may be waived only if a documented medical contraindication exists for the specific modality",
+    "Nicotine‑free verification can be satisfied by never‑smoker status or by objective cotinine testing demonstrating abstinence for ≥6 weeks",
+    "Behavioral health disorders must be documented as managed; unmanaged conditions constitute a denial"
+  ],
+  "Documentation required": [
+    "Comprehensive history note describing daily pain severity, functional impairment, and unremitting radicular pain to shoulder/upper extremity",
+    "Physical examination note documenting at least one of the listed objective findings",
+    "Prescription records or medication administration logs confirming use of prescription‑strength analgesics, steroids, gabapentinoids, or NSAIDs for a minimum of six weeks",
+    "Physical therapy, chiropractic, or physician‑directed exercise program notes confirming six‑week duration",
+    "Procedure reports for epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s)",
+    "Plain cervical spine radiographs including flexion and extension lateral views",
+    "MRI or CT report showing neural compression at the surgical level with etiology (herniated disc, cyst, stenosis, osteophyte, etc.)",
+    "Mental health assessment or psychiatric evaluation confirming absence of unmanaged significant mental/behavioral health disorders",
+    "Smoking history documentation and objective cotinine test result (serum, urine, or saliva) within normal range if not a never‑smoker"
+  ]
+}

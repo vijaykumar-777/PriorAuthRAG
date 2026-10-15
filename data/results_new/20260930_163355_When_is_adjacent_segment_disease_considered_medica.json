@@ -1,0 +1,58 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease",
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct)",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease (General Criteria)",
+      "Required findings": [
+        "The prior adjacent-level lumbar fusion was performed at least 6 months prior to the current request.",
+        "Criteria have been met in the applicable procedure-specific section (CMM-609.4 for fusion with decompression or CMM-609.5 for fusion without decompression)."
+      ],
+      "Source": "CMM-609.6: Adjacent Segment Disease (TOC: S9.2)"
+    },
+    {
+      "Guideline Category": "Lumbar Fusion with Decompression (Indirect or Direct)",
+      "Required findings": [
+        "The individual is a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+        "Imaging findings include ANY of the following: degenerative spondylolisthesis without spondylolysis with dynamic segmental instability (>3mm translational alignment difference) or Meyerding Grade II or higher; spondylolisthesis with spondylolysis with specific grade/progression criteria; post-operative instability from facet joint excision (>50% bilateral or >=75% single facet); pars fracture; or previous spinal decompression resulting in iatrogenic spondylolisthesis.",
+        "Documentation of nicotine-free status: individual is a never-smoker OR has refrained from smoking, smokeless tobacco, and nicotine replacement therapy for at least six (6) weeks prior to planned surgery, validated by objective cotinine testing (serum, urinary, or saliva) within normal range."
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability (TOC: S7.1.1)"
+    },
+    {
+      "Guideline Category": "Lumbar Fusion (Arthrodesis) without Decompression",
+      "Required findings": [
+        "Imaging findings include EITHER dynamic segmental instability (>3mm translational alignment difference) OR Meyerding Grade II or higher spondylolisthesis (for Degenerative Spondylolisthesis without Spondylolysis).",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing).",
+        "Less than clinically meaningful improvement with EITHER prescription strength analgesics/steroids/gabapentinoids/NSAIDs OR a provider-directed exercise program for at least three (3) consecutive months (unless contraindicated).",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders).",
+        "Documentation of nicotine-free status: individual is a never-smoker OR has refrained from smoking, smokeless tobacco, and nicotine replacement therapy for at least six (6) weeks prior to planned surgery, validated by objective cotinine testing (serum, urinary, or saliva) within normal range."
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Degenerative Spondylolisthesis without Spondylolysis (TOC: S8.1.1)"
+    }
+  ],
+  "Non-Indications": [
+    "Lumbar fusion for adjacent segment disease requested less than 6 months after the prior adjacent-level lumbar fusion.",
+    "Failure to meet the specific clinical and imaging criteria outlined in CMM-609.4 (Fusion with Decompression) or CMM-609.5 (Fusion without Decompression).",
+    "Presence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) when applying CMM-609.5 criteria.",
+    "Failure to demonstrate nicotine-free status (never-smoker or 6-week abstinence validated by cotinine testing) when required by the applicable procedure-specific section.",
+    "For CMM-609.5 indications, failure to demonstrate less than clinically meaningful improvement with conservative management (medications or exercise) for at least three consecutive months."
+  ],
+  "Important criteria & exceptions": [
+    "Criteria exception for Actual Instability: When instability is created and/or identified intra-operatively, the pre-operative imaging criteria for instability are NOT required.",
+    "The policy requires that ALL criteria in the applicable procedure-specific section (CMM-609.4 or CMM-609.5) be met in addition to the 6-month elapsed time requirement for adjacent segment disease.",
+    "Nicotine-free status must be validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the specific testing method and lab."
+  ],
+  "Documentation required": [
+    "Documentation of the date of the prior adjacent-level lumbar fusion to verify the 6-month elapsed time.",
+    "Objective cotinine testing results (serum, urinary, or saliva) verifying nicotine-free status within the normal range, or documentation of never-smoker status.",
+    "Imaging reports (plain x-rays, flexion-extension views, CT, or MRI) demonstrating the specific instability or deformity criteria required by the applicable procedure-specific section (CMM-609.4 or CMM-609.5).",
+    "Clinical notes documenting symptoms, functional impairment, and trial of conservative management (medications/exercise) as required by the applicable procedure-specific section.",
+    "Documentation of mental and behavioral health status to verify absence of unmanaged significant disorders (if applying CMM-609.5 criteria)."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "≥ 6 months elapsed since the prior cervical decompression or fusion at an adjacent level",
+        "Both: (a) clinically significant daily pain causing functional impairment (e.g., inability to perform household chores, prolonged standing) AND (b) unremitting radicular pain to the shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam demonstrating any of: dermatomal sensory deficit, biceps/triceps motor weakness, reflex changes, shoulder abduction relief sign, Spurling's maneuver positivity, OR unremitting radicular pain without concordant objective findings",
+        "Failure to achieve clinically meaningful improvement after at least two of the following for ≥ 6 weeks (unless contraindicated): prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids, provider‑directed exercise program, epidural steroid injection or selective nerve root block at the same level(s)",
+        "Plain cervical spine X‑rays (including flexion/extension lateral views) showing successful decompression and fusion at the prior operative level",
+        "MRI or CT of the cervical spine demonstrating neural structure compression at the proposed level(s) concordant with symptoms/exam and attributable to herniated disc(s), synovial/arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "No unmanaged significant mental or behavioral health disorder (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder)",
+        "Nicotine‑free status documented as either a never‑smoker or abstinence from smoking/tobacco/NRT for ≥ 6 weeks prior to surgery, verified by objective cotinine testing (serum, urine, or saliva) within normal range"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Radiculopathy"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "Symptoms of any of the following: upper or lower extremity weakness, numbness, or pain; fine motor dysfunction (e.g., difficulty buttoning, handwriting); gait disturbance; new‑onset bowel or bladder dysfunction; frequent falls",
+        "Physical exam demonstrating any of: abnormal grip‑and‑release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking ataxia, inverted brachial radial reflex, increased muscle tone/spasticity, clonus, or myelopathic hand",
+        "MRI or CT of the cervical spine showing findings concordant with the patient’s symptoms and exam and caused by cervical spinal cord compression or cervical spinal stenosis"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Myelopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Less than six months since the prior cervical decompression or fusion at an adjacent level for radiculopathy",
+    "Absence of the required symptom profile (e.g., no daily functional‑impairing pain or no unremitting radicular pain for radiculopathy; no myelopathic symptoms for myelopathy)",
+    "Lack of any qualifying physical‑exam findings as specified for the condition",
+    "Failure to complete at least two required conservative therapy modalities for six weeks (unless a documented contraindication exists)",
+    "Imaging that does not demonstrate neural compression at the proposed level or does not show successful prior fusion",
+    "Presence of an unmanaged significant mental or behavioral health disorder",
+    "Active tobacco use without documented cessation or without objective cotinine test confirming nicotine‑free status"
+  ],
+  "Important criteria & exceptions": [
+    "Objective cotinine testing (serum, urine, or saliva) must be performed and reported as within normal range to verify nicotine‑free status",
+    "Conservative therapy requirement may be waived only if a documented contraindication to the therapies exists",
+    "Plain cervical spine flexion/extension lateral X‑rays are required to confirm successful prior decompression/fusion before considering adjacent‑level ACDF",
+    "All imaging findings must be concordant with the patient’s clinical presentation"
+  ],
+  "Documentation required": [
+    "Operative report from the prior cervical decompression or fusion procedure",
+    "Plain cervical spine X‑ray series including flexion and extension lateral views demonstrating prior fusion status",
+    "MRI or CT report of the cervical spine showing neural compression at the requested adjacent level",
+    "Radiology report confirming successful decompression/fusion at the previous operative level",
+    "Detailed physical‑exam note documenting sensory, motor, reflex, or myelopathic findings",
+    "Prescription records and pharmacy dispensing records for analgesics, NSAIDs, steroids, gabapentinoids used for ≥ 6 weeks",
+    "Physical therapy or chiropractic progress notes confirming a ≥ 6‑week supervised exercise program",
+    "Pain‑management or interventional radiology notes confirming epidural steroid injection or selective nerve root block at the same level(s)",
+    "Behavioral health evaluation note confirming absence of unmanaged significant mental/behavioral health disorders",
+    "Smoking history documentation and objective cotinine test result (serum, urine, or saliva) within normal limits"
+  ]
+}

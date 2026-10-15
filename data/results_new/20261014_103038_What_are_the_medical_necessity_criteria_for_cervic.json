@@ -1,0 +1,83 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Radiculopathy",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Unremitting Neck Pain",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Failed Cervical Disc Arthroplasty Implant",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical total disc arthroplasty at the same level",
+        "Symptoms include BOTH of the following:",
+        "significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam findings include ANY of the following:",
+        "dermatomal sensory deficit",
+        "motor deficit (e.g., biceps, triceps weakness)",
+        "reflex changes",
+        "shoulder abduction relief sign",
+        "nerve root tension sign (e.g., Spurling's maneuver)",
+        "unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated):",
+        "prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks",
+        "provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+        "epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "Post-operative MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following:",
+        "herniated disc(s) (retained disc material or a recurrent disc herniation)",
+        "synovial cyst or arachnoid cyst",
+        "central/lateral/foraminal stenosis",
+        "osteophytes",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+        "Documentation of nicotine-free status with EITHER of the following:",
+        "individual is a never-smoker",
+        "individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+      ],
+      "Source": "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery > Radiculopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Documentation of nicotine-free status with EITHER of the following:",
+    "individual is a never-smoker",
+    "individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+  ],
+  "Important criteria & exceptions": [
+    "Less than clinically meaningful improvement with BOTH of the following (unless contraindicated):",
+    "prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks",
+    "provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+    "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Documentation of nicotine-free status with EITHER of the following:",
+    "individual is a never-smoker",
+    "individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+  ],
+  "Documentation required": [
+    "Post-operative imaging shows evidence of cervical disc arthroplasty implant malposition or failure (e.g., subsidence, loosening, infection, dislocation, subluxation, vertebral body fracture, dislodgement)",
+    "Greater than six (6) months since the prior cervical total disc arthroplasty at the same level",
+    "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+    "Symptoms include unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+    "Physical exam findings include ANY of the following:",
+    "dermatomal sensory deficit",
+    "motor deficit (e.g., biceps, triceps weakness)",
+    "reflex changes",
+    "shoulder abduction relief sign",
+    "nerve root tension sign (e.g., Spurling's maneuver)",
+    "unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings",
+    "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated):",
+    "prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks",
+    "provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+    "epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+    "Post-operative MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following:",
+    "herniated disc(s) (retained disc material or a recurrent disc herniation)",
+    "synovial cyst or arachnoid cyst",
+    "central/lateral/foraminal stenosis",
+    "osteophytes",
+    "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Documentation of nicotine-free status with EITHER of the following:",
+    "individual is a never-smoker",
+    "individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+  ]
+}

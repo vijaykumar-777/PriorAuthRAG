@@ -1,0 +1,40 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna_ACDF_hierarchical",
+  "Referred Sections": [
+    "CMM-601.2: Osteotomy",
+    "CMM-601.3: Anterior Cervical Discectomy",
+    "CMM-601.4: Initial Primary Anterior Cervical Discectomy and Fusion (ACDF)",
+    "CMM-601.5: Anterior Cervical Corpectomy",
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+    "CMM-601.7: Adjacent Segment Disease",
+    "CMM-601.8: ACDF Following Failed Cervical Disc Arthroplasty Surgery"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+      "Required findings": [
+        "Greater than six (6) months since the prior anterior cervical discectomy and fusion (ACDF) at the same level.",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.).",
+        "Post-operative physical exam findings are concordant with the individual's symptoms.",
+        "Less than clinically meaningful improvement with BOTH of the following (unless contraindicated):",
+        "prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks",
+        "provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks",
+        "Post-operative imaging (performed at no less than six (6) months after the prior cervical fusion) shows pseudoarthrosis at the requested level(s).",
+        "Post-operative MRI/CT findings are concordant with the individual's symptoms.",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders).",
+        "Documentation of nicotine-free status with EITHER of the following:",
+        "individual is a never-smoker",
+        "individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed"
+      ],
+      "Source": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level"
+    }
+  ],
+  "Non-Indications": [
+    "Not Medically Necessary",
+    "Experimental, Investigational, or Unproven (EIU)"
+  ],
+  "Important criteria & exceptions": [
+    "Documentation required"
+  ]
+}

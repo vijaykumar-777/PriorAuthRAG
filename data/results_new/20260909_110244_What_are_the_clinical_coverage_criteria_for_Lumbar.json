@@ -1,0 +1,63 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression",
+    "Actual Instability (S7.1.1)",
+    "Anticipated Iatrogenic Instability (S7.1.2)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Actual Instability",
+      "Required findings": [
+        "Patient must be a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+        "Imaging must demonstrate ANY of the following:",
+        "- Degenerative spondylolisthesis without spondylolysis AND either dynamic segmental instability on flexion‑extension plain x‑rays OR a supine‑to‑upright translational shift >3 mm, OR Meyerding Grade II or higher spondylolisthesis.",
+        "- Spondylolisthesis with spondylolysis (isthmic) AND either Meyerding Grade I or II with radiographic evidence of progression, OR Meyerding Grade III or higher with ≥50 % anterior slippage or radiographic progression.",
+        "- Progressive spinal pain with documented progression of spondylolisthesis on serial imaging.",
+        "- Multi‑level spondylolysis evident on plain x‑rays.",
+        "- Post‑operative instability caused by facet joint excision exceeding 50 % bilaterally or ≥75 % of a single facet.",
+        "- Pars fracture.",
+        "- Prior spinal decompression that resulted in iatrogenic spondylolisthesis.",
+        "Exception: If instability is identified intra‑operatively, imaging criteria are not required.",
+        "Documentation of nicotine‑free status: either never‑smoker or abstinent ≥6 weeks with objective cotinine test (serum, urine, or saliva) within normal range."
+      ],
+      "Source": "Actual Instability > S7.1.1"
+    },
+    {
+      "Guideline Category": "Anticipated Iatrogenic Instability",
+      "Required findings": [
+        "Patient must be a candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression.",
+        "Anticipated iatrogenic instability must be present, demonstrated by ANY of the following intra‑operative or pre‑operative findings:",
+        "- Disruption of posterior elements due to facet joint excision >50 % bilaterally or ≥75 % of a single facet during decompression.",
+        "- Removal of the pars interarticularis that necessitates fusion for stability.",
+        "- Decompression performed for Meyerding Grade I or higher spondylolisthesis with associated foraminal stenosis.",
+        "- Complete or partial corpectomy involving removal of ≥1/3 of a vertebral body (not limited to osteophyte resection).",
+        "Documentation of nicotine‑free status: either never‑smoker or abstinent ≥6 weeks with objective cotinine test (serum, urine, or saliva) within normal range."
+      ],
+      "Source": "Anticipated Iatrogenic Instability > S7.1.2"
+    }
+  ],
+  "Non-Indications": [
+    "Patient is not a candidate for lumbar decompression or corpectomy per CMM-608.",
+    "Imaging does not demonstrate any of the specified instability criteria (e.g., Meyerding Grade I spondylolisthesis without progression, translational shift ≤3 mm, facet excision <50 % bilaterally and <75 % unilaterally).",
+    "Absence of documented nicotine‑free status (no history of never‑smoking and no cotinine test confirming abstinence ≥6 weeks).",
+    "Instability is not anticipated or identified intra‑operatively and imaging criteria are unmet.",
+    "Procedure requested for spondylolisthesis without associated foraminal stenosis or without need for fusion (i.e., isolated low‑grade spondylolisthesis managed conservatively)."
+  ],
+  "Important criteria & exceptions": [
+    "Intra‑operative identification of instability waives the pre‑operative imaging requirements.",
+    "Patient must meet nicotine‑free criteria (never‑smoker or ≥6 weeks abstinent with normal cotinine test).",
+    "Eligibility is contingent upon prior determination that the patient is a candidate for lumbar decompression or corpectomy per CMM-608.",
+    "Both actual and anticipated instability pathways are acceptable; only one set of criteria needs to be satisfied."
+  ],
+  "Documentation required": [
+    "Clinical note confirming candidate status for lumbar decompression or corpectomy per CMM-608 (symptom description, neurological exam).",
+    "Flexion‑extension plain radiographs or supine and upright standing radiographs demonstrating translational shift >3 mm (if applicable).",
+    "Standard standing AP/Lateral radiographs with Meyerding grading of spondylolisthesis.",
+    "CT or MRI reports documenting facet joint resection extent, pars fracture, or corpectomy extent if relevant.",
+    "Prior operative reports if previous decompression or facet excision was performed.",
+    "Objective cotinine test result (serum, urine, or saliva) within normal range confirming ≥6 weeks nicotine abstinence, or documented never‑smoker status.",
+    "Intra‑operative report documenting identified iatrogenic instability (if imaging criteria are not met)."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "CMM-609.3: Pediatric Spinal Deformity",
+  "Referred Sections": [
+    "CMM-609.3: Pediatric Spinal Deformity > Pediatric Lumbar Fusion (TOC: S6.2.1)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Pediatric Spinal Deformity",
+      "Required findings": [
+        "Imaging studies (advanced imaging or plain x-rays) must demonstrate the presence of ANY of the following pediatric spinal deformities that warrant definitive surgical treatment:",
+        "Adolescent idiopathic scoliosis with Cobb angle >50°",
+        "Congenital scoliosis",
+        "Neuromuscular scoliosis",
+        "Infantile/juvenile scoliosis"
+      ],
+      "Source": "CMM-609.3: Pediatric Spinal Deformity > Pediatric Lumbar Fusion (TOC: S6.2.1)"
+    }
+  ],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [
+    "Advanced imaging reports or plain x-ray reports confirming pediatric spinal deformity and Cobb angle measurements"
+  ]
+}

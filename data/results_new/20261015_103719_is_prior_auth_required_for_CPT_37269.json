@@ -1,0 +1,10 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Precertification Master Table (Vascular Interventions)",
+  "Referred Sections": [],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [],
+  "Notice": "Commercial Prior Authorization IS REQUIRED for 37269 (Femoral-popliteal artery angioplasty/stent) under the 'Vascular Interventions' clinical program (Case Build Platform: CareCore National) per the Cigna Precertification Master Table. A detailed clinical coverage policy guideline document for this specific specialty is not currently indexed in the active policy registry."
+}

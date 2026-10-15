@@ -1,0 +1,23 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+    "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+    "Unremitting Neck Pain with Pseudoarthrosis",
+    "Radiculopathy with Pseudoarthrosis",
+    "Myelopathy with Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "Required findings": [
+        "Post-operative imaging shows evidence of malposition or failure of the implant/instrumentation or structural bone graft (e.g., migration, pedicle screw breakage, pedicle screw loosening, dislodged hooks, rod breakage, rod bending, rod loosening, loss of curve correction, decompensation, etc.)"
+      ],
+      "Source": "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft (TOC: S11.1.1)"
+    }
+  ],
+  "Important criteria & exceptions": [],
+  "Non-Indications": [],
+  "Documentation required": []
+}

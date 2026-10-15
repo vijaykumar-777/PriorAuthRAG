@@ -1,0 +1,49 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+    "Discogenic Lower Back Pain/Degenerative Disc Disease"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Discogenic Lower Back Pain/Degenerative Disc Disease",
+      "Required findings": [
+        "Plain radiographs and advanced imaging (CT or MRI) demonstrate moderate to severe single‑level disc degeneration at the requested level(s)",
+        "Chronic, unremitting discogenic axial low‑back pain with associated disability secondary to single‑level degenerative disc disease for ≥1 year",
+        "Significant daily pain causing functional impairment (e.g., inability to perform household chores, prolonged standing)",
+        "Structured physician‑supervised, multi‑modal non‑operative management that includes regularly scheduled appointments and documented follow‑up evaluations",
+        "Less than clinically meaningful improvement with at least TWO of the following for ≥12 consecutive months (unless contraindicated): prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids, provider‑directed exercise program, epidural steroid injection or selective nerve‑root block at the same level, facet joint injection/medial branch block/radiofrequency ablation",
+        "No unmanaged significant mental or behavioral health disorder (e.g., major depressive disorder, chronic pain syndrome, opioid or alcohol use disorder)",
+        "Nicotine‑free status documented by either never‑smoker status or abstinence ≥6 weeks verified by objective cotinine testing (serum, urine, or saliva)"
+      ],
+      "Source": "Lumbar Fusion (Arthrodesis) without Decompression > Discogenic Lower Back Pain/Degenerative Disc Disease"
+    }
+  ],
+  "Non-Indications": [
+    "Pain duration <1 year",
+    "Multilevel disc degeneration or pathology beyond a single level",
+    "Imaging does not show moderate‑to‑severe degeneration at a single level",
+    "Failure to complete ≥12 months of at least two specified conservative therapies",
+    "Absence of structured physician‑supervised non‑operative management with regular visits and follow‑up",
+    "Presence of unmanaged significant mental or behavioral health disorder",
+    "Current smoker or nicotine use without documented 6‑week abstinence and cotinine verification",
+    "Contraindication to required conservative modalities without documented alternative justification"
+  ],
+  "Important criteria & exceptions": [
+    "All listed conservative therapy criteria must be met; if a patient cannot tolerate a specific modality, another qualifying modality must still satisfy the “≥2 modalities for ≥12 months” rule",
+    "Nicotine‑free verification must be objective (cotinine test) unless patient is a documented never‑smoker",
+    "Mental health disorders must be managed; unmanaged conditions exclude coverage",
+    "Conservative management must be physician‑directed and documented; informal or unsupervised therapy does not satisfy the requirement"
+  ],
+  "Documentation required": [
+    "Plain radiograph report (AP/lateral) of lumbar spine",
+    "CT or MRI report demonstrating moderate to severe single‑level disc degeneration",
+    "Clinical note confirming chronic discogenic axial low‑back pain ≥1 year with functional impairment",
+    "Physical therapy or other licensed provider notes showing regularly scheduled appointments and follow‑up evaluations",
+    "Medication history showing prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids use for ≥12 months",
+    "Records of at least two of the following performed at the same level(s): epidural steroid injection/ selective nerve‑root block, facet joint injection/ medial branch block/ radiofrequency ablation, documented exercise program duration ≥12 months",
+    "Mental health assessment confirming absence of unmanaged significant disorder",
+    "Smoking cessation documentation: never‑smoker statement or nicotine abstinence ≥6 weeks with cotinine test result (lab report)"
+  ]
+}

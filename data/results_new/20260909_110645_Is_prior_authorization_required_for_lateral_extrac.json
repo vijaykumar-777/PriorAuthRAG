@@ -1,0 +1,86 @@
+{
+  "Prior auth required": "No",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+    "Degenerative Spondylolisthesis without Spondylolysis",
+    "Spondylolisthesis with Spondylolysis (Isthmic)",
+    "Discogenic Lower Back Pain/Degenerative Disc Disease",
+    "Adult Symptomatic Degenerative Spinal Deformity"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Degenerative Spondylolisthesis without Spondylolysis",
+      "Required findings": [
+        "Dynamic segmental instability on flexion‑extension plain x‑rays or supine vs upright images showing >3 mm translational shift at the requested level",
+        "Meyerding grade II or higher spondylolisthesis at the requested level",
+        "Daily significant pain causing functional impairment (e.g., inability to perform household chores or prolonged standing)",
+        "Less than clinically meaningful improvement after at least three consecutive months of either prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids OR a provider‑directed exercise program (unless contraindicated)",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Nicotine‑free status: never‑smoker or abstinent ≥6 weeks with objective cotinine test confirming normal range"
+      ],
+      "Source": "CMM-609.5 > Degenerative Spondylolisthesis without Spondylolysis"
+    },
+    {
+      "Guideline Category": "Spondylolisthesis with Spondylolysis (Isthmic)",
+      "Required findings": [
+        "Meyerding grade I‑II with radiographic evidence of progression, or grade III‑IV with ≥50 % anterior slippage or radiographic progression",
+        "Multi‑level spondylolysis on plain x‑rays may also satisfy imaging criteria",
+        "Daily significant pain causing functional impairment",
+        "Less than clinically meaningful improvement after at least three consecutive months of either prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids OR a provider‑directed exercise program (unless contraindicated)",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Nicotine‑free status: never‑smoker or abstinent ≥6 weeks with objective cotinine test"
+      ],
+      "Source": "CMM-609.5 > Spondylolisthesis with Spondylolysis"
+    },
+    {
+      "Guideline Category": "Discogenic Lower Back Pain/Degenerative Disc Disease",
+      "Required findings": [
+        "Plain x‑rays and advanced imaging (CT or MRI) demonstrating moderate to severe single‑level disc degeneration at the requested level",
+        "Chronic, unremitting discogenic axial low‑back pain with disability for ≥12 months",
+        "Structured, physician‑supervised, multimodal non‑operative management including regular scheduled visits and follow‑up",
+        "Less than clinically meaningful improvement after at least two of the following for ≥12 months: prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids, provider‑directed exercise program, epidural steroid injection or selective nerve root block at the same level, facet joint injection/medial branch block/radiofrequency ablation",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Nicotine‑free status: never‑smoker or abstinent ≥6 weeks with objective cotinine test"
+      ],
+      "Source": "CMM-609.5 > Discogenic Lower Back Pain/Degenerative Disc Disease"
+    },
+    {
+      "Guideline Category": "Adult Symptomatic Degenerative Spinal Deformity",
+      "Required findings": [
+        "Imaging showing either coronal deformity (Cobb angle >30°, asymmetric disc collapse with foraminal narrowing, or global coronal imbalance) or sagittal imbalance (sagittal vertical axis >8 cm or pelvic incidence‑lumbar lordosis mismatch >15°)",
+        "Daily significant pain with functional impairment",
+        "Less than clinically meaningful improvement after at least three consecutive months of either prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids OR a provider‑directed exercise program (unless contraindicated)",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Nicotine‑free status: never‑smoker or abstinent ≥6 weeks with objective cotinine test"
+      ],
+      "Source": "CMM-609.5 > Adult Symptomatic Degenerative Spinal Deformity"
+    }
+  ],
+  "Non-Indications": [
+    "Absence of the specified imaging findings (e.g., no dynamic instability, spondylolisthesis grade below required threshold, no moderate‑to‑severe disc degeneration, or deformity measurements below criteria)",
+    "Failure to complete the required duration of conservative therapy (e.g., less than 3 months of medication/exercise trial for spondylolisthesis or less than 12 months for discogenic disease)",
+    "Presence of unmanaged major depressive disorder, chronic pain syndrome, secondary gain, opioid use disorder, or alcohol use disorder",
+    "Current smoking or nicotine use within 6 weeks of planned surgery without documented cotinine‑negative test",
+    "Inadequate documentation of conservative treatment attempts or lack of multidisciplinary non‑operative management"
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine‑free verification must be supported by objective cotinine testing (serum, urine, or saliva) showing results within normal range for the assay used",
+    "Mental health disorders must be documented as managed; unmanaged disorders constitute a denial",
+    "For discogenic disease, improvement must be insufficient after at least two of the listed conservative modalities for a minimum of 12 months",
+    "Conservative therapy may be waived only if contraindicated and documented",
+    "Multi‑level procedures require that each level independently meet the imaging and symptom criteria"
+  ],
+  "Documentation required": [
+    "Flexion‑extension plain radiographs or supine and upright radiographs with measurement of translational shift",
+    "Standard standing plain radiographs with measurement of Meyerding grade for spondylolisthesis",
+    "MRI or CT report detailing disc degeneration severity and level(s) involved",
+    "Cobb angle measurement report for coronal deformity and sagittal vertical axis/pelvic incidence‑lumbar lordosis measurements for sagittal imbalance",
+    "Prescription records showing use of analgesics, NSAIDs, gabapentinoids, steroids and duration of therapy",
+    "Physical therapy or chiropractic notes confirming prescribed exercise program and duration",
+    "Procedural reports for epidural steroid injections, selective nerve root blocks, facet joint injections, medial branch blocks, or radiofrequency ablations (if used)",
+    "Mental health assessment documenting absence of unmanaged psychiatric or substance‑use disorders",
+    "Smoking status documentation and cotinine test result (serum, urine, or saliva) confirming nicotine‑free status",
+    "Operative report request form indicating CPT 22533 and level(s) to be fused"
+  ]
+}

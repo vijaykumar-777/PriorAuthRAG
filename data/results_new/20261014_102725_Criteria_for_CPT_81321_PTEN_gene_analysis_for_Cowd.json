@@ -1,0 +1,64 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing (TOC: S3.53)",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1)",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1) > Major:",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1) > Minor:",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > What is PTEN hamartoma tumor syndrome? (TOC: S3.53.2)",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > What is PTEN hamartoma tumor syndrome? (TOC: S3.53.2) > An operational diagnosis of CS is established if an individual meets any of the following criteria:",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > What is PTEN hamartoma tumor syndrome? (TOC: S3.53.2) > The major and minor criteria for a clinical diagnosis of PHTS are:",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > What is PTEN hamartoma tumor syndrome? (TOC: S3.53.2) > Management",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Test information (TOC: S3.53.3)",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Guidelines and evidence (TOC: S3.53.4)",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Guidelines and evidence (TOC: S3.53.4) > American College of Medical Genetics and Genomics",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Guidelines and evidence (TOC: S3.53.4) > National Comprehensive Cancer Network",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Guidelines and evidence (TOC: S3.53.4) > US Multi-Society Task Force on Colorectal Cancer",
+    "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Guidelines and evidence (TOC: S3.53.4) > Selected Relevant Publication"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "PTEN Known Familial Mutation Analysis",
+      "Required findings": [
+        "Genetic Counseling: Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND Previous Testing: No previous genetic testing that would detect the familial mutation, AND",
+        "Diagnostic and Predisposition Testing: Known deleterious family mutation in PTEN identified in 1 st , 2 nd , or 3 rd degree biologic relative(s), AND Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1) > PTEN Known Familial Mutation Analysis"
+    },
+    {
+      "Guideline Category": "PTEN Sequencing with Promoter Analysis",
+      "Required findings": [
+        "Genetic Counseling: Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND Previous Testing: No previous sequencing of PTEN, AND Diagnostic Testing for Symptomatic Individuals: Personal history of ANY of the following: Bannayan Riley-Ruvalcaba syndrome (BRRS); or Adult Lhermitte-Duclos disease (LDD); or Autism spectrum disorder and macrocephaly; or At least two biopsy-proven trichilemmomas; or At least two major criteria** (one must be macrocephaly); or Three major criteria** without macrocephaly; or One major** and at least three minor criteria***; or Four or more minor criteria***, OR Predisposition testing for Presymptomatic/Asymptomatic Individuals: At-risk person with a family history of: A relative (includes first-degree relative or more distant relatives if the first-degree relative is unavailable or unwilling to be tested) with a clinical diagnosis of Cowden syndrome or BRRS (no previous genetic testing); and One major** OR two minor criteria*** in the at-risk person, AND Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1) > PTEN Sequencing with Promoter Analysis"
+    },
+    {
+      "Guideline Category": "PTEN Deletion/Duplication Analysis",
+      "Required findings": [
+        "Genetic Counseling: Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND Previous Testing: Sequence analysis of PTEN has been performed and resulted negative, and Criteria for testing purposes are: Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Test Specific Guidelines > PTEN Hamartoma Tumor Syndromes Genetic Testing > Criteria (TOC: S3.53.1) > PTEN Deletion/Duplication Analysis"
+    }
+  ],
+  "Non-Indications": [
+    "Individual meeting clinical diagnostic criteria, as defined by NCCN, for CS/PHTS with a personal history of any of the following: Adult-onset Lhermitte-Duclos disease (cerebellar dysplastic gangliocytoma); Autism spectrum disorder and macrocephaly (greater than or equal to 97th percentile); Two or more biopsy proven trichilemmomas; Macrocephaly and at least one other major*** criteria; Three major*** criteria without macrocephaly; One major*** and three or more minor**** criteria; Four or more minor**** criteria.",
+    "At-risk relative of someone clinically diagnosed with Cowden syndrome or BRRS (who has not had genetic testing), when the at-risk relative has at least one major*** or two minor**** criteria.",
+    "Affected individuals with pathogenic/likely pathogenic variant identified on tumor genomic testing that may have implications if also identified on germline testing."
+  ],
+  "Important criteria & exceptions": [
+    "Rendering laboratory is a qualified provider of service per the Health Plan policy.",
+    "PTEN Known Familial Mutation Analysis: Previous Testing: No previous genetic testing that would detect the familial mutation, AND",
+    "PTEN Sequencing with Promoter Analysis: Previous Testing: No previous sequencing of PTEN, AND",
+    "PTEN Deletion/Duplication Analysis: Previous Testing: Sequence analysis of PTEN has been performed and resulted negative, and",
+    "Genetic Counseling: Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy), AND"
+  ],
+  "Documentation required": [
+    "Pre- and post-test genetic counseling documentation.",
+    "Previous genetic testing results for PTEN analysis.",
+    "Family history of known PTEN mutation or clinical diagnosis of Cowden syndrome or Bannayan-Riley-Ruvalcaba syndrome.",
+    "Personal history of any of the following: Bannayan Riley-Ruvalcaba syndrome (BRRS); Adult Lhermitte-Duclos disease (LDD); Autism spectrum disorder and macrocephaly; At least two biopsy-proven trichilemmomas; Macrocephaly and at least one other major criteria** (one must be macrocephaly); Three major criteria** without macrocephaly; One major** and at least three minor criteria***; Four or more minor criteria***.",
+    "At-risk person with a family history of: A relative (includes first-degree relative or more distant relatives if the first-degree relative is unavailable or unwilling to be tested) with a clinical diagnosis of Cowden syndrome or BRRS (no previous genetic testing); and One major** OR two minor criteria*** in the at-risk person.",
+    "Tumor genomic testing results identifying a pathogenic/likely pathogenic variant."
+  ]
+}

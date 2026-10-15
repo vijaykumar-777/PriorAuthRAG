@@ -1,0 +1,96 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct)",
+    "Actual Instability",
+    "Anticipated Iatrogenic Instability",
+    "Adult Symptomatic Degenerative Spinal Deformity",
+    "Initial Disc Herniation",
+    "Recurrent Disc Herniation",
+    "Second or Greater Recurrent Disc Herniation"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Actual Instability",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608",
+        "Imaging shows any of: degenerative spondylolisthesis without spondylolysis with dynamic segmental instability on flexion‑extension X‑rays or supine‑upright views (>3 mm translation) OR Meyerding Grade II or higher; or spondylolysis with Meyerding I‑II plus progression on plain X‑rays; or Meyerding III+ with ≥50 % anterior slippage or progression; or progressive spinal pain with imaging‑documented progression; or multi‑level spondylolysis; or postoperative facet disruption >50 % bilaterally or >75 % of a single facet; or pars fracture; or iatrogenic spondylolisthesis after prior decompression",
+        "Documentation of nicotine‑free status: either never‑smoker or ≥6 weeks abstinence from all nicotine products with objective cotinine test within normal range",
+        "Intra‑operative identification of instability waives imaging requirement (see Anticipated Iatrogenic Instability)"
+      ],
+      "Source": "CMM-609.4 > Actual Instability"
+    },
+    {
+      "Guideline Category": "Anticipated Iatrogenic Instability",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608",
+        "Planned intra‑operative disruption of posterior elements meeting any of: facet excision >50 % bilaterally or >75 % of a single facet; pars interarticularis removal requiring fusion; decompression for Meyerding Grade I+ spondylolisthesis with foraminal stenosis; partial or complete corpectomy removing ≥1/3 of vertebral body",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "CMM-609.4 > Anticipated Iatrogenic Instability"
+    },
+    {
+      "Guideline Category": "Adult Symptomatic Degenerative Spinal Deformity",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608",
+        "Imaging demonstrates either coronal deformity (Cobb angle >30°, asymmetric disc collapse causing symptomatic foraminal narrowing, or global coronal imbalance with trunk shift) OR sagittal imbalance (sagittal vertical axis >8 cm or pelvic incidence‑lumbar lordosis mismatch >15°)",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "CMM-609.4 > Adult Symptomatic Degenerative Spinal Deformity"
+    },
+    {
+      "Guideline Category": "Initial Disc Herniation",
+      "Required findings": [
+        "Candidate for initial primary lumbar discectomy per CMM-606.2",
+        "Advanced imaging shows any of: primary extraforaminal L5‑S1 herniation where far‑lateral approach is not feasible due to iliac wing; primary foraminal herniation requiring facet resection that would cause iatrogenic instability; primary disc herniation at level of conus medullaris",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "CMM-609.4 > Initial Disc Herniation"
+    },
+    {
+      "Guideline Category": "Recurrent Disc Herniation",
+      "Required findings": [
+        "Candidate for repeat lumbar discectomy per CMM-606.3 at the same level",
+        "Imaging shows anterolisthesis at the level with either dynamic segmental instability on flexion‑extension X‑rays or supine‑upright views (>3 mm translation) OR Meyerding Grade II or higher spondylolisthesis",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "CMM-609.4 > Recurrent Disc Herniation"
+    },
+    {
+      "Guideline Category": "Second or Greater Recurrent Disc Herniation",
+      "Required findings": [
+        "Candidate for repeat lumbar discectomy per CMM-606.3 at the same level",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "CMM-609.4 > Second or Greater Recurrent Disc Herniation"
+    }
+  ],
+  "Non-Indications": [
+    "Patient is not a candidate for lumbar decompression or corpectomy per CMM-608",
+    "Absence of required imaging findings for the specific indication (e.g., no documented dynamic instability, spondylolisthesis grade, or deformity measurements)",
+    "Failure to provide documented nicotine‑free status (no never‑smoker declaration and no cotinine test confirming ≥6 weeks abstinence)",
+    "Instability not demonstrated on imaging and not identified intra‑operatively for the Actual Instability indication",
+    "For Adult Symptomatic Degenerative Spinal Deformity, deformity measurements below the specified thresholds (Cobb ≤30°, SVA ≤8 cm, PI‑LL ≤15°)",
+    "For Initial Disc Herniation, disc pathology not meeting the listed advanced imaging criteria"
+  ],
+  "Important criteria & exceptions": [
+    "All indications require the patient to be a candidate for lumbar decompression or corpectomy per CMM-608",
+    "Nicotine‑free status must be documented either by never‑smoker status or by objective cotinine testing confirming ≥6 weeks abstinence",
+    "For Actual Instability, intra‑operative identification of instability waives the pre‑operative imaging requirement",
+    "Imaging must include specific views: flexion‑extension plain X‑rays, supine and upright standing radiographs, and/or MRI/CT as needed to assess spondylolisthesis grade and deformity angles",
+    "Concurrent procedures (e.g., facet excision, pars removal, corpectomy) that create anticipated iatrogenic instability automatically meet the instability criterion"
+  ],
+  "Documentation required": [
+    "CMM-608 lumbar decompression candidacy documentation (clinical notes confirming indication for decompression or corpectomy)",
+    "Plain radiographs: flexion‑extension lateral views of the lumbar spine",
+    "Supine and upright standing lumbar radiographs for translational measurements",
+    "Measurement reports of spondylolisthesis (Meyerding grade) and translational slip (>3 mm) if applicable",
+    "Cobb angle measurement report for coronal deformity",
+    "Sagittal vertical axis (SVA) measurement and pelvic incidence‑lumbar lordosis (PI‑LL) mismatch report for sagittal deformity",
+    "MRI or CT reports confirming disc herniation location, foraminal stenosis, or conus involvement",
+    "Operative reports of prior lumbar decompression if assessing iatrogenic instability",
+    "Pathology or radiology report confirming pars fracture or facet disruption",
+    "Objective cotinine test results (serum, urine, or saliva) within normal range confirming ≥6 weeks nicotine abstinence, or a signed statement of never‑smoker status"
+  ]
+}

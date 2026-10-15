@@ -1,0 +1,32 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease",
+    "CMM-609.4: Lumbar Fusion with Decompression",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "The prior adjacent-level lumbar fusion was performed at least 6 months prior",
+        "Criteria have been met in the applicable procedure-specific section: CMM-609.4: Lumbar Fusion with Decompression",
+        "Criteria have been met in the applicable procedure-specific section: CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+      ],
+      "Source": "CMM-609.6: Adjacent Segment Disease"
+    }
+  ],
+  "Non-Indications": [
+    "Lumbar fusion for adjacent segment disease performed less than 6 months after the prior adjacent-level lumbar fusion",
+    "Cases where the criteria for the applicable procedure-specific section (CMM-609.4 or CMM-609.5) have not been met"
+  ],
+  "Important criteria & exceptions": [
+    "Medical necessity is contingent upon meeting ALL listed criteria",
+    "The specific clinical criteria (symptoms, imaging, conservative care) are defined in the referenced sections CMM-609.4 or CMM-609.5 depending on whether decompression is performed"
+  ],
+  "Documentation required": [
+    "Documentation verifying the date of the prior adjacent-level lumbar fusion to confirm the 6-month interval has elapsed",
+    "Documentation demonstrating that criteria for CMM-609.4 (Lumbar Fusion with Decompression) or CMM-609.5 (Lumbar Fusion without Decompression) have been met"
+  ]
+}

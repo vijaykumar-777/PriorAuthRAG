@@ -1,0 +1,58 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Alpha-1 Antitrypsin Deficiency Testing (TOC: S3.2)",
+    "Test Specific Guidelines > Alpha-1 Antitrypsin Deficiency Testing > Criteria (TOC: S3.2.1)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Protease Inhibitor Typing or SERPINA1 Targeted Mutation Analysis",
+      "Required findings": [
+        "Abnormally low (less than 120mg/dL) or borderline (90-140mg/dL) alpha-1 antitrypsin (AAT) levels",
+        "Symptomatic adults with emphysema, chronic obstructive pulmonary disease (COPD), or asthma with airflow obstruction that is incompletely reversible after aggressive treatment with bronchodilators",
+        "Individuals of any age with unexplained liver disease (including obstructive liver disease in infancy)",
+        "Asymptomatic individuals with persistent obstruction on pulmonary function tests who have identifiable risk factors (e.g., cigarette smoking, occupational exposure)",
+        "C-ANCA positive vasculitis",
+        "Adults with necrotizing panniculitis",
+        "Siblings of an individual with AATD",
+        "Rendering laboratory is a qualified provider of service per the Health Plan policy"
+      ],
+      "Source": "Test Specific Guidelines > Alpha-1 Antitrypsin Deficiency Testing > Criteria (TOC: S3.2.1)"
+    },
+    {
+      "Guideline Category": "SERPINA1 Sequence Analysis",
+      "Required findings": [
+        "Discrepancies between clinical presentation, serum alpha-1 antitrypsin quantification, targeted mutation analysis, and/or PI typing",
+        "Suspected presence of rare variants or null alleles (which cannot be identified by other methods)",
+        "Rendering laboratory is a qualified provider of service per the Health Plan policy"
+      ],
+      "Source": "Test Specific Guidelines > Alpha-1 Antitrypsin Deficiency Testing > Criteria (TOC: S3.2.1)"
+    }
+  ],
+  "Non-Indications": [
+    "Individuals with normal alpha-1 antitrypsin (AAT) levels (greater than 140mg/dL) who do not meet the specific clinical criteria for PI typing or targeted mutation analysis",
+    "Individuals with AAT levels between 120mg/dL and 140mg/dL who do not have symptomatic emphysema/COPD/asthma with incompletely reversible obstruction, unexplained liver disease, persistent obstruction with risk factors, C-ANCA positive vasculitis, necrotizing panniculitis, or are not siblings of an AATD patient",
+    "Requests for SERPINA1 sequence analysis without documented discrepancies between clinical presentation, serum AAT quantification, targeted mutation analysis, or PI typing, and without suspicion of rare variants or null alleles",
+    "Testing performed by a laboratory that is not a qualified provider of service per the Health Plan policy"
+  ],
+  "Important criteria & exceptions": [
+    "The inclusion of any procedure code in the guideline table does not imply that the code is under management or requires prior authorization; refer to the specific Health Plan's procedure code list for management requirements",
+    "Protease Inhibitor (PI) typing cannot detect null alleles",
+    "Targeted mutation analysis identifies common and/or recurring mutations but may have differing clinical sensitivities dependent upon ethnicity, phenotypic presentation, or other case-specific characteristics",
+    "Sequence analysis is indicated to identify rare variants or null alleles that would otherwise be missed by PI typing or targeted mutation analysis"
+  ],
+  "Documentation required": [
+    "Serum alpha-1 antitrypsin (AAT) quantification results showing levels less than 120mg/dL or 90-140mg/dL",
+    "Pulmonary function tests demonstrating persistent obstruction or incompletely reversible airflow obstruction after aggressive bronchodilator treatment",
+    "Clinical documentation of emphysema, COPD, or asthma",
+    "Documentation of unexplained liver disease, including obstructive liver disease in infancy",
+    "Documentation of identifiable risk factors such as cigarette smoking or occupational exposure",
+    "C-ANCA test results for vasculitis",
+    "Clinical documentation of necrotizing panniculitis",
+    "Documentation of sibling relationship to an individual with AATD",
+    "Results of prior targeted mutation analysis or PI typing if requesting SERPINA1 sequence analysis",
+    "Documentation of discrepancies between clinical presentation, serum AAT quantification, targeted mutation analysis, and/or PI typing if requesting SERPINA1 sequence analysis",
+    "Verification that the rendering laboratory is a qualified provider of service per the Health Plan policy"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease",
+    "CMM-609.4: Lumbar Fusion with Decompression",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "Prior adjacent‑level lumbar fusion performed at least 6 months before the current request",
+        "Patient meets all criteria outlined in the applicable procedure‑specific section (either CMM-609.4 or CMM-609.5) for lumbar fusion with or without decompression",
+        "Documented clinical evidence of adjacent segment pathology (e.g., radiculopathy, neurogenic claudication, progressive neurologic deficit) attributable to the level adjacent to the prior fusion",
+        "Objective imaging (MRI, CT, or dynamic X‑ray) confirming degenerative change or instability at the adjacent level",
+        "Conservative therapy (physical therapy, pain management, etc.) attempted and failed according to the criteria in the referenced procedure‑specific sections"
+      ],
+      "Source": "CMM-609.6: Adjacent Segment Disease"
+    }
+  ],
+  "Non-Indications": [
+    "Prior adjacent‑level lumbar fusion performed less than 6 months before the current request",
+    "Failure to satisfy the specific criteria in CMM-609.4 (lumbar fusion with decompression) or CMM-609.5 (lumbar fusion without decompression)",
+    "Absence of documented adjacent segment pathology on imaging or clinical examination"
+  ],
+  "Important criteria & exceptions": [
+    "The 6‑month minimum interval after the initial adjacent‑level fusion is mandatory",
+    "All required findings from the procedure‑specific sections (CMM-609.4 or CMM-609.5) must be met; no waiver or substitution is permitted"
+  ],
+  "Documentation required": [
+    "Operative report of the prior adjacent‑level lumbar fusion showing date of surgery",
+    "Current lumbar spine MRI, CT, or dynamic flexion‑extension X‑ray demonstrating pathology at the adjacent level",
+    "Physician’s clinical note detailing symptoms, neurologic findings, and functional impairment attributable to the adjacent segment",
+    "Documentation of completed conservative management (physical therapy notes, medication trials, pain‑management interventions) and duration as required by the referenced procedure‑specific sections",
+    "If applicable, operative note or pre‑operative plan for the proposed fusion meeting the criteria of CMM-609.4 or CMM-609.5"
+  ]
+}

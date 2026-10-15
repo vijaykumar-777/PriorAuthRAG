@@ -1,0 +1,57 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.9: Non-Indications",
+    "Chronic non-specific neck or arm pain of unknown etiology",
+    "Cervical degenerative disc disease without radiculopathy or myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "Patient reports unilateral arm pain, paresthesia, or weakness consistent with a cervical nerve root distribution; pain ≥6/10 persisting >12 weeks despite conservative therapy.",
+        "Objective neurologic exam demonstrating sensory loss, diminished reflexes, or motor weakness in the affected myotome.",
+        "MRI or CT of the cervical spine showing foraminal or lateral recess stenosis with nerve root compression concordant with clinical findings.",
+        "Failure of ≥6 weeks of documented conservative management (physical therapy, oral NSAIDs, muscle relaxants, or epidural steroid injection).",
+        "Patient must be nicotine‑free for ≥6 weeks (cotinine test) and have no uncontrolled psychiatric disorder that would impair postoperative rehabilitation."
+      ],
+      "Source": "CMM-601.2: General Guidelines > Radiculopathy"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "Patient exhibits gait disturbance, hand clumsiness, or upper motor neuron signs (hyperreflexia, Hoffmann sign) attributable to cervical spinal cord compression.",
+        "Neurologic exam confirming motor weakness, spasticity, or sensory level consistent with cervical myelopathy.",
+        "MRI of the cervical spine demonstrating spinal cord signal change or compression at the relevant level.",
+        "Documented trial of ≥6 weeks of conservative therapy without functional improvement.",
+        "Nicotine cessation ≥6 weeks verified by cotinine testing and stable behavioral health status."
+      ],
+      "Source": "CMM-601.2: General Guidelines > Myelopathy"
+    }
+  ],
+  "Non-Indications": [
+    "Anterior cervical discectomy/corpectomy and fusion performed without meeting general guideline criteria for urgent/emergent conditions.",
+    "Procedure performed for chronic non‑specific neck or arm pain of unknown etiology.",
+    "Cervical degenerative disc disease without radiculopathy or myelopathy.",
+    "Anterior cervical discectomy/corpectomy performed without accompanying cervical fusion.",
+    "Anterior cervical osteotomy or vertebral column resection performed without satisfying the specific osteotomy criteria.",
+    "Anterior endoscopic cervical disc/nerve root decompression (including Jho procedure and Cervical Deuk Laser Disc Repair) considered experimental, investigational, or unproven."
+  ],
+  "Important criteria & exceptions": [
+    "Nicotine use must be documented as absent for at least 6 weeks prior to surgery; verification via serum or urine cotinine level ≤10 ng/mL.",
+    "Active, unmanaged behavioral health disorders (e.g., uncontrolled depression, anxiety, substance use) must be stabilized before surgery; documentation of a recent psychiatric evaluation is required.",
+    "If urgent/emergent neurological compromise exists, the general guideline timeframes for conservative therapy may be waived.",
+    "Repeat fusion or adjacent segment disease requires documentation of prior fusion at an adjacent level performed ≥12 months earlier."
+  ],
+  "Documentation required": [
+    "Comprehensive history and physical note detailing symptoms, pain scores, functional limitations, and neurologic exam findings.",
+    "Cervical spine MRI (or CT if MRI contraindicated) report showing level‑specific neural element compression concordant with clinical presentation.",
+    "Flexion‑extension cervical X‑rays demonstrating segmental instability when indicated.",
+    "Operative report of any prior cervical surgery (fusion, disc arthroplasty) including level(s) and date of procedure.",
+    "Physical therapy and/or occupational therapy records confirming ≥6 weeks of conservative management, including dates, modalities, and patient response.",
+    "Pharmacy records showing prescription of NSAIDs, muscle relaxants, or oral steroids during the conservative care period.",
+    "Laboratory cotinine test result (serum or urine) confirming nicotine‑free status.",
+    "Behavioral health evaluation note confirming stability of psychiatric conditions and readiness for postoperative rehabilitation."
+  ]
+}

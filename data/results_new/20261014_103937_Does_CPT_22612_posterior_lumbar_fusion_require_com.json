@@ -1,0 +1,98 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct)",
+    "Actual Instability",
+    "Anticipated Iatrogenic Instability",
+    "Adult Symptomatic Degenerative Spinal Deformity",
+    "Initial Disc Herniation",
+    "Recurrent Disc Herniation",
+    "Second or Greater Recurrent Disc Herniation"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Actual Instability",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression",
+        "Imaging findings of degenerative spondylolisthesis without spondylolysis with EITHER dynamic segmental instability on flexion-extension plain x-rays OR comparison of supine/upright images with >3mm translational alignment difference, OR Meyerding Grade II or higher spondylolisthesis",
+        "OR imaging findings of spondylolisthesis with spondylolysis (e.g., Isthmic) with ANY of: Meyerding Grade I/II anterolisthesis with plain x-ray progression, Meyerding Grade III+ anterolisthesis with ≥50% anterior slippage OR plain x-ray progression, progressive spinal pain without confirmatory imaging showing progression, multi-level spondylolysis on plain x-rays, post-operative instability from facet joint excision exceeding 50% bilaterally or 75% single facet, pars fracture, or previous spinal decompression resulting in iatrogenic spondylolisthesis",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range",
+        "Exception: If instability is created/identified intra-operatively, imaging criteria are not required"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Actual Instability (TOC: S7.1.1)"
+    },
+    {
+      "Guideline Category": "Anticipated Iatrogenic Instability",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression",
+        "Anticipated iatrogenic instability created by: disruption of posterior elements due to facet joint excision exceeding 50% bilaterally or 75% single facet during decompression, removal of pars interarticularis requiring fusion, decompression for Meyerding Grade I+ spondylolisthesis with foraminal stenosis, or complete/partial corpectomy (removal of ≥1/3 vertebral body, not for osteophytes alone)",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Anticipated Iatrogenic Instability (TOC: S7.1.2)"
+    },
+    {
+      "Guideline Category": "Adult Symptomatic Degenerative Spinal Deformity",
+      "Required findings": [
+        "Candidate for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression",
+        "Imaging findings of coronal plane deformity with ANY of: Cobb angle >30°, asymmetric disk collapse causing symptomatic foraminal narrowing, or global coronal imbalance causing head/trunk shift off midline",
+        "OR imaging findings of sagittal imbalance with ANY of: sagittal vertebral axis measurement >8cm or pelvic incidence-lumbar lordosis >15°",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Adult Symptomatic Degenerative Spinal Deformity (TOC: S7.1.3)"
+    },
+    {
+      "Guideline Category": "Initial Disc Herniation",
+      "Required findings": [
+        "Candidate for initial primary lumbar discectomy per CMM-606.2: Initial Primary Lumbar Microdiscectomy",
+        "Advanced imaging shows ANY of: primary extraforaminal disc herniation at L5-S1 where far lateral approach is not feasible due to iliac wings, primary foraminal disc herniation requiring facet resection resulting in iatrogenic instability, or primary disc herniation at the level of the spinal cord (low lying conus medullaris)",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Initial Disc Herniation (TOC: S7.1.4)"
+    },
+    {
+      "Guideline Category": "Recurrent Disc Herniation",
+      "Required findings": [
+        "Candidate for repeat lumbar discectomy per CMM 606.3: Repeat Lumbar Microdiscectomy at the Same Level",
+        "Imaging findings of anterolisthesis at requested level(s) resulting in EITHER dynamic segmental instability on flexion-extension plain x-rays OR supine/upright comparison with >3mm translational alignment difference, OR Meyerding Grade II or higher spondylolisthesis",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Recurrent Disc Herniation (TOC: S7.1.5)"
+    },
+    {
+      "Guideline Category": "Second or Greater Recurrent Disc Herniation",
+      "Required findings": [
+        "Candidate for repeat lumbar discectomy per CMM 606.3: Repeat Lumbar Microdiscectomy at the Same Level",
+        "Documentation of nicotine-free status: never-smoker OR refrained from smoking/smokeless tobacco/nicotine replacement for at least 6 weeks prior to surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct) > Second or Greater Recurrent Disc Herniation (TOC: S7.1.6)"
+    }
+  ],
+  "Non-Indications": [
+    "Patients who are not candidates for lumbar decompression or lumbar corpectomy per CMM-608: Lumbar Decompression",
+    "Patients with degenerative spondylolisthesis without spondylolysis who lack dynamic segmental instability (>3mm translation) or Meyerding Grade II+ spondylolisthesis",
+    "Patients with spondylolisthesis with spondylolysis who do not meet specific grade/progression criteria (e.g., Grade I/II without progression, Grade III+ without ≥50% slippage or progression) and lack other specified instability markers (pars fracture, multi-level spondylolysis, etc.)",
+    "Patients with initial disc herniation who do not have specific anatomical constraints (L5-S1 extraforaminal with iliac wing interference, foraminal requiring facet resection, or low lying conus medullaris)",
+    "Patients with recurrent disc herniation (first recurrence) who lack evidence of anterolisthesis with dynamic instability (>3mm) or Meyerding Grade II+ spondylolisthesis",
+    "Patients who have not documented nicotine-free status (never-smoker or 6-week abstinence with normal cotinine test) prior to planned surgery",
+    "Cases where instability is not created/identified intra-operatively but required imaging criteria are not met"
+  ],
+  "Important criteria & exceptions": [
+    "Exception: When instability is created and/or identified intra-operatively, the pre-operative imaging criteria for Actual Instability are NOT required",
+    "Nicotine-free status must be validated by objective cotinine testing (serum, urinary, or saliva) verified as within the normal range for the specific testing method and lab",
+    "Corpectomy for Anticipated Iatrogenic Instability must involve removal of at least one-third of the vertebral body and cannot be for resection of osteophytes alone",
+    "Facet joint excision causing instability must exceed 50% bilaterally or 75% or more of a single facet"
+  ],
+  "Documentation required": [
+    "Objective cotinine testing results (serum, urinary, or saliva) verified as within normal range, or documentation of never-smoker status",
+    "Dynamic segmental instability imaging: flexion-extension plain x-rays OR comparison of supine and upright images showing >3mm translational alignment difference",
+    "Plain x-rays supporting progression of anterolisthesis (for spondylolisthesis with spondylolysis)",
+    "Advanced imaging (MRI/CT) showing specific disc herniation locations (extraforaminal L5-S1, foraminal, or conus medullaris level)",
+    "Imaging showing coronal plane deformity (Cobb angle >30°, asymmetric disk collapse, global coronal imbalance) or sagittal imbalance (sagittal vertebral axis >8cm, PI-LL >15°)",
+    "Imaging showing Meyerding Grade II or higher spondylolisthesis (for Actual Instability or Recurrent Disc Herniation)",
+    "Imaging showing Meyerding Grade I or higher spondylolisthesis with foraminal stenosis (for Anticipated Iatrogenic Instability)",
+    "Documentation of facet joint excision extent (>50% bilateral or ≥75% single facet) or pars interarticularis removal",
+    "Documentation of corpectomy extent (removal of ≥1/3 vertebral body)",
+    "Prior operative reports or clinical notes establishing candidacy for lumbar decompression/corpectomy per CMM-608 or discectomy per CMM-606.2/CMM-606.3"
+  ]
+}

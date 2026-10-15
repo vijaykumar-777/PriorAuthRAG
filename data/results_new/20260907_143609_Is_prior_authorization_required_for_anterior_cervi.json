@@ -1,0 +1,47 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.5: Anterior Cervical Corpectomy",
+    "Infection",
+    "Trauma"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Anterior Cervical Corpectomy Indications",
+      "Required findings": [
+        "Diagnosis of infection, acute traumatic fracture/dislocation, neoplastic lesion, or direct vertebral‑body compression requiring corpectomy",
+        "MRI (or CT) demonstrating pathology at the vertebral body level with neural element compression or instability; dynamic flexion/extension X‑rays if instability is assessed",
+        "Neurological deficit (e.g., myelopathy, radiculopathy) or severe, incapacitating neck pain documented on two separate exams",
+        "Failure of ≥6 weeks of documented non‑surgical management (physical therapy, analgesics, epidural steroid injections) unless the case is urgent/emergent",
+        "Verified nicotine‑free status for elective cases (objective cotinine test within 30 days) and no unmanaged major psychiatric or substance‑use disorder",
+        "All standard ACDF criteria (symptom severity, objective exam findings, concordant imaging, conservative‑therapy trial) must also be met"
+      ],
+      "Source": "CMM-601.5: Anterior Cervical Corpectomy > Indications"
+    }
+  ],
+  "Non-Indications": [
+    "Elective repeat ACDF or corpectomy at the same level performed <6 months after prior surgery without documented failure of conservative therapy",
+    "Absence of concordant imaging findings (no MRI/CT evidence of infection, trauma, tumor, or compression)",
+    "No neurological deficit or pain severe enough to be incapacitating",
+    "Active tobacco use without documented cessation or objective cotinine verification for non‑urgent cases",
+    "Unmanaged major depressive disorder, chronic pain syndrome, opioid or alcohol use disorder, or other significant behavioral health condition",
+    "Pathology limited to osteophyte removal without vertebral‑body involvement"
+  ],
+  "Important criteria & exceptions": [
+    "Urgent/emergent presentations (e.g., acute spinal fracture with cord compression, progressive myelopathy, bowel/bladder dysfunction) waive the requirement for prior conservative therapy, smoking cessation proof, and behavioral‑health clearance",
+    "Objective cotinine testing must be performed within 30 days of the prior‑auth submission for elective cases",
+    "If the corpectomy is performed as an alternative to ACDF, all ACDF‑specific criteria must be satisfied and documented"
+  ],
+  "Documentation required": [
+    "Operative report of any prior cervical surgery (if repeat procedure)",
+    "Cervical MRI (with/without contrast) or CT report showing infection, fracture, tumor, or vertebral‑body compression",
+    "Dynamic flexion‑extension cervical X‑ray series demonstrating instability if indicated",
+    "Neurological examination notes documenting motor grade ≤3/5, sensory changes, or bowel/bladder dysfunction on two separate visits",
+    "Physical therapy, pain‑management, and medication records confirming ≥6 weeks of non‑surgical care (unless emergent)",
+    "Smoking cessation documentation and quantitative cotinine test result (negative)",
+    "Behavioral health evaluation note confirming no unmanaged psychiatric or substance‑use disorder",
+    "Laboratory results supporting infection (CBC, ESR/CRP) when infection is the indication",
+    "Trauma documentation (emergency department notes, mechanism of injury, imaging) when trauma is the indication"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level",
+    "Symptomatic Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Symptomatic Pseudoarthrosis",
+      "Required findings": [
+        "Greater than six (6) months elapsed since the index lumbar fusion procedure",
+        "Daily pain of clinically significant intensity causing functional impairment (e.g., inability to perform household chores, inability to stand for prolonged periods)",
+        "Physical examination findings that are concordant with the reported pain and level of pseudoarthrosis",
+        "Failure to achieve clinically meaningful improvement despite BOTH (a) prescription‑strength analgesics, steroids, gabapentinoids, and/or NSAIDs for a minimum of six (6) weeks AND (b) a provider‑directed exercise/physical therapy program for a minimum of six (6) weeks",
+        "Post‑operative imaging performed at least six (6) months after the prior fusion that demonstrates pseudoarthrosis at the requested level(s) (plain radiographs, CT, or dynamic flexion‑extension views)",
+        "MRI or CT study that correlates the imaging findings with the patient’s symptoms",
+        "No unmanaged significant mental or behavioral health disorder (e.g., major depressive disorder, chronic pain syndrome, opioid use disorder, secondary gain)",
+        "Documented nicotine‑free status either as a never‑smoker or abstinence for ≥ six (6) weeks verified by objective cotinine testing (serum, urine, or saliva)"
+      ],
+      "Source": "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level > Symptomatic Pseudoarthrosis"
+    }
+  ],
+  "Non-Indications": [
+    "Interval of less than six (6) months since the prior lumbar fusion",
+    "Absence of imaging evidence of pseudoarthrosis at the symptomatic level",
+    "Pain that is mild, intermittent, or does not produce functional limitation",
+    "Demonstrated clinically meaningful improvement with either pharmacologic therapy or a structured exercise program",
+    "Unmanaged or uncontrolled significant mental/behavioral health disorder",
+    "Active tobacco use without documented cessation or without a normal cotinine test result",
+    "Failure to complete the required six‑week trial of both pharmacologic and exercise conservative therapy",
+    "Imaging that shows stable fusion without pseudoarthrosis"
+  ],
+  "Important criteria & exceptions": [
+    "All listed criteria must be satisfied; omission of any single element renders the request non‑medically necessary",
+    "Objective cotinine testing may be serum, urinary, or salivary; the result must be within the normal range for the assay used",
+    "Behavioral health disorders must be addressed and documented as stable or managed before surgery",
+    "Imaging to confirm pseudoarthrosis must be performed no earlier than six (6) months post‑operative to avoid false‑positive motion artifacts"
+  ],
+  "Documentation required": [
+    "Operative report of the index lumbar fusion (including levels fused and date of surgery)",
+    "Post‑operative plain radiographs (including flexion‑extension views) or CT performed ≥6 months after the index surgery showing pseudoarthrosis",
+    "MRI or CT report demonstrating pseudoarthrosis and correlating neural element compression or instability",
+    "Detailed clinical notes describing daily pain intensity, functional limitations, and concordant physical exam findings",
+    "Medication administration record or prescription history confirming ≥6 weeks of prescription‑strength analgesics, steroids, gabapentinoids, and/or NSAIDs",
+    "Physical therapy or structured exercise program notes confirming ≥6 weeks of supervised therapy directed by a qualified provider",
+    "Behavioral health evaluation note confirming absence of unmanaged significant mental or substance‑use disorder",
+    "Smoking cessation documentation and objective cotinine test result (serum, urine, or saliva) within normal limits"
+  ]
+}

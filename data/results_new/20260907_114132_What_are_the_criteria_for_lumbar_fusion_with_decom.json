@@ -1,0 +1,201 @@
+{
+  "criteria": [
+    {
+      "criterion_id": 1,
+      "description": "Patient must have a history of lumbar disc herniation.",
+      "documentation_required": [
+        "Prior operative report detailing the initial surgery for lumbar disc herniation.",
+        "Imaging studies (MRI or CT) demonstrating evidence of recurrent disc herniation at the same level as the previous surgery."
+      ]
+    },
+    {
+      "criterion_id": 2,
+      "description": "Patient must have failed conservative management for the recurrent lumbar disc herniation.",
+      "documentation_required": [
+        "Therapy records documenting a minimum of 6 weeks of physical therapy or equivalent non-operative treatment.",
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement)."
+      ]
+    },
+    {
+      "criterion_id": 3,
+      "description": "Patient must have persistent radicular symptoms attributable to the recurrent disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain (e.g., sciatica) and neurological deficits (e.g., numbness, tingling, weakness) related to the recurrent disc herniation.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 4,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms.",
+        "Imaging studies demonstrating the recurrent disc herniation causing nerve root compression."
+      ]
+    },
+    {
+      "criterion_id": 5,
+      "description": "Patient must have a history of prior lumbar fusion surgery.",
+      "documentation_required": [
+        "Prior operative report detailing the previous lumbar fusion surgery."
+      ]
+    },
+    {
+      "criterion_id": 6,
+      "description": "Patient must have persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain and neurological deficits related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    },
+    {
+      "criterion_id": 7,
+      "description": "Patient must have failed conservative management for persistent radicular symptoms attributable to ASD following prior lumbar fusion.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    },
+    {
+      "criterion_id": 8,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms attributable to ASD following prior lumbar fusion.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    },
+    {
+      "criterion_id": 9,
+      "description": "Patient must have a history of lumbar disc herniation and prior lumbar fusion surgery.",
+      "documentation_required": [
+        "Prior operative report detailing the initial surgery for lumbar disc herniation.",
+        "Prior operative report detailing the previous lumbar fusion surgery."
+      ]
+    },
+    {
+      "criterion_id": 10,
+      "description": "Patient must have persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing specific radicular pain and neurological deficits related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    },
+    {
+      "criterion_id": 11,
+      "description": "Patient must have failed conservative management for persistent radicular symptoms attributable to ASD following prior lumbar fusion and prior lumbar disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    },
+    {
+      "criterion_id": 12,
+      "description": "Patient must have failed non-operative management for persistent radicular symptoms attributable to ASD following prior lumbar fusion and prior lumbar disc herniation.",
+      "documentation_required": [
+        "Clinical notes from physicians detailing failure of conservative management (e.g., pain control, functional improvement) for the persistent radicular symptoms related to ASD.",
+        "Imaging studies demonstrating evidence of ASD at the adjacent segment."
+      ]
+    }
+  ],
+  "non_indications": [
+    {
+      "scenario_id": 1,
+      "description": "Patient has no history of lumbar disc herniation.",
+      "documentation_required": []
+    },
+    {
+      "scenario_id": 2,
+      "description": "Patient has failed conservative management for lumbar disc herniation but imaging shows no recurrent disc herniation.",
+      "documentation_required": [
+        "Imaging studies demonstrating no recurrent disc herniation."
+      ]
+    },
+    {
+      "scenario_id": 3,
+      "description": "Patient has persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 4,
+      "description": "Patient has failed conservative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 5,
+      "description": "Patient has failed non-operative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 6,
+      "description": "Patient has failed conservative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 7,
+      "description": "Patient has failed non-operative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 8,
+      "description": "Patient has failed conservative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 9,
+      "description": "Patient has failed non-operative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 10,
+      "description": "Patient has failed conservative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 11,
+      "description": "Patient has failed non-operative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    },
+    {
+      "scenario_id": 12,
+      "description": "Patient has failed conservative management for persistent radicular symptoms attributable to adjacent segment disease (ASD) following prior lumbar fusion and prior lumbar disc herniation but imaging shows no ASD.",
+      "documentation_required": [
+        "Imaging studies demonstrating no ASD."
+      ]
+    }
+  ],
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

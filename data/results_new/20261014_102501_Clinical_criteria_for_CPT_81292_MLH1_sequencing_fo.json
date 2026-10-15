@@ -1,0 +1,35 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Lynch Syndrome Genetic Testing > Criteria (TOC: S3.40.1)",
+    "Test Specific Guidelines > Lynch Syndrome Genetic Testing > Billing and Reimbursement (TOC: S3.40.2)",
+    "Test Specific Guidelines > Lynch Syndrome Genetic Testing > What is Lynch syndrome? (TOC: S3.40.3)",
+    "Test Specific Guidelines > Lynch Syndrome Genetic Testing > Test information (TOC: S3.40.4)",
+    "Test Specific Guidelines > Lynch Syndrome Genetic Testing > Guidelines and evidence (TOC: S3.40.5)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Gene Sequencing and/or Deletion/Duplication Analysis of MLH1, MSH2, MSH6, PMS2, or EPCAM",
+      "Required findings": [
+        "<Detailed bullet of symptom requirements, severity, and functional impairment>",
+        "<Detailed bullet of objective physical examination findings required>",
+        "<Detailed bullet of diagnostic imaging / laboratory findings required>",
+        "<Detailed bullet of conservative management requirements and trial duration>",
+        "<Detailed bullet of general criteria: qualifying rules and behavioral/risk health criteria>"
+      ],
+      "Source": "Test Specific Guidelines > Lynch Syndrome Genetic Testing > Criteria (TOC: S3.40.1)"
+    }
+  ],
+  "Non-Indications": [
+    "<List clinical scenarios where the procedure is NOT medically necessary or is excluded based on the policy context. If none mentioned in context, output []>"
+  ],
+  "Important criteria & exceptions": [
+    "<Important qualifying rules, verification methods, conservative care exceptions, or multi-level / concurrent procedure requirements>",
+    "<List qualifying rules, verification methods, or exceptions stated in the policy context. If none, output []>"
+  ],
+  "Documentation required": [
+    "<Specific clinical documents, diagnostic imaging reports, pathology/laboratory results, and provider notes required to verify criteria based strictly on the context>",
+    "<List specific clinical documents, imaging reports, or provider records required to verify criteria based on the context. If none required or mentioned, output []>"
+  ]
+}

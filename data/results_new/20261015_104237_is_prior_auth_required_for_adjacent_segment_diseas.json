@@ -1,0 +1,13 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease",
+    "CMM-601.7: Adjacent Segment Disease > Radiculopathy",
+    "CMM-601.7: Adjacent Segment Disease > Myelopathy"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": []
+}

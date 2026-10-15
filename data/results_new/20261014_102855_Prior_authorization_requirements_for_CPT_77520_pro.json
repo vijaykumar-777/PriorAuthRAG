@@ -1,0 +1,59 @@
+{
+  "Prior auth required": "Yes",
+  "Medical necessity indications": [
+    "CPT 77520 Proton beam therapy",
+    "Proton beam therapy for pancreatic cancer",
+    "Proton beam therapy for thymoma",
+    "Proton beam therapy for lymphoma",
+    "Proton beam therapy for anal canal cancer",
+    "Proton beam therapy for bladder cancer",
+    "Proton beam therapy for cervical cancer",
+    "Proton beam therapy for endometrial cancer",
+    "Proton beam therapy for gastric cancer",
+    "Proton beam therapy for rectal cancer",
+    "Proton beam therapy for soft tissue sarcoma",
+    "Proton beam therapy for secondary malignancies"
+  ],
+  "Documentation required": [
+    "Prior operative report detailing the surgical resection of the primary tumor (e.g., pancreatic, thymoma, lymphoma, anal canal, bladder, cervical, endometrial, gastric, rectal, sarcoma)",
+    "Prior imaging studies including CT scans demonstrating the extent of disease prior to radiation therapy",
+    "Prior radiation oncology treatment plan and prescription records for photon beam therapy (if applicable)",
+    "Radiation oncology treatment records detailing the administration of proton beam therapy (CPT 77520) including dates, doses delivered, and any adverse events",
+    "Pathology report confirming the diagnosis of the primary cancer type",
+    "Medical history and physical examination findings supporting the indication for proton beam therapy",
+    "Laboratory results including tumor markers if relevant to the specific cancer type (e.g., CA 19-9 for pancreatic cancer)",
+    "Clinical documentation demonstrating patient's performance status (ECOG or Karnofsky score) prior to and during treatment",
+    "Clinical documentation supporting the need for proton beam therapy over photon beam therapy based on tumor characteristics, location, or patient factors (e.g., dose distribution concerns, motion management needs, specific cancer type)",
+    "Clinical documentation demonstrating the absence of contraindications to proton beam therapy",
+    "Clinical documentation detailing the patient's response to treatment including assessment of disease progression or recurrence",
+    "Clinical documentation supporting the need for proton beam therapy specifically for secondary malignancies (if applicable)"
+  ],
+  "Non-Indications": [
+    "Proton beam therapy is not medically necessary when photon beam therapy is considered adequate and appropriate based on clinical guidelines.",
+    "Proton beam therapy is not medically necessary if the patient has already received photon beam therapy for the same indication.",
+    "Proton beam therapy is not medically necessary if there is insufficient evidence demonstrating a clear benefit of proton beam therapy over photon beam therapy for the specific cancer type or clinical scenario.",
+    "Proton beam therapy is not medically necessary when the primary tumor is located in an area where proton beam therapy is not indicated due to tissue density issues (e.g., certain parts of the thorax, abdomen) or significant motion management challenges.",
+    "Proton beam therapy is not medically necessary if the patient has metastatic disease requiring systemic therapy or palliative care.",
+    "Proton beam therapy is not medically necessary for treating secondary malignancies unless there is specific evidence demonstrating a benefit over photon beam therapy in that context.",
+    "Proton beam therapy is not medically necessary when the indication is solely based on theoretical advantages without sufficient clinical data supporting efficacy or improved outcomes compared to photon beam therapy."
+  ],
+  "Source": [
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)",
+    "Section: Radiation Oncology Guidelines For Special Techniques > Proton Beam Therapy > DISCUSSION (TOC: S3.9.1)"
+  ],
+  "Policy Name": "Cigna Radiation Oncology",
+  "Referred Sections": [
+    "Cigna Radiation Oncology"
+  ],
+  "Important criteria & exceptions": []
+}

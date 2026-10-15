@@ -1,0 +1,30 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.9: Non-Indications > Not Medically Necessary",
+    "CMM-601.9: Non-Indications > Experimental, Investigational, or Unproven (EIU)"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [
+    "Anterior cervical discectomy/corpectomy and fusion performed without meeting the criteria in the General Guidelines when applicable for urgent/emergent conditions) and the criteria in the applicable procedure-specific section(s) ( initial fusion , corpectomy , repeat fusion , adjacent segment disease , or fusion following failed disc arthroplasty ) is considered not medically necessary .",
+    "Anterior cervical discectomy/corpectomy and fusion performed for ANY other reason is considered not medically necessary including, but not limited to, performed for EITHER of the following conditions:",
+    "chronic non-specific neck or arm pain of unknown etiology",
+    "cervical degenerative disc disease without radiculopathy or myelopathy",
+    "Anterior cervical discectomy/corpectomy performed alone (i.e., performed without a cervical fusion)",
+    "Anterior cervical osteotomy or vertebral column resection (VCR) performed without meeting the criteria in the General Guidelines section (when applicable for urgent/ emergent conditions) and the criteria in CMM-601.2 Osteotomy is considered not medically necessary ."
+  ],
+  "Important criteria & exceptions": [
+    "Anterior endoscopic cervical disc/nerve root decompression is considered experimental, investigational, or unproven , including ANY of the following procedures:",
+    "anterior endoscopic cervical decompression with microforaminotomy (e.g., Jho procedure)",
+    "anterior endoscopic cervical disc decompression (e.g., Cervical Deuk Laser Disc Repair)"
+  ],
+  "Documentation required": [
+    "Operative report from prior cervical surgery",
+    "Plain cervical spine flexion/extension X-rays",
+    "Cervical MRI/CT radiology reports showing neural compression",
+    "Physical therapy and pharmacy records documenting >= 6 weeks of conservative care",
+    "Objective laboratory cotinine test results",
+    "Behavioral health evaluation note"
+  ]
+}

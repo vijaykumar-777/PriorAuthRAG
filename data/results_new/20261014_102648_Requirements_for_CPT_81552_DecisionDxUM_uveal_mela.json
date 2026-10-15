@@ -1,0 +1,47 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > DecisionDx Uveal Melanoma (TOC: S3.18)",
+    "Test Specific Guidelines > DecisionDx Uveal Melanoma > What is Uveal Melanoma? (TOC: S3.18.1)",
+    "Test Specific Guidelines > DecisionDx Uveal Melanoma > Test information (TOC: S3.18.2)",
+    "Test Specific Guidelines > DecisionDx Uveal Melanoma > Guidelines and evidence (TOC: S3.18.3)",
+    "Test Specific Guidelines > DecisionDx Uveal Melanoma > Criteria (TOC: S3.18.5)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Uveal Melanoma Prognosis",
+      "Required findings": [
+        "Patient diagnosed with primary, localized uveal melanoma.",
+        "Patient has undergone a biopsy of the primary tumor.",
+        "Molecular/chromosomal testing for prognostication was performed on the biopsy sample.",
+        "The results of the molecular/chromosomal testing were used to determine the class of the tumor (Class 1A, Class 1B, or Class 2).",
+        "The class determination is based on the findings from the guidelines and evidence provided in Section S3.18.3."
+      ],
+      "Source": "Section Title > Subsection (TOC: ID)"
+    }
+  ],
+  "Non-Indications": [
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the patient does not have a diagnosis of primary, localized uveal melanoma.",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the patient has not undergone a biopsy of the primary tumor.",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if molecular/chromosomal testing for prognostication was not performed on the biopsy sample.",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the results of the molecular/chromosomal testing were not used to determine the tumor class (Class 1A, Class 1B, or Class 2).",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the class determination was not based on the findings from the guidelines and evidence provided in Section S3.18.3.",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the patient has a diagnosis of metastatic uveal melanoma (as the test is designed to assess risk of metastasis within 5 years, not manage metastatic disease).",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the patient has a diagnosis of non-ocular melanoma.",
+    "Testing for DecisionDx Uveal Melanoma is not medically necessary if the test is considered Experimental, Investigational, or Unproven (E/I/U) based on Section S3.18.5."
+  ],
+  "Important criteria & exceptions": [
+    "The test is considered Experimental, Investigational, or Unproven (E/I/U) as per Section S3.18.5.",
+    "The test is not generally accepted as the standard of care in the evaluation or management of a particular condition.",
+    "FDA approval or clearance is not a reliable standard for this type of laboratory testing.",
+    "Clinical validity and clinical utility studies are lacking for DecisionDx Uveal Melanoma.",
+    "No conclusions can be drawn regarding the value and usefulness of DecisionDX-PRAME based on insufficient evidence (Section S3.18.3)."
+  ],
+  "Documentation required": [
+    "Patient diagnosis confirmation document (e.g., pathology report, radiology report confirming primary uveal melanoma).",
+    "Biopsy specimen documentation (e.g., surgical procedure report, pathology report detailing the biopsy).",
+    "Molecular/chromosomal testing results report for DecisionDx Uveal Melanoma.",
+    "Provider notes documenting the use of the molecular/chromosomal test results to determine the tumor class (Class 1A, Class 1B, or Class 2)."
+  ]
+}

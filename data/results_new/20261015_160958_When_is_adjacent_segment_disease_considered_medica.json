@@ -1,0 +1,40 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.6: Adjacent Segment Disease",
+    "CMM-609.4: Lumbar Fusion (Arthrodesis) with Decompression (Indirect or Direct)",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "The prior adjacent-level lumbar fusion was performed at least 6 months prior to the current request.",
+        "Criteria have been met in the applicable procedure-specific section: CMM-609.4 (Lumbar Fusion with Decompression) or CMM-609.5 (Lumbar Fusion without Decompression).",
+        "If CMM-609.4 applies: The individual is a candidate for lumbar decompression or lumbar corpectomy per CMM-608, and imaging findings include specific instability (e.g., dynamic segmental instability >3mm, Meyerding Grade II+ spondylolisthesis, or iatrogenic instability) or deformity (Cobb angle >30°, sagittal imbalance >8cm).",
+        "If CMM-609.5 applies: Imaging findings include specific instability (e.g., dynamic segmental instability >3mm, Meyerding Grade II+ spondylolisthesis) or discogenic pain criteria (moderate to severe single-level disc degeneration, chronic pain for at least one year), with less than clinically meaningful improvement after conservative management (3 months for instability/deformity, 12 months for discogenic pain).",
+        "Documentation of nicotine-free status: Individual is a never-smoker OR has refrained from smoking, smokeless tobacco, and nicotine replacement therapy for at least six (6) weeks prior to planned surgery, validated by objective cotinine testing (serum, urinary, or saliva) within normal range."
+      ],
+      "Source": "CMM-609.6: Adjacent Segment Disease (TOC: S9.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Lumbar fusion for adjacent segment disease requested less than 6 months after the prior adjacent-level lumbar fusion.",
+    "Failure to meet the specific clinical and imaging criteria outlined in CMM-609.4 (Lumbar Fusion with Decompression) or CMM-609.5 (Lumbar Fusion without Decompression).",
+    "Presence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) when applying CMM-609.5 criteria.",
+    "Failure to document nicotine-free status via never-smoker history or objective cotinine testing (serum, urinary, or saliva) within normal range after a 6-week abstinence period."
+  ],
+  "Important criteria & exceptions": [
+    "The policy requires that ALL criteria in the applicable procedure-specific section (CMM-609.4 or CMM-609.5) be met in addition to the 6-month elapsed time requirement.",
+    "For CMM-609.4 (with decompression), if instability is created or identified intra-operatively, pre-operative imaging criteria for instability are NOT required.",
+    "For CMM-609.5 (without decompression) for Discogenic Lower Back Pain/Degenerative Disc Disease, conservative management must include structured physician-supervised, multi-modal care with regularly scheduled appointments and follow-up evaluation, and less than clinically meaningful improvement with at least TWO of the specified interventions (medications, exercise, injections) for at least 12 consecutive months."
+  ],
+  "Documentation required": [
+    "Operative report or medical record confirming the date of the prior adjacent-level lumbar fusion (to verify >6 months elapsed).",
+    "Advanced imaging (MRI, CT) and plain x-rays (including flexion-extension or supine/upright views if instability is claimed) to verify imaging criteria for CMM-609.4 or CMM-609.5.",
+    "Objective cotinine testing results (serum, urinary, or saliva) verified as within normal range, or documentation of never-smoker status.",
+    "Records of conservative management including prescription medication logs, physical therapy/exercise program notes, and injection records (if applicable to CMM-609.5 criteria) to verify duration and lack of clinically meaningful improvement.",
+    "Clinical notes documenting functional impairment (e.g., inability to perform household chores, prolonged standing) and pain levels."
+  ]
+}

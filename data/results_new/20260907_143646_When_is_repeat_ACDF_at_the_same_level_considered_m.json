@@ -1,0 +1,68 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+    "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+    "Unremitting Neck Pain with Pseudoarthrosis",
+    "Radiculopathy with Pseudoarthrosis",
+    "Myelopathy with Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "Required findings": [
+        "Post‑operative imaging (plain radiographs, CT or MRI) demonstrates malposition, migration, breakage, loosening, loss of curve correction, decompensation, or other implant failure at the previously fused level"
+      ],
+      "Source": "CMM-601.6 > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft"
+    },
+    {
+      "Guideline Category": "Unremitting Neck Pain with Pseudoarthrosis",
+      "Required findings": [
+        ">6 months elapsed since prior ACDF at the same level",
+        "Significant daily neck pain causing functional impairment (e.g., inability to perform household chores, prolonged standing)",
+        "Physical examination findings concordant with patient’s pain (e.g., localized tenderness, limited range of motion)",
+        "Failure to achieve clinically meaningful improvement with BOTH prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids AND a provider‑directed exercise program for ≥6 weeks (unless contraindicated)",
+        "Post‑operative imaging performed ≥6 months after the index fusion shows radiographic evidence of pseudoarthrosis at the operative level",
+        "Post‑operative MRI or CT demonstrates neural structure compression at the same level that correlates with symptoms",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Documented nicotine‑free status (never‑smoker or ≥6 weeks abstinence verified by serum, urine or saliva cotinine test)"
+      ],
+      "Source": "CMM-601.6 > Unremitting Neck Pain with Pseudoarthrosis"
+    },
+    {
+      "Guideline Category": "Radiculopathy with Pseudoarthrosis",
+      "Required findings": [
+        ">6 months elapsed since prior ACDF at the same level",
+        "Significant daily neck pain with disabling radicular pain to the shoulder girdle and/or upper extremity",
+        "Physical exam shows any of: dermatomal sensory deficit, motor weakness (biceps/triceps), reflex changes, shoulder abduction relief sign, positive Spurling’s maneuver, or radicular pain without objective findings",
+        "Failure to achieve clinically meaningful improvement with at least TWO of: prescription‑strength analgesics/NSAIDs/gabapentinoids/steroids, a provider‑directed exercise program for ≥6 weeks, epidural steroid injection or selective nerve root block at the operative level (unless contraindicated)",
+        "Post‑operative imaging ≥6 months after prior fusion shows pseudoarthrosis at the operative level",
+        "MRI/CT shows neural compression at the same level caused by herniated disc, synovial/arachnoid cyst, central/lateral/foraminal stenosis or osteophytes and correlates with symptoms",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Documented nicotine‑free status (never‑smoker or ≥6 weeks abstinence verified by objective cotinine testing)"
+      ],
+      "Source": "CMM-601.6 > Radiculopathy with Pseudoarthrosis"
+    }
+  ],
+  "Important criteria & exceptions": [
+    "Patient must be nicotine-free prior to planned surgery verified by objective testing.",
+    "Absence of unmanaged significant behavioral or mental health disorders."
+  ],
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

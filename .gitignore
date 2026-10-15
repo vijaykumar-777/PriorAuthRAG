@@ -1,7 +1,12 @@
-.env
+# Python Virtual Environments & Node dependencies (large binaries)
+venv/
+node_modules/
+priorauth-rag-portal/node_modules/
+
+# Python compiled cache
 __pycache__/
-venv
-data/results_new
-data/result-old
+*.pyc
+
+# Local system ignores
 .graphifyignore
-graphify-out/
+graphify-out/.env.real_backup

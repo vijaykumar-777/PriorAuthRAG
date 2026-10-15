@@ -1,0 +1,28 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery",
+    "CMM-609.7 > Failed Lumbar Disc Arthroplasty Implant",
+    "CMM-609.7 > Evidence of Neural Structure Compression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Failed Lumbar Disc Arthroplasty Implant",
+      "Required findings": [
+        "Post-operative imaging shows evidence of lumbar disc arthroplasty implant malposition or failure (e.g., subsidence, loosening, infection, dislocation, subluxation, vertebral body fracture, dislodgement)",
+        "Greater than six (6) months since the prior lumbar total disc arthroplasty at the same level",
+        "Post-operative MRI /CT shows evidence of neural structure compression (e.g., either retained disc material or a recurrent disc herniation)"
+      ],
+      "Source": "CMM-609.7 > Failed Lumbar Disc Arthroplasty Implant (TOC: S10.1.1)"
+    }
+  ],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [
+    "Post-operative imaging report showing evidence of lumbar disc arthroplasty implant malposition or failure",
+    "Imaging report (MRI/CT) showing evidence of neural structure compression",
+    "Prior operative report for the failed lumbar disc arthroplasty surgery",
+    "Clinical documentation detailing the time elapsed since the prior surgery (>6 months)"
+  ]
+}

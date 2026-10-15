@@ -1,0 +1,49 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.2: Osteotomy",
+    "Posterior Column Osteotomy (PCO)",
+    "Three-Column Osteotomy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Posterior Column Osteotomy (PCO)",
+      "Required findings": [
+        "Performed for non-fixed deformity requiring 5° to 10° of correction (SPO) per spinal segment",
+        "Lumbar sagittal plane deformities where sagittal vertical axis (SVA) is >8cm OR pelvic incidence-lumbar lordosis (PI-LL) is >15°",
+        "Larger coronal deformities where there is limited flexibility and the Cobb angle is >30°",
+        "Posterior column osteotomy is limited to a maximum of four (4) posterior column osteotomies performed in the apex of the deformity per correction surgery",
+        "Criteria have been met in the applicable procedure-specific section (CMM-609.3, CMM-609.4, CMM-609.5, CMM-609.6, CMM-609.7, or CMM-609.8)"
+      ],
+      "Source": "CMM-609.2: Osteotomy > Posterior Column Osteotomy (PCO) (TOC: S5.1.1)"
+    },
+    {
+      "Guideline Category": "Three-Column Osteotomy",
+      "Required findings": [
+        "Performed for fixed sagittal plane deformity requiring >30° of correction (PSO)",
+        "Performed for large, fixed coronal deformities >60° that are amenable to asymmetric osteotomy",
+        "Criteria have been met in the applicable procedure-specific section (CMM-609.3, CMM-609.4, CMM-609.5, CMM-609.6, CMM-609.7, or CMM-609.8)"
+      ],
+      "Source": "CMM-609.2: Osteotomy > Three-Column Osteotomy (TOC: S5.1.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Posterior column osteotomy (PCO) for deformities requiring less than 5° or more than 10° of correction per spinal segment",
+    "Posterior column osteotomy (PCO) for sagittal plane deformities with SVA ≤8cm and PI-LL ≤15°",
+    "Posterior column osteotomy (PCO) for coronal deformities with Cobb angle ≤30° or without limited flexibility",
+    "More than four (4) posterior column osteotomies performed in the apex of the deformity per correction surgery, except for correction of Scheuermann's kyphosis",
+    "Three-column osteotomy for sagittal plane deformities requiring ≤30° of correction",
+    "Three-column osteotomy for coronal deformities ≤60° or not amenable to asymmetric osteotomy",
+    "Osteotomy performed without meeting the criteria in the applicable procedure-specific section (e.g., CMM-609.4 or CMM-609.5)"
+  ],
+  "Important criteria & exceptions": [
+    "There is no limit to posterior column osteotomies for correction of Scheuermann's kyphosis as this deformity is long, gradual, rounded, and amendable to more than four (4) posterior column osteotomies",
+    "Osteotomy is considered medically necessary only in addition to fusion",
+    "Criteria must be met in the applicable procedure-specific section (CMM-609.3: Pediatric Spinal Deformity, CMM-609.4: Lumbar Fusion with Decompression, CMM-609.5: Lumbar Fusion without Decompression, CMM-609.6: Adjacent Segment Disease, CMM-609.7: Following Failed Disc Arthroplasty, or CMM-609.8: Repeat Lumbar Fusion)"
+  ],
+  "Documentation required": [
+    "Imaging studies demonstrating the specific deformity type and magnitude (e.g., SVA, PI-LL, Cobb angle) required for the specific osteotomy type",
+    "Documentation of criteria met in the applicable procedure-specific section (e.g., CMM-609.4 or CMM-609.5), which may include advanced imaging, plain x-rays, and documentation of nicotine-free status"
+  ]
+}

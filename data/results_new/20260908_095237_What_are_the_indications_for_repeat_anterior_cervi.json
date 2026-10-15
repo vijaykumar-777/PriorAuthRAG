@@ -1,0 +1,90 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.6: Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level",
+    "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+    "Unremitting Neck Pain with Pseudoarthrosis",
+    "Radiculopathy with Pseudoarthrosis",
+    "Myelopathy with Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+      "Required findings": [
+        "Post‑operative imaging demonstrates malposition or failure of the implant/instrumentation or structural bone graft (e.g., migration, screw breakage or loosening, rod breakage/bending, loss of curve correction, decompensation, etc.)"
+      ],
+      "Source": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft"
+    },
+    {
+      "Guideline Category": "Unremitting Neck Pain with Pseudoarthrosis",
+      "Required findings": [
+        "≥ 6 months elapsed since the prior ACDF at the same level",
+        "Daily neck pain of clinically significant severity causing functional impairment (e.g., inability to perform household chores, prolonged standing)",
+        "Physical examination findings concordant with the reported neck pain",
+        "Failure to achieve clinically meaningful improvement after BOTH of the following (unless contraindicated): prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs for 6 weeks AND a provider‑directed exercise program for 6 weeks",
+        "Post‑operative imaging performed ≥ 6 months after the prior fusion showing pseudoarthrosis at the requested level(s)",
+        "Post‑operative MRI/CT findings concordant with symptoms",
+        "No unmanaged significant mental or behavioral health disorder (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder)",
+        "Documentation of nicotine‑free status: either never‑smoker or abstinence from all nicotine products for ≥ 6 weeks verified by objective cotinine testing"
+      ],
+      "Source": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Unremitting Neck Pain with Pseudoarthrosis"
+    },
+    {
+      "Guideline Category": "Radiculopathy with Pseudoarthrosis",
+      "Required findings": [
+        "≥ 6 months elapsed since the prior ACDF at the same level",
+        "Daily pain causing functional impairment AND unremitting radicular pain to the shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam demonstrating at least one of: dermatomal sensory deficit, motor weakness (biceps/triceps), reflex changes, positive shoulder abduction relief sign, positive Spurling’s maneuver, or radicular pain without concordant objective findings",
+        "Failure to achieve clinically meaningful improvement after at least TWO of the following (unless contraindicated): prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs for 6 weeks, provider‑directed exercise program for 6 weeks, epidural steroid injection(s) or selective nerve root block(s) at the same level",
+        "Post‑operative imaging ≥ 6 months after prior fusion showing pseudoarthrosis at the requested level(s)",
+        "Post‑operative MRI/CT demonstrating neural structure compression at the requested level(s) concordant with symptoms and exam, caused by herniated disc, synovial/arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Radiculopathy with Pseudoarthrosis"
+    },
+    {
+      "Guideline Category": "Myelopathy with Pseudoarthrosis",
+      "Required findings": [
+        "≥ 6 months elapsed since the prior ACDF at the same level",
+        "Symptoms of myelopathy such as upper/lower extremity weakness, numbness, pain, fine motor dysfunction (e.g., difficulty buttoning, handwriting), gait disturbance, new‑onset bowel/bladder dysfunction, or frequent falls",
+        "Physical exam demonstrating any of: grip‑and‑release test abnormality, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking ataxia, inverted brachial radial reflex, increased tone/spasticity, clonus, myelopathic hand",
+        "Post‑operative imaging ≥ 6 months after prior fusion showing pseudoarthrosis at the requested level(s)",
+        "Post‑operative MRI/CT showing findings concordant with symptoms and exam caused by cervical spinal cord compression or cervical spinal stenosis",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Documentation of nicotine‑free status as defined above"
+      ],
+      "Source": "Repeat Anterior Cervical Discectomy and Fusion (ACDF) at the Same Level > Myelopathy with Pseudoarthrosis"
+    }
+  ],
+  "Non-Indications": [
+    "Attempted repeat ACDF at the same level performed < 6 months after the prior fusion",
+    "Absence of documented pseudoarthrosis on imaging when required",
+    "Failure to complete the mandated 6‑week trial of prescription analgesics/NSAIDs and/or a supervised exercise program (or the required two conservative modalities for radiculopathy) unless contraindicated",
+    "Presence of unmanaged significant mental or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid or alcohol use disorder)",
+    "Patient who is a current smoker or has used nicotine products within 6 weeks of the planned surgery without objective cotinine verification",
+    "Lack of concordance between symptoms, physical exam findings, and imaging evidence of pathology",
+    "Malposition or implant failure without radiographic confirmation"
+  ],
+  "Important criteria & exceptions": [
+    "All required criteria must be met for the specific indication; meeting only a subset does not qualify the procedure",
+    "Conservative therapy trial duration is a minimum of six (6) weeks; longer trials are acceptable but not required",
+    "For radiculopathy, improvement must be insufficient after at least two of the three specified conservative modalities (medication, exercise, epidural steroid injection/root block)",
+    "Nicotine‑free status may be documented by patient self‑report as a never‑smoker or by objective cotinine testing (serum, urine, or saliva) within normal range",
+    "Mental/behavioral health disorders must be managed; documentation of treatment or resolution is required before surgery",
+    "Imaging to confirm pseudoarthrosis or implant failure must be performed no earlier than six (6) months after the index ACDF"
+  ],
+  "Documentation required": [
+    "Operative report of the prior anterior cervical discectomy and fusion at the same level",
+    "Post‑operative plain radiographs, CT, or MRI performed ≥ 6 months after the prior fusion demonstrating pseudoarthrosis or implant malposition/failure",
+    "Radiology report describing the specific imaging findings (e.g., migration, screw loosening, loss of correction, pseudoarthrosis, neural compression)",
+    "Comprehensive physical examination note documenting symptoms, functional impairment, and objective neurologic findings relevant to the indication",
+    "Medication trial documentation confirming prescription‑strength analgesics/steroids/gabapentinoids/NSAIDs prescribed for at least six (6) weeks and patient adherence",
+    "Physical therapy, chiropractic, or other supervised exercise program records showing a minimum six (6)‑week course",
+    "Epidural steroid injection or selective nerve root block procedure reports (for radiculopathy indication) confirming level and date",
+    "Mental health assessment note confirming absence of unmanaged significant psychiatric or substance‑use disorders, or documentation of treatment plan if present",
+    "Nicotine‑free verification: either a signed statement of never‑smoker status or objective cotinine test result (serum, urine, or saliva) within normal limits performed within six (6) weeks prior to surgery",
+    "Any additional imaging (MRI/CT) demonstrating concordant neural compression or spinal cord stenosis for radiculopathy or myelopathy indications"
+  ]
+}

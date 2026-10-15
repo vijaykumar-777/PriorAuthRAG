@@ -1,0 +1,25 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+  "Referred Sections": [
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression",
+    "Degenerative Spondylolisthesis without Spondylolysis (TOC: S8.1.1)",
+    "Spondylolisthesis with Spondylolysis (e.g., Isthmic Spondylolisthesis) (TOC: S8.1.2)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Degenerative Spondylolisthesis without Spondylolysis",
+      "Required findings": [
+        "Imaging findings include EITHER dynamic segmental instability on flexion-extension plain x-rays OR comparison of a supine and upright image with a difference in translational alignment between vertebrae >3mm between views, OR Meyerding Grade II or higher spondylolisthesis at the requested level(s)",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Less than clinically meaningful improvement with EITHER prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs OR a provider-directed exercise program for at least three (3) consecutive months, unless contraindicated",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+        "Documentation of nicotine-free status as a never-smoker, OR refrained from smoking, smokeless tobacco, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing (serum, urinary, or saliva) within normal range"
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Degenerative Spondylolisthesis without Spondylolysis (TOC: S8.1.1)"
+    }
+  ],
+  "Important criteria & exceptions": [],
+  "Non-Indications": [],
+  "Documentation required": []
+}

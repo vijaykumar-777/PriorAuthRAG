@@ -1,0 +1,42 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > Prolaris (TOC: S3.58)",
+    "Test Specific Guidelines > Prolaris > Criteria (TOC: S3.58.1)",
+    "Test Specific Guidelines > Prolaris > What are gene expression profiling tests for prostate cancer? (TOC: S3.58.2)",
+    "Test Specific Guidelines > Prolaris > Test information (TOC: S3.58.3)",
+    "Test Specific Guidelines > Prolaris > Guidelines and evidence (TOC: S3.58.4)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Prostate Cancer Risk Stratification",
+      "Required findings": [
+        "Patient has a diagnosis of prostate cancer.",
+        "Patient is considered high risk for recurrence or metastasis based on clinical and pathological factors (e.g., Gleason score, PSA level, time since radical prostatectomy).",
+        "Patient has undergone radical prostatectomy.",
+        "Patient has experienced biochemical recurrence after radical prostatectomy.",
+        "Patient has a life expectancy of at least 10 years."
+      ],
+      "Source": "Test Specific Guidelines > Prolaris > Test information (TOC: S3.58.3)"
+    }
+  ],
+  "Non-Indications": [
+    "Patients with low or favorable intermediate disease risk.",
+    "Patients with unfavorable intermediate- and high-risk disease who do not meet the life expectancy criteria.",
+    "Patients who have not undergone radical prostatectomy.",
+    "Patients who have not experienced biochemical recurrence after radical prostatectomy."
+  ],
+  "Important criteria & exceptions": [
+    "Prolaris is considered Experimental, Investigational, or Unproven.",
+    "The test requires tissue obtained from either prostate biopsy or surgically removed tissue.",
+    "The Prolaris score must be combined with the patient's Cancer of the Prostate Risk Assessment (CAPRA) score to generate the 10-year prostate cancer-specific mortality risk."
+  ],
+  "Documentation required": [
+    "Patient medical record documenting diagnosis of prostate cancer.",
+    "Pathology report from prostate biopsy or surgically removed tissue.",
+    "Clinical notes detailing patient's risk factors (e.g., Gleason score, PSA level).",
+    "Clinical notes detailing time since radical prostatectomy and biochemical recurrence status.",
+    "Patient's Cancer of the Prostate Risk Assessment (CAPRA) score documentation."
+  ]
+}

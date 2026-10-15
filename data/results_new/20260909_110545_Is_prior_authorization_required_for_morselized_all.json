@@ -1,0 +1,15 @@
+{
+  "Prior auth required": "No",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "Codes (CMM-609)",
+    "Codes (CMM-609) > Subsection S13.1",
+    "Codes (CMM-609) > Subsection S13.1 (Codes Table)"
+  ],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [
+    "Inclusion of a code does not imply it is under management or requires prior authorization; refer to the applicable health plan for management details."
+  ],
+  "Documentation required": []
+}

@@ -1,0 +1,10 @@
+{
+  "Prior auth required": "Not Found",
+  "Policy Name": "None Identified in Index",
+  "Referred Sections": [],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [],
+  "Notice": "The query references 'knee surgery' with an invalid CPT code string '351342132' (CPT codes are 5 digits). None of the candidate rows (Interdental wiring, Intersex surgery, Cardiac surgery, Spine allografts) match a knee surgery procedure. Therefore, no matching procedure was found in the provided prior authorization table."
+}

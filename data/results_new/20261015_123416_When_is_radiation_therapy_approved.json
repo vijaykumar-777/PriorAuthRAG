@@ -1,0 +1,10 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Precertification Master Table",
+  "Referred Sections": [],
+  "Medical necessity indications": [],
+  "Non-Indications": [],
+  "Important criteria & exceptions": [],
+  "Documentation required": [],
+  "Notice": "Commercial Prior Authorization IS REQUIRED for 77437 (Surface radiation therapy; superficial, delivery, </=150 kV,...) per the Cigna Precertification Master Table. A detailed clinical coverage policy guideline document for this specific specialty is not currently indexed in the active policy registry."
+}

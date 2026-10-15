@@ -1,0 +1,100 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Radiation Oncology",
+  "Referred Sections": [
+    "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Definitive Treatment of Intact Cervix",
+      "Required findings": [
+        "Diagnosis of cancer of the intact cervix",
+        "Requirement for CT-based treatment planning and image guidance due to inherent movement of the uterus and cervix and variability in position secondary to bladder and bowel filling",
+        "Acknowledgment of potential tumor shrinkage (50%-79%) during treatment impacting IMRT dose distribution"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > IMRT in the intact cervix"
+    },
+    {
+      "Guideline Category": "Definitive Treatment with Grossly Involved Pelvic Nodes",
+      "Required findings": [
+        "Presence of grossly involved pelvic nodes",
+        "Planned dose of 60 Gy or higher to the pelvic nodes",
+        "Consideration of the contribution of dose from brachytherapy"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > IMRT in the intact cervix"
+    },
+    {
+      "Guideline Category": "Extended Field Radiation Therapy (Paraaortic Nodes)",
+      "Required findings": [
+        "Grossly involved paraaortic nodes on imaging or surgical staging",
+        "OR Recurrent disease without evidence of distant metastasis",
+        "OR Gross involvement of the common iliac lymph nodes"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > IMRT in the intact cervix"
+    },
+    {
+      "Guideline Category": "Postoperative (Adjuvant) External Beam Radiation Therapy/IMRT",
+      "Required findings": [
+        "History of simple or radical hysterectomy",
+        "Surgical findings associated with increased risk of recurrence including: size of primary tumor, depth of stromal invasion, presence of lymphovascular invasion, capillary invasion, positive pelvic and/or para-aortic nodes, close (< 0.5 cm) or positive surgical margins, and involvement of the parametrium",
+        "Utilization of up to 30 fractions using either IMRT or 3DCRT",
+        "Potential need for intracavitary boost in the setting of positive surgical findings"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > Postoperative (adjuvant) external beam radiation therapy/IMRT"
+    },
+    {
+      "Guideline Category": "Locoregional Recurrence",
+      "Required findings": [
+        "Locoregional recurrence only",
+        "No evidence of distant metastatic disease",
+        "Utilization of up to 30 fractions of 3DCRT and up to 4 gantry angles",
+        "Up to 2 phases considered medically necessary, with or without brachytherapy",
+        "For IMRT approval: Comparative 3D and IMRT plans demonstrating that a 3D plan does not meet the 'Acceptable' normal tissue constraints using standard metrics published by the RTOG/NCCN"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > IV. Locoregional recurrence"
+    },
+    {
+      "Guideline Category": "Palliative Therapy",
+      "Required findings": [
+        "Non-curative setting",
+        "Presence of symptoms",
+        "Utilization of conventional isodose technique or 3DCRT, up to 4 gantry angles, 1 phase, and up to 15 fractions",
+        "For IMRT approval: History of previous external beam photon radiation therapy or brachytherapy AND comparative 3D and IMRT plans demonstrating that a 3D plan does not meet the 'Acceptable' normal tissue constraints using standard metrics published by the RTOG/NCCN"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > V. Palliative therapy"
+    },
+    {
+      "Guideline Category": "Concurrent Chemotherapy",
+      "Required findings": [
+        "FIGO stages IB1 to IVA cervical cancer treated with primary radiation therapy",
+        "OR FIGO stages I to IIA disease with poor prognostic factors (metastatic disease in pelvic lymph nodes, parametrial disease, or positive surgical margins) at primary surgery who receive adjuvant chemoradiation",
+        "Use of cisplatin-based therapy given concurrently with radiation therapy"
+      ],
+      "Source": "Radiation Oncology Guidelines For Treatment by Site > Cervical Cancer > DISCUSSION (TOC: S4.8.1) > VI. Chemotherapy"
+    }
+  ],
+  "Non-Indications": [
+    "Electronic brachytherapy for the treatment of cervical cancer is considered experimental, investigational or unproven (EIU)",
+    "Stereotactic body radiation therapy (SBRT) as an alternative to brachytherapy in the definitive treatment of cervical cancer is considered experimental, investigational or unproven (EIU)",
+    "IMRT for locoregional recurrence or palliative therapy is not approved if comparative 3D and IMRT plans do not demonstrate that the 3D plan fails to meet 'Acceptable' normal tissue constraints using standard RTOG/NCCN metrics",
+    "Extended field radiation therapy to encompass paraaortic nodes is not indicated if there is no grossly involved paraaortic nodes on imaging/surgical staging, no recurrent disease without distant metastasis, and no gross involvement of common iliac lymph nodes"
+  ],
+  "Important criteria & exceptions": [
+    "For LDR brachytherapy, up to 2 interstitial or intracavitary applications are considered medically appropriate",
+    "For HDR interstitial therapy, up to 5 fractions are appropriate if 1 application is used; up to 3 fractions are appropriate if 2 applications are used",
+    "For HDR tandem and ovoids, up to 6 applications may be appropriate",
+    "For HDR vaginal cylinder, up to 3 applications may be considered medically necessary",
+    "Supplementary interstitial brachytherapy may be required on an individual basis to achieve optimal therapeutic effect due to disease presentations and anatomic deformity",
+    "Clinical staging of cervical cancer should be performed prior to developing an overall treatment and beginning definitive treatment"
+  ],
+  "Documentation required": [
+    "Clinical staging documentation performed prior to definitive treatment",
+    "Imaging or surgical staging reports demonstrating grossly involved paraaortic nodes (if applicable for extended field)",
+    "Imaging or surgical staging reports demonstrating recurrent disease without evidence of distant metastasis (if applicable for extended field)",
+    "Imaging or surgical staging reports demonstrating gross involvement of common iliac lymph nodes (if applicable for extended field)",
+    "Surgical pathology reports detailing size of primary tumor, depth of stromal invasion, lymphovascular invasion, capillary invasion, status of pelvic/para-aortic nodes, surgical margins (specifically if < 0.5 cm or positive), and parametrium involvement (for postoperative RT)",
+    "Comparative 3D and IMRT treatment plans demonstrating that the 3D plan does not meet 'Acceptable' normal tissue constraints using standard RTOG/NCCN metrics (required for IMRT approval in locoregional recurrence or palliative settings)",
+    "Records of previous external beam photon radiation therapy or brachytherapy (required for IMRT approval in palliative settings)",
+    "Documentation of symptoms in the non-curative setting (for palliative therapy)"
+  ]
+}

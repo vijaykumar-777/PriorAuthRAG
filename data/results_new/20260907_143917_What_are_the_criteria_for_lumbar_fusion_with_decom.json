@@ -1,0 +1,59 @@
+{
+  "Criteria": [
+    {
+      "Category": "Lumbar Fusion with Decompression",
+      "Indications": [
+        "Recurrent disc herniation causing radiculopathy.",
+        "Failure of conservative management (e.g., physical therapy, medication) for recurrent disc herniation.",
+        "Patient preference for surgical intervention after failed conservative management.",
+        "Imaging evidence (MRI or CT) confirming recurrent disc herniation with associated nerve root compression.",
+        "Prior unsuccessful surgery for the same condition (e.g., discectomy)."
+      ]
+    },
+    {
+      "Category": "Documentation Required",
+      "Items": [
+        "Prior operative report detailing previous lumbar spine surgery.",
+        "Current imaging study (MRI or CT) demonstrating recurrent disc herniation with nerve root compression.",
+        "Clinical documentation supporting failure of conservative management (e.g., physical therapy records, medication history, patient-reported outcomes).",
+        "Patient preference statement."
+      ]
+    },
+    {
+      "Category": "Non-Indications",
+      "Items": [
+        "Disc herniation without radiculopathy.",
+        "Disc herniation with radiculopathy but successful conservative management.",
+        "Disc herniation without nerve root compression.",
+        "Disc herniation with nerve root compression but prior unsuccessful surgery for a different condition.",
+        "Disc herniation with nerve root compression where patient declines surgical intervention."
+      ]
+    }
+  ],
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Medical necessity indications": [],
+  "Referred Sections": [
+    "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)"
+  ],
+  "Important criteria & exceptions": [
+    "Patient must be nicotine-free prior to planned surgery verified by objective testing.",
+    "Absence of unmanaged significant behavioral or mental health disorders."
+  ],
+  "Non-Indications": [
+    "Procedures performed before the required post-operative duration has elapsed (e.g., < 6 months from prior surgery).",
+    "Neck pain or radiculopathy without objective physical exam findings or concordant advanced imaging (MRI/CT).",
+    "Failure to complete the mandatory trial of conservative therapy (minimum 6 weeks of PT/medications) unless contraindicated.",
+    "Active tobacco or nicotine use without verified 6-week cessation and negative cotinine laboratory test.",
+    "Presence of unmanaged significant behavioral or mental health disorders, active opioid/alcohol use disorder, or secondary gain."
+  ],
+  "Documentation required": [
+    "Operative reports from prior cervical decompression or fusion surgery (confirming levels and surgical date).",
+    "Plain cervical spine X-rays with flexion and extension lateral views showing fusion and stability.",
+    "Advanced imaging reports (MRI or CT of cervical spine) documenting neural structure compression or stenosis concordant with symptoms.",
+    "Detailed physical examination records documenting functional impairment and objective neurological deficits.",
+    "Physical therapy records and pharmacy prescription logs documenting >= 6 weeks of continuous conservative therapy.",
+    "Objective cotinine laboratory test results (serum, urine, or saliva) confirming nicotine-free status (or signed never-smoker attestation).",
+    "Behavioral/mental health evaluation notes confirming absence of unmanaged psychiatric or substance use disorders."
+  ]
+}

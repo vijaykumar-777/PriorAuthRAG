@@ -1,0 +1,11 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [],
+  "Medical necessity indications": [],
+  "Non-Indications": [
+    "CPT 27447 (Total Knee Arthroplasty) is not covered under CMM-609: Lumbar Fusion (with or without Decompression) as this policy exclusively governs lumbar spine procedures."
+  ],
+  "Important criteria & exceptions": [],
+  "Documentation required": []
+}

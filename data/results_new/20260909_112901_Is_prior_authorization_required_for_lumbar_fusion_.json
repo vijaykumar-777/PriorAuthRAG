@@ -1,0 +1,50 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery",
+    "Failed Lumbar Disc Arthroplasty Implant",
+    "Evidence of Neural Structure Compression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Failed Lumbar Disc Arthroplasty Implant",
+      "Required findings": [
+        "Post‑operative imaging demonstrates implant malposition or failure (e.g., subsidence, loosening, infection, dislocation, subluxation, vertebral body fracture, or dislodgement)",
+        "Clinical symptoms consistent with implant failure (e.g., worsening back pain, radiculopathy) documented in the record"
+      ],
+      "Source": "CMM-609.7 > Failed Lumbar Disc Arthroplasty Implant"
+    },
+    {
+      "Guideline Category": "Evidence of Neural Structure Compression",
+      "Required findings": [
+        "≥ 6 months elapsed since the lumbar total disc arthroplasty at the same level",
+        "Post‑operative MRI or CT shows compression of neural structures (e.g., retained disc material or recurrent disc herniation)",
+        "The case also satisfies the applicable procedure‑specific criteria in CMM‑609.4 (Lumbar Fusion with Decompression) or CMM‑609.5 (Lumbar Fusion without Decompression)",
+        "Clinical symptoms consistent with neural compression (e.g., radicular pain, neurologic deficit) documented"
+      ],
+      "Source": "CMM-609.7 > Evidence of Neural Structure Compression"
+    }
+  ],
+  "Non-Indications": [
+    "Less than six months have passed since the prior lumbar disc arthroplasty at the same level",
+    "No imaging evidence of implant malposition, loosening, infection, dislocation, subluxation, fracture, or dislodgement",
+    "No MRI/CT evidence of neural structure compression when that is the claimed indication",
+    "Failure to meet the procedure‑specific criteria outlined in CMM‑609.4 or CMM‑609.5 when neural compression is the basis for surgery",
+    "Indications that do not fall under either implant failure or neural compression as defined by the policy"
+  ],
+  "Important criteria & exceptions": [
+    "Either implant failure OR neural structure compression qualifies the procedure; both are not required simultaneously",
+    "A minimum interval of >6 months since the original disc arthroplasty is mandatory for the neural compression pathway",
+    "When neural compression is the indication, the case must also satisfy the separate lumbar fusion criteria in CMM‑609.4 or CMM‑609.5",
+    "Post‑operative imaging must be performed and documented to demonstrate the specific failure or compression"
+  ],
+  "Documentation required": [
+    "Operative report of the original lumbar disc arthroplasty including date of surgery",
+    "Post‑operative imaging report (X‑ray, CT, or MRI) showing implant malposition or failure, if applicable",
+    "MRI or CT report demonstrating neural structure compression, if that is the indication",
+    "Clinical notes documenting symptoms, severity, and functional impairment related to the failure or compression",
+    "Verification that ≥6 months have elapsed since the arthroplasty (e.g., dated notes or timeline chart)",
+    "Documentation that the case meets the applicable CMM‑609.4 or CMM‑609.5 criteria (fusion with or without decompression) when neural compression is cited"
+  ]
+}

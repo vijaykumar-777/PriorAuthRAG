@@ -1,0 +1,41 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.1: General Guidelines",
+    "CMM-609.1: General Guidelines > Application of Guideline",
+    "CMM-609.1: General Guidelines > Urgent/Emergent Indications/Conditions"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Urgent/Emergent Indications/Conditions",
+      "Required findings": [
+        "Traumatic spinal fractures or dislocations (with or without neural compression) when instability is present or decompression of the spinal canal is anticipated to result in iatrogenic instability",
+        "Infection (e.g., discitis, epidural abscess, osteomyelitis) when instability is present or debridement and/or decompression is anticipated to result in iatrogenic instability",
+        "Primary or metastatic neoplastic disease causing pathologic fracture, cord compression, when instability is present, or resection and/or decompression is anticipated to result in iatrogenic instability",
+        "A condition otherwise meeting criteria listed in the applicable procedure section(s) with documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated"
+      ],
+      "Source": "CMM-609.1: General Guidelines > Urgent/Emergent Indications/Conditions (TOC: S4.3.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Cases where the determination of medical necessity is not made on a case-by-case basis",
+    "Urgent/emergent conditions lacking required imaging findings noted in the applicable procedure section(s)",
+    "Non-urgent cases where provider-directed non-surgical management has not been attempted or documented",
+    "Non-urgent cases where proof of smoking cessation is not provided",
+    "Non-urgent cases with unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Repeat procedures performed outside the required time frame for non-urgent cases"
+  ],
+  "Important criteria & exceptions": [
+    "The determination of medical necessity for the performance of lumbar fusion (with or without osteotomy) is always made on a case-by-case basis",
+    "For urgent/emergent conditions, the following criteria are NOT required: provider-directed non-surgical management, proof of smoking cessation, absence of unmanaged significant mental and/or behavioral health disorders, and time frame for repeat procedure",
+    "For additional timing and documentation requirements, see CMM-600.1: Prior Authorization Requirements"
+  ],
+  "Documentation required": [
+    "Imaging findings noted in the applicable procedure section(s)",
+    "Documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated (for urgent/emergent conditions meeting other criteria)",
+    "Proof of smoking cessation (for non-urgent cases)",
+    "Documentation of provider-directed non-surgical management (for non-urgent cases)",
+    "Documentation of absence of unmanaged significant mental and/or behavioral health disorders (for non-urgent cases)"
+  ]
+}

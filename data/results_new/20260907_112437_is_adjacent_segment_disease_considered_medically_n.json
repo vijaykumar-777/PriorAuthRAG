@@ -1,0 +1,41 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "Greater than six (6) months since the prior cervical decompression or cervical fusion at an adjacent level.",
+        "Symptoms include BOTH of the following: significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) and unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability.",
+        "Physical exam findings include ANY of the following: dermatomal sensory deficit, motor deficit (e.g., biceps, triceps weakness), reflex changes, shoulder abduction relief sign, nerve root tension sign (e.g., Spurling's maneuver), or unremitting radicular pain to shoulder girdle and/or upper extremity without concordant objective physical exam findings.",
+        "Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for six (6) weeks, provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for six (6) weeks, epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery, Plain x-rays of the cervical spine (including flexion/extension lateral views) and advanced diagnostic imaging show successful decompression and fusion at the previous operative level.",
+        "MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual's symptoms and physical exam findings and that is caused by ANY of the following: herniated disc(s), synovial cyst or arachnoid cyst, central/lateral/foraminal stenosis, osteophytes.",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)."
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > CMM-601.7: Adjacent Segment Disease > Radiculopathy (TOC: S12.1.1)"
+    },
+    {
+      "Guideline Category": "Adjacent Segment Disease",
+      "Required findings": [
+        "Symptoms include ANY of the following: upper/lower extremity weakness, numbness, or pain, fine motor dysfunction (buttoning, handwriting, clumsiness of hands), gait disturbance, new-onset bowel or bladder dysfunction, frequent falls.",
+        "Physical exam findings include ANY of the following: grip and release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking test demonstrating ataxia, inverted brachial radial reflex, increased muscle tone or spasticity, clonus, myelopathic hand.",
+        "MRI/CT shows findings that are concordant with the individual's symptoms and physical exam findings and that are caused by EITHER of the following: cervical spinal cord compression, cervical spinal stenosis."
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > CMM-601.7: Adjacent Segment Disease > Myelopathy (TOC: S12.1.2)"
+    }
+  ],
+  "Non-Indications": [
+    "Conditions or scenarios considered not medically necessary or experimental/investigational."
+  ],
+  "Important criteria & exceptions": [
+    "Documentation of nicotine-free status with EITHER of the following: individual is a never-smoker OR individual has refrained from smoking, use of smokeless tobacco products, and/or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed."
+  ],
+  "Documentation required": [
+    "Specific clinical documentation, imaging reports, or test results required for submission."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna ACDF (CMM-601: Anterior Cervical Discectomy and Fusion)",
+  "Referred Sections": [
+    "CMM-601.7: Adjacent Segment Disease",
+    "Radiculopathy",
+    "Myelopathy"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Radiculopathy",
+      "Required findings": [
+        "≥6 months elapsed since prior cervical decompression or fusion at an adjacent level",
+        "Significant daily pain causing functional impairment (e.g., inability to perform household chores, prolonged standing) AND unremitting radicular pain to shoulder girdle and/or upper extremity resulting in disability",
+        "Physical exam demonstrating any of: dermatomal sensory deficit, motor weakness (biceps/triceps), reflex changes, shoulder abduction relief sign, positive Spurling's maneuver, or persistent radicular pain without concordant objective findings",
+        "Failure to achieve clinically meaningful improvement after at least two of the following for ≥6 weeks (unless contraindicated): prescription‑strength analgesics/NSAIDs/steroids/gabapentinoids, provider‑directed exercise program, epidural steroid injection or selective nerve root block at the same level",
+        "Plain cervical spine X‑rays (including flexion/extension) and advanced imaging confirming successful decompression/fusion at the prior level; MRI/CT of the proposed level showing neural compression (herniated disc, synovial/arachnoid cyst, central/lateral/foraminal stenosis, or osteophytes) concordant with symptoms and exam",
+        "No unmanaged significant mental or behavioral health disorder",
+        "Nicotine‑free status: never smoker or abstinent ≥6 weeks with objective cotinine test (serum, urine, or saliva) within normal range"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Radiculopathy"
+    },
+    {
+      "Guideline Category": "Myelopathy",
+      "Required findings": [
+        "Symptoms of any of the following: upper or lower extremity weakness, numbness or pain; fine motor dysfunction (e.g., difficulty buttoning, handwriting); gait disturbance; new‑onset bowel or bladder dysfunction; frequent falls",
+        "Physical exam demonstrating any of: abnormal grip‑release test, ataxic gait, hyperreflexia, Hoffmann sign, Babinski sign, tandem walking ataxia, inverted brachial radial reflex, increased muscle tone/spasticity, clonus, myelopathic hand",
+        "MRI or CT showing findings concordant with the clinical picture and caused by cervical spinal cord compression or cervical spinal stenosis"
+      ],
+      "Source": "CMM-601.7: Adjacent Segment Disease > Myelopathy"
+    }
+  ],
+  "Important criteria & exceptions": [],
+  "Non-Indications": [],
+  "Documentation required": []
+}

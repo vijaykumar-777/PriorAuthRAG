@@ -1,0 +1,37 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Laboratory Management Guidelines",
+  "Referred Sections": [
+    "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk (TOC: S3.51)",
+    "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk > Criteria (TOC: S3.51.6)",
+    "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk > What is PALB2 genetic testing? (TOC: S3.51.2)",
+    "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk > Test information (TOC: S3.51.3)",
+    "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk > Guidelines and evidence (TOC: S3.51.4)"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "PALB2 Genetic Testing",
+      "Required findings": [
+        "Genetic Counseling: Pre- and post-test genetic counseling by an appropriate provider (as deemed by the Health Plan policy).",
+        "Previous Genetic Testing: Member has had BRCA1/2 analysis and no mutations were found.",
+        "Member has not had previous PALB2 sequencing.",
+        "Diagnostic Testing in Symptomatic Individuals and Presymptomatic Testing in Asymptomatic individuals: Member has met criteria for BRCA1/2 analysis, AND Member has had PALB2 full sequence analysis and no mutations were found, AND Member had not had previous PALB2 deletion/duplication analysis.",
+        "Rendering laboratory is a qualified provider of service per the Health Plan policy."
+      ],
+      "Source": "Test Specific Guidelines > PALB2 Genetic Testing for Cancer Risk > Criteria (TOC: S3.51.6)"
+    }
+  ],
+  "Non-Indications": [
+    "Member has had previous testing that would detect the familial mutation.",
+    "Member has had BRCA1/2 analysis and no mutations were found, AND Member has not had previous PALB2 sequencing, AND Member had not had previous PALB2 deletion/duplication analysis."
+  ],
+  "Important criteria & exceptions": [
+    "PALB2 testing may be performed as part of a multigene, multisyndrome panel.",
+    "PALB2 heterozygotes should be considered for the same therapeutic regimens and trials as those for BRCA1/2."
+  ],
+  "Documentation required": [
+    "Pre- and post-test genetic counseling documentation.",
+    "Previous Genetic Testing results (BRCA1/2 analysis, PALB2 full sequence analysis, PALB2 deletion/duplication analysis).",
+    "Rendering laboratory qualification documentation."
+  ]
+}

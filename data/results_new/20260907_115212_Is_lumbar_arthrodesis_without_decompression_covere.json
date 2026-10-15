@@ -1,0 +1,80 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Degenerative Spondylolisthesis without Spondylolysis",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Spondylolisthesis with Spondylolysis (e.g., Isthmic Spondylolisthesis)",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Discogenic Lower Back Pain/Degenerative Disc Disease",
+    "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Adult Symptomatic Degenerative Spinal Deformity",
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery > Failed Lumbar Disc Arthroplasty Implant",
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery > Evidence of Neural Structure Compression",
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level > Malposition or Failure of Implant/Instrumentation or Structural Bone Graft",
+    "CMM-609.8: Repeat Lumbar Fusion (Arthrodesis) at the Same Level > Symptomatic Pseudoarthrosis"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Degenerative Spondylolisthesis without Spondylolysis",
+      "Required findings": [
+        "Imaging findings include EITHER of the following at the requested level(s): dynamic segmental instability on flexion-extension plain x-rays OR comparison of a supine and upright image, with a difference in translational alignment between vertebrae &gt;3mm between views OR Meyerding Grade II or higher spondylolisthesis",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Less than clinically meaningful improvement with EITHER of the following (unless contraindicated) for at least three (3) consecutive months: prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician)",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)"
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Degenerative Spondylolisthesis without Spondylolysis"
+    },
+    {
+      "Guideline Category": "Spondylolisthesis with Spondylolysis (e.g., Isthmic Spondylolisthesis)",
+      "Required findings": [
+        "Imaging findings include ANY of the following at the requested level(s): Meyerding Grade I or II spondylolisthesis (anterolisthesis) and plain x-rays support progression of anterolisthesis OR Meyerding Grade III or higher spondylolisthesis (anterolisthesis) with ≥50% anterior slippage OR plain x-rays support progression of anterolisthesis OR progressive spinal pain without confirmatory imaging showing progression of spondylolisthesis OR multi-level spondylolysis on plain x-rays",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Less than clinically meaningful improvement with EITHER of the following (unless contraindicated) for at least three (3) consecutive months: prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician)",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)"
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Spondylolisthesis with Spondylolysis (e.g., Isthmic Spondylolisthesis)"
+    },
+    {
+      "Guideline Category": "Discogenic Lower Back Pain/Degenerative Disc Disease",
+      "Required findings": [
+        "Plain x-rays and advanced imaging (i.e., CT, MRI) show moderate to severe singlelevel disc degeneration at the requested level(s).",
+        "Presence of chronic, unremitting, discogenic axial lower back pain and associated disability secondary to single-level degenerative lumbar disc disease (DDD) for at least one year.",
+        "Symptoms include significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.)",
+        "Structured physician-supervised, multi-modal, nonoperative management of medical care with licensed healthcare professionals which includes ALL of the following:",
+        "regularly scheduled appointments",
+        "follow-up evaluation",
+        "less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) for at least 12 consecutive months OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician) for at least 12 consecutive months",
+        "epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery",
+        "facet joint injection(s)/medial branch block(s)/radiofrequency ablation(s)",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)"
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Discogenic Lower Back Pain/Degenerative Disc Disease"
+    },
+    {
+      "Guideline Category": "Adult Symptomatic Degenerative Spinal Deformity",
+      "Required findings": [
+        "Imaging findings include EITHER of the following:",
+        "coronal plane deformity which includes ANY of the following: Cobb angle &gt;30° OR asymmetric disk collapse causing symptomatic foraminal narrowing OR global coronal imbalance causing head and trunk shift off the midline",
+        "sagittal imbalance which includes ANY of the following: sagittal vertebral axis measurement &gt;8cm OR pelvic incidence-lumbar lordosis &gt;15°",
+        "Less than clinically meaningful improvement with EITHER of the following (unless contraindicated) for at least three (3) consecutive months: prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician)",
+        "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)"
+      ],
+      "Source": "CMM-609.5: Lumbar Fusion (Arthrodesis) without Decompression > Adult Symptomatic Degenerative Spinal Deformity"
+    }
+  ],
+  "Non-Indications": [
+    "Failure to complete required trial of conservative therapy (less than clinically meaningful improvement with EITHER of the following for at least three (3) consecutive months: prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician))",
+    "Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders)",
+    "Active tobacco use without verified cessation (individual is a never-smoker OR individual has refrained from smoking, use of smokeless tobacco products, and/ or nicotine replacement therapy for at least six (6) weeks prior to planned surgery validated by objective cotinine testing methods (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed)"
+  ],
+  "Important criteria & exceptions": [
+    "Conservative care exceptions: Less than clinically meaningful improvement with EITHER of the following (unless contraindicated) for at least three (3) consecutive months: prescription strength analgesics, steroids, gabapentinoids, and/or nonsteroidal anti-inflammatory drugs (NSAIDs) OR provider-directed exercise program (prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician)",
+    "Multi-level requirements: Criteria have been met in the applicable procedure-specific section:"
+  ],
+  "Documentation required": [
+    "Operative report from prior cervical surgery",
+    "Plain cervical spine flexion/extension X-rays",
+    "Cervical MRI/CT radiology reports showing neural compression",
+    "Physical therapy and pharmacy records documenting >= 6 weeks of conservative care",
+    "Objective laboratory cotinine test results (serum, urinary, or saliva) verified as within the normal range for the testing method and lab at which the test was performed",
+    "Behavioral health evaluation note"
+  ]
+}

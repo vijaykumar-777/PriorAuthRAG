@@ -1,0 +1,59 @@
+{
+  "Prior auth required": "Yes",
+  "Policy Name": "Cigna Lumbar Fusion (CMM-609: Lumbar Fusion with Decompression)",
+  "Referred Sections": [
+    "CMM-609.7: Lumbar Fusion (with or without Decompression) Following Failed Lumbar Disc Arthroplasty Surgery",
+    "Failed Lumbar Disc Arthroplasty Implant",
+    "Evidence of Neural Structure Compression"
+  ],
+  "Medical necessity indications": [
+    {
+      "Guideline Category": "Failed Lumbar Disc Arthroplasty Implant",
+      "Required findings": [
+        "Post‑operative imaging (plain radiograph, CT or MRI) demonstrates implant malposition, subsidence, loosening, infection, dislocation, subluxation, vertebral body fracture, or dislodgement",
+        "Patient reports persistent or worsening back pain and/or radicular symptoms attributable to the failed implant",
+        "Conservative management (physical therapy, activity modification, analgesics) attempted for ≥6 weeks without adequate relief",
+        "Patient is nicotine‑free verified by serum, saliva, or urine cotinine test within 30 days of surgery",
+        "No uncontrolled psychiatric or behavioral health disorder that would impair postoperative recovery"
+      ],
+      "Source": "CMM-609.7 > Failed Lumbar Disc Arthroplasty Implant"
+    },
+    {
+      "Guideline Category": "Neural Structure Compression",
+      "Required findings": [
+        "≥6 months elapsed since the index lumbar disc arthroplasty at the same level",
+        "Post‑operative MRI or CT shows neural element compression (retained disc material, recurrent herniation, or osteophyte) correlating with symptoms",
+        "Objective neurologic deficits on exam (e.g., motor weakness, sensory loss, reflex changes) consistent with imaging",
+        "Documented failure of ≥6 weeks of guideline‑based conservative therapy (PT, NSAIDs/analgesics, epidural steroid injection)",
+        "Nicotine abstinence confirmed by cotinine testing and no active substance abuse",
+        "Behavioral health assessment completed with no uncontrolled condition"
+      ],
+      "Source": "CMM-609.7 > Evidence of Neural Structure Compression"
+    }
+  ],
+  "Non-Indications": [
+    "Lumbar fusion performed <6 months after the original disc arthroplasty",
+    "Absence of implant failure or radiographic neural compression",
+    "No documented neurologic deficit or concordant imaging findings",
+    "Failure to complete the required trial of conservative therapy",
+    "Active tobacco use without documented cessation and negative cotinine test",
+    "Uncontrolled psychiatric or behavioral health disorder",
+    "Procedure performed without meeting the specific criteria in CMM-609.4 (fusion with decompression) or CMM-609.5 (fusion without decompression)"
+  ],
+  "Important criteria & exceptions": [
+    "Cotinine testing may be serum (cut‑off 3‑20 ng/mL), saliva (10‑44 ng/mL), or urine (≤10 ng/mL) and must be performed within 30 days of the planned surgery",
+    "If the patient cannot tolerate a full 6‑week conservative trial due to severe disability, a documented justification from the treating surgeon may be accepted",
+    "When both implant failure and neural compression are present, either indication satisfies the requirement; only one set of full criteria needs to be met",
+    "Maximum of one lumbar level fusion per episode unless multi‑level instability is documented in the operative report"
+  ],
+  "Documentation required": [
+    "Operative report of the original lumbar disc arthroplasty including level(s) and implant details",
+    "Post‑operative plain radiographs, CT or MRI report demonstrating implant malposition/failure or neural compression",
+    "Neurologic examination note documenting deficits (strength, sensation, reflexes)",
+    "Physical therapy and/or pain management records showing ≥6 weeks of conservative therapy",
+    "Medication list and pharmacy records for analgesics/NSAIDs used during conservative phase",
+    "Cotinine test result (serum, saliva, or urine) with date and value",
+    "Behavioral health evaluation note confirming stability or treatment plan",
+    "Surgeon’s clinical note summarizing indication (implant failure vs. neural compression) and confirming time interval >6 months"
+  ]
+}
