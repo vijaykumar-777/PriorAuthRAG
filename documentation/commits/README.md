@@ -1,8 +1,8 @@
 # Commits Documentation Index
 
 **Project**: `project2`  
-**Generated**: 2026-10-15 11:21:50  
-**Total Commits Documented**: 24  
+**Generated**: 2026-10-15 11:22:06  
+**Total Commits Documented**: 25  
 **Timeline**: 2026-09-08 to 2026-10-15  
 
 This folder organizes documentation for **each individual commit** into dedicated folders for easy readability and isolated inspection.
@@ -35,6 +35,7 @@ This folder organizes documentation for **each individual commit** into dedicate
 | 22 | `ce7f236` | 2026-09-30 | stage5.5 just before making the changes to the pipeline to get a higher accuracy 50 | 396 | [📂 22_ce7f236_stage5-5-just-before-making-the-changes-to-th/](./22_ce7f236_stage5-5-just-before-making-the-changes-to-th/README.md) |
 | 23 | `6692cb3` | 2026-10-14 | frontend connected | 223 | [📂 23_6692cb3_frontend-connected/](./23_6692cb3_frontend-connected/README.md) |
 | 24 | `474e6fd` | 2026-10-15 | feat: complete Stage 5.5 pipeline hardening, out-of-index CPT handling, and master project overview | 10 | [📂 24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/](./24_474e6fd_feat-complete-stage-5-5-pipeline-hardening-ou/README.md) |
+| 25 | `edcaccc` | 2026-10-15 | docs: auto-doc updates for commit 24 | 6 | [📂 25_edcaccc_docs-auto-doc-updates-for-commit-24/](./25_edcaccc_docs-auto-doc-updates-for-commit-24/README.md) |
 
 ---
 <a href="../README.md">&larr; Back to Main Documentation Index</a>
